@@ -1,5 +1,5 @@
 """
-For listing serial port names
+functions for using with serial devices
 """
 
 import sys
