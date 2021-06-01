@@ -1,6 +1,19 @@
 """
 read and plot any numerical serial received data as long it is in the following format:
 b'<data_1> <data_2> <data_3> ... <data_n>/r/n'
+
+TBD:
+- write about:
+  - input variables:
+   - n_of_samples
+   - name_of_values_received
+   - name_of_values_to_plot
+   - microcontroller port
+   - microcontroller baudrate
+   - microcontroller refresh_rate (maybe get automatically from the arduino!??)
+  - outputs:
+   - pandas df with read values @ end of the analysis
+   - live plot to the user
 """
 
 import serial
