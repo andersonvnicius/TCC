@@ -7,45 +7,44 @@ TBD:
 - additional windows for previous analysis saving and plotting (idk)
 """
 
+
 from tkinter import *
 from tkinter import scrolledtext
 from tkinter.ttk import *
 import serial_device
 
 
-def button_test():
-    """Disable input fields, tests selected COM port"""
-    # disable entries and buttons
-    combo_11.config(state='disabled')
-    combo_21.config(state='disabled')
-    text_31.config(state='disabled')
-    button_0_41.config(state='disable')
-    button_1_41.config(state='normal')
-    # print stuff
-    result = serial_device.test_device(port=combo_11.get(), baudrate=combo_21.get())
-    text_box_60.config(state='normal')
-    text_box_60.insert(END, 'Entries received: ')
-    text_box_60.insert(END, result)
-    text_box_60.insert(END, '\n')
-    text_box_60.insert(END, 'qty of entries: ')
-    text_box_60.insert(END, len(result))
-    text_box_60.insert(END, '\n')
-    text_box_60.see('end')
-    text_box_60.config(state='disabled')
-
-
-def button_stop():
-    """enable input fields, stop the serial monitor"""
-    combo_11.config(state='normal')
-    combo_21.config(state='normal')
-    text_31.config(state='normal')
-    button_0_41.config(state='normal')
-    button_1_41.config(state='disable')
-
-
-def GUI_start():
+def ui_start():
     """starts the GUI"""
-    port_list = serial_device.list_serial_ports()
+    def button_test():
+        """Disable input fields, tests selected COM port"""
+        # disable entries and buttons
+        combo_11.config(state='disabled')
+        combo_21.config(state='disabled')
+        text_31.config(state='disabled')
+        button_0_41.config(state='disable')
+        button_1_41.config(state='normal')
+        # print stuff
+        result = serial_device.test_device(port=combo_11.get(), baudrate=combo_21.get())
+        text_box_60.config(state='normal')
+        text_box_60.insert(END, 'Entries received: ')
+        text_box_60.insert(END, result)
+        text_box_60.insert(END, '\n')
+        text_box_60.insert(END, 'qty of entries: ')
+        text_box_60.insert(END, len(result))
+        text_box_60.insert(END, '\n')
+        text_box_60.see('end')
+        text_box_60.config(state='disabled')
+
+    def button_stop():
+        """enable input fields, stop the serial monitor"""
+        combo_11.config(state='normal')
+        combo_21.config(state='normal')
+        text_31.config(state='normal')
+        button_0_41.config(state='normal')
+        button_1_41.config(state='disable')
+
+    port_list = serial_device.get_serial_ports()
     baudrate_list = (9600, 14400, 19200, 38400, 57600, 115200)
     refresh_rate = 10
 
@@ -99,6 +98,8 @@ def GUI_start():
     button_70 = Button(window, text='close!', command=window.destroy)
     button_70.grid(row=70, columnspan=2)
 
+    window.mainloop()
+
 
 if __name__ == '__main__':
-    window.mainloop()
+    ui_start()

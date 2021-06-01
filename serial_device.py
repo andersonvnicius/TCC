@@ -51,7 +51,12 @@ def test_device(port, baudrate):
     - should return an error if no response is given after given time
     """
     Device = serial.Serial(port=port, baudrate=baudrate)
+    print('a1')
     Device.close()
+    print('a2')
     Device.open()
+    print('a3')
     Device.flushInput()
+    print('a4')
+
     return Device.readline().decode().rstrip('\r\n').split(' ')
