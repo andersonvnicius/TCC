@@ -4,6 +4,12 @@
 
 It is a sensor to live-monitor the torsional loads on a shaft caused by engines, gearboxes, tyre longitudinal forces, etc.
 
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+from: https://x-engineer.org/automotive-engineering/chassis/vehicle-dynamics/calculate-wheel-torque-engine/
+
 ### How it works
 
 It uses an sensor called strain gauge, this tyoe of sensor is glued to a component's surface and when this surface is under a mechanical load it will deform, since the strain gauge is totally glued to the surface this deformation will also happen in the strain gauge surface, when this happens there will be a change in the sensor's electrical resistance, if a voltage is applied in a system of strain gauges you can use an Arduino controller to read this difference of resistance, which using some basic math and calibration can be converted to a pretty accurate load value.
