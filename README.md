@@ -32,7 +32,7 @@ The strain gauges are assembled in the form of an wheatstone brigde circuit atta
 Fig 3: An wheatstone bridge circuit formed of strain gauges, usually the strain gauges are glued to the shaft in a way that 2 of them are under extension while the other two are subject to compression, this increases by a little the voltage output of Vg, thus making it easier to the amplifier to read.
 
 
-## How does it compare with high accuracy sistems
+## How does it compare with high accuracy systems
 
 That's the main focus of my thesys, and when I run the experiments I will have an answer to this question in particular, if the accuracy is good enough I pretend to implement this system in college competition vehicles (Baja SAE, Formula SAE, etc) for live-telemetry and data gathering.
 
