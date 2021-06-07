@@ -5,7 +5,7 @@
 It is a sensor to live-monitor the torsional loads on a shaft caused by engines, gearboxes, tyre longitudinal forces, etc.
 
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://x-engineer.org/wp-content/uploads/2017/11/Vehicle-longitudinal-powertrain-diagram-1024x360.png)
 Format: ![Alt Text](url)
 
 from: https://x-engineer.org/automotive-engineering/chassis/vehicle-dynamics/calculate-wheel-torque-engine/
