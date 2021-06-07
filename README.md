@@ -43,6 +43,8 @@ Since I'm creating a device that gathers a lot of data I'm developing software t
 
 Here you will find codes that I've developed in Python3 to connect it to the device, live plot the data, and the user interface (At the moment I'm focusing my work on it). 
 
+Also, you will find the Arduino programming codes that I am using to develop the prototype, and a bill of materials of it.
+
 #### Quick note!!!
 
 At this moment the codes only gather data via Serial protocol (Rx Tx), but I'm still evaluating which communication protocol is the best for live-data gathering in my case, one of the main advantages of the ESP32 controller is that it has built-in Bluetooth low energy and wifi transmitters and receivers.
