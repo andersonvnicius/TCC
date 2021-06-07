@@ -41,9 +41,10 @@ That's the main focus of my thesis, and when I run the experiments I will have a
 
 Since I'm creating a device that gathers a lot of data I'm developing software to connect and exchange data from the controller to the computer and vice versa. 
 
-Here you will find codes that I've developed in Python3 to connect it to the device, live plot the data, and the user interface (At the moment I'm focusing my work on it). 
+Here you will find codes that I've developed in Python3 to connect it to the device, live plot the data, and the user interface (At the moment I'm focusing my work on it). Also, you will find the Arduino programming codes that I am using to develop the prototype
 
-Also, you will find the Arduino programming codes that I am using to develop the prototype, and a bill of materials of it.
+The bill of materials of the project and mechanical and electrical CAD drawings and models related to it will be uploaded in the short future, I have an initial concept designed already, but it will subject to a big revision regarding the power source of the device and the manufacture of it (3D printing).
+
 
 #### Quick note!!!
 
