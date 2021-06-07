@@ -1,4 +1,4 @@
-# Low cost dynamic torque sensor
+# Low-cost dynamic torque sensor
 
 ## What it is
 
@@ -11,38 +11,38 @@ Fig 1: Torque generation in a vehicle's power train system, Source:  https://x-e
 
 ### How it works
 
-It uses an sensor called strain gauge, this tyoe of sensor is glued to a component's surface and when this surface is under a mechanical load it will deform, since the strain gauge is totally glued to the surface this deformation will also happen in the strain gauge surface, when this happens there will be a change in the sensor's electrical resistance, if a voltage is applied in a system of strain gauges you can use an Arduino controller to read this difference of resistance, which using some basic math and calibration can be converted to a pretty accurate load value.
+It uses a sensor called a strain gauge, this type of sensor is glued to a component's surface and when this surface is under a mechanical load it will deform, since the strain gauge is totally glued to the surface this deformation will also happen in the strain gauge surface, when this happens there will be a change in the sensor's electrical resistance, if a voltage is applied in a system of strain gauges you can use an Arduino controller to read this difference of resistance, which using some basic math and calibration can be converted to a pretty accurate load value.
 
 ![Strain gauge functioning](https://www.allaboutcircuits.com/uploads/articles/bonded-strain-gauge.jpg)
-Fig 2: The baisc of how an strain gauge works, Source: https://www.allaboutcircuits.com/textbook/direct-current/chpt-9/strain-gauges/
+Fig 2: The basic of how a strain gauge works, Source: https://www.allaboutcircuits.com/textbook/direct-current/chpt-9/strain-gauges/
 
 ### Technology
 
-The technologies i' m using to develop the system at this time is listed below:
+The technologies I m using to develop the system at this time is listed below:
 
-An ESP32 controller board to control the system,and read the signals sent by the signal amplifier ADS1115, 
+An ESP32 controller board to control the system, and read the signals sent by the signal amplifier ADS1115, 
 
-The signal amplifier needs to be used beacuse the defference in voltage caused by the strain gauge deformation is too low for the controller to accurately read.
+The signal amplifier needs to be used because the difference in voltage caused by the strain gauge deformation is too low for the controller to accurately read.
 
-I'm also using an 6 axis acelerometer to knowthe angular speed of the shaft (which I can use to extract the power values in HP or kW).
+I'm also using a 6 axis accelerometer to know the angular speed of the shaft (which I can use to extract the power values in HP or kW).
 
-The strain gauges are assembled in the form of an wheatstone brigde circuit attached to the surface of the analysis subject.
+The strain gauges are assembled in the form of a Wheatstone bridge circuit attached to the surface of the analysis subject.
 
-![Strain gauges forming an wheatstone bridge circuit](https://www.researchgate.net/profile/Hossein-Akbari-9/publication/325339654/figure/fig9/AS:655842797948931@1533376516531/A-full-Wheatstone-bridge-strain-gauge-circuit.png)
-Fig 3: An wheatstone bridge circuit formed of strain gauges, usually the strain gauges are glued to the shaft in a way that 2 of them are under extension while the other two are subject to compression, this increases by a little the voltage output of Vg, thus making it easier to the amplifier to read.
+![Strain gauges forming a Wheatstone bridge circuit](https://www.researchgate.net/profile/Hossein-Akbari-9/publication/325339654/figure/fig9/AS:655842797948931@1533376516531/A-full-Wheatstone-bridge-strain-gauge-circuit.png)
+Fig 3: An Wheatstone bridge circuit formed of strain gauges, usually the strain gauges are glued to the shaft in a way that 2 of them are under extension while the other two are subject to compression, this increases by a little the voltage output of Vg, thus making it easier to the amplifier to read.
 
 
 ## How does it compare with high accuracy systems
 
-That's the main focus of my thesys, and when I run the experiments I will have an answer to this question in particular, if the accuracy is good enough I pretend to implement this system in college competition vehicles (Baja SAE, Formula SAE, etc) for live-telemetry and data gathering.
+That's the main focus of my thesis, and when I run the experiments I will have an answer to this question. If I find out that the accuracy is good enough I pretend to implement this system in college competition vehicles (Baja SAE, Formula SAE, etc) for live-telemetry and data gathering.
 
 
 ## About this repository
 
-Since I'm creating a device which gathers a lot of data i'm developing an user interfaced software for connect and exchange data from the controller to the comuter and vice versa. 
+Since I'm creating a device that gathers a lot of data I'm developing software to connect and exchange data from the controller to the computer and vice versa. 
 
-In here you will find codes that i've developed in Python3 to connect'it to the device, live plot the data, and the user interface (At the moment i'm focusing my work in it). 
+Here you will find codes that I've developed in Python3 to connect it to the device, live plot the data, and the user interface (At the moment I'm focusing my work on it). 
 
 #### Quick note!!!
 
-At this moment the codes only gather data via Serial protocol (Rx Tx), but im still evaluating which communication protocol is the best for live-data gathering in my case, one the main advantages of the ESP32 controller is that it has built in Bluetooth low energy and wifi transmitters and receivers.
+At this moment the codes only gather data via Serial protocol (Rx Tx), but I'm still evaluating which communication protocol is the best for live-data gathering in my case, one of the main advantages of the ESP32 controller is that it has built-in Bluetooth low energy and wifi transmitters and receivers.
