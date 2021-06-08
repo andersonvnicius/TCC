@@ -29,7 +29,7 @@ I'm also using a 6 axis accelerometer to know the angular speed of the shaft (wh
 The strain gauges are assembled in the form of a Wheatstone bridge circuit attached to the surface of the analysis subject.
 
 ![Strain gauges forming a Wheatstone bridge circuit](https://www.researchgate.net/profile/Hossein-Akbari-9/publication/325339654/figure/fig9/AS:655842797948931@1533376516531/A-full-Wheatstone-bridge-strain-gauge-circuit.png)
-Fig 3: An Wheatstone bridge circuit formed of strain gauges, usually the strain gauges are glued to the shaft in a way that 2 of them are under extension while the other two are subject to compression, this increases by a little the voltage output of Vg, thus making it easier to the amplifier to read.
+Fig 3: An Wheatstone bridge circuit formed of strain gauges, usually the strain gauges are glued to the shaft in a way that 2 of them are under extension while the other two are subject to compression, this increases by a little the voltage output of Vout, thus making it easier to the amplifier to read.
 
 
 ## How does it compare with high accuracy systems
