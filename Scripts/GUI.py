@@ -11,6 +11,7 @@ TBD:
 from tkinter import *
 from tkinter import scrolledtext
 from tkinter.ttk import *
+import time
 import serial_device
 
 
@@ -24,17 +25,9 @@ def ui_start():
         text_31.config(state='disabled')
         button_0_41.config(state='disable')
         button_1_41.config(state='normal')
-        # print stuff
-        result = serial_device.test_device(port=combo_11.get(), baudrate=combo_21.get())
-        text_box_60.config(state='normal')
-        text_box_60.insert(END, 'Entries received: ')
-        text_box_60.insert(END, result)
-        text_box_60.insert(END, '\n')
-        text_box_60.insert(END, 'qty of entries: ')
-        text_box_60.insert(END, len(result))
-        text_box_60.insert(END, '\n')
-        text_box_60.see('end')
-        text_box_60.config(state='disabled')
+
+        get_data()
+
 
     def button_stop():
         """enable input fields, stop the serial monitor"""
@@ -43,6 +36,28 @@ def ui_start():
         text_31.config(state='normal')
         button_0_41.config(state='normal')
         button_1_41.config(state='disable')
+
+    def get_data():
+        """gets a sample of data from the serial device"""
+        result = serial_device.device_test(port=combo_11.get(), baudrate=combo_21.get())
+
+        if result is None:
+            text_box_60.config(state='normal')
+            text_box_60.insert(END, 'Incompatible device! \n')
+            text_box_60.config(state='disabled')
+            text_box_60.see('end')
+            button_stop()
+
+        else:
+            text_box_60.config(state='normal')
+            text_box_60.insert(END, 'Entries received: ')
+            text_box_60.insert(END, result)
+            text_box_60.insert(END, '\n')
+            text_box_60.insert(END, 'qty of entries: ')
+            text_box_60.insert(END, len(result))
+            text_box_60.insert(END, '\n')
+            text_box_60.see('end')
+            text_box_60.config(state='disabled')
 
     port_list = serial_device.get_serial_ports()
     baudrate_list = (9600, 14400, 19200, 38400, 57600, 115200)

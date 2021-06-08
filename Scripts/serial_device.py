@@ -14,13 +14,14 @@ import serial
 
 
 def get_serial_ports():
-    """ Lists serial port names
-        source: https://stackoverflow.com/questions/12090503/listing-available-com-ports-with-python
+    """
+    lists serial port names
+    source: https://stackoverflow.com/questions/12090503/listing-available-com-ports-with-python
 
-        :raises EnvironmentError:
-            On unsupported or unknown platforms
-        :returns:
-            A list of the serial ports available on the system
+    :raises EnvironmentError:
+        On unsupported or unknown platforms
+    :returns:
+        A list of the serial ports available on the system
     """
     if sys.platform.startswith('win'):
         ports = ['COM%s' % (i + 1) for i in range(256)]
@@ -43,20 +44,15 @@ def get_serial_ports():
     return port_list
 
 
-def test_device(port, baudrate):
+def device_test(port, baudrate):
     """
-    tests the data output of an serial device object
-
-    TBD:
-    - should return an error if no response is given after given time
+    returns the data output of an serial device object,
+    if no data is received after 0.5 seconds, returns None
     """
-    Device = serial.Serial(port=port, baudrate=baudrate)
-    print('a1')
-    Device.close()
-    print('a2')
-    Device.open()
-    print('a3')
+    Device = serial.Serial(port=port, baudrate=baudrate, timeout=0.5)
     Device.flushInput()
-    print('a4')
-
-    return Device.readline().decode().rstrip('\r\n').split(' ')
+    response = Device.readline().decode().rstrip('\r\n').split(' ')
+    if len(response) == 1 and len(response[0]) == 0:
+        return None
+    else:
+        return response
