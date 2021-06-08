@@ -45,6 +45,8 @@ Here you will find codes that I've developed in Python3 to connect it to the dev
 
 The bill of materials of the project and mechanical and electrical CAD drawings and models related to it will be uploaded in the short future, I have an initial concept designed already, but it will subject to a big revision regarding the power source of the device and the manufacture of it (3D printing).
 
+!! For replicating the project see the controller_requirements.md and the python_requirements.md files !!
+
 
 #### Quick note!!!
 
