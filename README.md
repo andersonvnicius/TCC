@@ -1,5 +1,7 @@
 # Low-cost dynamic torque sensor
 
+### For replicating this project don't forget to see the **controller_requirements.md** and the **python_requirements.md** files!
+
 ## What it is
 
 It is a sensor to monitor or gather data related to torsional loads on a shaft, these loads are usually caused in the system by the actuation of a power generation device, E.g. internal combustion engine, electrical motor, windmill turbines, etc.
@@ -44,9 +46,6 @@ Since I'm creating a device that gathers a lot of data I'm developing software t
 Here you will find codes that I've developed in Python3 to connect it to the device, live plot the data, and the user interface (At the moment I'm focusing my work on it). Also, you will find the Arduino programming codes that I am using to develop the prototype
 
 The bill of materials of the project and mechanical and electrical CAD drawings and models related to it will be uploaded in the short future, I have an initial concept designed already, but it will subject to a big revision regarding the power source of the device and the manufacture of it (3D printing).
-
-!! For replicating the project see the controller_requirements.md and the python_requirements.md files !!
-
 
 #### Quick note!!!
 
