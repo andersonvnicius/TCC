@@ -2,16 +2,17 @@
 script to boot the user interface
 
 TBD:
+- !!needs to return an error if wrong baudrate is selected!!
 - GUI for live plot
 - user inputs for naming the values received and selecting which of them to plot
 - additional windows for previous analysis saving and plotting (idk)
+
 """
 
 
 from tkinter import *
 from tkinter import scrolledtext
 from tkinter.ttk import *
-import time
 import serial_device
 import serial_object
 
