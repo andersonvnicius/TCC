@@ -3,7 +3,7 @@ object for using with serial devices
 """
 
 
-class Device():
+class SerialDevice:
     """
     Creates a serial connection device object
     """
