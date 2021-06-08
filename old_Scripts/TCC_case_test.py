@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Created on Fri Apr 10 04:52:17 2020
 
@@ -13,14 +11,10 @@ import TCC_elements
 
 n_of_steps = 4
 
-# creating an beam element
-bm1 = TCC_elements.beam(base = 0.25*25.4, height = 0.5*25.4, lenght = 250)
-# creating an shaft element
-sh1 = TCC_elements.shaft(diameter = 0.5*25.4, lenght = 120)
-# creating an strain gauge element
-sg1 = TCC_elements.wheatstone_bridge_quarter(circuit_voltage = 5, gauge_factor = 3)
-#creating an voltage amplifier element
-amp1 = TCC_elements.signal_amplifier(amp_factor = 128)
+bm1 = TCC_elements.Beam(base=0.25*25.4, height=0.5*25.4, length=250)
+sh1 = TCC_elements.Shaft(diameter=0.5*25.4, length=120)
+sg1 = TCC_elements.WheatstoneBridgeQuarter(circuit_voltage=5, gauge_factor=3)
+amp1 = TCC_elements.SignalAmplifier(amp_factor=128)
 
 # arrays for load cases
 beam_load = np.linspace(100,1000,n_of_steps)

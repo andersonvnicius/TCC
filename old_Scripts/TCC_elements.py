@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Wed Apr  8 22:17:01 2020
 
@@ -10,9 +9,8 @@ Default input units: mm, kg, seconds
 """
 
 
-class Beam():
+class Beam:
     def __init__(self, base, height, length, material="steel"):
-        self.position = self.lenght
         self.base = base  # mm
         self.height = height  # mm
         self.length = length  # mm
@@ -23,16 +21,16 @@ class Beam():
 
     def deformation_for_load(self, load, position="end"):
         if position == 'end':
-            pass
-        if self.position > self.lenght:
+            position = self.length
+        elif position > self.length:
             return "invalid load position"
-        return 6 * load * self.position / (self.E * self.base * self.height ** 2)
+        return 6 * load * position / (self.E * self.base * self.height ** 2)
 
 
-class shaft():
-    def __init__(self, diameter, lenght, material="steel"):
+class Shaft:
+    def __init__(self, diameter, length, material="steel"):
         self.diameter = diameter
-        self.lenght = lenght
+        self.length = length
         self.material = material
 
         if self.material == "steel":
@@ -40,10 +38,10 @@ class shaft():
 
     def deformation_for_torque(self, torque):  # N*mm
         from numpy import pi
-        return 32 * torque * self.lenght / (pi * self.G * self.diameter ** 4)
+        return 32 * torque * self.length / (pi * self.G * self.diameter ** 4)
 
 
-class wheatstoneBridgeQuarter():
+class WheatstoneBridgeQuarter:
     def __init__(self, circuit_voltage, gauge_factor):
         self.circuit_voltage = circuit_voltage
         self.gauge_factor = gauge_factor
@@ -52,7 +50,7 @@ class wheatstoneBridgeQuarter():
         return self.circuit_voltage * ((self.gauge_factor * deflection) / (4 + self.gauge_factor * deflection))
 
 
-class signalAmplifier():
+class SignalAmplifier:
     def __init__(self, amp_factor):
         self.amp_factor = amp_factor
 
