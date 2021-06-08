@@ -13,10 +13,12 @@ from tkinter import scrolledtext
 from tkinter.ttk import *
 import time
 import serial_device
+import serial_object
 
 
 def ui_start():
     """starts the GUI"""
+
     def button_test():
         """Disable input fields, tests selected COM port"""
         # disable entries and buttons
@@ -26,8 +28,9 @@ def ui_start():
         button_0_41.config(state='disable')
         button_1_41.config(state='normal')
 
-        get_data()
-
+        SerialDevice = serial_object.SerialDevice(port=combo_11.get(), baudrate=combo_21.get())
+        check_device_compatibility(SerialDevice)
+        return SerialDevice
 
     def button_stop():
         """enable input fields, stop the serial monitor"""
@@ -37,11 +40,12 @@ def ui_start():
         button_0_41.config(state='normal')
         button_1_41.config(state='disable')
 
-    def get_data():
+    def check_device_compatibility(Device):
         """gets a sample of data from the serial device"""
-        result = serial_device.device_test(port=combo_11.get(), baudrate=combo_21.get())
 
-        if result is None:
+        result = Device.read_line().decode()
+
+        if len(result) == 0:
             text_box_60.config(state='normal')
             text_box_60.insert(END, 'Incompatible device! \n')
             text_box_60.config(state='disabled')
@@ -50,12 +54,9 @@ def ui_start():
 
         else:
             text_box_60.config(state='normal')
-            text_box_60.insert(END, 'Entries received: ')
-            text_box_60.insert(END, result)
-            text_box_60.insert(END, '\n')
-            text_box_60.insert(END, 'qty of entries: ')
-            text_box_60.insert(END, len(result))
-            text_box_60.insert(END, '\n')
+            text_box_60.insert(END, 'Device: ' + combo_11.get() + '\n')
+            text_box_60.insert(END, 'Entries received: ' + str(result.rstrip('\r\n')) + '\n')
+            text_box_60.insert(END, 'qty of entries: ' + str(len(result)) + '\n\n')
             text_box_60.see('end')
             text_box_60.config(state='disabled')
 

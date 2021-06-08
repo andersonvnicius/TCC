@@ -15,7 +15,7 @@ class SerialDevice:
     def read_line(self):
         """returns the last line of data sent by the device"""
         self.serial_object.flushInput()
-        data = self.serial_object.readline().decode().rstrip('\r\n').split(' ')
+        data = self.serial_object.readline()
         return data
 
     def read_samples(self, n_of_samples):
