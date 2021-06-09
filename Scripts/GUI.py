@@ -23,20 +23,21 @@ def ui_start():
         # disable entries and buttons
         cmb_port.config(state='disabled')
         cmb_baudrate.config(state='disabled')
-        txt_connection.config(state='disabled')
+        txt_read_delay.config(state='disabled')
         btn_connect.config(state='disable')
         btn_disconnect.config(state='normal')
 
-        SerialDevice = serial_object.SerialDevice(port=cmb_port.get(), baudrate=cmb_baudrate.get())
+        nonlocal SerialDevice
+        SerialDevice = serial_object.SerialDevice(port=cmb_port.get(),
+                                                  baudrate=cmb_baudrate.get(),
+                                                  delay_time=txt_read_delay.get())
         check_device_compatibility(SerialDevice)
-
-        return SerialDevice
 
     def button_stop():
         """enable input fields, stop the serial monitor"""
         cmb_port.config(state='normal')
         cmb_baudrate.config(state='normal')
-        txt_connection.config(state='normal')
+        txt_read_delay.config(state='normal')
         btn_connect.config(state='normal')
         btn_disconnect.config(state='disable')
         btn_monitor.config(state='disabled')
@@ -64,17 +65,34 @@ def ui_start():
             btn_plot.config(state='normal')
             btn_monitor.config(state='normal')
 
+    def live_plot():
+        """plots stuff"""
+        SerialDevice.plot_data(5)
+
+    def live_monitor():
+        """prints the data in the serial monitor"""
+        from time import sleep
+        while True:
+            result = SerialDevice.read_line()
+            serial_monitor.config(state='normal')
+            serial_monitor.insert(END, result)
+            serial_monitor.see('end')
+            serial_monitor.config(state='disabled')
+            sleep(SerialDevice.delay_time)
+
+
+
+    SerialDevice = None
     port_list = serial_object.get_serial_ports()
     baudrate_list = (9600, 14400, 19200, 38400, 57600, 115200)
-    refresh_rate = 10
+    read_delay = 100
 
     root = Tk()
     root.title("Telemetry center (alpha 0.0.1)")
 
-    # CONNECTION SET UP FRAME
-
+    # CONNECTION SET UP
     frame_connection = LabelFrame(root, text="Connection setup")
-    frame_connection.pack(padx=15, pady=15)
+    frame_connection.pack(padx=10, pady=5)
 
     lbl_port = Label(frame_connection, text="Controller port: ", font=('Arial', 11))
     lbl_port.grid(row=10, column=0)
@@ -90,36 +108,34 @@ def ui_start():
     cmb_baudrate.current(baudrate_list.index(115200))
     cmb_baudrate.grid(row=21, column=0, columnspan=2)
 
-    lbl_connection = Label(frame_connection, text="Refresh rate [ms]: ", font=('Arial', 11))
-    lbl_connection.grid(row=30, column=0, padx=10)
-    txt_connection = Entry(frame_connection)
-    txt_connection.insert(END, 10)
-    txt_connection.grid(row=31, column=0, columnspan=2)
+    lbl_read_delay = Label(frame_connection, text="Reading rate[ms]: ", font=('Arial', 11))
+    lbl_read_delay.grid(row=30, column=0, padx=10)
+    txt_read_delay = Entry(frame_connection)
+    txt_read_delay.insert(END, read_delay)
+    txt_read_delay.grid(row=31, column=0, columnspan=2)
 
     btn_connect = Button(frame_connection, text='Connect', command=button_test)
     btn_connect.grid(row=41, column=0, pady=10)
     btn_disconnect = Button(frame_connection, text='Disconnect', command=button_stop, state='disabled')
     btn_disconnect.grid(row=41, column=1, padx=20)
 
-    # SERIAL MONITOR FRAME
-
+    # SERIAL MONITOR
     frame_monitor = LabelFrame(root, text="Serial monitor")
-    frame_monitor.pack(padx=15, pady=15)
+    frame_monitor.pack(padx=10, pady=5)
 
     serial_monitor = scrolledtext.ScrolledText(frame_monitor, font=('Arial', 10), width=50, height=10, state='disabled')
     serial_monitor.grid(row=10, column=0, columnspan=2, padx=15, pady=5)
 
-    btn_monitor = Button(frame_monitor, text='monitor', state='disabled')
+    btn_monitor = Button(frame_monitor, text='monitor',command=live_monitor, state='disabled')
     btn_monitor.grid(row=20, column=0)
-    btn_plot = Button(frame_monitor, text='plot', state='disabled')
-    btn_plot.grid(row=20, column=1, pady=5)
+    btn_plot = Button(frame_monitor, text='plot', command=live_plot, state='disabled')
+    btn_plot.grid(row=20, column=1, pady=10)
 
     # KILL PROCESS BUTTON
-
     frame_root = Frame(root)
     frame_root.pack()
     btn_kill = Button(frame_root, text='close!', command=root.destroy)
-    btn_kill.grid(row=100, pady=10)
+    btn_kill.grid(row=100, pady=5)
 
     root.mainloop()
 
