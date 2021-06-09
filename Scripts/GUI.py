@@ -9,11 +9,9 @@ TBD:
 
 """
 
-
 from tkinter import *
 from tkinter import scrolledtext
 from tkinter.ttk import *
-import serial_device
 import serial_object
 
 
@@ -23,23 +21,26 @@ def ui_start():
     def button_test():
         """Disable input fields, tests selected COM port"""
         # disable entries and buttons
-        combo_11.config(state='disabled')
-        combo_21.config(state='disabled')
-        text_31.config(state='disabled')
-        button_0_41.config(state='disable')
-        button_1_41.config(state='normal')
+        cmb_port.config(state='disabled')
+        cmb_baudrate.config(state='disabled')
+        txt_connection.config(state='disabled')
+        btn_connect.config(state='disable')
+        btn_disconnect.config(state='normal')
 
-        SerialDevice = serial_object.SerialDevice(port=combo_11.get(), baudrate=combo_21.get())
+        SerialDevice = serial_object.SerialDevice(port=cmb_port.get(), baudrate=cmb_baudrate.get())
         check_device_compatibility(SerialDevice)
+
         return SerialDevice
 
     def button_stop():
         """enable input fields, stop the serial monitor"""
-        combo_11.config(state='normal')
-        combo_21.config(state='normal')
-        text_31.config(state='normal')
-        button_0_41.config(state='normal')
-        button_1_41.config(state='disable')
+        cmb_port.config(state='normal')
+        cmb_baudrate.config(state='normal')
+        txt_connection.config(state='normal')
+        btn_connect.config(state='normal')
+        btn_disconnect.config(state='disable')
+        btn_monitor.config(state='disabled')
+        btn_plot.config(state='disabled')
 
     def check_device_compatibility(Device):
         """gets a sample of data from the serial device"""
@@ -47,75 +48,80 @@ def ui_start():
         result = Device.read_line().decode()
 
         if len(result) == 0:
-            text_box_60.config(state='normal')
-            text_box_60.insert(END, 'Incompatible device! \n')
-            text_box_60.config(state='disabled')
-            text_box_60.see('end')
+            serial_monitor.config(state='normal')
+            serial_monitor.insert(END, 'Incompatible device! \n\n')
+            serial_monitor.config(state='disabled')
+            serial_monitor.see('end')
             button_stop()
 
         else:
-            text_box_60.config(state='normal')
-            text_box_60.insert(END, 'Device: ' + combo_11.get() + '\n')
-            text_box_60.insert(END, 'Entries received: ' + str(result.rstrip('\r\n')) + '\n')
-            text_box_60.insert(END, 'qty of entries: ' + str(len(result)) + '\n\n')
-            text_box_60.see('end')
-            text_box_60.config(state='disabled')
+            serial_monitor.config(state='normal')
+            serial_monitor.insert(END, 'Device: ' + cmb_port.get() + '\n')
+            serial_monitor.insert(END, 'Entries received: ' + str(result.rstrip('\r\n')) + '\n')
+            serial_monitor.insert(END, 'qty of entries: ' + str(len(result.rstrip('\r\n').split(' '))) + '\n\n')
+            serial_monitor.see('end')
+            serial_monitor.config(state='disabled')
+            btn_plot.config(state='normal')
+            btn_monitor.config(state='normal')
 
-    port_list = serial_device.get_serial_ports()
+    port_list = serial_object.get_serial_ports()
     baudrate_list = (9600, 14400, 19200, 38400, 57600, 115200)
     refresh_rate = 10
 
-    window = Tk()
-    window.title("Serial monitor!")
+    root = Tk()
+    root.title("Telemetry center (alpha 0.0.1)")
 
-    label_0 = Label(window, text=" ", font=('Arial', 12))
-    label_0.grid(row=0, columnspan=2)
+    # CONNECTION SET UP FRAME
 
-    label_10 = Label(window, text="Controller port: ", font=('Arial', 11))
-    label_10.grid(row=10, column=0)
+    frame_connection = LabelFrame(root, text="Connection setup")
+    frame_connection.pack(padx=15, pady=15)
 
-    combo_11 = Combobox(window)
-    combo_11['values'] = port_list
-    combo_11.current(0)
-    combo_11.grid(row=11, column=0, columnspan=2)
+    lbl_port = Label(frame_connection, text="Controller port: ", font=('Arial', 11))
+    lbl_port.grid(row=10, column=0)
+    cmb_port = Combobox(frame_connection)
+    cmb_port['values'] = port_list
+    cmb_port.current(0)
+    cmb_port.grid(row=11, column=0, columnspan=2)
 
-    selected_port = combo_11.current()
+    lbl_baudrate = Label(frame_connection, text="Baudrate: ", font=('Arial', 11))
+    lbl_baudrate.grid(row=20, column=0)
+    cmb_baudrate = Combobox(frame_connection)
+    cmb_baudrate['values'] = baudrate_list
+    cmb_baudrate.current(baudrate_list.index(115200))
+    cmb_baudrate.grid(row=21, column=0, columnspan=2)
 
-    label_20 = Label(window, text="Baudrate: ", font=('Arial', 11))
-    label_20.grid(row=20, column=0)
+    lbl_connection = Label(frame_connection, text="Refresh rate [ms]: ", font=('Arial', 11))
+    lbl_connection.grid(row=30, column=0, padx=10)
+    txt_connection = Entry(frame_connection)
+    txt_connection.insert(END, 10)
+    txt_connection.grid(row=31, column=0, columnspan=2)
 
-    combo_21 = Combobox(window)
-    combo_21['values'] = baudrate_list
-    combo_21.current(baudrate_list.index(115200))
-    combo_21.grid(row=21, column=0, columnspan=2)
+    btn_connect = Button(frame_connection, text='Connect', command=button_test)
+    btn_connect.grid(row=41, column=0, pady=10)
+    btn_disconnect = Button(frame_connection, text='Disconnect', command=button_stop, state='disabled')
+    btn_disconnect.grid(row=41, column=1, padx=20)
 
-    label_30 = Label(window, text="Refresh rate [ms]: ", font=('Arial', 11))
-    label_30.grid(row=30, column=0)
+    # SERIAL MONITOR FRAME
 
-    text_31 = Entry(window)
-    text_31.insert(END, 10)
-    text_31.grid(row=31, column=0, columnspan=2)
+    frame_monitor = LabelFrame(root, text="Serial monitor")
+    frame_monitor.pack(padx=15, pady=15)
 
-    # find another way to add space!
-    label_40 = Label(window, text=" ", font=('Arial', 5))
-    label_40.grid(row=40, column=0)
+    serial_monitor = scrolledtext.ScrolledText(frame_monitor, font=('Arial', 10), width=50, height=10, state='disabled')
+    serial_monitor.grid(row=10, column=0, columnspan=2, padx=15, pady=5)
 
-    button_0_41 = Button(window, text='lock', command=button_test)
-    button_0_41.grid(row=41, column=0)
+    btn_monitor = Button(frame_monitor, text='monitor', state='disabled')
+    btn_monitor.grid(row=20, column=0)
+    btn_plot = Button(frame_monitor, text='plot', state='disabled')
+    btn_plot.grid(row=20, column=1, pady=5)
 
-    button_1_41 = Button(window, text='unlock', command=button_stop, state='disabled')
-    button_1_41.grid(row=41, column=1)
+    # KILL PROCESS BUTTON
 
-    label_50 = Label(window, text="Serial monitor", font=('Arial', 10))
-    label_50.grid(row=50, columnspan=2)
+    frame_root = Frame(root)
+    frame_root.pack()
+    btn_kill = Button(frame_root, text='close!', command=root.destroy)
+    btn_kill.grid(row=100, pady=10)
 
-    text_box_60 = scrolledtext.ScrolledText(window, font=('Arial', 10), width=50, height=10, state='disabled')
-    text_box_60.grid(row=60, column=0, columnspan=2)
-
-    button_70 = Button(window, text='close!', command=window.destroy)
-    button_70.grid(row=70, columnspan=2)
-
-    window.mainloop()
+    root.mainloop()
 
 
 if __name__ == '__main__':
