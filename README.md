@@ -8,7 +8,7 @@ It is a sensor to monitor or gather data related to torsional loads on a shaft, 
 
 
 ![Car power train loads](https://x-engineer.org/wp-content/uploads/2017/11/Vehicle-longitudinal-powertrain-diagram-1024x360.png)
-Fig 1: Torque generation in a vehicle's power train system, Source:  https://x-engineer.org/automotive-engineering/chassis/vehicle-dynamics/calculate-wheel-torque-engine/
+Fig 1: Torque generation in a vehicle's power train system (Te: generated from engine, Tg: generated from gearbox, Td: generated from differential, Twl: generated from tire contact with the road), Source:  https://x-engineer.org/automotive-engineering/chassis/vehicle-dynamics/calculate-wheel-torque-engine/
 
 
 ### How it works
