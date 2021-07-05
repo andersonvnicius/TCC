@@ -21,10 +21,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from datetime import datetime
+import time
 
 # User inputs and settings
 n_of_samples = False  # set to false for a non end analysis
-values_to_plot = ('Load', 'Ax', 'Gx')  # any order will work as long as the values contains in variable values_received
+values_to_plot = ('Load', 'Gx')  # any order will work as long as the values contains in variable values_received
 values_received = ('Ax', 'Ay', 'Az', 'Gx', 'Gy', 'Gz', 'Load')
 
 arduino_port = '/dev/ttyUSB0'
