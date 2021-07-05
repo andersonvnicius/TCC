@@ -42,7 +42,7 @@ shear_xy = tau/G
 deform = deformation_on_plane(epsilon_x=0, epsilon_y=0, gamma_xy=shear_xy, theta=deg2rad(angles))
 
 """plots"""
-"""
+
 plt.figure()
 plt.style.use('fivethirtyeight')
 plt.plot(angles, deform[0]*1e5, 'b')
@@ -52,4 +52,3 @@ plt.xlabel('angle [deg]')
 plt.ylabel('deformation [micrometer]')
 plt.legend(['epsilon_x_line', 'epsilon_y_line', 'gamma_xy_plane'])
 plt.show()
-"""
