@@ -22,8 +22,8 @@ import pandas as pd
 from time import time
 
 
-time_analysis = 5
-load_offset = 22
+time_analysis = 15
+load_offset = 0
 analysis_delay_time = 10E-3
 
 arduino_port = '/dev/ttyUSB0'

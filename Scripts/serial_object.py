@@ -46,7 +46,7 @@ class SerialDevice:
 
     def __init__(self, port, baudrate, delay_time):
         self.serial_object = self.Serial(port=port, baudrate=baudrate, timeout=1)
-        self.delay_time = float(delay_time)*1e-3
+        self.delay_time = float(delay_time) * 1e-3
 
     def read_line(self):
         """returns the last line of data sent by the device"""
@@ -64,7 +64,7 @@ class SerialDevice:
             current_sample += 1
         return data
 
-    def plot_data(self, n_of_samples=False):
+    def plot_data(self, n_of_samples=False, description=()):
         """
         read and plot any numerical serial received data as long it is in the following format:
         b'<data_1> <data_2> <data_3> ... <data_n>/r/n'
@@ -76,8 +76,10 @@ class SerialDevice:
           -- outputs:
            - live plot to the user
         """
-        import matplotlib.pyplot as plt
-        import numpy as np
+        from matplotlib.pyplot import ion, subplots, cla, pause
+        from numpy import zeros, append
+        from pandas import DataFrame
+        from datetime import datetime
 
         self.serial_object.close()
         self.serial_object.open()
@@ -87,48 +89,92 @@ class SerialDevice:
         data = self.read_line().decode().rstrip('\r\n').split(' ')
 
         # LIVE-PLOT SETUP
-        plt.ion()
+        ion()
         n_of_plots = len(data)
-        fig, axs = plt.subplots(n_of_plots)
+        fig, axs = subplots(n_of_plots)
         fig.suptitle('Sensor readings')
 
         # empty variables
-        data = np.zeros((1, n_of_plots))
+        if n_of_plots == 1:
+            data = []
+        else:
+            data = zeros((1, n_of_plots))
 
         # indexes
         error_qnt = 0
         n_of_iterations = 0
         current_sample = 0
 
-        while True:
-            plt.cla()
-            read_float = []
-            n_of_iterations += 1
-            print(current_sample)
+        datetime_start = datetime.now().strftime('%H:%M:%S')
 
-            try:
-                self.serial_object.flushInput()
-                read = self.serial_object.readline().decode().rstrip('\r\n').split(' ')
+        if n_of_plots == 1:
 
-                for value in read:
-                    read_float.append(float(value))
+            while True:
+                cla()
 
-                data = np.append(data, [read_float], axis=0)
+                try:
+                    self.serial_object.flushInput()
+                    read = int(self.serial_object.readline().decode().rstrip('\r\n').split(' ')[0])
+                    data.append(read)
 
-                for j in range(0, n_of_plots):
-                    axs[j].cla()
-                    axs[j].plot(data[:, j][-5:], ('C' + str(j)))
+                    axs.cla()
+                    axs.plot(data[-5:], ('C' + str(0)))
 
-                plt.pause(self.delay_time)
+                    pause(self.delay_time)
 
-                if isinstance(n_of_samples, bool):
-                    pass
+                    if not n_of_samples:
+                        pass
 
-                else:
-                    if current_sample > n_of_samples - 2:
-                        break
-                    current_sample += 1
+                    else:
+                        if current_sample == n_of_samples:
+                            break
+                        current_sample += 1
 
-            except IndexError:
-                error_qnt += 1
-                print('Index Error rate', round(error_qnt / n_of_iterations, 2))
+                except IndexError:
+                    error_qnt += 1
+
+                except ValueError:
+                    error_qnt += 1
+
+        else:
+
+            while True:
+                cla()
+                n_of_iterations += 1
+                read_float = []
+
+                try:
+                    self.serial_object.flushInput()
+                    read = self.serial_object.readline().decode().rstrip('\r\n').split(' ')
+
+                    for value in read:
+                        read_float.append(float(value))
+
+                    data = append(data, [read_float], axis=0)
+
+                    for j in range(0, n_of_plots):
+                        axs[j].cla()
+                        axs[j].plot(data[:, j][-5:], ('C' + str(j)))
+
+                    pause(self.delay_time)
+
+                    if not n_of_samples:
+                        pass
+
+                    else:
+                        if current_sample == n_of_samples:
+                            break
+                        current_sample += 1
+
+                except IndexError:
+                    error_qnt += 1
+                    print('Index Error rate', round(error_qnt / n_of_iterations, 2))
+
+        datetime_end = datetime.now().strftime('%H:%M:%S')
+        filename = f'Report_{"_".join(description)}_{datetime_start}_{datetime_end}.csv'
+        DataFrame(data).to_csv(f'../Reports/{filename}')
+
+
+if __name__ == '__main__':
+    esp = SerialDevice(get_serial_ports()[0], 115200, 10)
+    esp.plot_data(n_of_samples=10, description=('DEBUG', 'REPORT'))

@@ -9,7 +9,7 @@ TBD:
 
 """
 
-from tkinter import *
+from tkinter import *  # sudo apt-get install python3-tk
 from tkinter import scrolledtext
 from tkinter.ttk import *
 import serial_object
@@ -28,9 +28,11 @@ def ui_start():
         btn_disconnect.config(state='normal')
 
         nonlocal SerialDevice
-        SerialDevice = serial_object.SerialDevice(port=cmb_port.get(),
-                                                  baudrate=cmb_baudrate.get(),
-                                                  delay_time=txt_read_delay.get())
+        SerialDevice = serial_object.SerialDevice(
+            port=cmb_port.get(),
+            baudrate=cmb_baudrate.get(),
+            delay_time=txt_read_delay.get()
+        )
         check_device_compatibility(SerialDevice)
 
     def button_stop():
@@ -40,7 +42,6 @@ def ui_start():
         txt_read_delay.config(state='normal')
         btn_connect.config(state='normal')
         btn_disconnect.config(state='disable')
-        btn_monitor.config(state='disabled')
         btn_plot.config(state='disabled')
 
     def check_device_compatibility(Device):
@@ -63,22 +64,24 @@ def ui_start():
             serial_monitor.see('end')
             serial_monitor.config(state='disabled')
             btn_plot.config(state='normal')
-            btn_monitor.config(state='normal')
 
     def live_plot():
         """plots stuff"""
-        SerialDevice.plot_data(5)
+        SerialDevice.plot_data(
+            n_of_samples=int(txt_n_samples.get()),
+            description=f"{txt_load.get()}g")
+        )
 
-    def live_monitor():
-        """prints the data in the serial monitor"""
-        from time import sleep
-        while True:
-            result = SerialDevice.read_line()
-            serial_monitor.config(state='normal')
-            serial_monitor.insert(END, result)
-            serial_monitor.see('end')
-            serial_monitor.config(state='disabled')
-            sleep(SerialDevice.delay_time)
+    # def live_monitor():
+    #     """prints the data in the serial monitor"""
+    #     from time import sleep
+    #     while True:
+    #         result = SerialDevice.read_line()
+    #         serial_monitor.config(state='normal')
+    #         serial_monitor.insert(END, result)
+    #         serial_monitor.see('end')
+    #         serial_monitor.config(state='disabled')
+    #         sleep(SerialDevice.delay_time)
 
 
 
@@ -126,15 +129,25 @@ def ui_start():
     serial_monitor = scrolledtext.ScrolledText(frame_monitor, font=('Arial', 10), width=50, height=10, state='disabled')
     serial_monitor.grid(row=10, column=0, columnspan=2, padx=15, pady=5)
 
-    btn_monitor = Button(frame_monitor, text='monitor',command=live_monitor, state='disabled')
-    btn_monitor.grid(row=20, column=0)
+    lbl_load = Label(frame_monitor, text="Current load (g): ", font=('Arial', 11))
+    lbl_load.grid(row=20, column=0, padx=0)
+    txt_load = Entry(frame_monitor)
+    txt_load.insert(END, '')
+    txt_load.grid(row=21, column=0, columnspan=2)
+
+    lbl_n_samples = Label(frame_monitor, text="Number of samples to get: ", font=('Arial', 11))
+    lbl_n_samples.grid(row=30, column=0, padx=0)
+    txt_n_samples = Entry(frame_monitor)
+    txt_n_samples.insert(END, 150)
+    txt_n_samples.grid(row=31, column=0, columnspan=2)
+
     btn_plot = Button(frame_monitor, text='plot', command=live_plot, state='disabled')
-    btn_plot.grid(row=20, column=1, pady=10)
+    btn_plot.grid(row=31, column=1, pady=10)
 
     # KILL PROCESS BUTTON
     frame_root = Frame(root)
     frame_root.pack()
-    btn_kill = Button(frame_root, text='close!', command=root.destroy)
+    btn_kill = Button(frame_root, text='Exit', command=root.destroy)
     btn_kill.grid(row=100, pady=5)
 
     root.mainloop()
