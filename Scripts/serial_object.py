@@ -108,7 +108,7 @@ class SerialDevice:
             current_sample += 1
         return data
 
-    def plot_data(self, n_of_samples=False, description=()):
+    def plot_data(self, n_of_samples=False, description=(), offset=2550, plot=False):
         """
         read and plot any numerical serial received data as long it is in the following format:
         b'<data_1> <data_2> <data_3> ... <data_n>/r/n'
@@ -131,12 +131,13 @@ class SerialDevice:
         self.serial_object.readline()
 
         data = self.read_line().decode().rstrip('\r\n').split(' ')
+        n_of_plots = len(data)
 
         # LIVE-PLOT SETUP
-        ion()
-        n_of_plots = len(data)
-        fig, axs = subplots(n_of_plots)
-        fig.suptitle('Sensor readings')
+        if plot:
+            ion()
+            fig, axs = subplots(n_of_plots)
+            fig.suptitle('Sensor readings')
 
         # empty variables
         if n_of_plots == 1:
@@ -149,20 +150,24 @@ class SerialDevice:
         n_of_iterations = 0
         current_sample = 0
 
-        datetime_start = datetime.now().strftime('%H:%M:%S')
+        datetime_start = datetime.now().strftime('%H_%M_%S')
 
         if n_of_plots == 1:
 
             while True:
-                cla()
+                if plot:
+                    cla()
 
                 try:
                     self.serial_object.flushInput()
-                    read = int(self.serial_object.readline().decode().rstrip('\r\n').split(' ')[0])
+                    read = int(self.serial_object.readline().decode().rstrip('\r\n').split(' ')[0]) - offset
                     data.append(read)
 
-                    axs.cla()
-                    axs.plot(data[-5:], ('C' + str(0)))
+                    if plot:
+                        axs.cla()
+                        axs.plot(data[-5:], ('C' + str(0)))
+                    else:
+                        print(data[-1])
 
                     pause(self.delay_time)
 
@@ -214,9 +219,9 @@ class SerialDevice:
                     error_qnt += 1
                     print('Index Error rate', round(error_qnt / n_of_iterations, 2))
 
-        datetime_end = datetime.now().strftime('%H:%M:%S')
+        datetime_end = datetime.now().strftime('%H_%M_%S')
         filename = f'Report_{"_".join(description)}_{datetime_start}_{datetime_end}.csv'
-        DataFrame(data).to_csv(f'../Reports/{filename}')
+        DataFrame(data).to_csv(f'{filename}')
 
 
 if __name__ == '__main__':

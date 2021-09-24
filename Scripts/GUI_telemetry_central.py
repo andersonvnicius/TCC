@@ -69,7 +69,7 @@ def ui_start():
         """plots stuff"""
         SerialDevice.plot_data(
             n_of_samples=int(txt_n_samples.get()),
-            description=f"{txt_load.get()}g"
+            description=f"{txt_load.get()}"
         )
 
     # def live_monitor():
@@ -83,12 +83,10 @@ def ui_start():
     #         serial_monitor.config(state='disabled')
     #         sleep(SerialDevice.delay_time)
 
-
-
     SerialDevice = None
     port_list = serial_object.get_serial_ports()
     baudrate_list = (9600, 14400, 19200, 38400, 57600, 115200)
-    read_delay = 100
+    read_delay = 10
 
     root = Tk()
     root.title("Telemetry center (alpha 0.0.1)")
@@ -132,7 +130,7 @@ def ui_start():
     serial_monitor = scrolledtext.ScrolledText(frame_monitor, font=('Arial', 10), width=50, height=10, state='disabled')
     serial_monitor.grid(row=10, column=0, columnspan=2, padx=15, pady=5)
 
-    lbl_load = Label(frame_monitor, text="Current load (g): ", font=('Arial', 11))
+    lbl_load = Label(frame_monitor, text="Current load: ", font=('Arial', 11))
     lbl_load.grid(row=20, column=0, padx=0)
     txt_load = Entry(frame_monitor)
     txt_load.insert(END, '')
@@ -141,7 +139,7 @@ def ui_start():
     lbl_n_samples = Label(frame_monitor, text="Number of samples to get: ", font=('Arial', 11))
     lbl_n_samples.grid(row=30, column=0, padx=0)
     txt_n_samples = Entry(frame_monitor)
-    txt_n_samples.insert(END, 150)
+    txt_n_samples.insert(END, 250)
     txt_n_samples.grid(row=31, column=0, columnspan=2)
 
     btn_plot = Button(frame_monitor, text='plot', command=live_plot, state='disabled')
