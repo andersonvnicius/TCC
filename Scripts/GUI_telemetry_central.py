@@ -69,7 +69,7 @@ def ui_start():
         """plots stuff"""
         SerialDevice.plot_data(
             n_of_samples=int(txt_n_samples.get()),
-            description=f"{txt_load.get()}g")
+            description=f"{txt_load.get()}g"
         )
 
     # def live_monitor():
@@ -101,7 +101,10 @@ def ui_start():
     lbl_port.grid(row=10, column=0)
     cmb_port = Combobox(frame_connection)
     cmb_port['values'] = port_list
-    cmb_port.current(0)
+    try:
+        cmb_port.current(0)
+    except TclError:
+        print('Error: no serial objects found!')
     cmb_port.grid(row=11, column=0, columnspan=2)
 
     lbl_baudrate = Label(frame_connection, text="Baudrate: ", font=('Arial', 11))
