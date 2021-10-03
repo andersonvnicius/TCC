@@ -11,8 +11,8 @@ import TCC_elements
 
 n_of_steps = 4
 
-bm1 = TCC_elements.Beam(base=0.25*25.4, height=0.5*25.4, length=250)
-sh1 = TCC_elements.Shaft(diameter=0.5*25.4, length=120)
+bm1 = TCC_elements.Beam(base=0.25 * 25.4, height=0.5 * 25.4, length=250)
+sh1 = TCC_elements.Shaft(diameter=0.5 * 25.4, length=120)
 sg1 = TCC_elements.WheatstoneBridgeQuarter(circuit_voltage=5, gauge_factor=3)
 amp1 = TCC_elements.SignalAmplifier(amp_factor=128)
 

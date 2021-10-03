@@ -12,10 +12,10 @@ TBD:
 from tkinter import *  # sudo apt-get install python3-tk
 from tkinter import scrolledtext
 from tkinter.ttk import *
-import serial_object
+import Scripts.serial_object as serial_object
 
 
-def ui_start():
+def gui_start():
     """starts the GUI"""
 
     def button_test():
@@ -155,4 +155,4 @@ def ui_start():
 
 
 if __name__ == '__main__':
-    ui_start()
+    gui_start()

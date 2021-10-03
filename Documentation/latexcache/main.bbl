@@ -233,7 +233,7 @@
       \field{pages}{7}
       \range{pages}{1}
     \endentry
-    \entry{NBR14724:2011}{manual}{}
+    \entry{NBR14724:2005}{manual}{}
       \name{shortauthor}{1}{}{%
         {{un=0,uniquepart=base,hash=25e485c3f2fbdf1b897e6899dd1f8bef}{%
            family={ABNT},
@@ -251,6 +251,37 @@
       \strng{shortauthornamehash}{25e485c3f2fbdf1b897e6899dd1f8bef}
       \strng{shortauthorfullhash}{25e485c3f2fbdf1b897e6899dd1f8bef}
       \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{subtitle}{Informação e documentação --- trabalhos acadêmicos --- apresentação}
+      \field{title}{{NBR} 14724}
+      \field{year}{2005}
+      \field{pages}{9}
+      \range{pages}{1}
+    \endentry
+    \entry{NBR14724:2011}{manual}{}
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=25e485c3f2fbdf1b897e6899dd1f8bef}{%
+           family={ABNT},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{organization}{1}{%
+        {Associação Brasileira de Normas Técnicas}%
+      }
+      \strng{namehash}{25e485c3f2fbdf1b897e6899dd1f8bef}
+      \strng{bibnamehash}{25e485c3f2fbdf1b897e6899dd1f8bef}
+      \strng{shortauthorbibnamehash}{25e485c3f2fbdf1b897e6899dd1f8bef}
+      \strng{shortauthornamehash}{25e485c3f2fbdf1b897e6899dd1f8bef}
+      \strng{shortauthorfullhash}{25e485c3f2fbdf1b897e6899dd1f8bef}
+      \field{extraname}{3}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradatescope}{labelyear}
@@ -282,7 +313,7 @@
       \strng{shortauthorbibnamehash}{25e485c3f2fbdf1b897e6899dd1f8bef}
       \strng{shortauthornamehash}{25e485c3f2fbdf1b897e6899dd1f8bef}
       \strng{shortauthorfullhash}{25e485c3f2fbdf1b897e6899dd1f8bef}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradatescope}{labelyear}
@@ -313,7 +344,7 @@
       \strng{shortauthorbibnamehash}{25e485c3f2fbdf1b897e6899dd1f8bef}
       \strng{shortauthornamehash}{25e485c3f2fbdf1b897e6899dd1f8bef}
       \strng{shortauthorfullhash}{25e485c3f2fbdf1b897e6899dd1f8bef}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradatescope}{labelyear}
