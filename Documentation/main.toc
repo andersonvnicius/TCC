@@ -1,0 +1,95 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\contentsline {part}{\partnumberline {I}\MakeTextUppercase {Pesquisa}}{17}{part.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdução}}{18}{chapter.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Abreviação para o Sumário}}{20}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Axiomas ou postulados}{20}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Teorema}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Terminologia}{21}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Conjectura ou hipótese}{22}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Lema}{23}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Rotação de equações}{24}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Codificação dos arquivos: UTF8}{27}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Citações diretas}{27}{section.2.5}%
+\babel@toc {english}{}
+\babel@toc {brazil}{}
+\contentsline {section}{\numberline {2.6}Notas de rodapé}{28}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Tabelas}{28}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Figuras}{31}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Figuras em minipages}{32}{subsection.2.8.1}%
+\contentsline {section}{\numberline {2.9}Quadros}{33}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Expressões matemáticas}{33}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Enumerações: alíneas e subalíneas}{34}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Espaçamento entre parágrafos e linhas}{35}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Inclusão de código fonte}{36}{section.2.13}%
+\contentsline {section}{\numberline {2.14}Inclusão de outros arquivos}{37}{section.2.14}%
+\contentsline {section}{\numberline {2.15}Compilar o documento \LaTeX {}}{38}{section.2.15}%
+\contentsline {section}{\numberline {2.16}Remissões internas}{38}{section.2.16}%
+\contentsline {section}{\numberline {2.17}Divisões do documento: seção}{39}{section.2.17}%
+\contentsline {subsection}{\numberline {2.17.1}Divisões do documento: subseção}{39}{subsection.2.17.1}%
+\contentsline {subsubsection}{\numberline {2.17.1.1}Divisões do documento: subsubseção}{39}{subsubsection.2.17.1.1}%
+\contentsline {subsubsection}{\numberline {2.17.1.2}Divisões do documento: subsubseção}{39}{subsubsection.2.17.1.2}%
+\contentsline {subsection}{\numberline {2.17.2}Divisões do documento: subseção}{40}{subsection.2.17.2}%
+\contentsline {section}{\numberline {2.18}Exemplo muito longo}{40}{section.2.18}%
+\contentsline {section}{\numberline {2.19}Diferentes idiomas e hifenizações}{40}{section.2.19}%
+\contentsline {section}{\numberline {2.20}Consulte o manual da classe \textsf {abntex2}}{42}{section.2.20}%
+\contentsline {section}{\numberline {2.21}Referências bibliográficas}{42}{section.2.21}%
+\contentsline {subsection}{\numberline {2.21.1}Acentuação de referências bibliográficas}{42}{subsection.2.21.1}%
+\contentsline {section}{\numberline {2.22}Precisa de ajuda?}{43}{section.2.22}%
+\contentsline {section}{\numberline {2.23}Você pode ajudar?}{43}{section.2.23}%
+\contentsline {section}{\numberline {2.24}Quer customizar os modelos do \newline abn\TeX 2{} para sua instituição ou universidade?}{43}{section.2.24}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Titulo do Capitulo}}{44}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Título da Seção}{44}{section.3.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Graduated}}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Before the very first basketball}{45}{section.4.1}%
+\contentsline {part}{\partnumberline {II}\MakeTextUppercase {Implementação}}{46}{part.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Some very big title -- (\foreignlanguage {english} {encoding: T1{}, family: phv{}, series: m{}, shape: n{}, size: 12{}, baseline: 14.5pt{}, linespread: 1.241{}, linespacing: 17.99446pt{}})}}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Some encoding tests -- (\foreignlanguage {english} {encoding: T1{}, family: phv{}, series: m{}, shape: n{}, size: 12{}, baseline: 14.5pt{}, linespread: 1.241{}, linespacing: 17.99446pt{}})}{47}{section.5.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Considerações Finais}}{48}{chapter.6}%
+\vspace {0em}
+\vspace {0em}
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\cftinsert {A}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Página não gerada}}{50}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Some encoding tests}{51}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}(\foreignlanguage {english} {encoding: T1{}, family: phv{}, series: m{}, shape: n{}, size: 12{}, baseline: 14.5pt{}, linespread: 1.241{}, linespacing: 17.99446pt{}})}{51}{subsection.A.1.1}%
+\contentsline {subsubsection}{\numberline {A.1.1.1}(\foreignlanguage {english} {encoding: T1{}, family: phv{}, series: m{}, shape: n{}, size: 12{}, baseline: 14.5pt{}, linespread: 1.241{}, linespacing: 17.99446pt{}})}{51}{subsubsection.A.1.1.1}%
+\contentsline {paragraph}{\numberline {A.1.1.1.1}(\foreignlanguage {english} {encoding: T1{}, family: phv{}, series: m{}, shape: n{}, size: 12{}, baseline: 14.5pt{}, linespread: 1.241{}, linespacing: 17.99446pt{}})}{51}{paragraph.A.1.1.1.1}%
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\cftinsert {A}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Artigo publicado}}{54}{appendix.anexochapback.1}%
+\contentsline {section}{\numberline {A.1}English guidelines for publication}{54}{section.anexochapback.1.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Anexo exemplo}}{56}{appendix.anexochapback.2}%
+\contentsline {section}{\numberline {B.1}Some encoding tests}{56}{section.anexochapback.2.1}%
+\contentsline {subsection}{\numberline {B.1.1}(\foreignlanguage {english} {encoding: T1{}, family: phv{}, series: m{}, shape: n{}, size: 12{}, baseline: 14.5pt{}, linespread: 1.241{}, linespacing: 17.99446pt{}})}{56}{subsection.anexochapback.2.1.1}%
+\contentsline {subsubsection}{\numberline {B.1.1.1}(\foreignlanguage {english} {encoding: T1{}, family: phv{}, series: m{}, shape: n{}, size: 12{}, baseline: 14.5pt{}, linespread: 1.241{}, linespacing: 17.99446pt{}})}{56}{subsubsection.anexochapback.2.1.1.1}%
+\contentsline {paragraph}{\numberline {B.1.1.1.1}(\foreignlanguage {english} {encoding: T1{}, family: phv{}, series: m{}, shape: n{}, size: 12{}, baseline: 14.5pt{}, linespread: 1.241{}, linespacing: 17.99446pt{}})}{57}{paragraph.anexochapback.2.1.1.1.1}%
