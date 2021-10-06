@@ -45,5 +45,20 @@ data = data_from_directory_files(dir_)
 
 plt.figure()
 
+legend = []
+for item in data[:-3]:
+    plt.plot(item['dataset'][0:100])
+    legend.append(item['weight'])
 
-for item
+plt.legend(legend)
+plt.show()
+
+plt.figure()
+
+legend = []
+for item in data[:-3]:
+    plt.plot(item['dataset'][1000:3000])
+    legend.append(item['weight'])
+
+plt.legend(legend)
+plt.show()
