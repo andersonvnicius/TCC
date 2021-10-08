@@ -3,50 +3,6 @@ object for using with serial devices
 """
 
 
-def get_adjusted_weight(load: str):
-
-    offset = -(-735)
-
-    weights_kg = {
-        'nut': 3.06E-3,
-        'fuse': 48.63E-3,
-        'weight_1': 86.73E-3,
-        'weight_2': 198.38E-3,
-        'weight_3': 997.13E-3,
-        'weight_a': 497.66E-3,
-        'weight_b': 495.24E-3
-    }
-
-    loads = {
-        'nothing': 0,
-        'fuse_and_nut': weights_kg['fuse'] + weights_kg['nut'],
-        'only_fuse': weights_kg['fuse'],
-        'weight_1': weights_kg['weight_1'] + weights_kg['fuse'] + weights_kg['nut'],
-        'weight_2': weights_kg['weight_2'] + weights_kg['fuse'] + weights_kg['nut'],
-        'weight_3': weights_kg['weight_3'] + weights_kg['fuse'] + weights_kg['nut'],
-        'weight_a': weights_kg['weight_a'] + weights_kg['fuse'] + weights_kg['nut'],
-        'weight_b': weights_kg['weight_b'] + weights_kg['fuse'] + weights_kg['nut']
-    }
-
-    factors = {
-        loads['only_fuse']: -711 + offset,
-        loads['fuse_and_nut']: -708 + offset,
-        loads['weight_1']: -680 + offset,
-        loads['weight_2']: -622 + offset,
-        loads['weight_3']: -274.82 + offset,
-        loads['weight_a']: -500.53 + offset,
-        loads['weight_b']: -496.19 + offset
-    }
-
-    # # plot factor distribution
-    # import matplotlib.pyplot as plt
-    # plt.plot(list(factors.values()), list(factors.keys()), 'o')
-
-    adjusted_value = offset + factors[load]
-
-    return adjusted_value
-
-
 def get_serial_ports():
     """
     lists serial port names
