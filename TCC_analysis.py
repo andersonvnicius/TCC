@@ -23,7 +23,8 @@ def data_from_directory_files(directory: str):
         df = list(read_csv(f'{directory}/{item[2]}').get('0'))
         data_.append(
             {
-                'weight': item[0],
+                'weight_class': item[0],
+                'weight_value': adjust_weights(item[0]),
                 'time_start': item[1][0],
                 'time_end': item[1][1],
                 'read_offset': round(average(df[:100])),
@@ -57,33 +58,19 @@ def adjust_weights(load: int, offset: int):
     }
 
     loads = {
-        'nothing': 0,
+        '0': 0,
         'fuse_and_nut': weights_kg['fuse'] + weights_kg['nut'],
         'only_fuse': weights_kg['fuse'],
-        'weight_1': weights_kg['weight_1'] + weights_kg['fuse'] + weights_kg['nut'],
-        'weight_2': weights_kg['weight_2'] + weights_kg['fuse'] + weights_kg['nut'],
-        'weight_3': weights_kg['weight_3'] + weights_kg['fuse'] + weights_kg['nut'],
-        'weight_a': weights_kg['weight_a'] + weights_kg['fuse'] + weights_kg['nut'],
-        'weight_b': weights_kg['weight_b'] + weights_kg['fuse'] + weights_kg['nut']
+        '1': weights_kg['weight_1'] + weights_kg['fuse'] + weights_kg['nut'],
+        '2': weights_kg['weight_2'] + weights_kg['fuse'] + weights_kg['nut'],
+        '3': weights_kg['weight_3'] + weights_kg['fuse'] + weights_kg['nut'],
+        'a': weights_kg['weight_a'] + weights_kg['fuse'] + weights_kg['nut'],
+        'b': weights_kg['weight_b'] + weights_kg['fuse'] + weights_kg['nut']
     }
 
-    factors = {
-        loads['only_fuse']: -711 + offset,
-        loads['fuse_and_nut']: -708 + offset,
-        loads['weight_1']: -680 + offset,
-        loads['weight_2']: -622 + offset,
-        loads['weight_3']: -274.82 + offset,
-        loads['weight_a']: -500.53 + offset,
-        loads['weight_b']: -496.19 + offset
-    }
 
-    # # plot factor distribution
-    # import matplotlib.pyplot as plt
-    # plt.plot(list(factors.values()), list(factors.keys()), 'o')
 
-    adjusted_value = offset + factors[load]
-
-    return adjusted_value
+    return
 
 
 dir_ = 'Results/sep_24_1'
