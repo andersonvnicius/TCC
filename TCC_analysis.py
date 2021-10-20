@@ -2,8 +2,9 @@
 
 import os
 from os.path import isfile, join
-from numpy import array, average
+from numpy import array, average, linspace
 from pandas import read_csv
+from datetime import datetime
 import matplotlib.pyplot as plt
 
 
@@ -24,7 +25,7 @@ def data_from_directory_files(directory: str):
         data_.append(
             {
                 'weight_class': item[0],
-                'weight_value': adjust_weights(item[0]),
+                'weight_value': adjust_weights(item[0], offset=0),
                 'time_start': item[1][0],
                 'time_end': item[1][1],
                 'read_offset': round(average(df[:100])),
@@ -40,6 +41,7 @@ def time_format(time_string: str):
     t = time_string.split('_')
     start_time = f"{t[0]}:{t[1]}:{t[2]}"
     end_time = f"{t[3]}:{t[4]}:{t[5]}"
+
     return start_time, end_time
 
 
@@ -68,8 +70,6 @@ def adjust_weights(load: int, offset: int):
         'b': weights_kg['weight_b'] + weights_kg['fuse'] + weights_kg['nut']
     }
 
-
-
     return
 
 
@@ -79,11 +79,11 @@ data = data_from_directory_files(dir_)
 
 
 # plt.figure()
-
+#
 # legend = []
 # for item in data[:-3]:
-#     plt.plot(item['dataset'][0:100])
 #     legend.append(item['weight'])
+#     plt.plot(item['dataset'][0:100])
 #
 # plt.legend(legend)
 # plt.show()
@@ -97,3 +97,24 @@ data = data_from_directory_files(dir_)
 #
 # plt.legend(legend)
 # plt.show()
+
+plt.figure()
+
+item = data[0]
+
+delta_t = datetime.strptime(item['time_end'], '%H:%M:%S') - datetime.strptime(item['time_start'], '%H:%M:%S')
+t = linspace(0, delta_t.seconds, len(item['read_full']))
+
+plt.plot(t, item['read_full'])
+plt.axhline(item['read_load'], color='r', linestyle='--')
+plt.axhline(item['read_offset'], color='g', linestyle='--')
+
+plt.legend(
+    [
+        f'{item["weight_class"]}',
+        f'{item["read_load"]}',
+        f'{item["read_offset"]}'
+    ]
+)
+
+plt.show()
