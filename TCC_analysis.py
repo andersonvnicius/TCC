@@ -25,7 +25,7 @@ def data_from_directory_files(directory: str):
         data_.append(
             {
                 'weight_class': item[0],
-                'weight_value': adjust_weights(item[0], offset=0),
+                'weight_value': get_weight_value(item[0]),
                 'time_start': item[1][0],
                 'time_end': item[1][1],
                 'read_offset': round(average(df[:100])),
@@ -45,10 +45,7 @@ def time_format(time_string: str):
     return start_time, end_time
 
 
-def adjust_weights(load: int, offset: int):
-
-    # offset = -(-735)
-
+def get_weight_value(weight_class: str):
     weights_kg = {
         'nut': 3.06E-3,
         'fuse': 48.63E-3,
@@ -70,13 +67,68 @@ def adjust_weights(load: int, offset: int):
         'b': weights_kg['weight_b'] + weights_kg['fuse'] + weights_kg['nut']
     }
 
-    return
+    return loads[weight_class]
+
+
+def read_adjust(data_item):
+
+    read_array = array(data_item['read_full']) - data_item['read_offset']
+    transfer_constant = data_item['weight_value'] / (data_item['read_load'] - data_item['read_offset'])
+
+    return read_array * transfer_constant
+
+
+def plot_read(plot_item, adjust=True):
+    plt.close()
+    plt.figure()
+
+    time_start = datetime.strptime(plot_item['time_start'], '%H:%M:%S')
+    time_end = datetime.strptime(plot_item['time_end'], '%H:%M:%S')
+    delta_t = time_end - time_start
+    time_axis = linspace(
+        0,
+        delta_t.seconds,
+        len(plot_item['read_full'])
+    )
+
+    colors = {
+        '1': 'red',
+        '2': 'green',
+        '3': 'blue',
+        'a': 'yellow',
+        'b': 'cyan',
+        '0': 'black',
+    }
+
+    if adjust:
+        load_axis = read_adjust(plot_item)
+        load_hline = plot_item['weight_value']
+        load_unit = 'kg'
+        plt.ylabel('load value [kg]')
+    else:
+        load_axis = plot_item['read_full']
+        load_hline = plot_item['read_load']
+        load_unit = ''
+        plt.ylabel('load value [ADC units]')
+
+    plt.plot(time_axis, load_axis, color=colors[plot_item['weight_class']])
+    plt.axhline(load_hline, color='orange', linestyle='--')
+    # plt.axhline(plot_item['read_offset'], color='cyan', linestyle='--')
+    plt.xlabel('Elapsed time [s]')
+
+    plt.legend(
+        [
+            f'weight class {plot_item["weight_class"]}',
+            f'{load_hline} {load_unit}'
+        ]
+    )
+
+    plt.show()
 
 
 dir_ = 'Results/sep_24_1'
 
 data = data_from_directory_files(dir_)
-
 
 # plt.figure()
 #
@@ -98,23 +150,5 @@ data = data_from_directory_files(dir_)
 # plt.legend(legend)
 # plt.show()
 
-plt.figure()
 
-item = data[0]
-
-delta_t = datetime.strptime(item['time_end'], '%H:%M:%S') - datetime.strptime(item['time_start'], '%H:%M:%S')
-t = linspace(0, delta_t.seconds, len(item['read_full']))
-
-plt.plot(t, item['read_full'])
-plt.axhline(item['read_load'], color='r', linestyle='--')
-plt.axhline(item['read_offset'], color='g', linestyle='--')
-
-plt.legend(
-    [
-        f'{item["weight_class"]}',
-        f'{item["read_load"]}',
-        f'{item["read_offset"]}'
-    ]
-)
-
-plt.show()
+# plot_read(data[0])
