@@ -8,15 +8,21 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 
 
-def data_from_directory_files(directory: str):
+def data_from_directory_files(directory: str, delete_plots=False):
     """
     extracts data from files in a directory
     """
-    files = [f for f in os.listdir(directory) if isfile(join(directory, f))]
+    files = [f for f in os.listdir(directory) if isfile(join(directory, f)) and '.csv' in f]
     result_strings = [file.split('Report_')[1].split('.csv')[0] for file in files]  # load, start time, end time
     times = [time_format(time_string[-17:]) for time_string in result_strings]
     loads = [load_string[:-18].split('_')[-1] for load_string in result_strings]
     result = array([loads, times, files]).T
+
+    if delete_plots:
+        files_to_delete = [f for f in os.listdir(directory) if isfile(join(directory, f)) and '.png' in f]
+        if files_to_delete:
+            print(f'{files_to_delete} removed')
+
 
     data_ = []
 
@@ -26,6 +32,7 @@ def data_from_directory_files(directory: str):
             {
                 'weight_class': item[0],
                 'weight_value': get_weight_value(item[0]),
+                'file_name': item[2],
                 'time_start': item[1][0],
                 'time_end': item[1][1],
                 'read_offset': round(average(df[:100])),
@@ -71,14 +78,13 @@ def get_weight_value(weight_class: str):
 
 
 def read_adjust(data_item):
-
     read_array = array(data_item['read_full']) - data_item['read_offset']
     transfer_constant = data_item['weight_value'] / (data_item['read_load'] - data_item['read_offset'])
 
     return read_array * transfer_constant
 
 
-def plot_read(plot_item, adjust=True):
+def plot_read(plot_item, adjust=True, savefig=False, savefig_dir=''):
     plt.close()
     plt.figure()
 
@@ -105,11 +111,13 @@ def plot_read(plot_item, adjust=True):
         load_hline = plot_item['weight_value']
         load_unit = 'kg'
         plt.ylabel('load value [kg]')
+        filecomp=''
     else:
         load_axis = plot_item['read_full']
         load_hline = plot_item['read_load']
         load_unit = ''
         plt.ylabel('load value [ADC units]')
+        filecomp = '_ADCunits'
 
     plt.plot(time_axis, load_axis, color=colors[plot_item['weight_class']])
     plt.axhline(load_hline, color='orange', linestyle='--')
@@ -123,12 +131,29 @@ def plot_read(plot_item, adjust=True):
         ]
     )
 
+    if savefig:
+
+        if savefig_dir:
+            filename = f'{savefig_dir}/{plot_item["file_name"].rstrip(".csv")}{filecomp}.png'
+        else:
+            filename = f'{plot_item["file_name"].rstrip(".csv")}{filecomp}.png'
+
+        plt.savefig(filename)
+        plt.close()
+
     plt.show()
+
+
+def plot_all_files(save=True, directory='', adjust=False):
+    [plot_read(item, adjust=adjust, savefig=save, savefig_dir=directory) for item in data]
 
 
 dir_ = 'Results/sep_24_1'
 
-data = data_from_directory_files(dir_)
+data = data_from_directory_files(dir_, delete_plots=True)
+
+plot_all_files(save=True, directory=dir_, adjust=True)
+
 
 # plt.figure()
 #
