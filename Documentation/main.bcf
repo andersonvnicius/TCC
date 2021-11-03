@@ -2471,36 +2471,7 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">NBR6028:2003</bcf:citekey>
-    <bcf:citekey order="3">abntex2classe</bcf:citekey>
-    <bcf:citekey order="5">abntex2-wiki-como-customizar</bcf:citekey>
-    <bcf:citekey order="7">abntex2classe</bcf:citekey>
-    <bcf:citekey order="7">abntex2cite</bcf:citekey>
-    <bcf:citekey order="7">abntex2cite-alf</bcf:citekey>
-    <bcf:citekey order="8">memoir</bcf:citekey>
-    <bcf:citekey order="9">NBR10520:2002</bcf:citekey>
-    <bcf:citekey order="10">NBR14724:2011</bcf:citekey>
-    <bcf:citekey order="12">van86</bcf:citekey>
-    <bcf:citekey order="14">van86</bcf:citekey>
-    <bcf:citekey order="16">ibge1993</bcf:citekey>
-    <bcf:citekey order="18">araujo2012</bcf:citekey>
-    <bcf:citekey order="20">araujo2012</bcf:citekey>
-    <bcf:citekey order="22">araujo2012</bcf:citekey>
-    <bcf:citekey order="24">araujo2012</bcf:citekey>
-    <bcf:citekey order="26">NBR14724:2011</bcf:citekey>
-    <bcf:citekey order="28">NBR14724:2011</bcf:citekey>
-    <bcf:citekey order="29">NBR6024:2012</bcf:citekey>
-    <bcf:citekey order="30">NBR6024:2012</bcf:citekey>
-    <bcf:citekey order="31">memoir</bcf:citekey>
-    <bcf:citekey order="33">NBR14724:2011</bcf:citekey>
-    <bcf:citekey order="35">NBR6024:2012</bcf:citekey>
-    <bcf:citekey order="37">babel</bcf:citekey>
-    <bcf:citekey order="39">abntex2classe</bcf:citekey>
-    <bcf:citekey order="40">abntex2classe</bcf:citekey>
-    <bcf:citekey order="41">NBR14724:2011</bcf:citekey>
-    <bcf:citekey order="43">abntex2cite</bcf:citekey>
-    <bcf:citekey order="45">abntex2cite-alf</bcf:citekey>
-    <bcf:citekey order="47">memoir</bcf:citekey>
-    <bcf:citekey order="48">memoir</bcf:citekey>
+    <bcf:citekey order="3">Nurprasetio</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

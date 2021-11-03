@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.2)  3 OCT 2021 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.2)  2 NOV 2021 23:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2494,7 +2494,7 @@ Package hyperref Info: Option `psdextra' set `true' on input line 152.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/psdextra.def
 File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 ))
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\@footnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2502,10 +2502,10 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\m@mold@footnotetext'
 [debug] -- control sequence is undefined or \relax
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\@plainfootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2513,7 +2513,7 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\@twocolfootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2521,7 +2521,7 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\@threecolfootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2529,7 +2529,7 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\@parafootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2537,7 +2537,7 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\@footnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2545,10 +2545,10 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\H@@footnotetext'
 [debug] -- control sequence is undefined or \relax
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\@plainfootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2556,7 +2556,7 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\@mpfootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2564,25 +2564,25 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \apptocmd on input line 225
+[debug] tracing \apptocmd on input line 226
 [debug] analyzing '\@makefnstartbox'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ control sequence is a macro without parameters
 [debug] == redefining macro now
-[debug] tracing \apptocmd on input line 225
+[debug] tracing \apptocmd on input line 226
 [debug] analyzing '\@floatboxreset'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ control sequence is a macro without parameters
 [debug] == redefining macro now
-[debug] tracing \pretocmd on input line 225
+[debug] tracing \pretocmd on input line 226
 [debug] analyzing '\TX@endtabularx'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ control sequence is a macro without parameters
 [debug] == redefining macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\TX@endtabularx'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2590,13 +2590,13 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \apptocmd on input line 225
+[debug] tracing \apptocmd on input line 226
 [debug] analyzing '\TX@endtabularx'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ control sequence is a macro without parameters
 [debug] == redefining macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\addtocontents'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2604,19 +2604,19 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\MakeUppercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ macro can be retokenized cleanly
 [debug] -- search pattern not found in replacement text
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\MakeLowercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ macro can be retokenized cleanly
 [debug] -- search pattern not found in replacement text
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\MakeUppercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2624,7 +2624,7 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\MakeLowercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2632,7 +2632,7 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\MakeTextUppercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2640,7 +2640,7 @@ File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 225
+[debug] tracing \patchcmd on input line 226
 [debug] analyzing '\MakeTextLowercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2656,7 +2656,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazil'.
-[debug] tracing \pretocmd on input line 225
+[debug] tracing \pretocmd on input line 226
 [debug] analyzing '\collect@body'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2664,7 +2664,7 @@ Package csquotes Info: Redefining alias 'default' -> 'brazil'.
 [debug] ++ macro can be retokenized cleanly
 [debug] == retokenizing macro now
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 22
-5.
+6.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (latexcache/main.aux (latexcache/beforetext/fichacatalografica.aux) (latexcac
@@ -2672,29 +2672,36 @@ he/beforetext/folhadeaprovacao.aux) (latexcache/beforetext/agradecimentos.aux)
 (latexcache/beforetext/epigrafe.aux) (latexcache/beforetext/resumos.aux) (latex
 cache/beforetext/siglas.aux) (latexcache/beforetext/simbolos.aux) (latexcache/c
 hapters/intro.aux) (latexcache/chapters/chapter_1.aux) (latexcache/chapters/cha
-pter_2.aux) (latexcache/chapters/chapter_3.aux) (latexcache/chapters/chapter_4.
-aux) (latexcache/chapters/conclusion.aux) (latexcache/aftertext/apendice_a.aux)
-(latexcache/aftertext/anexo_a.aux) (latexcache/aftertext/anexo_b.aux))
+pter_2.aux) (latexcache/chapters/chapter_3.aux
+
+LaTeX Warning: Label `fig:Fig_401' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig_401@cref' multiply defined.
+
+) (latexcache/chapters/chapter_4.aux) (latexcache/chapters/conclusion.aux) (lat
+excache/aftertext/apendice_a.aux) (latexcache/aftertext/anexo_a.aux) (latexcach
+e/aftertext/anexo_b.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
 Package biblatex Info: Trying to load language 'brazil' -> 'brazil-abnt'...
 Package biblatex Info: ... file 'brazil-abnt.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex-abnt/brazil-abnt.lbx
@@ -2863,10 +2870,18 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-(latexcache/main.bbl)
-Package biblatex Info: Reference section=0 on input line 225.
-Package biblatex Info: Reference segment=0 on input line 225.
-Package hyperref Info: Link coloring ON on input line 225.
+(latexcache/main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Nurprasetio
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 226.
+Package biblatex Info: Reference segment=0 on input line 226.
+Package hyperref Info: Link coloring ON on input line 226.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -2878,16 +2893,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 225.
-LaTeX Info: Redefining \ref on input line 225.
-LaTeX Info: Redefining \pageref on input line 225.
-LaTeX Info: Redefining \nameref on input line 225.
-LaTeX Info: Redefining \degres on input line 225.
-LaTeX Info: Redefining \dots on input line 225.
-LaTeX Info: Redefining \up on input line 225.
+LaTeX Info: Redefining \nameref on input line 226.
+LaTeX Info: Redefining \ref on input line 226.
+LaTeX Info: Redefining \pageref on input line 226.
+LaTeX Info: Redefining \nameref on input line 226.
+LaTeX Info: Redefining \degres on input line 226.
+LaTeX Info: Redefining \dots on input line 226.
+LaTeX Info: Redefining \up on input line 226.
 Package french.ldf Info: bigfoot package in use.
 (french.ldf)             babel-french will NOT customise footnotes;
-(french.ldf)             reported on input line 225.
+(french.ldf)             reported on input line 226.
 \myptabbox=\box126
 \myptabboxwidth=\skip414
 Package newfloat Info: `float' package detected.
@@ -2913,10 +2928,10 @@ Package caption Info: End \AtBeginDocument code.
 \makeMPintoPDFobject=\count701
 \everyMPtoPDFconversion=\toks91
 ) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 225.
+LaTeX Info: Redefining \selectfont on input line 226.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 225.
+(lastpage)             ! on input line 226.
 \c@lstlisting=\count702
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
@@ -2937,7 +2952,7 @@ Dictionary: translator-basic-dictionary, Language: portuguese
 \cftfigureinitialnumwidth=\skip416
 \cfttableinitialnumwidth=\skip417
 \cftlstlistinginitialnumwidth=\skip418
-LaTeX Info: Redefining \microtypecontext on input line 225.
+LaTeX Info: Redefining \microtypecontext on input line 226.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1100.
@@ -2945,7 +2960,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 10, shrink: 10, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 225.
+LaTeX Info: Redefining \showhyphens on input line 226.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -2956,7 +2971,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 \footinsdefault=\insert246
 \FN@cache246=\box128
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-25.
+26.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -2964,34 +2979,34 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-25.
+26.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-225.
+226.
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-225.
+226.
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 225.
+(Font)              <12> on input line 226.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 225.
+(Font)              <8> on input line 226.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 225.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 225
+(Font)              <6> on input line 226.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 226
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 225
+LaTeX Font Info:    Trying to load font information for U+msb on input line 226
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2999,12 +3014,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 22
-5.
+6.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-225.
+226.
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -3013,7 +3028,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-225.
+226.
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -3050,16 +3065,6 @@ laro.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 Package hyperref Info: Option `pageanchor' set `true' on input line 32.
-
-Underfull \hbox (badness 5316) in paragraph at lines 63--63
-[]\T1/phv/m/n/10 (+10) Trabalho de Con-clu-s鉶 de Cur-so sub-me-ti-do
- []
-
-
-Underfull \hbox (badness 2799) in paragraph at lines 63--63
-\T1/phv/m/n/10 (+10) a-o Pro-gra-ma de Gra-du-a-玢o em Ci-阯-ci-as da
- []
-
 \openout5 = `main.mw'.
 
 [1
@@ -3111,12 +3116,17 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+[4] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
 ) (./beforetext/dedicatoria.tex
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 18.
 \openout5 = `main.mw'.
 
-[4
+[5
 
 
 
@@ -3130,7 +3140,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (./beforetext/agradecimentos.tex
 \openout5 = `main.mw'.
 
-[5
+[6
 
 
 
@@ -3146,7 +3156,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 38.
 \openout5 = `main.mw'.
 
-[6
+[7
 
 
 
@@ -3161,7 +3171,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (./beforetext/resumos.tex
 \openout5 = `main.mw'.
 
-[7
+[8
 
 
 
@@ -3174,7 +3184,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 
 \openout5 = `main.mw'.
 
-[8
+[9
 
 
 
@@ -3182,10 +3192,10 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 \openout5 = `main.mw'.
 
 ) (latexcache/main.lof)
-The height of the list 'Lista de Figuras' is '131.72075pt'
+The height of the list 'Lista de Figuras' is '167.70967pt'
 \openout5 = `main.mw'.
 
-[9
+[10
 
 
 
@@ -3194,38 +3204,20 @@ The height of the list 'Lista de Figuras' is '131.72075pt'
 \openout5 = `main.mw'.
 
 (latexcache/main.loq)
-The height of the list 'Lista de Quadros' is '59.7429pt'
-\openout5 = `main.mw'.
-
-[10
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
+The height of the list 'Lista de Quadros' is '24.37787pt'
 (latexcache/main.lot)
-The height of the list 'Lista de Tabelas' is '131.72075pt'
-\openout5 = `main.mw'.
-
-[11
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
+The height of the list 'Lista de Tabelas' is '23.9039pt'
 (latexcache/main.lol)
-The height of the list 'Lista de C贸digos' is '116.07823pt'
-\openout5 = `main.mw'.
-
-[12
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
+The height of the list 'Lista de C贸digos' is '26.25584pt'
 \openout2 = `beforetext/siglas.aux'.
 
 (./beforetext/siglas.tex
 \openout5 = `main.mw'.
 
-[13
+[11
+
+
+
 
 
 
@@ -3238,7 +3230,7 @@ The height of the list 'Lista de C贸digos' is '116.07823pt'
 (./beforetext/simbolos.tex
 \openout5 = `main.mw'.
 
-[14
+[12
 
 
 
@@ -3250,14 +3242,14 @@ The height of the list 'Lista de C贸digos' is '116.07823pt'
 
 ) (latexcache/main.toc
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 14.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 14.
+(Font)              <14.4> on input line 10.
 )
-The height of the list 'Sum\'ario' is '1437.59819pt'
+The height of the list 'Sum\'ario' is '1029.73112pt'
 \openout5 = `main.mw'.
 
-[15
+[13
 
 
 
@@ -3268,142 +3260,76 @@ The height of the list 'Sum\'ario' is '1437.59819pt'
 )
 \openout5 = `main.mw'.
 
-[16] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[17] (latexcache/main.mw)
+[14] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 246.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 247.
 \openout5 = `main.mw'.
 
-[18
+[15
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/intro.aux'.
 
-(./chapters/intro.tex
-./chapters/intro.tex:116: Undefined control sequence.
+(./chapters/intro.tex)
+\openout5 = `main.mw'.
+
+[16
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout2 = `chapters/chapter_1.aux'.
+
+(./chapters/chapter_1.tex
+\openout5 = `main.mw'.
+
+[17
+
+
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+)
+\openout5 = `main.mw'.
+
+[18] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout2 = `chapters/chapter_2.aux'.
+
+(./chapters/chapter_2.tex
+<images/img301.jpg, id=306, 105.0324pt x 51.7935pt>
+File: images/img301.jpg Graphic file (type jpg)
+<use images/img301.jpg>
+Package pdftex.def Info: images/img301.jpg  used on input line 17.
+(pdftex.def)             Requested size: 455.0pt x 224.37047pt.
+./chapters/chapter_2.tex:19: Undefined control sequence.
 \\fonte ...ontedelim } \caption@setlabelseparator 
                                                   {colon}\@makecaption {\ABN...
-
-\@sharp ->\fonte {O autor -- \showfont }
-                                         
-\@preamble ...olsep \relax }\ignorespaces \@sharp 
-                                                  \unskip \relax \@endpbox \...
-
-\multicolumn ... \@sharp {#3}\@arstrut \@preamble 
-                                                  \null \ignorespaces 
-<inserted text> ...fonte {O autor -- \showfont } }
-                                                   \endlastfoot Cor & Branco...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-l.116 \end{tabularx}
-                    
+l.19 	\fonte{**Tsirogiannis (2015)**}
+                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/intro.tex:116: Undefined control sequence.
+<images/img302.jpg, id=308, 690.58pt x 446.66875pt>
+File: images/img302.jpg Graphic file (type jpg)
+<use images/img302.jpg>
+Package pdftex.def Info: images/img302.jpg  used on input line 27.
+(pdftex.def)             Requested size: 455.0pt x 294.29793pt.
+./chapters/chapter_2.tex:29: Undefined control sequence.
 \\fonte ...ontedelim } \caption@setlabelseparator 
                                                   {colon}\@makecaption {\ABN...
-
-\@sharp ->\fonte {O autor -- \showfont }
-                                         
-\@preamble ...olsep \relax }\ignorespaces \@sharp 
-                                                  \unskip \relax \@endpbox \...
-
-\multicolumn ... \@sharp {#3}\@arstrut \@preamble 
-                                                  \null \ignorespaces 
-<inserted text> ...fonte {O autor -- \showfont } }
-                                                   \endlastfoot Cor & Branco...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\iterate ->\TX@arith \ifTX@ \TX@trial {}
-                                        \relax \expandafter \iterate \fi 
-\loop ...elax \expandafter \iterate \fi }\iterate 
-                                                  \let \iterate \relax 
-\TX@endtabularx ...ith \ifTX@ \TX@trial {}\repeat 
-                                                  \fi {\let \@footnotetext \...
-l.116 \end{tabularx}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./chapters/intro.tex:116: Misplaced \noalign.
-\captionsetup ->\noalign 
-                         \bgroup \@ifstar \@captionsetup \@captionsetup 
-\captiondelim ->\captionsetup 
-                              {labelsep=@contdelim}\caption@memoir@delim 
-\\fonte ...pt} \ABNTEXfontereduzida \captiondelim 
-                                                  {\ABNTEXcaptionfontedelim ...
-
-\@sharp ->\fonte {O autor -- \showfont }
-                                         
-\@preamble ...olsep \relax }\ignorespaces \@sharp 
-                                                  \unskip \relax \@endpbox \...
-
-\multicolumn ... \@sharp {#3}\@arstrut \@preamble 
-                                                  \null \ignorespaces 
-<inserted text> ...fonte {O autor -- \showfont } }
-                                                   \endlastfoot Cor & Branco...
-
-\TX@endtabularx ...ndafter \longtable \the \toks@ 
-                                                  \endlongtable }\global \TX...
-l.116 \end{tabularx}
-                    
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-./chapters/intro.tex:116: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-
-\@sharp ->\fonte {O autor -- \showfont }
-                                         
-\@preamble ...olsep \relax }\ignorespaces \@sharp 
-                                                  \unskip \relax \@endpbox \...
-
-\multicolumn ... \@sharp {#3}\@arstrut \@preamble 
-                                                  \null \ignorespaces 
-<inserted text> ...fonte {O autor -- \showfont } }
-                                                   \endlastfoot Cor & Branco...
-
-\TX@endtabularx ...ndafter \longtable \the \toks@ 
-                                                  \endlongtable }\global \TX...
-l.116 \end{tabularx}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<pictures/ex01.pdf, id=374, 302.24919pt x 348.88142pt>
-File: pictures/ex01.pdf Graphic file (type pdf)
-<use pictures/ex01.pdf>
-Package pdftex.def Info: pictures/ex01.pdf  used on input line 123.
-(pdftex.def)             Requested size: 455.0pt x 525.24796pt.
-./chapters/intro.tex:124: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-l.124 \fonte{o autor -- \showfont}
+l.29 	\fonte{**Gillespie (1992)**}
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3416,217 +3342,20 @@ and I'll forget about whatever was undefined.
 [19
 
 
-] (latexcache/main.mw)
+
+
+ <./images/img301.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/tek0009.pdf, id=382, 272.1919pt x 272.1919pt>
-File: pictures/tek0009.pdf Graphic file (type pdf)
-<use pictures/tek0009.pdf>
-Package pdftex.def Info: pictures/tek0009.pdf  used on input line 134.
-(pdftex.def)             Requested size: 409.49722pt x 409.49957pt.
-./chapters/intro.tex:135: Undefined control sequence.
+<images/img303.jpg, id=315, 676.5275pt x 344.28625pt>
+File: images/img303.jpg Graphic file (type jpg)
+<use images/img303.jpg>
+Package pdftex.def Info: images/img303.jpg  used on input line 37.
+(pdftex.def)             Requested size: 455.0pt x 231.5584pt.
+./chapters/chapter_2.tex:39: Undefined control sequence.
 \\fonte ...ontedelim } \caption@setlabelseparator 
                                                   {colon}\@makecaption {\ABN...
-l.135     \fonte{o autor -- \showfont}
-                                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\openout5 = `main.mw'.
-
-[20 <./pictures/ex01.pdf>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 150.
-\openout5 = `main.mw'.
-
-[21 <./pictures/tek0009.pdf>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-)
-\openout5 = `main.mw'.
-
-[22] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout2 = `chapters/chapter_1.aux'.
-
-(./chapters/chapter_1.tex
-LaTeX Font Info:    Trying to load font information for U+euf on input line 69.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-euf.cfg
-File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
-
-)
-\openout5 = `main.mw'.
-
-[23
-
-
-
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[24] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[25] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[26] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[27] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[28] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[29
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-)
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 281.
-\openout5 = `main.mw'.
-
-[30
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 352--352
-[]|\T1/phv/b/n/12 (+10) Sistemas
- []
-
-
-Underfull \hbox (badness 3942) in paragraph at lines 352--352
-\T1/phv/b/n/12 (+10) de In-ves-ti-
- []
-
-
-Overfull \hbox (10.5868pt too wide) in paragraph at lines 352--352
-[]|\T1/phv/m/n/12 (-10) Epistemologia| 
- []
-
-./chapters/chapter_1.tex:353: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-l.353 \fonte{\textcite{van86} -- \showfont}
-                                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\openout5 = `main.mw'.
-
-[31] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-./chapters/chapter_1.tex:386: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-<argument> ...duzido pelos autores. -- \showfont }
-                                                  \nota {Esta 茅 uma nota, q...
-
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-l.386   }
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./chapters/chapter_1.tex:386: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-<argument> ...na regress茫o linear. -- \showfont }
-                                                  \nota [Anota莽玫es]{Uma an...
-
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-l.386   }
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./chapters/chapter_1.tex:386: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-<argument> ...da de v谩rias outras. -- \showfont }
-                                                  \@@par 
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-l.386   }
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./chapters/chapter_1.tex:420: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-l.420 \fonte{O autor -- \showfont}
+l.39 	\fonte{**Gillespie (1992)**}
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3636,36 +3365,24 @@ and I'll forget about whatever was undefined.
 
 \openout5 = `main.mw'.
 
-[32] (latexcache/main.mw)
+[20 <./images/img302.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[33] (latexcache/main.mw)
+[21 <./images/img303.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-./chapters/chapter_1.tex:465: Undefined control sequence.
+<images/img501.jpg, id=330, 533.995pt x 206.7725pt>
+File: images/img501.jpg Graphic file (type jpg)
+<use images/img501.jpg>
+Package pdftex.def Info: images/img501.jpg  used on input line 151.
+(pdftex.def)             Requested size: 455.0pt x 176.1897pt.
+./chapters/chapter_2.tex:153: Undefined control sequence.
 \\fonte ...ontedelim } \caption@setlabelseparator 
                                                   {colon}\@makecaption {\ABN...
-l.465     \fonte{os autores -- \showfont}
-                                         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<pictures/abntex2-modelo-img-grafico.pdf, id=537, 847.165pt x 314.17375pt>
-File: pictures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
-<use pictures/abntex2-modelo-img-grafico.pdf>
-Package pdftex.def Info: pictures/abntex2-modelo-img-grafico.pdf  used on input
- line 493.
-(pdftex.def)             Requested size: 296.51219pt x 109.96245pt.
-./chapters/chapter_1.tex:495: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-l.495 ...textcite[p. 24]{araujo2012} -- \showfont}
-                                                  
+l.153 	\fonte{**Norton 4ed**}
+                             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3674,38 +3391,19 @@ and I'll forget about whatever was undefined.
 
 \openout5 = `main.mw'.
 
-[34
-
-] (latexcache/main.mw)
+[22 <./images/img501.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/abntex2-modelo-img-marca.pdf, id=549, 227.51701pt x 72.2695pt>
-File: pictures/abntex2-modelo-img-marca.pdf Graphic file (type pdf)
-<use pictures/abntex2-modelo-img-marca.pdf>
-Package pdftex.def Info: pictures/abntex2-modelo-img-marca.pdf  used on input l
-ine 513.
-(pdftex.def)             Requested size: 222.9525pt x 70.81918pt.
-./chapters/chapter_1.tex:514: Undefined control sequence.
+<images/img502.png, id=339, 1204.5pt x 925.4575pt>
+File: images/img502.png Graphic file (type png)
+<use images/img502.png>
+Package pdftex.def Info: images/img502.png  used on input line 221.
+(pdftex.def)             Requested size: 455.0pt x 349.58755pt.
+./chapters/chapter_2.tex:223: Undefined control sequence.
 \\fonte ...ontedelim } \caption@setlabelseparator 
                                                   {colon}\@makecaption {\ABN...
-l.514 ...nte{Produzido pelos autores -- \showfont}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: pictures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
-<use pictures/abntex2-modelo-img-grafico.pdf>
-Package pdftex.def Info: pictures/abntex2-modelo-img-grafico.pdf  used on input
- line 521.
-(pdftex.def)             Requested size: 222.9525pt x 82.68037pt.
-./chapters/chapter_1.tex:522: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-l.522 ...textcite[p. 24]{araujo2012} -- \showfont}
-                                                  
+l.223 	\fonte{*internet**}
+                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3714,162 +3412,90 @@ and I'll forget about whatever was undefined.
 
 \openout5 = `main.mw'.
 
-[35 <./pictures/abntex2-modelo-img-grafico.pdf> <./pictures/abntex2-modelo-img-
-marca.pdf>] (latexcache/main.mw)
+[23] (latexcache/main.mw)
 \openout5 = `main.mw'.
-
-./chapters/chapter_1.tex:559: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-l.559 \fonte{Teste. -- \showfont}
-                                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./chapters/chapter_1.tex:574: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-l.574 \fonte{O autor. -- \showfont}
-                                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\openout5 = `main.mw'.
-
-[36] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[37] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[38] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 7
-35.
-(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
-File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 735.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `zi4' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-\openout5 = `main.mw'.
-
-[39] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[40] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-\openout5 = `main.mw'.
-
-[41] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[42] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[43] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-LaTeX Info: Redefining \. on input line 993.
-LaTeX Info: Redefining \% on input line 993.
-\openout5 = `main.mw'.
-
-[44] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[45] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-
-Package textcomp Warning: Symbol \textasciigrave not provided by
-(textcomp)                font family zi4 in TS1 encoding.
-(textcomp)                Default family used instead on input line 1055.
-
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 1055.
-./chapters/chapter_1.tex:1060: Undefined control sequence.
-\\fonte ...ontedelim } \caption@setlabelseparator 
-                                                  {colon}\@makecaption {\ABN...
-l.1060 ...ual do LaTeX \cite{memoir} -- \showfont}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 )
 \openout5 = `main.mw'.
 
-[46] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout2 = `chapters/chapter_2.aux'.
-
-(./chapters/chapter_2.tex)
-\openout5 = `main.mw'.
-
-[47
-
-
-
-
-] (latexcache/main.mw)
+[24 <./images/img502.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/chapter_3.aux'.
 
 (./chapters/chapter_3.tex
+<images/img401.png, id=355, 639.8304pt x 166.4619pt>
+File: images/img401.png Graphic file (type png)
+<use images/img401.png>
+Package pdftex.def Info: images/img401.png  used on input line 21.
+(pdftex.def)             Requested size: 455.0pt x 118.37671pt.
+./chapters/chapter_3.tex:23: Undefined control sequence.
+\\fonte ...ontedelim } \caption@setlabelseparator 
+                                                  {colon}\@makecaption {\ABN...
+l.23 	\fonte{**PRODIP (2020)**}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 \openout5 = `main.mw'.
 
-[48
+[25
 
 
 
 
-] (latexcache/main.mw)
+ <./images/img401.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
+
+<images/img403.jpg, id=363, 369.38pt x 247.92625pt>
+File: images/img403.jpg Graphic file (type jpg)
+<use images/img403.jpg>
+Package pdftex.def Info: images/img403.jpg  used on input line 40.
+(pdftex.def)             Requested size: 369.37909pt x 247.92564pt.
+./chapters/chapter_3.tex:44: Undefined control sequence.
+\\fonte ...ontedelim } \caption@setlabelseparator 
+                                                  {colon}\@makecaption {\ABN...
+l.44 		**}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\openout5 = `main.mw'.
+
+[26 <./images/img403.jpg>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<images/img402.jpg, id=368, 534.49687pt x 384.6872pt>
+File: images/img402.jpg Graphic file (type jpg)
+<use images/img402.jpg>
+Package pdftex.def Info: images/img402.jpg  used on input line 60.
+(pdftex.def)             Requested size: 455.0pt x 327.48459pt.
+./chapters/chapter_3.tex:62: Undefined control sequence.
+\\fonte ...ontedelim } \caption@setlabelseparator 
+                                                  {colon}\@makecaption {\ABN...
+l.62 	\fonte{**PRODIP (2020)**}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 )
 \openout5 = `main.mw'.
 
-[49
+[27 <./images/img402.jpg>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[28
 
 
 
@@ -3881,19 +3507,40 @@ and I'll forget about whatever was undefined.
 (./chapters/chapter_4.tex
 \openout5 = `main.mw'.
 
-[50
+[29
 
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[30
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[31
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 )
+\openout5 = `main.mw'.
+
+[32
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
 \openout2 = `chapters/conclusion.aux'.
 
 (./chapters/conclusion.tex)
 \openout5 = `main.mw'.
 
-[51
+[33
 
 
 
@@ -3903,7 +3550,7 @@ and I'll forget about whatever was undefined.
 
 \openout5 = `main.mw'.
 
-[52
+[34
 
 
 
@@ -3912,12 +3559,7 @@ and I'll forget about whatever was undefined.
 
 \openout5 = `main.mw'.
 
-[53] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[54
+[35
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
@@ -3927,7 +3569,7 @@ and I'll forget about whatever was undefined.
 (./aftertext/apendice_a.tex
 \openout5 = `main.mw'.
 
-[55
+[36
 
 
 ] (latexcache/main.mw)
@@ -3935,18 +3577,18 @@ and I'll forget about whatever was undefined.
 
 \openout5 = `main.mw'.
 
-[56] (latexcache/main.mw)
+[37] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 )
 \openout5 = `main.mw'.
 
-[57] (latexcache/main.mw)
+[38] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[58
+[39
 
 
 
@@ -3956,7 +3598,9 @@ and I'll forget about whatever was undefined.
 \openout2 = `aftertext/anexo_a.aux'.
 
 (./aftertext/anexo_a.tex
-<pictures/SOBRAEP.pdf, id=925, 597.50829pt x 845.0471pt>
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 30.
+<pictures/SOBRAEP.pdf, id=435, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf>
 Package pdftex.def Info: pictures/SOBRAEP.pdf  used on input line 43.
@@ -3965,7 +3609,7 @@ File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf>
 Package pdftex.def Info: pictures/SOBRAEP.pdf  used on input line 43.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<pictures/SOBRAEP.pdf, id=928, page=1, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=438, page=1, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf, page 1>
 Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
@@ -3976,7 +3620,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
-[59
+[40
 
 
 ] (latexcache/main.mw)
@@ -3996,10 +3640,10 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
-[60 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
+[41 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/SOBRAEP.pdf, id=960, page=2, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=470, page=2, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf, page 2>
 Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
@@ -4014,10 +3658,10 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
-[61 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
+[42 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/SOBRAEP.pdf, id=969, page=3, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=481, page=3, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf, page 3>
 Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
@@ -4032,10 +3676,10 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
-[62 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
+[43 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/SOBRAEP.pdf, id=987, page=4, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=501, page=4, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf, page 4>
 Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
@@ -4050,7 +3694,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
-[63 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
+[44 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 )
@@ -4059,7 +3703,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (./aftertext/anexo_b.tex
 \openout5 = `main.mw'.
 
-[64
+[45
 
 
 
@@ -4070,22 +3714,10 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 )
 \openout5 = `main.mw'.
 
-[65] (latexcache/main.mw)
+[46] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-(latexcache/main.ind
-\openout5 = `main.mw'.
-
-[66
-
-
-
-
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-) 
+(latexcache/main.ind) 
 AED: lastpage setting LastPage
 \tf@lof=\write26
 \openout5 = `main.lof'.
@@ -4155,18 +3787,6 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 \openout5 = `main.mw'.
 
 )
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4256,303 +3876,51 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 ) (latexcache/chapters/chapter_2.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4610,12 +3978,104 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 )
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
 (latexcache/chapters/chapter_4.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4850,20 +4310,10 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
-)
-\openout5 = `main.mw'.
+))
 
-\openout5 = `main.mw'.
+LaTeX Warning: There were multiply-defined labels.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-)
 
 Package biblatex Warning: Please rerun LaTeX.
 (biblatex)                Page breaks have changed.
@@ -4885,44 +4335,34 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 67329 strings out of 479304
- 1280130 string characters out of 5869779
- 2536727 words of memory out of 5000000
- 82333 multiletter control sequences out of 15000+600000
- 507834 words of font info for 290 fonts, out of 8000000 for 9000
+ 64873 strings out of 479304
+ 1248513 string characters out of 5869779
+ 2424848 words of memory out of 5000000
+ 80231 multiletter control sequences out of 15000+600000
+ 495605 words of font info for 214 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 127i,19n,131p,1453b,4228s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
-ve/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/l
-m/lm-mathit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}</usr/share/
-texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
-i8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/font
-s/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/
-usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmri8a.pfb>
-Output written on latexcache/main.pdf (68 pages, 995395 bytes).
+ 127i,18n,131p,1453b,4228s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
+hare/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}</usr/share/texlive/texmf-dist/font
+s/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
+12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/font
+s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
+vetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on latexcache/main.pdf (48 pages, 1237487 bytes).
 PDF statistics:
- 1403 PDF objects out of 1440 (max. 8388607)
- 1228 compressed objects within 13 object streams
- 356 named destinations out of 1000 (max. 500000)
- 74537 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 760 PDF objects out of 1000 (max. 8388607)
+ 642 compressed objects within 7 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 65677 words of extra memory for PDF output out of 74296 (max. 10000000)
 

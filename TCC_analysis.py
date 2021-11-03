@@ -152,7 +152,7 @@ dir_ = 'Results/sep_24_1'
 
 data = data_from_directory_files(dir_, delete_plots=True)
 
-plot_all_files(save=True, directory=dir_, adjust=True)
+# plot_all_files(save=True, directory=dir_, adjust=True)
 
 
 # plt.figure()
