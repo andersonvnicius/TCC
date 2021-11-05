@@ -3,9 +3,23 @@
 import os
 from os.path import isfile, join
 from numpy import array, average, linspace
+from scipy.stats import linregress
 from pandas import read_csv
 from datetime import datetime
 import matplotlib.pyplot as plt
+
+# class Device:
+#
+#     def __init__(self):
+#         self.offset = 0
+#         self.coefficient = 1
+#
+#     def calibrate(self, read_low: list, read_high: list, load_low: float, load_high: float):
+#         self.offset = load_low/average(read_low)
+#         self.coefficient =
+#
+#     def read(self, value):
+#         return self.coefficient*value + self.offset
 
 
 def data_from_directory_files(directory: str, delete_plots=False):
@@ -152,8 +166,19 @@ dir_ = 'Results/sep_24_1'
 
 data = data_from_directory_files(dir_, delete_plots=True)
 
-# plot_all_files(save=True, directory=dir_, adjust=True)
+weight = array([data['weight_value'] for data in data])
+read = array([data['read_load'] for data in data])
 
+regress = linregress(x=weight, y=read)
+
+
+plt.plot(weight, read, 'o', label='original data')
+plt.plot(weight, regress.intercept + regress.slope*weight, 'r', label='fitted line')
+plt.legend()
+plt.show()
+
+
+# plot_all_files(save=True, directory=dir_, adjust=True)
 
 # plt.figure()
 #
@@ -177,3 +202,14 @@ data = data_from_directory_files(dir_, delete_plots=True)
 
 
 # plot_read(data[0])
+
+# keys = [
+#     'weight_class',
+#     'weight_value',
+#     'file_name',
+#     'time_start',
+#     'time_end',
+#     'read_offset',
+#     'read_load',
+#     'read_full'
+# ]
