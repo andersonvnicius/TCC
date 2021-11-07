@@ -166,16 +166,30 @@ dir_ = 'Results/sep_24_1'
 
 data = data_from_directory_files(dir_, delete_plots=True)
 
+
 weight = array([data['weight_value'] for data in data])
 read = array([data['read_load'] for data in data])
 
 regress = linregress(x=weight, y=read)
 
 
-plt.plot(weight, read, 'o', label='original data')
-plt.plot(weight, regress.intercept + regress.slope*weight, 'r', label='fitted line')
+plt.plot(
+    weight,
+    read,
+    'o',
+    label='Valores obtidos pelo ADC'
+)
+plt.plot(
+    weight,
+    regress.intercept + regress.slope*weight,
+    'g',
+    label=f'f(L) = {round(regress.slope,4)} L + {round(regress.intercept,4)}'
+)
+plt.xlabel('Massa aplicada [kg]')
+plt.ylabel('leitura do amplificador analógico digital')
 plt.legend()
 plt.show()
+plt.savefig(f'{dir_}.png')
 
 
 # plot_all_files(save=True, directory=dir_, adjust=True)
