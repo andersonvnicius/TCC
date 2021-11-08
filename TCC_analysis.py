@@ -167,23 +167,48 @@ dir_ = 'Results/sep_24_1'
 data = data_from_directory_files(dir_, delete_plots=True)
 
 
-weight = array([data['weight_value'] for data in data])
-read = array([data['read_load'] for data in data])
+# regressao linear com 2 pontos
+adjust_2pt = ['1', '3']
+weight_2pt = array([data['weight_value'] for data in data if data['weight_class'] in adjust_2pt])
+read_2pt = array([data['read_load'] for data in data if data['weight_class'] in adjust_2pt])
+regress_2pt = linregress(x=weight_2pt, y=read_2pt)
 
-regress = linregress(x=weight, y=read)
+# regressao linear com 3 pontos
+adjust_3pt = ['1', 'a', '3']
+weight_3pt = array([data['weight_value'] for data in data if data['weight_class'] in adjust_3pt])
+read_3pt = array([data['read_load'] for data in data if data['weight_class'] in adjust_3pt])
+regress_3pt = linregress(x=weight_3pt, y=read_3pt)
+
+# regressao linear com todos os pontos
+weight_allpt = array([data['weight_value'] for data in data])
+read_allpt = array([data['read_load'] for data in data])
+regress_allpt = linregress(x=weight_allpt, y=read_allpt)
 
 
+# plotando os valores
 plt.plot(
-    weight,
-    read,
+    weight_allpt,
+    read_allpt,
     'o',
     label='Valores obtidos pelo ADC'
 )
 plt.plot(
-    weight,
-    regress.intercept + regress.slope*weight,
+    weight_allpt,
+    regress_2pt.intercept + regress_2pt.slope*weight_allpt,
+    'r',
+    label=f'Regressão 2pts: f(L) = {round(regress_2pt.slope,4)} L + {round(regress_2pt.intercept,4)}'
+)
+plt.plot(
+    weight_allpt,
+    regress_3pt.intercept + regress_3pt.slope*weight_allpt,
     'g',
-    label=f'f(L) = {round(regress.slope,4)} L + {round(regress.intercept,4)}'
+    label=f'Regressão 3pts: f(L) = {round(regress_3pt.slope,4)} L + {round(regress_3pt.intercept,4)}'
+)
+plt.plot(
+    weight_allpt,
+    regress_allpt.intercept + regress_allpt.slope*weight_allpt,
+    'cyan',
+    label=f'Regressão 5pts: f(L) = {round(regress_allpt.slope,4)} L + {round(regress_allpt.intercept,4)}'
 )
 plt.xlabel('Massa aplicada [kg]')
 plt.ylabel('leitura do amplificador analógico digital')
