@@ -8,19 +8,6 @@ from pandas import read_csv
 from datetime import datetime
 import matplotlib.pyplot as plt
 
-# class Device:
-#
-#     def __init__(self):
-#         self.offset = 0
-#         self.coefficient = 1
-#
-#     def calibrate(self, read_low: list, read_high: list, load_low: float, load_high: float):
-#         self.offset = load_low/average(read_low)
-#         self.coefficient =
-#
-#     def read(self, value):
-#         return self.coefficient*value + self.offset
-
 
 def data_from_directory_files(directory: str, delete_plots=False):
     """
@@ -37,15 +24,16 @@ def data_from_directory_files(directory: str, delete_plots=False):
         if files_to_delete:
             print(f'{files_to_delete} removed')
 
-
     data_ = []
 
     for item in result:
         df = list(read_csv(f'{directory}/{item[2]}').get('0'))
+        weight_value = get_weight_value(item[0])
         data_.append(
             {
                 'weight_class': item[0],
-                'weight_value': get_weight_value(item[0]),
+                'weight_value': weight_value,
+                'strain_value': get_strain_value(weight_value),
                 'file_name': item[2],
                 'time_start': item[1][0],
                 'time_end': item[1][1],
@@ -91,6 +79,15 @@ def get_weight_value(weight_class: str):
     return loads[weight_class]
 
 
+def get_strain_value(weight: float):
+    P = weight * 9.81
+    E = 85186548337.0813
+    L = 155E-3
+    b = 20E-3
+    t = 2E-3
+    return (6 * P * L) / (E * b * t ** 2)
+
+
 def read_adjust(data_item):
     read_array = array(data_item['read_full']) - data_item['read_offset']
     transfer_constant = data_item['weight_value'] / (data_item['read_load'] - data_item['read_offset'])
@@ -125,7 +122,7 @@ def plot_read(plot_item, adjust=True, savefig=False, savefig_dir=''):
         load_hline = plot_item['weight_value']
         load_unit = 'kg'
         plt.ylabel('load value [kg]')
-        filecomp=''
+        filecomp = ''
     else:
         load_axis = plot_item['read_full']
         load_hline = plot_item['read_load']
@@ -166,7 +163,6 @@ dir_ = 'Results/sep_24_1'
 
 data = data_from_directory_files(dir_, delete_plots=True)
 
-
 # regressao linear com 2 pontos
 adjust_2pt = ['1', '3']
 weight_2pt = array([data['weight_value'] for data in data if data['weight_class'] in adjust_2pt])
@@ -184,7 +180,6 @@ weight_allpt = array([data['weight_value'] for data in data])
 read_allpt = array([data['read_load'] for data in data])
 regress_allpt = linregress(x=weight_allpt, y=read_allpt)
 
-
 # plotando os valores
 plt.plot(
     weight_allpt,
@@ -194,28 +189,27 @@ plt.plot(
 )
 plt.plot(
     weight_allpt,
-    regress_2pt.intercept + regress_2pt.slope*weight_allpt,
+    regress_2pt.intercept + regress_2pt.slope * weight_allpt,
     'r',
-    label=f'Regressão 2pts: f(L) = {round(regress_2pt.slope,4)} L + {round(regress_2pt.intercept,4)}'
+    label=f'Regressão 2pts: f(L) = {round(regress_2pt.slope, 4)} L + {round(regress_2pt.intercept, 4)}'
 )
 plt.plot(
     weight_allpt,
-    regress_3pt.intercept + regress_3pt.slope*weight_allpt,
+    regress_3pt.intercept + regress_3pt.slope * weight_allpt,
     'g',
-    label=f'Regressão 3pts: f(L) = {round(regress_3pt.slope,4)} L + {round(regress_3pt.intercept,4)}'
+    label=f'Regressão 3pts: f(L) = {round(regress_3pt.slope, 4)} L + {round(regress_3pt.intercept, 4)}'
 )
 plt.plot(
     weight_allpt,
-    regress_allpt.intercept + regress_allpt.slope*weight_allpt,
+    regress_allpt.intercept + regress_allpt.slope * weight_allpt,
     'cyan',
-    label=f'Regressão 5pts: f(L) = {round(regress_allpt.slope,4)} L + {round(regress_allpt.intercept,4)}'
+    label=f'Regressão 5pts: f(L) = {round(regress_allpt.slope, 4)} L + {round(regress_allpt.intercept, 4)}'
 )
 plt.xlabel('Massa aplicada [kg]')
 plt.ylabel('leitura do amplificador analógico digital')
 plt.legend()
 plt.show()
-plt.savefig(f'{dir_}.png')
-
+plt.savefig(f'{dir_}_weight.png')
 
 # plot_all_files(save=True, directory=dir_, adjust=True)
 
