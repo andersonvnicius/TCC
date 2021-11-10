@@ -33,7 +33,7 @@ def data_from_directory_files(directory, delete_plots=False):
             {
                 'weight_class': item[0],
                 'weight_value': weight_value,
-                'strain_value': get_strain_value(weight_value),
+                'strain_value': get_strain_value(weight_value)*1e6,
                 'file_name': item[2],
                 'time_start': item[1][0],
                 'time_end': item[1][1],
@@ -164,19 +164,25 @@ def regression_weight_read(adj_points, data_):
     return linregress(x=x_values, y=y_values)
 
 
-def plot_regression(regression_list, weights, reads):
+def regression_read_strain(adj_points, data_):
+    x_values = array([data['read_load'] for data in data_ if data['weight_class'] in adj_points])
+    y_values = array([data['strain_value'] for data in data_ if data['weight_class'] in adj_points])
+    return linregress(x=x_values, y=y_values)
+
+
+def plot_regression(regression_list, x_points, y_points):
     # plotando os valores
     plt.plot(
-        weights,
-        reads,
+        x_points,
+        y_points,
         'o',
-        label='Valores obtidos pelo ADC'
+        label='Pontos originais'
     )
     i=1
     for regression in regression_list:
         plt.plot(
-            weights,
-            regression.intercept + regression.slope * weights,
+            x_points,
+            regression.intercept + regression.slope * x_points,
             f'C{i**2}',
             label=f'f(L) = {round(regression.slope, 4)} L + {round(regression.intercept, 4)}'
         )
@@ -190,33 +196,84 @@ dir_ = 'Results/sep_24_1'
 data = data_from_directory_files(dir_, delete_plots=True)
 
 # plot de cada analise
-plot_all_files(save=True, directory=dir_, adjust=False)
+# plot_all_files(save=True, directory=dir_, adjust=True)
 
-# # obtendo dados de cada leitura
-# df = DataFrame(data).sort_values('read_load').drop(['file_name', 'read_full'], axis=1)
-#
-# # regressoes
-# regression = [
-#     regression_weight_read(adj_points=['1', '3'], data_=data),  # regressão com 2 pontos
-#     regression_weight_read(adj_points=['1', 'a', '3'], data_=data),  # regressão com 3 pontos
-#     regression_weight_read(adj_points=['0', '1', '2', 'a', 'b', '3'], data_=data)  # regressão com todos os pontos
+# obtendo dados de cada leitura
+df = DataFrame(data).sort_values('read_load').drop(['file_name', 'read_full'], axis=1)
+
+# regressoes entre peso e valor obtido pelo ADC
+plt.figure()
+plot_regression(
+    regression_list=[
+        regression_weight_read(  # regressão com 2 pontos
+            adj_points=['1', '3'],
+            data_=data
+        ),
+        regression_weight_read(  # regressão com 3 pontos
+            adj_points=['1', 'a', '3'],
+            data_=data
+        ),
+        regression_weight_read(  # regressão com todos os pontos
+            adj_points=['0', '1', '2', 'a', 'b', '3'],
+            data_=data
+        )
+    ],
+    x_points=array(df['weight_value']),
+    y_points=array(df['read_load'])
+)
+plt.title('Regressão entre peso e valor no ADC')
+plt.xlabel('Massa aplicada [kg]')
+plt.ylabel('Leitura do amplificador analógico digital')
+plt.legend()
+plt.show()
+plt.savefig(f'{dir_}_weight.png')
+plt.close()
+
+
+# regressoes entre valor do ADC e deformacao
+plt.figure()
+plot_regression(
+    regression_list=[
+        regression_read_strain(  # regressão com 2 pontos
+            adj_points=['1', '3'],
+            data_=data
+        ),
+        regression_read_strain(  # regressão com 3 pontos
+            adj_points=['1', 'a', '3'],
+            data_=data
+        ),
+        regression_read_strain(  # regressão com todos os pontos
+            adj_points=['0', '1', '2', 'a', 'b', '3'],
+            data_=data
+        )
+    ],
+    x_points=array(df['read_load']),
+    y_points=array(df['strain_value'])
+)
+plt.title('Regressão entre valor obtido e deformação')
+plt.xlabel('Valor obtido pelo amplificador analógico digital')
+plt.ylabel('Deformação no strain gauge [um]')
+plt.legend()
+plt.show()
+plt.savefig(f'{dir_}_deformation.png')
+plt.close()
+
+# regression_list = [
+#     regression_read_strain(  # regressão com 2 pontos
+#         adj_points=['1', '3'],
+#         data_=data
+#     ),
+#     regression_read_strain(  # regressão com 3 pontos
+#         adj_points=['1', 'a', '3'],
+#         data_=data
+#     ),
+#     regression_read_strain(  # regressão com todos os pontos
+#         adj_points=['0', '1', '2', 'a', 'b', '3'],
+#         data_=data
+#     )
 # ]
-# plt.figure()
-# plot_regression(
-#     regression_list=regression,
-#     weights=array(df['weight_value']),
-#     reads=array(df['read_load'])
-# )
-# plt.xlabel('Massa aplicada [kg]')
-# plt.ylabel('leitura do amplificador analógico digital')
-# plt.legend()
-# plt.show()
-# plt.savefig(f'{dir_}_weight.png')
-#
-# # analise analitica
-# # wt = array([data['weight_value'] for data in data])
-# # st = array([data['strain_value'] * 1e6 for data in data])
-# # df = DataFrame([wt, st]).T.drop_duplicates().sort_values(0)
-# # df.columns = ['weight', 'calculated_strain']
-# # df.to_csv('Results/sep_24_1_results.csv', index=None)
+
+# analise analitica
+# df.columns = ['weight', 'calculated_strain']
+# df.to_csv('Results/sep_24_1_results.csv', index=None)
 #
