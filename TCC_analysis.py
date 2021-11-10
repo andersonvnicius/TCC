@@ -4,12 +4,12 @@ import os
 from os.path import isfile, join
 from numpy import array, average, linspace
 from scipy.stats import linregress
-from pandas import read_csv
+from pandas import read_csv, DataFrame
 from datetime import datetime
 import matplotlib.pyplot as plt
 
 
-def data_from_directory_files(directory: str, delete_plots=False):
+def data_from_directory_files(directory, delete_plots=False):
     """
     extracts data from files in a directory
     """
@@ -46,7 +46,7 @@ def data_from_directory_files(directory: str, delete_plots=False):
     return data_
 
 
-def time_format(time_string: str):
+def time_format(time_string):
     t = time_string.split('_')
     start_time = f"{t[0]}:{t[1]}:{t[2]}"
     end_time = f"{t[3]}:{t[4]}:{t[5]}"
@@ -54,7 +54,7 @@ def time_format(time_string: str):
     return start_time, end_time
 
 
-def get_weight_value(weight_class: str):
+def get_weight_value(weight_class):
     weights_kg = {
         'nut': 3.06E-3,
         'fuse': 48.63E-3,
@@ -79,7 +79,7 @@ def get_weight_value(weight_class: str):
     return loads[weight_class]
 
 
-def get_strain_value(weight: float):
+def get_strain_value(weight):
     P = weight * 9.81
     E = 85186548337.0813
     L = 155E-3
@@ -88,9 +88,9 @@ def get_strain_value(weight: float):
     return (6 * P * L) / (E * b * t ** 2)
 
 
-def read_adjust(data_item):
-    read_array = array(data_item['read_full']) - data_item['read_offset']
-    transfer_constant = data_item['weight_value'] / (data_item['read_load'] - data_item['read_offset'])
+def read_adjust(data_):
+    read_array = array(data_['read_full']) - data_['read_offset']
+    transfer_constant = data_['weight_value'] / (data_['read_load'] - data_['read_offset'])
 
     return read_array * transfer_constant
 
@@ -132,7 +132,6 @@ def plot_read(plot_item, adjust=True, savefig=False, savefig_dir=''):
 
     plt.plot(time_axis, load_axis, color=colors[plot_item['weight_class']])
     plt.axhline(load_hline, color='orange', linestyle='--')
-    # plt.axhline(plot_item['read_offset'], color='cyan', linestyle='--')
     plt.xlabel('Elapsed time [s]')
 
     plt.legend(
@@ -159,108 +158,65 @@ def plot_all_files(save=True, directory='', adjust=False):
     [plot_read(item, adjust=adjust, savefig=save, savefig_dir=directory) for item in data]
 
 
+def regression_weight_read(adj_points, data_):
+    x_values = array([data['weight_value'] for data in data_ if data['weight_class'] in adj_points])
+    y_values = array([data['read_load'] for data in data_ if data['weight_class'] in adj_points])
+    return linregress(x=x_values, y=y_values)
+
+
+def plot_regression(regression_list, weights, reads):
+    # plotando os valores
+    plt.plot(
+        weights,
+        reads,
+        'o',
+        label='Valores obtidos pelo ADC'
+    )
+    i=1
+    for regression in regression_list:
+        plt.plot(
+            weights,
+            regression.intercept + regression.slope * weights,
+            f'C{i**2}',
+            label=f'f(L) = {round(regression.slope, 4)} L + {round(regression.intercept, 4)}'
+        )
+        i+=1
+
+
+# diretorio dos arquivos pra analise
 dir_ = 'Results/sep_24_1'
 
+# obtendo dados dos arquivos de resultados
 data = data_from_directory_files(dir_, delete_plots=True)
 
-# regressao linear com 2 pontos
-adjust_2pt = ['1', '3']
-weight_2pt = array([data['weight_value'] for data in data if data['weight_class'] in adjust_2pt])
-read_2pt = array([data['read_load'] for data in data if data['weight_class'] in adjust_2pt])
-regress_2pt = linregress(x=weight_2pt, y=read_2pt)
+# plot de cada analise
+plot_all_files(save=True, directory=dir_, adjust=False)
 
-# regressao linear com 3 pontos
-adjust_3pt = ['1', 'a', '3']
-weight_3pt = array([data['weight_value'] for data in data if data['weight_class'] in adjust_3pt])
-read_3pt = array([data['read_load'] for data in data if data['weight_class'] in adjust_3pt])
-regress_3pt = linregress(x=weight_3pt, y=read_3pt)
-
-# regressao linear com todos os pontos
-weight_allpt = array([data['weight_value'] for data in data])
-read_allpt = array([data['read_load'] for data in data])
-regress_allpt = linregress(x=weight_allpt, y=read_allpt)
-
-# # plotando os valores
-# plt.plot(
-#     weight_allpt,
-#     read_allpt,
-#     'o',
-#     label='Valores obtidos pelo ADC'
-# )
-# plt.plot(
-#     weight_allpt,
-#     regress_2pt.intercept + regress_2pt.slope * weight_allpt,
-#     'r',
-#     label=f'Regressão 2pts: f(L) = {round(regress_2pt.slope, 4)} L + {round(regress_2pt.intercept, 4)}'
-# )
-# plt.plot(
-#     weight_allpt,
-#     regress_3pt.intercept + regress_3pt.slope * weight_allpt,
-#     'g',
-#     label=f'Regressão 3pts: f(L) = {round(regress_3pt.slope, 4)} L + {round(regress_3pt.intercept, 4)}'
-# )
-# plt.plot(
-#     weight_allpt,
-#     regress_allpt.intercept + regress_allpt.slope * weight_allpt,
-#     'cyan',
-#     label=f'Regressão 5pts: f(L) = {round(regress_allpt.slope, 4)} L + {round(regress_allpt.intercept, 4)}'
+# # obtendo dados de cada leitura
+# df = DataFrame(data).sort_values('read_load').drop(['file_name', 'read_full'], axis=1)
+#
+# # regressoes
+# regression = [
+#     regression_weight_read(adj_points=['1', '3'], data_=data),  # regressão com 2 pontos
+#     regression_weight_read(adj_points=['1', 'a', '3'], data_=data),  # regressão com 3 pontos
+#     regression_weight_read(adj_points=['0', '1', '2', 'a', 'b', '3'], data_=data)  # regressão com todos os pontos
+# ]
+# plt.figure()
+# plot_regression(
+#     regression_list=regression,
+#     weights=array(df['weight_value']),
+#     reads=array(df['read_load'])
 # )
 # plt.xlabel('Massa aplicada [kg]')
 # plt.ylabel('leitura do amplificador analógico digital')
 # plt.legend()
 # plt.show()
 # plt.savefig(f'{dir_}_weight.png')
-
-
-
-# analise analitica
-from pandas import DataFrame
-
-wt = array([data['weight_value'] for data in data])
-st = array([data['strain_value']*1e6 for data in data])
-df = DataFrame([wt, st]).T.drop_duplicates().sort_values(0)
-df.columns = ['weight', 'calculated_strain']
-df.to_csv('Results/sep_24_1_results.csv', index=None)
-
-
-
-
-
-
-
-
-# plot_all_files(save=True, directory=dir_, adjust=True)
-
-# plt.figure()
 #
-# legend = []
-# for item in data[:-3]:
-#     legend.append(item['weight'])
-#     plt.plot(item['dataset'][0:100])
+# # analise analitica
+# # wt = array([data['weight_value'] for data in data])
+# # st = array([data['strain_value'] * 1e6 for data in data])
+# # df = DataFrame([wt, st]).T.drop_duplicates().sort_values(0)
+# # df.columns = ['weight', 'calculated_strain']
+# # df.to_csv('Results/sep_24_1_results.csv', index=None)
 #
-# plt.legend(legend)
-# plt.show()
-#
-# plt.figure()
-#
-# legend = []
-# for item in data[:-3]:
-#     plt.plot(item['dataset'][1000:3000])
-#     legend.append(item['weight'])
-#
-# plt.legend(legend)
-# plt.show()
-
-
-# plot_read(data[0])
-
-# keys = [
-#     'weight_class',
-#     'weight_value',
-#     'file_name',
-#     'time_start',
-#     'time_end',
-#     'read_offset',
-#     'read_load',
-#     'read_full'
-# ]
