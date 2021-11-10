@@ -180,36 +180,54 @@ weight_allpt = array([data['weight_value'] for data in data])
 read_allpt = array([data['read_load'] for data in data])
 regress_allpt = linregress(x=weight_allpt, y=read_allpt)
 
-# plotando os valores
-plt.plot(
-    weight_allpt,
-    read_allpt,
-    'o',
-    label='Valores obtidos pelo ADC'
-)
-plt.plot(
-    weight_allpt,
-    regress_2pt.intercept + regress_2pt.slope * weight_allpt,
-    'r',
-    label=f'Regressão 2pts: f(L) = {round(regress_2pt.slope, 4)} L + {round(regress_2pt.intercept, 4)}'
-)
-plt.plot(
-    weight_allpt,
-    regress_3pt.intercept + regress_3pt.slope * weight_allpt,
-    'g',
-    label=f'Regressão 3pts: f(L) = {round(regress_3pt.slope, 4)} L + {round(regress_3pt.intercept, 4)}'
-)
-plt.plot(
-    weight_allpt,
-    regress_allpt.intercept + regress_allpt.slope * weight_allpt,
-    'cyan',
-    label=f'Regressão 5pts: f(L) = {round(regress_allpt.slope, 4)} L + {round(regress_allpt.intercept, 4)}'
-)
-plt.xlabel('Massa aplicada [kg]')
-plt.ylabel('leitura do amplificador analógico digital')
-plt.legend()
-plt.show()
-plt.savefig(f'{dir_}_weight.png')
+# # plotando os valores
+# plt.plot(
+#     weight_allpt,
+#     read_allpt,
+#     'o',
+#     label='Valores obtidos pelo ADC'
+# )
+# plt.plot(
+#     weight_allpt,
+#     regress_2pt.intercept + regress_2pt.slope * weight_allpt,
+#     'r',
+#     label=f'Regressão 2pts: f(L) = {round(regress_2pt.slope, 4)} L + {round(regress_2pt.intercept, 4)}'
+# )
+# plt.plot(
+#     weight_allpt,
+#     regress_3pt.intercept + regress_3pt.slope * weight_allpt,
+#     'g',
+#     label=f'Regressão 3pts: f(L) = {round(regress_3pt.slope, 4)} L + {round(regress_3pt.intercept, 4)}'
+# )
+# plt.plot(
+#     weight_allpt,
+#     regress_allpt.intercept + regress_allpt.slope * weight_allpt,
+#     'cyan',
+#     label=f'Regressão 5pts: f(L) = {round(regress_allpt.slope, 4)} L + {round(regress_allpt.intercept, 4)}'
+# )
+# plt.xlabel('Massa aplicada [kg]')
+# plt.ylabel('leitura do amplificador analógico digital')
+# plt.legend()
+# plt.show()
+# plt.savefig(f'{dir_}_weight.png')
+
+
+
+# analise analitica
+from pandas import DataFrame
+
+wt = array([data['weight_value'] for data in data])
+st = array([data['strain_value']*1e6 for data in data])
+df = DataFrame([wt, st]).T.drop_duplicates().sort_values(0)
+df.columns = ['weight', 'calculated_strain']
+df.to_csv('Results/sep_24_1_results.csv', index=None)
+
+
+
+
+
+
+
 
 # plot_all_files(save=True, directory=dir_, adjust=True)
 
