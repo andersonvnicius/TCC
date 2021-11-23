@@ -33,7 +33,7 @@ def data_from_directory_files(directory, delete_plots=False):
             {
                 'weight_class': item[0],
                 'weight_value': weight_value,
-                'strain_value': get_strain_value(weight_value)*1e6,
+                'strain_value': get_strain_value(weight_value) * 1e6,
                 'file_name': item[2],
                 'time_start': item[1][0],
                 'time_end': item[1][1],
@@ -178,15 +178,15 @@ def plot_regression(regression_list, x_points, y_points, color_int=1):
         'o',
         label='Pontos originais'
     )
-    color_int=color_int
+    color_int = color_int
     for regression in regression_list:
         plt.plot(
             x_points,
             regression.intercept + regression.slope * x_points,
-            f'C{color_int**2}',
+            f'C{color_int ** 2}',
             label=f'f(x) = {round(regression.slope, 4)} x + {round(regression.intercept, 4)}'
         )
-        color_int+=1
+        color_int += 1
 
 
 # diretorio dos arquivos pra analise
@@ -230,7 +230,6 @@ plt.show()
 plt.savefig(f'{dir_}_weight.png')
 plt.close()
 
-
 # regressoes entre valor do ADC e deformacao
 regression_list = [
     regression_read_strain(  # regressão com 2 pontos
@@ -247,12 +246,12 @@ regression_list = [
     )
 ]
 
-i=1
+i = 1
 for regression in regression_list:
     df[f'linreg_{i}'] = regression.slope * df['read_load'] + regression.intercept
-    i+=1
+    i += 1
 
-df.to_csv('Results/sep_24_1_results.csv', index=None)
+# df.to_csv('Results/sep_24_1_results.csv', index=None)
 
 plt.figure()
 plot_regression(
@@ -266,5 +265,5 @@ plt.xlabel('Valor obtido pelo amplificador analógico digital')
 plt.ylabel('Deformação no strain gauge [um]')
 plt.legend()
 plt.show()
-plt.savefig(f'{dir_}_deformation.png')
+# plt.savefig(f'{dir_}_deformation.png')
 plt.close()
