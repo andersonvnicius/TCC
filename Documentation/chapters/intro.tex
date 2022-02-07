@@ -1,68 +1,19 @@
-%% intro.tex
-%%
-%% Copyright 2017 Evandro Coan
-%% Copyright 2012-2016 by abnTeX2 group at http://www.abntex.net.br/
-%%
-%% This work may be distributed and/or modified under the
-%% conditions of the LaTeX Project Public License, either version 1.3
-%% of this license or (at your option) any later version.
-%% The latest version of this license is in
-%%   http://www.latex-project.org/lppl.txt
-%% and version 1.3 or later is part of all distributions of LaTeX
-%% version 2005/12/01 or later.
-%%
-%% This work has the LPPL maintenance status `maintained'.
-%% The Current Maintainer of this work is the Evandro Coan.
-%%
-%% The last Maintainer of this work was the abnTeX2 team, led
-%% by Lauro César Araujo. Further information are available on
-%% https://www.abntex.net.br/
-%%
-%% This work consists of a bunch of files. But originally there ware 3 files
-%% which are renamed as follows:
-%% Renamed the `abntex2-modelo-include-comandos` to `chapters/chapter_1.tex`
-%% Renamed the `abntex2-modelo-trabalho-academico.tex` to `chapters/intro.tex`
-%% Renamed the `abntex2-modelo-references.bib` to `aftertext/modelo-ufsc-references.bib`
-%%
-%% This file was originally the main template file, however this main file was
-%% split into several new files, which are respectively drastically changed,
-%% except this files which contains most of the main documentation message.
-%%
 
-% ------------------------------------------------------------------------
-% ------------------------------------------------------------------------
-% abnTeX2: Modelo de Trabalho Academico (tese de doutorado, dissertacao de
-% mestrado e trabalhos monograficos em geral) em conformidade com
-% ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
-% Apresentacao
-% ------------------------------------------------------------------------
-% ------------------------------------------------------------------------
-
-% The \phantomsection command is needed to create a link to a place in the document that is not a
-% figure, equation, table, section, subsection, chapter, etc.
-% https://tex.stackexchange.com/questions/44088/when-do-i-need-to-invoke-phantomsection
 \phantomsection
-
 
 \chapter{\lang{Introduction}{Introdução}}
 \phantomsection
 
-%ORGANIZAR, TIRAR A PARTE DE SEGURANÇA VEICULAR
-%ESCREVER OS OBJETIVOS QUE VAI AJUDAR
-%MOSTRAR A FABRICAÇÃO
+Atualmente, é notado o constante aumento da importância da otimização dos projetos de componentes em projetos de produtos na indústria automotiva, produtos altamente otimizados resultam em um menor custo de material e de fabricação dos componentes, (Hibbeler) afirma que “a carga para a qual um elemento é projetado pode ser diferente das cargas realmente aplicadas. As dimensões estipuladas no projeto de uma estrutura ou máquina podem não ser exatas, na realidade, por causa de erros de fabricação ou cometidos na montagem de seus componentes”.
 
-%Na contemporaneidade observa-se o constante aumento de importância nos sistemas de segurança em veículos, tanto para a integridade dos passageiros quanto para a segurança dos pedestres. %Atualmente, fatores de segurança no projeto de componentes mecânicos os sobre dimensiona a fim de evitar sua falha em possíveis situações extremas causadas por imprevistos.% Veículos de custo elevado usualmente são equipados com sistemas de segurança ativa, como sistema de controle de tração (TCS) E programa de controle de estabilidade (ESP), esses sistemas evitam equívocos humanos na direção do veículo, porem são dependentes do sensoriamento correto e do controle robusto das grandezas envolvidas. // 
+Segundo (Hibbeler) “Para se garantir a segurança, é preciso escolher uma tensão admissível que restrinja a carga aplicada a um valor menor do que a carga que o elemento pode suportar totalmente.” Então como resposta às incertezas envolvidas no projeto analítico de um componente os projetistas devem projetar componentes que suportam forças superiores às presentes na utilização do componente. O que resulta em altos valores de fator de segurança em um projeto, o que causa impacto monetário e aumento de massa do componente. Uma das maneiras que permite a diminuição de valores de fator de segurança é a alimentação do projeto do componente com dados de cargas que representam o mais próximo o possível aos presentes na situação real.
 
-\cite{Nurprasetio} %Nurprasetio (2018) %indica que a performance do veículo se torna o aspecto mais importante a ser definido pelos engenheiros e montadoras uma vez que aumentos de performance nos veículos pode significantemente reduzir o risco de acidentes e melhorar o conforto na direção, também
-indica que o fator chave para avaliar a performance do veículo é o sensoriamento de diversas grandezas relacionadas, porém, atualmente certos parâmetros não podem ser medidos diretamente em um veículo, entre eles força normal, torque e velocidade rotacional em um eixo.
+Dados reais de utilização podem ser obtidos por sensores em componentes reais ou de teste submetidos a situações reais, porém atualmente certos parâmetros não podem ser facilmente medidos de maneira direta em um veículo, dentre eles forças normais e forças torcionais (Nurprasetio 2018). Hibbeler afirma que “as medições de deformação são experimentais e, uma vez obtidas, podem ser relacionadas com as cargas aplicadas, ou tensões, que agem no interior do corpo.” Logo conclui-se que uma maneira direta de medir as forças internas atuantes em um componentes é obtendo os dados de deformação local.
 
-Todo eixo onde ocorre transmissão de potencia apresenta, ao longo de sua coordenada axial, a aplicação de um momento denominado torque. Foi identificada a não existência de dispositivos com preços acessíveis para detecção desse tipo de grandeza em um eixo rotativo, dispositivos que conseguem obter esse tipo de parâmetro são usualmente utilizados em aplicações industriais e dinamômetros.
+Foi observado que dispositivos utilizados para obter dados de deformação em tempo real com precisão são usualmente utilizados em testes de impacto e de controle de qualidade em componentes pela indústria automotiva, esses dispositivos apresentam altos níveis de precisão e confiabilidade e, consequentemente altos custos, o que inviabiliza sua utilização fora do produto final. Os valores de deformação local em um componente podem ser obtidos utilizando sensores de deformação chamados de extensômetros, esses sensores apresentam uma boa disponibilidade no mercado e são amplamente utilizados em células de carga. Os sinais gerados por esse tipo de sensor devem ser instrumentados, ampliados e convertidos para possibilitar sua obtenção por uma interface controladora.
 
-O presente trabalho propõe a obtenção dos dados de torque presentes em um componente sobre torção pura durante seu funcionamento. Esses dados podem ser obtidos a partir dos dados de deformação medidos por um extensômetro fixado na superfície do componente analisado, para a operação desse sensor será utilizado uma interface controladora em conjunto com componentes para instrumentação do sinal obtido, os sinais são transmitidos utilizando o padrão de comunicação bluetooth.
+O presente trabalho propõe o desenvolvimento de um protótipo de um dispositivo de baixo custo para obtenção de dados de deformação em componentes. O desenvolvimento do dispositivo seguirá a metodologia de projeto de produto PRODIP com o objetivo de garantir replicabilidade, permitir futuras otimizações e expansões e facilitar sua implementação em um caso real. Por fim, o funcionamento, efetividade e precisão do protótipo desenvolvido será avaliado comparando dados obtidos pelo protótipo e por um dispositivo industrial homologado, seguindo a metodologia de Stefani (2017).
 
-As etapas de desenvolvimento da metodologia de projeto PRODIP serão seguidas com objetivo de projetar um dispositivo que facilite a implementação do sistema de medição em um caso real. Por fim a efetividade do protótipo desenvolvido será avaliada comparando os dados obtidos com modelos analíticos, resutados de testes estáticos, e analise por elementos finitos.
-
-% ----------------------------------------------------------
 \section{Objetivos}
 % ----------------------------------------------------------
 
@@ -72,28 +23,20 @@ Os objetivos do trabalho são apresentados nas seções a seguir.
 \subsection{Objetivo Geral}
 % ----------------------------------------------------------
 
-Desenvolver dispositivo de sensoriamento que obtém dados de torque presentes em um eixo em tempo real.
+Desenvolver um dispositivo de baixo custo para obtenção de dados em tempo real de deflexão em componentes mecânicos.
+
 
 % ----------------------------------------------------------
 \subsection{Objetivos Específicos}
 % ----------------------------------------------------------
 
-* TBD *
+Obter dados de deflexão em vigas
 
-* Etapas do desenvolvimento do projeto *
+Obter módulo de elasticidade de uma liga desconhecida
 
-%\section{Estrutura do trabalho}
-%
-%O Trabalho é dividido em seções referentes as principais etapas de desenvolvimento do dispositivo,
-%
-%O Capitulo 2 faz uma breve apresentação a alguns dispositivos comerciais e trabalhos científicos de maior utilizados como base para o desenvolvimento do dispositivo projetado
-%
-%O capitulo 3 fala sobre o contexto geral de análise de esforços em aplicações automotivas
-%
-%O capitulo 4 
-%
-%
-%* Breve explicação sobre cada seção do estudo *
+Desenvolver utilizando tecnologias de código aberto
+
+Obter valores de precisão do protótipo desenvolvido
 
 
 % https://tex.stackexchange.com/questions/5076/is-it-possible-to-keep-my-translation-together-with-original-text

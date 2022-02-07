@@ -1,4 +1,4 @@
-#!/usr/bin/make -f
+ #!/usr/bin/make -f
 # https://stackoverflow.com/questions/7123241/makefile-as-an-executable-script-with-shebang
 #
 #   Copyright 2017-2019 @ Evandro Coan

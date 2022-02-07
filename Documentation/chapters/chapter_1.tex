@@ -36,34 +36,144 @@
 
 
 
-\chapter{Revisão bibliográfica}%\label{cap:Revisão bibliográfica}
+\chapter{REFERENCIAL TEÓRICO}\label{cap:REFERENCIAL TEÓRICO}
 
-Este capítulo apresenta as principais publicações já realizadas no tema do trabalho,
-%os materiais utilizados, 
-seus resultados obtidos, e possíveis oportunidades de ampliação das metodologias introduzidas e análise dos resultados.
+O presente capítulo apresenta os conceitos teóricos necessários para o desenvolvimento do princípio de funcionamento do dispositivo. São apresentados tópicos referentes a solicitações mecânicas e resistência dos materiais, princípios de sensoriamento de deformação e instrumentação de extensômetros, obtenção de sinais e transmissão de dados. Também será apresentado as principais tecnologias necessárias para o processo de desenvolvimento do dispositivo.
 
-\section{Principais estudos da área}
+\section{SOLICITAÇÕES E RESISTÊNCIA DOS MATERIAIS}
 
-%% Foram realizadas pesquisas nas bases de dados Web of Science, Springer, Sciencedirect e Google Scholar, de artigos científicos em inglês publicados nos últimos 10 anos (de 2010 até 2020) utilizando como palavras-chave “Dynamic, Torque, Shaft, Sensor, Strain, Gauge”, nas 3 ultimas bases foram encontrados números muito elevados de trabalhos, de ordem de centenas, a maioria dos trabalhos observados não tinham relação direta com o assunto a ser desenvolvido, a pesquisa na base de dados Web of Science obteve 10 resultados, todos eles com considerável potencial de importância para este trabalho, dentre eles 4 artigos eram diretamente desenvolvimento de metodologias similares ao trabalho.
-%% NAO EH IMPORTANTE
+Um entendimento introdutório sobre resistência dos materiais é necessário a fim de entender sobre os comportamentos físicos de um componente mecânico que sofre a ação de cargas externas. O ponto de partida do estudo da resistência dos materiais é o da análise do comportamento mecânico de um componente em equilíbrio.
 
-O primeiro artigo analisado, desenvolvido por Niedworok et al em 2014 relata o desenvolvimento e aplicação de um sistema de sensoriamento de torque em tempo real em um eixo cardan de um carro de mina utilizando a medição da deformação utilizando extensômetro com transferência dos dados via radiofrequência, o trabalho também indica que o posicionamento do sensor necessita estar em contato com a superfície de maior deformação do componente, o autor realiza uma análise por elementos finitos para encontrar esse local. O artigo também aponta que o sinal vindo do sensor deve ser ampliado utilizando uma ponte de Wheatstone para conseguir ter a instrumentação correta da grandeza. O artigo mostrou resultados satisfatórios e não discutiu sobre ruídos e imprecisões presentes nos dados obtidos.
+Utilizando as equações de estática, deve-se determinar as forças e os momentos resultantes que agem no interior de um corpo, com a finalidade de verificar e garantir a integridade do mesmo durante o uso (Hibbeler). Logo, pode-se afirmar a condição de atuação das forças externas, originadas da análise do diagrama de corpo livre, deve satisfazer às equações de balanço estático de força originadas da segunda lei de newton:
 
-Um trabalho feito por Nurprasetio et al, em 2018, desenvolve um sistema de medição para veículos terrestres, aplicado em uma bancada de testes que simula o estado de veículos terrestres em operação, o sistema utiliza um microprocessador Arduino nano de fácil acesso e baixo custo.
-Os dados são transmitidos via comunicação bluetooth.
-O artigo também ilustra o processo de calibração do dispositivo feito antes do teste dinâmico, assim como no trabalho anterior, também é enfatizada a necessidade das metodologias instrumentação do sinal vindo do extensômetro.
-Seus resultados também se mostraram promissores, porem o autor indica que é necessário a remoção dos ruídos de medição, o que segundo ele será endereçado em um trabalho futuro.
+Para ser mantida a condição de integridade do corpo do material sobre forças externas devem estar presentes forças e momentos internos ao seu corpo, (Hibbeler) ressalta que “Uma das mais importantes aplicações da estática na análise de problemas de resistência dos materiais é poder determinar a força e o momento resultantes que agem no interior de um corpo e que são necessários para manter a integridade do corpo quando submetido a cargas externas” e que “a força e o momento que agem em um ponto específico da área secionada de um corpo representam os efeitos resultantes da distribuição de forças que agem sobre a área secionada”. A figura() apresenta uma representação gráfica da atuação de forças internas em um material:
 
-Um artigo feito por Gharghan et al em 2017 compara um sistema de medição similar ao dos dois trabalhos prévios com um sistema de medição de torque em tempo real de alto custo utilizado por ciclistas profissionais no pedivela.
-O artigo introduz a tecnologia de transmissão de dados Zigbee, que consegue transmitir dados a a um baixo consumo energético.
-Após a obtenção dos dados, o autor utiliza as ferramentas de análise estatística de Bland-Altman e porcentagem de erro médio absoluto para a validação do sistema.
+Uma vez que se tem a informação das forças internas atuantes em um ponto no corpo e na seção do material, então, pode-se partir para a análise das tensões e deformações do local de análise.
 
-O último artigo foi publicado por Silva et al em 2019 e compara os dados de um sistema semelhante aos anteriores com resultados de análises de modelo matemático analítico e analise por elementos finitos aplicados em bancadas de viga engastada com carga na ponta e de torque aplicado em um eixo com um dos lados travados, diferente dos trabalhos anteriores, esse possui uma seção com o desenvolvimento das equações dos modelos utilizados, e assim como os artigos anteriores foram encontrados resultados satisfatórios.
+\subsection{Deformação e limites do material}
 
-**colocar imagens referentes aos trabalhos**
+Quando um segmento de um corpo sob balanço estático se encontra sob a ação de forças internas, este segmento apresentará uma variação de seu comprimento relativo à força aplicada. Deformação é definido como a mudança de comprimento por unidade de comprimento, logo, é um valor adimensional, e é calculada pela equação (1) (Norton).
 
-%APRENDER A FAZER AS CITAÇÕES
+Com o objetivo de descobrir os limites no qual um material pode-se deformar antes de sua ruptura devem ser analisados seus diagramas tensão-deformação. Hibbeler ressalta a importância na análise desse tipo de diagrama, uma vez que eles proporcionam meios para a obtenção de dados sobre resistência à tração ou compressão de um material sem independentemente de suas características físicas e geométricas (Hibbeler). Um exemplo de diagrama tensão-deformação é mostrado na figura ().
 
-%\section{Principais dispositivos existentes}
-%
-%Pesquisas via internet indicam a existência de dispositivos para sensorear torque dinâmico, os principais são classificados como transdutores de torque, dispositivo acoplado a um eixo que é conectados a uma interface externa, e dinamômetros, dispositivos de maior porte utilizados para obter curvas de torque e potência em motores.
+Analisando o diagrama anterior pode-se notar uma zona de relacionamento linear entre a força aplicada no corpo de prova utilizado para construir o diagrama e sua deformação, nesta região é observado o comportamento de deformação elástica do material e sobre seu limite (Norton) afirma que os pontos pl e el “marca o limiar entre as regiões de comportamento elástico e comportamento plástico do material. Os pontos el e pl normalmente são tão próximos que eles quase sempre são considerados o mesmo.”
+
+Na maior parte dos materiais de engenharia é verificada uma relação linear entre deformação e tensão dentro da região elástica, logo, um aumento proporcional na força aplicada em um material resulta em um aumento proporcional das deformações locais caso a condição de tensão esteja dentro do limite elástico, esse fato foi descoberto por Robert Hooke, em 1676, em molas e é conhecido como Lei de Hooke (Hibbeler). A lei de hooke é apresentada na equação ().
+
+A variável E da equação da Lei de Hooke é igual a inclinação da curva tensão-deformação e é chamada de Módulo de Young, ou módulo de elasticidade do material (Norton). Norton também afirma que o Módulo de Young “é uma medida da rigidez do material em sua região elástica e tem as mesmas unidades da tensão. A maioria dos metais exibe esse comportamento linear e também tem módulos de elasticidade que variam muito pouco com tratamentos térmicos ou com a adição de elementos de liga.”
+
+Para uma barra constituída de um material homogêneo e isotrópico e submetida a forças axiais que tem seu centro de atuação no centro da seção da barra essas cargas irão gerar uma tensão normal uniforme ao longo do seu comprimento sobre a seção transversal (Hibbeler). O alongamento ou contração de um segmento de reta por unidade de comprimento é denominado deformação normal e segue a equação ().
+
+Para outros tipos de carregamentos também são notados valores de deformação relativos às cargas aplicadas, os principais utilizados no desenvolvimento do experimento são introduzidos não sub subseções abaixo.
+
+\subsection{Deformação de um eixo em torção}
+
+Eixos normalmente são utilizados em situações em que as cargas torcionais são consideráveis, e caso estejam presentes cargas normais ou de flexão em sua utilização, e o material encontra-se em balanço estático, pode-se utilizar as mesmas equações de deformação da análise de barras e vigas. Norton afirma que “quando barras são solicitadas por um momento em relação ao seu eixo longitudinal, diz-se que estão sob torção, esse tipo de momento aplicado é denominado torque e esta situação é comum em eixos que transmitem potência.” A deformação vista no corpo de um eixo sob cargas de torção pura ao longo da sua seção transversal é ilustrada na figura().
+
+A Lei de Hooke para um corpo sob forças de torção é semelhante a mesma para o caso de um corpo em tração ou compressão, e é apresentada na equação (), porém o módulo presente dessa vez é denominado módulo de elasticidade transversal e segundo norton “G pode ser definido em termos do módulo de elasticidade E e do coeficiente de Poisson v (...) O coeficiente de Poisson (v) é a razão entre a deformação específica lateral e longitudinal, sendo, para a maior parte dos metais, em torno de 0,3”. A tabela () apresenta os principais valores de coeficiente de poisson para diferentes materiais metálicos.
+
+Assim como visto na figura (anterior) é notado que a deformação nessa situação não se apresenta como aumento de comprimento do componente, como no caso da uma barra sob cargas axiais, mas por uma distribuição de deslocamentos angulares locais na direção radial da seção do eixo conforme se aumenta a dimensão de comprimento da análise das cargas internas como apresentado na figura(). A equação () é obtida da análise da Lei de Hooke para um eixo em torção.
+
+Assim como as barras em tração, as equações aqui apresentadas apenas consideram a operação do componente em regime de deformação elástico, logo os valores esperados de θ serão relativamente pequenos para materiais de engenharia.
+
+\subsection{Deformação de uma viga em flexão}
+
+A flexão é presente em um corpo sempre que as forças não são aplicadas na direção normal da sua seção transversal. Segundo Hibbeler “O momento fletor é causado pelas cargas externas que tendem a fletir o corpo em torno de um eixo que se encontra no plano da área.” e que nesse momento “tende a produzir uma variação linear da deformação normal no interior de uma viga”.  A  figura() mostra uma representação ilustrativa do efeito do momento fletor em uma viga.
+
+Em todo caso em que o material seja homogêneo e isotrópico e que a Lei de Hooke seja aplicável, pode-se relacionar o momento fletor presente com a distribuição de tensão na seção (Hibbeler). Deve-se notar que assim como a barra em torção, a tensão, e eventualmente a deflexão presente será função da distância entre o ponto de interesse e o centro da área da seção transversal do material. A equação() caracteriza a distribuição de tensão ao longo da seção do componente.
+
+O valor de I é igual ao momento de inércia da seção do material sobre carga de flexão e a variável y representa a distância entre o centróide da área e o ponto de análise de tensão, deve-se notar que as tensões máximas para qualquer corpo em flexão sempre acontecerão na superfície do material, e que enquanto um ponto qualquer está sob forças de tração, o ponto inverso a este estará sob forças de compressão. Uma vez conhecido o módulo de elasticidade do material e a distribuição de tensão de na seção de um corpo sob flexão, pode-se obter, utilizando a lei de hooke, os valores de deflexão causados pelas cargas de flexão.
+
+As deformações em um componente podem ser altamente visíveis ou praticamente imperceptíveis se não forem utilizados equipamentos que façam medições precisas (Hibbeler). Considerando essa afirmação deve-se também ser estudado o método experimental de obtenção de dados de deflexão nos componentes.
+
+\section{SENSORIAMENTO DE DEFORMAÇÕES}
+
+O extensômetro de resistência elétrica é o dispositivo mais utilizado para medir a deflexão em uma superfície, o princípio de funcionamento desse tipo de sensor é baseado no efeito de variação de resistência elétrica de um condutor quando ocorre uma variação de área da sua seção transversal (Holman).
+
+Caso um extensômetro esteja fortemente fixado a um corpo de um material em uma direção específica, qualquer carga que deforma a superfície desse corpo de prova irá deformar igualmente o extensômetro, logo pode-se considerar o extensômetro como uma parte integrante do corpo de prova e qualquer deformação que aconteça no corpo de prova acontecerá igual no extensômetro (Hibbeler).
+
+O gage factor, parâmetro que especifica a relação entre a variação da resistência nominal em um extensômetro para um valor unitário de deflexão, é um valor especificado pelo fabricante, então, e a resistência nominal do extensômetro são valores especificados pelo fabricante do sensor, então medindo um valor de variação de resistência elétrica no extensômetro pode-se obter um valor de deformação local (Holman). A equação() mostra uma relação entre a variação de resistência elétrica no extensômetro e os parâmetros repassados pelo fabricante.
+
+Porém, deve-se notar que os valores de deflexão esperados para um metal dentro de sua zona de deformação elástica são muito pequenos, o que acarreta em pequenas variações de resistência no extensômetro. Com o objetivo de facilitar a medição da deflexão, devem ser utilizados artifícios de instrumentação como um circuito de ponte com a finalidade de detectar com maior variação as mudanças de resistência do sensor.
+
+\subsection{Ponte de Wheatstone}
+
+Circuitos de ponte são utilizados para prover melhores medições e precisões em uma variedade de aplicações de medição de resistência elétrica, indutância e capacitância sob condições tanto estáticas quanto transientes (Holman). Dentre diversos tipos de circuitos de ponte a ponte de wheatstone, demonstrada na figura() se demonstra como um dos tipos de circuito elétrico mais utilizado e facilita a leitura da variação de resistência de sensores que apresentam baixas variações de resistência elétrica na sua operação.
+
+A ponte de wheatstone é normalmente utilizada em comparações e medições de resistência elétrica que variam de 1 ohm até 1 megaohm (Holman). Utilizando as leis de kirchhoff para analisar a saída de tensão entre os pontos B e D se obtém a equação ().
+
+Em uma aplicação onde o sensor de deformação representa uma resistência variável dentro do circuito e os outros resistores apresentam resistências iguais ao do valor nominal do sensor utilizado, pode-se combinar a equação prévia com a equação do fator de extensão para obter uma relação entre tensão obtida e valor de extensão apresentado no sensor, logo a equação de transferência do circuito é representada na Equação ().
+
+Circuitos de ponte se mostram de grande utilidade em experimentos práticos e são amplamente utilizados na medição da resistência de transdutores como extensômetros e outros tipos de sensores que convertem uma grandeza física em uma variação de resistência. Para medições estáticas, a tensão de saída do circuito de ponte é normalmente medido utilizando um voltímetro ou um dispositivo de coleta de dados de tensão (Holman).
+
+Uma vez conhecido o fato de que não aconteceram grandes variações de tensão em um extensômetro na sua operação, devido ao fato do material apresentar pequenos valores de deformação dentro de sua zona elástica, pode-se concluir que o sinal de saída da ponte de wheatstone não será de grande ordem de grandeza, logo, deve-se estudar métodos de amplificação dessa tensão com o objetivo de facilitar a obtenção das leituras por um voltímetro digital ou placa de controle.
+
+\section{OBTENÇÃO DE SINAIS}
+
+Medidas experimentais podem ocorrer de diversas formas e em vários casos os sinais são considerados fracos, logo eles devem ser amplificados com o objetivo de facilitar sua utilização por um dispositivo de saída. A maior parte dos amplificadores de sinal atuais utilizam circuitos integrados ou dispositivos de estado sólido para amplificar um sinal fraco analógico (Holman). O grau de amplificação de um amplificador pode ser dado pela equação(), que relaciona o sinal de entrada recebido pelo amp com o sinal de saída, que é lido pelo controlador.
+
+Devido a efeitos aleatórios ou conhecidos ruídos característicos sempre estarão presentes em em situações de tomada de medidas, esses ruídos podem ser filtrados utilizando circuitos que apenas permitem que uma certa parte das frequências que compõem o sinal obtido passem adiante no circuito a fim de modificar o sinal de saída do amplificador. Essa filtragem não resolve todos os problemas que podem ser encontrados, porém melhora significativamente o resultado de um experimento (Holman).
+
+Uma vez que os sinais encontrados até aqui no sistema são de característica analógica e espera-se que a utilização e tratamento deles ocorra em um computador ou placa controladora como Arduino, que opera de maneira digital, deve-se então converter essas informações de tensão de um meio analogico para um meio digital, para isso é utilizado um conversor digital-analógico.
+
+Em um meio analógico, as variáveis físicas são processadas como valores num meio contínuo, enquanto em um meio digital, valores são caracterizados por uma representação discreta. Uma faz razões para o tratamento de sinais de maneira digital é imunizar o sinal obtido do efeito de ruídos durante a transmissão, uma vez que definir se um sinal obtido é de valor 1 ou 0 é muito mais fácil do que definir se é um valor dentre os infinitos possíveis em um meio contínuo (Holman).
+
+Com a finalidade de não ser perdidas informações no momento de conversão de um sinal do meio analógico para a forma digital, deve ser seguido o teorema sampling que estipula que a taxa de leitura de um sinal de maneira digital necessita ser pelo menos duas vezes o valor da frequência desse sinal no meio analógico (Holman).
+
+A aquisição e processamento subsequente dos sinais obtidos pode ser feito de diversas formas, desde simples cálculos e obtenção manuais de dados até utilizando  rotinas computacionais complexas. O objetivo do sistema de aquisição de dados é o de coletar, processar e/ou armazenar os dados obtidos em um experimento ou medição (Holman).
+
+\section{OBTENÇÃO DOS SINAIS}
+
+A maior parte dos sistemas de medição podem ser divididos em três partes, um estágio de  detecção da medida física, um estágio intermediário de amplificação, filtragem e conversão de sinal e um estágio final, que engloba a obtenção e processamento do sinal por um dispositivo de controle (Holman).
+
+Uma medição é considerada estática quando a grandeza física analisada não apresenta mudanças no tempo, como uma viga sobre uma carga constante de flexão. se essa viga é sujeita a um tipo de vibração, ou a um carregamento cíclico, então não pode mais se considerar o sinal estático (Holman).
+
+Para desenvolver o sistema de controle e obtenção do sinal foi utilizado a plataforma de desenvolvimento ESP32. Suas principais vantagens sobre a plataforma Arduino, de menor preço e mais amplamente utilizada, é devido ao fato de que o ESP32 apresenta em sua construção módulos de comunicação sem fio bluetooth e wifi integrados, o que reduz o tamanho do dispositivo e o torna mais barato em aplicações que necessitam de comunicação wireless.
+
+A programação do controlador é feita utilizando uma linguagem de programação baseada na linguagem C + + adaptada para a utilização em placas de controle utilizando o ambiente de desenvolvimento Arduino IDE, que permite a utilização de extensões para programação e utilização de módulos externos, como o amplificador de sinal.
+
+O ADS1115 é conversor analógico digital de precisão com resolução de 16 bits, desenvolvido com precisão e facilidade de implementação em mente. O módulo é capaz de converter sinais obtidos na frequência de até 860 amostras por segundo, e oferece um amplificador de sinal que pode obter sinais tão baixos quanto na faixa de +- 256 mV, o que permite pequenos sinais serem medidos com alta resolução (Datasheet ADS1115).
+
+Os dados obtidos pelo sistema de medição são todos em formato digital em forma de vetores unidimensionais compostos pelos valores das amostra obtidas durante o  tempo do experimento, esses valores são transmitidos em tempo real para um computador que executa um programa de obtenção de dados para realizar transformações mais complexas e análises dos sinais obtidos em tempo real.
+
+\section{ANÁLISE DOS SINAIS OBTIDOS}
+
+Algum tipo de análise deve sempre ser feita em todo tipo de conjuntos de dados experimentais. Várias considerações entram na determinação final da validade dos resultados experimentais, erros podem acarretar na invalidade dos dados mesmo quando estes foram obtidos com cautela. Alguns erros são de natureza aleatória, e outros podem ser por natureza física ou por descuido do experimentador, como flutuações eletrônicas, fricção ou desgaste dos componentes, esses tipos de erros devem ser descartados imediatamente (Holmann).
+
+Leituras individuais em um instrumento podem variar devido a erros de natureza aleatória, que seguem uma distribuição estatística normal, e o experimentador pode estar desejando obter o valor médio de diversas leituras realizadas (Holmann). A equação () obtém o valor médio para uma medição experimental consistente de diversas leituras.
+
+Para cada leitura é esperado um valor de desvio lido, deve se notar que quanto melhor for o sistema de medição menor serão os valores de desvio obtidos no conjunto de leituras, o desvio padrão , representado pela equação(), se mostra como um bom indicador da situação dos desvios, e consequentemente da exatidão de um sistema de medição.
+
+Essa equação de desvio padrão deve ser utilizada para grandes populações de amostras ou para quando os dados obtidos podem ser comparados com grandezas conhecidas (Holmann). Para se obter a informação de se os valores experimentais estão de acordo com os desejados pode-se utilizar o teste do chi quadrado, representado na equação().
+
+Esse teste é uma importante ferramenta de teste de qualquer resultado de distribuição experimental esperada. Se o valor de chi quadrado é igual a zero então a distribuição assumida é exatamente a distribuição real, quanto maior o valor de chi quadrado, menor é a correlação entre os dados medidos e os reais (Holmann). Com o objetivo de facilitar a obtenção dos dados estatísticos para cada amostra obtida, foi criada uma ferramenta computacional utilizando a linguagem python.
+
+\subsection{Ambiente de desenvolvimento computacional Python}
+
+Python se caracteriza como uma linguagem de programação humanamente amigável, básica e de fácil leitura e entendimento. Que permite ao usuário a utilização de extensões e pacotes com funções de conveniência para resolver a maior parte dos problemas computacionais encontrados (Stacey).
+
+A extensão numpy é um pacote fundamental para computação científica utilizando a linguagem de programação Python. O numpy é uma ferramenta utilizada para o processamento de dados em forma vetorial, uni ou multidimensional, seu funcionamento é baseado na conversão dos dados numéricos do formato de lista para um formato específico, altamente otimizado chamado ndarray. O pacote numpy também apresenta diversas funções matemáticas, lógicas, estatísticas, algébricas feitas para serem utilizadas com objetos ndarray, isso acarreta em uma minimização do tempo de processamento de um programa se comparado com utilizando funções nativas de python (Numpy docs). As principais funções utilizadas são demonstradas na tabela().
+
+Uma grande gama de outros pacotes em python usam como base a estrutura de dados e funções presentes, como o pandas, que é utilizado para facilitar a manipulação e armazenamento de dados em formato de tabular, como planilhas e bancos de dados (Pandas docs). Dados em formatos tabulares do pandas podem facilmente ser processados, analisados e armazenados utilizando funções do numpy e funções nativas do pandas.
+
+Com o auxílio do processamento de dados tabulares e utilizando as funções estatísticas do pacote numpy pode-se facilmente obter os valores nominais e de erro de cada medida tomada com o dispositivo de medição. Então deve-se partir para a fase da análise dos dados nominais obtidos.
+
+\subsection{Análise dos valores nominais}
+
+Uma vez obtidos todos os valores nominais para cada situação experimental analisada, devem ser criadas representações gráficas da distribuição dos resultados obtidos para isso é utilizado o pacote scipy, que é uma coleção de algoritmos matemáticos e funções de conveniência, desenvolvidos em cima do pacote numpy. Ele proporciona ao usuário funções e classes para manipulação e visualização de dados científicos. O pacote scipy se mostra como um forte competidor aos ambientes de desenvolvimento mais comumente utilizados, como o Matlab, Scilab e o Octave (Scipy docs).
+
+A principal visualização a ser  obtida no experimento é o gráfico de distribuição de cargas aplicados pelos valores de tensão da ponte de wheatstone obtidos, então, utilizando o método de minimização dos quadrados, pode-se obter os parâmetros básicos que descrevem uma função matemática em que os erros entre valores observados do experimento e os estimados sejam o mínimo o possível.
+
+O gráfico de regressão linear dos dados experimentais é obtido utilizando a função scipy.lialg.regress do pacote scipy.
+
+\section{METODOLOGIA DE DESENVOLVIMENTO DE PROJETO}
+
+O projeto de um produto engloba todas as etapas de definição das funções e características operacionais necessárias em um produto a ser desenvolvido, o modelo PRODIP divide o projeto em macro etapas, cada uma contemplando uma fase do desenvolvimento de um produto, conforme a Figura 8.
+
+Essa metodologia foi utilizada para organizar e linearizar as atividades de desenvolvimento do dispositivo, certas etapas ilustradas foram ignoradas e outras adicionadas devido ao objetivo do projeto e o tipo do produto desenvolvido.
+
+
+
+
+
+
