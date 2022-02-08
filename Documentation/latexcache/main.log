@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  7 FEB 2022 19:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  8 FEB 2022 02:05
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2402,7 +2402,7 @@ Package hyperref Info: Option `psdextra' set `true' on input line 152.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/psdextra.def
 File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 ))
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\@footnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2410,10 +2410,10 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\m@mold@footnotetext'
 [debug] -- control sequence is undefined or \relax
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\@plainfootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2421,7 +2421,7 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\@twocolfootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2429,7 +2429,7 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\@threecolfootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2437,7 +2437,7 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\@parafootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2445,7 +2445,7 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\@footnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2453,10 +2453,10 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\H@@footnotetext'
 [debug] -- control sequence is undefined or \relax
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\@plainfootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2464,7 +2464,7 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\@mpfootnotetext'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2472,25 +2472,25 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \apptocmd on input line 226
+[debug] tracing \apptocmd on input line 227
 [debug] analyzing '\@makefnstartbox'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ control sequence is a macro without parameters
 [debug] == redefining macro now
-[debug] tracing \apptocmd on input line 226
+[debug] tracing \apptocmd on input line 227
 [debug] analyzing '\@floatboxreset'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ control sequence is a macro without parameters
 [debug] == redefining macro now
-[debug] tracing \pretocmd on input line 226
+[debug] tracing \pretocmd on input line 227
 [debug] analyzing '\TX@endtabularx'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ control sequence is a macro without parameters
 [debug] == redefining macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\TX@endtabularx'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2498,13 +2498,13 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \apptocmd on input line 226
+[debug] tracing \apptocmd on input line 227
 [debug] analyzing '\TX@endtabularx'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ control sequence is a macro without parameters
 [debug] == redefining macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\addtocontents'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2512,19 +2512,19 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\MakeUppercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ macro can be retokenized cleanly
 [debug] -- search pattern not found in replacement text
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\MakeLowercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
 [debug] ++ macro can be retokenized cleanly
 [debug] -- search pattern not found in replacement text
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\MakeUppercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2532,7 +2532,7 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\MakeLowercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2540,7 +2540,7 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\MakeTextUppercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2548,7 +2548,7 @@ File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
 [debug] ++ search pattern found in replacement text
 [debug] ++ patching possible
 [debug] == retokenizing macro now
-[debug] tracing \patchcmd on input line 226
+[debug] tracing \patchcmd on input line 227
 [debug] analyzing '\MakeTextLowercase '
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2564,7 +2564,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazil'.
-[debug] tracing \pretocmd on input line 226
+[debug] tracing \pretocmd on input line 227
 [debug] analyzing '\collect@body'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2575,8 +2575,14 @@ Package csquotes Info: Redefining alias 'default' -> 'brazil'.
 /beforetext/folhadeaprovacao.aux) (latexcache/beforetext/agradecimentos.aux) (l
 atexcache/beforetext/epigrafe.aux) (latexcache/beforetext/resumos.aux) (latexca
 che/beforetext/siglas.aux) (latexcache/beforetext/simbolos.aux) (latexcache/cha
-pters/intro.aux) (latexcache/chapters/chapter_1.aux) (latexcache/chapters/chapt
-er_2.aux) (latexcache/chapters/chapter_3.aux
+pters/intro.aux) (latexcache/chapters/chapter_1.aux
+
+LaTeX Warning: Label `eq:Eq_220' multiply defined.
+
+
+LaTeX Warning: Label `eq:Eq_220@cref' multiply defined.
+
+) (latexcache/chapters/chapter_2.aux) (latexcache/chapters/chapter_3.aux
 
 LaTeX Warning: Label `fig:Fig_401' multiply defined.
 
@@ -2588,26 +2594,26 @@ excache/aftertext/apendice_a.aux) (latexcache/aftertext/anexo_a.aux) (latexcach
 e/aftertext/anexo_b.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 22
-6.
+7.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -2764,7 +2770,7 @@ Package biblatex Info: ... file 'brazilian.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
 File: brazilian.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )))))
-[debug] tracing \pretocmd on input line 226
+[debug] tracing \pretocmd on input line 227
 [debug] analyzing '\select@language'
 [debug] ++ control sequence is defined
 [debug] ++ control sequence is a macro
@@ -2779,10 +2785,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 (latexcache/main.bbl)
-Package biblatex Info: Reference section=0 on input line 226.
-Package biblatex Info: Reference segment=0 on input line 226.
+Package biblatex Info: Reference section=0 on input line 227.
+Package biblatex Info: Reference segment=0 on input line 227.
 \AtBeginShipoutBox=\box124
-Package hyperref Info: Link coloring ON on input line 226.
+Package hyperref Info: Link coloring ON on input line 227.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -2794,16 +2800,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 226.
-LaTeX Info: Redefining \ref on input line 226.
-LaTeX Info: Redefining \pageref on input line 226.
-LaTeX Info: Redefining \nameref on input line 226.
-LaTeX Info: Redefining \degres on input line 226.
-LaTeX Info: Redefining \dots on input line 226.
-LaTeX Info: Redefining \up on input line 226.
+LaTeX Info: Redefining \nameref on input line 227.
+LaTeX Info: Redefining \ref on input line 227.
+LaTeX Info: Redefining \pageref on input line 227.
+LaTeX Info: Redefining \nameref on input line 227.
+LaTeX Info: Redefining \degres on input line 227.
+LaTeX Info: Redefining \dots on input line 227.
+LaTeX Info: Redefining \up on input line 227.
 Package french.ldf Info: bigfoot package in use.
 (french.ldf)             babel-french will NOT customise footnotes;
-(french.ldf)             reported on input line 226.
+(french.ldf)             reported on input line 227.
 \myptabbox=\box125
 \myptabboxwidth=\skip414
 Package newfloat Info: `float' package detected.
@@ -2829,10 +2835,10 @@ Package caption Info: End \AtBeginDocument code.
 \makeMPintoPDFobject=\count695
 \everyMPtoPDFconversion=\toks90
 ) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 226.
+LaTeX Info: Redefining \selectfont on input line 227.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 226.
+(lastpage)             ! on input line 227.
 \c@lstlisting=\count696
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -2853,7 +2859,7 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 \cftfigureinitialnumwidth=\skip416
 \cfttableinitialnumwidth=\skip417
 \cftlstlistinginitialnumwidth=\skip418
-LaTeX Info: Redefining \microtypecontext on input line 226.
+LaTeX Info: Redefining \microtypecontext on input line 227.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1100.
@@ -2861,7 +2867,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 10, shrink: 10, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 226.
+LaTeX Info: Redefining \showhyphens on input line 227.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -2873,7 +2879,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 \FN@cache246=\box127
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-26.
+27.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -2881,34 +2887,34 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-26.
+27.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-226.
+227.
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-226.
+227.
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 226.
+(Font)              <12> on input line 227.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 226.
+(Font)              <8> on input line 227.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 226.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 226
+(Font)              <6> on input line 227.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 227
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 226
+LaTeX Font Info:    Trying to load font information for U+msb on input line 227
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2916,12 +2922,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 22
-6.
+7.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-226.
+227.
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2930,7 +2936,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-226.
+227.
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -3068,9 +3074,6 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 \openout2 = `beforetext/resumos.aux'.
 
 (./beforetext/resumos.tex
-
-LaTeX Warning: Citation 'NBR6028:2003' on page 8 undefined on input line 225.
-
 \openout5 = `main.mw'.
 
 [8
@@ -3093,7 +3096,7 @@ LaTeX Warning: Citation 'NBR6028:2003' on page 8 undefined on input line 225.
 \openout5 = `main.mw'.
 
 ) (latexcache/main.lof)
-The height of the list 'Lista de Figuras' is '167.70967pt'
+The height of the list 'Lista de Figuras' is '473.61551pt'
 \openout5 = `main.mw'.
 
 [10
@@ -3145,7 +3148,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 11.
 )
-The height of the list 'Sum\'ario' is '999.73666pt'
+The height of the list 'Sum\'ario' is '1227.6702pt'
 \openout5 = `main.mw'.
 
 [13
@@ -3162,7 +3165,7 @@ The height of the list 'Sum\'ario' is '999.73666pt'
 \openout5 = `main.mw'.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 247.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 248.
 \openout5 = `main.mw'.
 
 [15
@@ -3190,6 +3193,13 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 \openout2 = `chapters/chapter_1.aux'.
 
 (./chapters/chapter_1.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 17.
+<pictures/1010.png, id=360, 1006.76125pt x 257.96375pt>
+File: pictures/1010.png Graphic file (type png)
+<use pictures/1010.png>
+Package pdftex.def Info: pictures/1010.png  used on input line 38.
+(pdftex.def)             Requested size: 455.0pt x 116.5825pt.
 \openout5 = `main.mw'.
 
 [18
@@ -3199,14 +3209,54 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+<pictures/1020.png, id=380, 1116.17pt x 719.68875pt>
+File: pictures/1020.png Graphic file (type png)
+<use pictures/1020.png>
+Package pdftex.def Info: pictures/1020.png  used on input line 70.
+(pdftex.def)             Requested size: 455.0pt x 293.37216pt.
 \openout5 = `main.mw'.
 
-[19] (latexcache/main.mw)
+[19 <./pictures/1010.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[20 <./pictures/1020.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1030.png, id=408, 631.35875pt x 198.7425pt>
+File: pictures/1030.png Graphic file (type png)
+<use pictures/1030.png>
+Package pdftex.def Info: pictures/1030.png  used on input line 102.
+(pdftex.def)             Requested size: 455.0pt x 143.2279pt.
+\openout5 = `main.mw'.
+
+[21 <./pictures/1030.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1040.png, id=419, 973.6375pt x 435.6275pt>
+File: pictures/1040.png Graphic file (type png)
+<use pictures/1040.png>
+Package pdftex.def Info: pictures/1040.png  used on input line 134.
+(pdftex.def)             Requested size: 455.0pt x 203.57506pt.
+\openout5 = `main.mw'.
+
+[22 <./pictures/1040.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1050.png, id=430, 891.33pt x 375.4025pt>
+File: pictures/1050.png Graphic file (type png)
+<use pictures/1050.png>
+Package pdftex.def Info: pictures/1050.png  used on input line 177.
+(pdftex.def)             Requested size: 455.0pt x 191.63603pt.
+\openout5 = `main.mw'.
+
+[23 <./pictures/1050.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 
-./chapters/chapter_1.tex:77: Package inputenc Error: Unicode character θ (U+03
-B8)
+./chapters/chapter_1.tex:211: Package inputenc Error: Unicode character θ (U+0
+3B8)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -3220,233 +3270,237 @@ Type  H <return>  for immediate help.
 
 \UTFviii@defined ...ax \UTFviii@undefined@err {#1}
                                                   \else \PackageError {input...
-l.77 ...elástico, logo os valores esperados de θ
+l.211 ...lástico, logo os valores esperados de θ
                                                    serão relativamente pequ...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+<pictures/1060.png, id=444, 1063.975pt x 421.575pt>
+File: pictures/1060.png Graphic file (type png)
+<use pictures/1060.png>
+Package pdftex.def Info: pictures/1060.png  used on input line 220.
+(pdftex.def)             Requested size: 455.0pt x 180.28307pt.
+<pictures/1070.png, id=451, 1041.8925pt x 512.91624pt>
+File: pictures/1070.png Graphic file (type png)
+<use pictures/1070.png>
+Package pdftex.def Info: pictures/1070.png  used on input line 230.
+(pdftex.def)             Requested size: 455.0pt x 223.99333pt.
 \openout5 = `main.mw'.
 
-[20] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[21] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[22] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[23] (latexcache/main.mw)
+[24 <./pictures/1060.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[24] (latexcache/main.mw)
+[25 <./pictures/1070.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1080.png, id=472, 360.34625pt x 317.185pt>
+File: pictures/1080.png Graphic file (type png)
+<use pictures/1080.png>
+Package pdftex.def Info: pictures/1080.png  used on input line 262.
+(pdftex.def)             Requested size: 455.0pt x 400.50217pt.
+\openout5 = `main.mw'.
+
+[26 <./pictures/1080.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1090.png, id=485, 696.6025pt x 663.47874pt>
+File: pictures/1090.png Graphic file (type png)
+<use pictures/1090.png>
+Package pdftex.def Info: pictures/1090.png  used on input line 298.
+(pdftex.def)             Requested size: 455.0pt x 433.36183pt.
+\openout5 = `main.mw'.
+
+[27] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[25] (latexcache/main.mw)
+[28 <./pictures/1090.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+<pictures/1100.png, id=504, 714.67pt x 239.89626pt>
+File: pictures/1100.png Graphic file (type png)
+<use pictures/1100.png>
+Package pdftex.def Info: pictures/1100.png  used on input line 342.
+(pdftex.def)             Requested size: 455.0pt x 152.73141pt.
+\openout5 = `main.mw'.
+
+[29 <./pictures/1100.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1110.png, id=514, 997.7275pt x 412.54124pt>
+File: pictures/1110.png Graphic file (type png)
+<use pictures/1110.png>
+Package pdftex.def Info: pictures/1110.png  used on input line 352.
+(pdftex.def)             Requested size: 455.0pt x 188.13461pt.
+<pictures/1120.png, id=515, 1022.82124pt x 379.4175pt>
+File: pictures/1120.png Graphic file (type png)
+<use pictures/1120.png>
+Package pdftex.def Info: pictures/1120.png  used on input line 362.
+(pdftex.def)             Requested size: 455.0pt x 168.77946pt.
+\openout5 = `main.mw'.
+
+[30 <./pictures/1110.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1130.png, id=529, 894.34125pt x 421.575pt>
+File: pictures/1130.png Graphic file (type png)
+<use pictures/1130.png>
+Package pdftex.def Info: pictures/1130.png  used on input line 380.
+(pdftex.def)             Requested size: 455.0pt x 214.47934pt.
+<pictures/1140.png, id=534, 575.14874pt x 421.575pt>
+File: pictures/1140.png Graphic file (type png)
+<use pictures/1140.png>
+Package pdftex.def Info: pictures/1140.png  used on input line 393.
+(pdftex.def)             Requested size: 455.0pt x 333.51662pt.
+\openout5 = `main.mw'.
+
+[31 <./pictures/1120.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1150.png, id=543, 874.26625pt x 500.87125pt>
+File: pictures/1150.png Graphic file (type png)
+<use pictures/1150.png>
+Package pdftex.def Info: pictures/1150.png  used on input line 405.
+(pdftex.def)             Requested size: 455.0pt x 260.66853pt.
+\openout5 = `main.mw'.
+
+[32 <./pictures/1130.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[33 <./pictures/1140.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[34 <./pictures/1150.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1160.png, id=578, 722.7pt x 525.965pt>
+File: pictures/1160.png Graphic file (type png)
+<use pictures/1160.png>
+Package pdftex.def Info: pictures/1160.png  used on input line 443.
+(pdftex.def)             Requested size: 455.0pt x 331.143pt.
+<pictures/1170.png, id=581, 1082.0425pt x 294.09875pt>
+File: pictures/1170.png Graphic file (type png)
+<use pictures/1170.png>
+Package pdftex.def Info: pictures/1170.png  used on input line 457.
+(pdftex.def)             Requested size: 455.0pt x 123.66872pt.
 )
 \openout5 = `main.mw'.
 
-[26] (latexcache/main.mw)
+[35] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[36 <./pictures/1160.png> <./pictures/1170.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/chapter_2.aux'.
 
 (./chapters/chapter_2.tex
-<images/img301.jpg, id=346, 105.0324pt x 51.7935pt>
+<images/img301.jpg, id=601, 105.0324pt x 51.7935pt>
 File: images/img301.jpg Graphic file (type jpg)
 <use images/img301.jpg>
 Package pdftex.def Info: images/img301.jpg  used on input line 17.
 (pdftex.def)             Requested size: 455.0pt x 224.37047pt.
-<images/img302.jpg, id=348, 690.58pt x 446.66875pt>
+<images/img302.jpg, id=603, 690.58pt x 446.66875pt>
 File: images/img302.jpg Graphic file (type jpg)
 <use images/img302.jpg>
 Package pdftex.def Info: images/img302.jpg  used on input line 27.
 (pdftex.def)             Requested size: 455.0pt x 294.29793pt.
 \openout5 = `main.mw'.
 
-[27
+[37
 
 
 
  <./images/img301.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<images/img303.jpg, id=354, 676.5275pt x 344.28625pt>
+<images/img303.jpg, id=609, 676.5275pt x 344.28625pt>
 File: images/img303.jpg Graphic file (type jpg)
 <use images/img303.jpg>
 Package pdftex.def Info: images/img303.jpg  used on input line 37.
 (pdftex.def)             Requested size: 455.0pt x 231.5584pt.
 \openout5 = `main.mw'.
 
-[28 <./images/img302.jpg>] (latexcache/main.mw)
+[38 <./images/img302.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[29 <./images/img303.jpg>] (latexcache/main.mw)
+[39 <./images/img303.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<images/img501.jpg, id=370, 533.995pt x 206.7725pt>
+<images/img501.jpg, id=623, 533.995pt x 206.7725pt>
 File: images/img501.jpg Graphic file (type jpg)
 <use images/img501.jpg>
-Package pdftex.def Info: images/img501.jpg  used on input line 151.
+Package pdftex.def Info: images/img501.jpg  used on input line 137.
 (pdftex.def)             Requested size: 455.0pt x 176.1897pt.
 \openout5 = `main.mw'.
 
-[30 <./images/img501.jpg>] (latexcache/main.mw)
+[40 <./images/img501.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<images/img502.png, id=379, 1204.5pt x 925.4575pt>
+<images/img502.png, id=632, 1204.5pt x 925.4575pt>
 File: images/img502.png Graphic file (type png)
 <use images/img502.png>
-Package pdftex.def Info: images/img502.png  used on input line 221.
+Package pdftex.def Info: images/img502.png  used on input line 207.
 (pdftex.def)             Requested size: 455.0pt x 349.58755pt.
 )
 \openout5 = `main.mw'.
 
-[31] (latexcache/main.mw)
+[41] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[32 <./images/img502.png>] (latexcache/main.mw)
+[42 <./images/img502.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/chapter_3.aux'.
 
 (./chapters/chapter_3.tex
-<images/img401.png, id=394, 639.8304pt x 166.4619pt>
+<images/img401.png, id=647, 639.8304pt x 166.4619pt>
 File: images/img401.png Graphic file (type png)
 <use images/img401.png>
-Package pdftex.def Info: images/img401.png  used on input line 21.
+Package pdftex.def Info: images/img401.png  used on input line 16.
 (pdftex.def)             Requested size: 455.0pt x 118.37671pt.
 \openout5 = `main.mw'.
 
-[33
+[43
 
 
 
  <./images/img401.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<images/img403.jpg, id=402, 369.38pt x 247.92625pt>
+<images/img403.jpg, id=655, 369.38pt x 247.92625pt>
 File: images/img403.jpg Graphic file (type jpg)
 <use images/img403.jpg>
-Package pdftex.def Info: images/img403.jpg  used on input line 40.
+Package pdftex.def Info: images/img403.jpg  used on input line 35.
 (pdftex.def)             Requested size: 369.37909pt x 247.92564pt.
 \openout5 = `main.mw'.
 
-[34 <./images/img403.jpg>] (latexcache/main.mw)
+[44 <./images/img403.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<images/img402.jpg, id=407, 534.49687pt x 384.6872pt>
+<images/img402.jpg, id=660, 534.49687pt x 384.6872pt>
 File: images/img402.jpg Graphic file (type jpg)
 <use images/img402.jpg>
-Package pdftex.def Info: images/img402.jpg  used on input line 60.
+Package pdftex.def Info: images/img402.jpg  used on input line 55.
 (pdftex.def)             Requested size: 455.0pt x 327.48459pt.
 )
 \openout5 = `main.mw'.
 
-[35 <./images/img402.jpg>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[36
-
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout2 = `chapters/chapter_4.aux'.
-
-(./chapters/chapter_4.tex
-\openout5 = `main.mw'.
-
-[37
-
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[38
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[39
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-)
-\openout5 = `main.mw'.
-
-[40
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout2 = `chapters/conclusion.aux'.
-
-(./chapters/conclusion.tex)
-\openout5 = `main.mw'.
-
-[41
-
-
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-
-LaTeX Warning: Empty bibliography on input line 291.
-
-\openout5 = `main.mw'.
-
-[42
-
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout2 = `aftertext/apendice_a.aux'.
-
-(./aftertext/apendice_a.tex
-\openout5 = `main.mw'.
-
-[43
-
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[44] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-)
-\openout5 = `main.mw'.
-
-[45] (latexcache/main.mw)
+[45 <./images/img402.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -3457,29 +3511,9 @@ LaTeX Warning: Empty bibliography on input line 291.
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-\openout2 = `aftertext/anexo_a.aux'.
+\openout2 = `chapters/chapter_4.aux'.
 
-(./aftertext/anexo_a.tex
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 30.
-<pictures/SOBRAEP.pdf, id=467, 597.50829pt x 845.0471pt>
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf>
-Package pdftex.def Info: pictures/SOBRAEP.pdf  used on input line 43.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf>
-Package pdftex.def Info: pictures/SOBRAEP.pdf  used on input line 43.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<pictures/SOBRAEP.pdf, id=470, page=1, 597.50829pt x 845.0471pt>
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 1>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 1>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+(./chapters/chapter_4.tex
 \openout5 = `main.mw'.
 
 [47
@@ -3488,6 +3522,187 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+[48
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[49
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+)
+\openout5 = `main.mw'.
+
+[50
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout2 = `chapters/conclusion.aux'.
+
+(./chapters/conclusion.tex)
+\openout5 = `main.mw'.
+
+[51
+
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 292.
+\openout5 = `main.mw'.
+
+[52
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+
+./main.tex:292: Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+\sl@GenericError ...                              
+                                                  \endgroup 
+\GenericError  ...sl@GenericError {#1}{#2}{#3}{#4}
+                                                  \fi \ifcase \sl@Save \or \...
+
+\UTFviii@defined ...ax \UTFviii@undefined@err {#1}
+                                                  \else \PackageError {input...
+<argument> Revista Brasileira de Ensino de F{ı́
+                                                 }sica
+\blx@theformat #1->#1
+                     
+<argument> ...e abx@field@journaltitle\endcsname }
+                                                  \blx@endunit 
+\@secondoftwo #1#2->#2
+                      
+<argument> \printfield [titlecase]{journaltitle}
+                                                \iffieldendswithpunct {journ...
+
+\textbf  ...xt@command {#1}\bfseries \check@icl #1
+                                                  \check@icr \expandafter \e...
+
+\mkbibbold #1->\textbf {#1}
+                           \blx@imc@setpunctfont \textbf 
+<argument> ...field [normalfont]{journalsubtitle}}
+                                                  \isdot 
+\etb@tgl@ittitles #1#2->#2
+                          
+<argument> ...field [normalfont]{journalsubtitle}}
+                                                  \blx@endunit 
+\@secondoftwo #1#2->#2
+                      
+\abx@macro@journal+section ...sebibmacro {journal}
+                                                  \iffieldundef {section}{}{...
+
+\blx@bbx@article ...\usebibmacro {journal+section}
+                                                  \setunit *{\addcomma \adds...
+<argument> ...er \blx@driver \abx@field@entrytype 
+                                                  \blx@postpunct \blx@endlan...
+
+\etb@tgl@blx@skipentry #1#2->#2
+                               
+<argument> ...ype \blx@postpunct \blx@endlangbib }
+                                                  \endgroup 
+\@firstoftwo #1#2->#1
+                     
+<argument> \blx@do {Silva2018}
+                              \blx@listloop@i 
+\@secondoftwo #1#2->#2
+                      
+\blx@tempa ...Nurprasetio2018|Silva2017|Silva2018|
+                                                  TimHall2010|
+\blx@listloop #1->\expandafter \blx@listloop@i #1
+                                                 |&
+l.292 ...hy[title=\lang{REFERENCES}{REFERÊNCIAS}]
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+\openout5 = `main.mw'.
+
+[53] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[54
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout2 = `aftertext/apendice_a.aux'.
+
+(./aftertext/apendice_a.tex
+\openout5 = `main.mw'.
+
+[55
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[56] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+)
+\openout5 = `main.mw'.
+
+[57] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[58
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout2 = `aftertext/anexo_a.aux'.
+
+(./aftertext/anexo_a.tex
+<pictures/SOBRAEP.pdf, id=772, 597.50829pt x 845.0471pt>
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf>
+Package pdftex.def Info: pictures/SOBRAEP.pdf  used on input line 43.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf>
+Package pdftex.def Info: pictures/SOBRAEP.pdf  used on input line 43.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<pictures/SOBRAEP.pdf, id=775, page=1, 597.50829pt x 845.0471pt>
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf, page 1>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf, page 1>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+\openout5 = `main.mw'.
+
+[59
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf, page 1>
 Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
@@ -3502,10 +3717,10 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
-[48 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
+[60 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/SOBRAEP.pdf, id=502, page=2, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=808, page=2, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf, page 2>
 Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
@@ -3520,10 +3735,10 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
-[49 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
+[61 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/SOBRAEP.pdf, id=513, page=3, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=819, page=3, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf, page 3>
 Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
@@ -3538,10 +3753,10 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
-[50 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
+[62 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/SOBRAEP.pdf, id=533, page=4, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=839, page=4, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf, page 4>
 Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
@@ -3556,7 +3771,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
-[51 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
+[63 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 )
@@ -3565,7 +3780,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (./aftertext/anexo_b.tex
 \openout5 = `main.mw'.
 
-[52
+[64
 
 
 
@@ -3575,7 +3790,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 )
 \openout5 = `main.mw'.
 
-[53] (latexcache/main.mw)
+[65] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 (latexcache/main.ind) 
@@ -3595,8 +3810,8 @@ AED: lastpage setting LastPage
 \tf@toc=\write30
 \openout5 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
 (latexcache/main.aux
 \openout5 = `main.mw'.
 
@@ -3711,6 +3926,74 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 \openout5 = `main.mw'.
 
 ) (latexcache/chapters/chapter_1.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4057,6 +4340,14 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 (latexcache/aftertext/apendice_a.aux
 \openout5 = `main.mw'.
 
@@ -4210,18 +4501,10 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 \openout5 = `main.mw'.
 
 ))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 326.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 326.
-
-LaTeX Warning: There were undefined references.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 327.
 
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
@@ -4240,34 +4523,38 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 64636 strings out of 481239
- 1239346 string characters out of 5920377
- 2292251 words of memory out of 5000000
- 78120 multiletter control sequences out of 15000+600000
- 622673 words of font info for 179 fonts, out of 8000000 for 9000
+ 65055 strings out of 481239
+ 1247123 string characters out of 5920377
+ 2301925 words of memory out of 5000000
+ 78431 multiletter control sequences out of 15000+600000
+ 632243 words of font info for 191 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 78i,19n,117p,1453b,5083s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-d
-ist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}</usr/share/texlive/texmf-dist/font
-s/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
-12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/font
-s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
-vetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
-s/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on latexcache/main.pdf (55 pages, 1259140 bytes).
+ 78i,19n,117p,1453b,4353s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/texmf-dist/font
+s/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsol
+ata/i4-t1-4.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/I
+nconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uh
+vro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on latexcache/main.pdf (67 pages, 3703842 bytes).
 PDF statistics:
- 829 PDF objects out of 1000 (max. 8388607)
- 703 compressed objects within 8 object streams
- 188 named destinations out of 1000 (max. 500000)
- 40157 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1162 PDF objects out of 1200 (max. 8388607)
+ 968 compressed objects within 10 object streams
+ 249 named destinations out of 1000 (max. 500000)
+ 42810 words of extra memory for PDF output out of 42996 (max. 10000000)
 

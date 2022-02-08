@@ -2307,7 +2307,57 @@
     <bcf:datasource type="file" datatype="bibtex">aftertext/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">NBR6028:2003</bcf:citekey>
+    <bcf:citekey order="1">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="2">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="3">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="4">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="5">Norton2011</bcf:citekey>
+    <bcf:citekey order="6">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="7">Norton2011</bcf:citekey>
+    <bcf:citekey order="8">Norton2011</bcf:citekey>
+    <bcf:citekey order="9">Norton2011</bcf:citekey>
+    <bcf:citekey order="10">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="11">Norton2011</bcf:citekey>
+    <bcf:citekey order="12">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="13">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="14">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="15">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="16">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="17">Norton2011</bcf:citekey>
+    <bcf:citekey order="18">Norton2011</bcf:citekey>
+    <bcf:citekey order="19">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="20">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="21">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="22">Norton2011</bcf:citekey>
+    <bcf:citekey order="23">Norton2011</bcf:citekey>
+    <bcf:citekey order="24">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="25">Hollman2011</bcf:citekey>
+    <bcf:citekey order="26">Hibbeler2010</bcf:citekey>
+    <bcf:citekey order="27">Hollman2011</bcf:citekey>
+    <bcf:citekey order="28">Hollman2011</bcf:citekey>
+    <bcf:citekey order="29">Hollman2011</bcf:citekey>
+    <bcf:citekey order="30">Hollman2011</bcf:citekey>
+    <bcf:citekey order="31">Hollman2011</bcf:citekey>
+    <bcf:citekey order="32">Hollman2011</bcf:citekey>
+    <bcf:citekey order="33">Hollman2011</bcf:citekey>
+    <bcf:citekey order="34">Hollman2011</bcf:citekey>
+    <bcf:citekey order="35">Hollman2011</bcf:citekey>
+    <bcf:citekey order="36">Hollman2011</bcf:citekey>
+    <bcf:citekey order="37">Hollman2011</bcf:citekey>
+    <bcf:citekey order="38">DocsESP32</bcf:citekey>
+    <bcf:citekey order="39">DocsADS1115</bcf:citekey>
+    <bcf:citekey order="40">Hollman2011</bcf:citekey>
+    <bcf:citekey order="41">Hollman2011</bcf:citekey>
+    <bcf:citekey order="42">Hollman2011</bcf:citekey>
+    <bcf:citekey order="43">Hollman2011</bcf:citekey>
+    <bcf:citekey order="44">TimHall2010</bcf:citekey>
+    <bcf:citekey order="45">DocsPandas</bcf:citekey>
+    <bcf:citekey order="46">DocsPandas</bcf:citekey>
+    <bcf:citekey order="47">DocsSciPy</bcf:citekey>
+    <bcf:citekey order="48">PRODIP</bcf:citekey>
+    <bcf:citekey order="49">PRODIP</bcf:citekey>
+    <bcf:citekey order="50">PRODIP</bcf:citekey>
+    <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

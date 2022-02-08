@@ -1,0 +1,656 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{DocsNumPy}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ac8f9f6d402eb41cc08675c881fbc576}{%
+           family={Developers},
+           familyi={D\bibinitperiod},
+           given={NumPy},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{ac8f9f6d402eb41cc08675c881fbc576}
+      \strng{fullhash}{ac8f9f6d402eb41cc08675c881fbc576}
+      \strng{bibnamehash}{ac8f9f6d402eb41cc08675c881fbc576}
+      \strng{authorbibnamehash}{ac8f9f6d402eb41cc08675c881fbc576}
+      \strng{authornamehash}{ac8f9f6d402eb41cc08675c881fbc576}
+      \strng{authorfullhash}{ac8f9f6d402eb41cc08675c881fbc576}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Documentação NumPy}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://numpy.org/doc/stable/
+      \endverb
+      \verb{url}
+      \verb https://numpy.org/doc/stable/
+      \endverb
+    \endentry
+    \entry{DocsPandas}{online}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=b9ac2437ba5ca8e31ef14dc21be6b425}{%
+           family={developers},
+           familyi={d\bibinitperiod},
+           given={Pandas},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{b9ac2437ba5ca8e31ef14dc21be6b425}
+      \strng{fullhash}{b9ac2437ba5ca8e31ef14dc21be6b425}
+      \strng{bibnamehash}{b9ac2437ba5ca8e31ef14dc21be6b425}
+      \strng{authorbibnamehash}{b9ac2437ba5ca8e31ef14dc21be6b425}
+      \strng{authornamehash}{b9ac2437ba5ca8e31ef14dc21be6b425}
+      \strng{authorfullhash}{b9ac2437ba5ca8e31ef14dc21be6b425}
+      \field{sortinit}{d}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Documentação Pandas}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://pandas.pydata.org/docs/
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org/docs/
+      \endverb
+    \endentry
+    \entry{DocsSciPy}{online}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=1eec54ef3897798d13dcf37fb9d129eb}{%
+           family={developers},
+           familyi={d\bibinitperiod},
+           given={SciPy},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{fullhash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{bibnamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authorbibnamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authornamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authorfullhash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \field{sortinit}{d}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Documentação SciPy}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://docs.scipy.org/doc/
+      \endverb
+      \verb{url}
+      \verb https://docs.scipy.org/doc/
+      \endverb
+    \endentry
+    \entry{Doebelin1983}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=07c58cd6bc9287b12510302bd561870f}{%
+           family={Doebelin},
+           familyi={D\bibinitperiod},
+           given={Ernest\bibnamedelima O.},
+           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Ohio}%
+      }
+      \list{publisher}{1}{%
+        {McGraw- Hill}%
+      }
+      \strng{namehash}{07c58cd6bc9287b12510302bd561870f}
+      \strng{fullhash}{07c58cd6bc9287b12510302bd561870f}
+      \strng{bibnamehash}{07c58cd6bc9287b12510302bd561870f}
+      \strng{authorbibnamehash}{07c58cd6bc9287b12510302bd561870f}
+      \strng{authornamehash}{07c58cd6bc9287b12510302bd561870f}
+      \strng{authorfullhash}{07c58cd6bc9287b12510302bd561870f}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Measurement system: Application and design.}
+      \field{year}{1983}
+      \true{nocite}
+    \endentry
+    \entry{DocsESP32}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5dbf4b4cef955ac1a7b0da67dd48c59e}{%
+           family={espressif},
+           familyi={e\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{5dbf4b4cef955ac1a7b0da67dd48c59e}
+      \strng{fullhash}{5dbf4b4cef955ac1a7b0da67dd48c59e}
+      \strng{bibnamehash}{5dbf4b4cef955ac1a7b0da67dd48c59e}
+      \strng{authorbibnamehash}{5dbf4b4cef955ac1a7b0da67dd48c59e}
+      \strng{authornamehash}{5dbf4b4cef955ac1a7b0da67dd48c59e}
+      \strng{authorfullhash}{5dbf4b4cef955ac1a7b0da67dd48c59e}
+      \field{sortinit}{e}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Documentação ESP32}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+      \endverb
+    \endentry
+    \entry{Gharghan2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b3cc5bb6babbede5bc56336155716820}{%
+           family={Gharghan},
+           familyi={G\bibinitperiod},
+           given={Sadik\bibnamedelima Kamel},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd1d0e39914cd6b76d12274f16eeab3}{%
+           family={Nordin},
+           familyi={N\bibinitperiod},
+           given={Rosdiadee},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=394e0c9d91ef36a35c588db193502430}{%
+           family={Ismail},
+           familyi={I\bibinitperiod},
+           given={Mahamod},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Walter de Gruyter {GmbH}}%
+      }
+      \strng{namehash}{f64f7bf82ea84aa8c9b669b5e5c702cd}
+      \strng{fullhash}{f64f7bf82ea84aa8c9b669b5e5c702cd}
+      \strng{bibnamehash}{f64f7bf82ea84aa8c9b669b5e5c702cd}
+      \strng{authorbibnamehash}{f64f7bf82ea84aa8c9b669b5e5c702cd}
+      \strng{authornamehash}{f64f7bf82ea84aa8c9b669b5e5c702cd}
+      \strng{authorfullhash}{f64f7bf82ea84aa8c9b669b5e5c702cd}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal on Smart Sensing and Intelligent Systems}
+      \field{number}{1}
+      \field{title}{{DEVELOPMENT} {AND} {VALIDATION} {OF} A {TRACK} {BICYCLE}~{INSTRUMENT} {FOR} {TORQUE} {MEASUREMENT} {USING} {THE} {ZIGBEE} {WIRELESS} {SENSOR} {NETWORK}}
+      \field{volume}{10}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{124\bibrangedash 145}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.21307/ijssis-2017-206
+      \endverb
+    \endentry
+    \entry{Hibbeler2010}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8436125e94d9877a58200cf47abf76f0}{%
+           family={Hibbeler},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo (SP)}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education do Brasil}%
+      }
+      \strng{namehash}{8436125e94d9877a58200cf47abf76f0}
+      \strng{fullhash}{8436125e94d9877a58200cf47abf76f0}
+      \strng{bibnamehash}{8436125e94d9877a58200cf47abf76f0}
+      \strng{authorbibnamehash}{8436125e94d9877a58200cf47abf76f0}
+      \strng{authornamehash}{8436125e94d9877a58200cf47abf76f0}
+      \strng{authorfullhash}{8436125e94d9877a58200cf47abf76f0}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7}
+      \field{isbn}{9788576053736}
+      \field{title}{Resistência dos materiais}
+      \field{year}{2010}
+    \endentry
+    \entry{Hollman2011}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3cbf517fcf2e849551c969145e65f094}{%
+           family={Hollman},
+           familyi={H\bibinitperiod},
+           given={Jack\bibnamedelima Philip},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Mcgraw - Hill}%
+      }
+      \strng{namehash}{3cbf517fcf2e849551c969145e65f094}
+      \strng{fullhash}{3cbf517fcf2e849551c969145e65f094}
+      \strng{bibnamehash}{3cbf517fcf2e849551c969145e65f094}
+      \strng{authorbibnamehash}{3cbf517fcf2e849551c969145e65f094}
+      \strng{authornamehash}{3cbf517fcf2e849551c969145e65f094}
+      \strng{authorfullhash}{3cbf517fcf2e849551c969145e65f094}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8}
+      \field{title}{Experimental methods for engineers.}
+      \field{year}{2011}
+    \endentry
+    \entry{DocsADS1115}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{ADS1115 Datasheet}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.alldatasheet.com/datasheet-pdf/pdf/292735/TI/ADS1115.html
+      \endverb
+      \verb{url}
+      \verb https://www.alldatasheet.com/datasheet-pdf/pdf/292735/TI/ADS1115.html
+      \endverb
+    \endentry
+    \entry{Minela2017}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2752b722b785bbde5dfca061af9b7925}{%
+           family={Minela},
+           familyi={M\bibinitperiod},
+           given={Sthefani\bibnamedelima Neves},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {UFSC}%
+      }
+      \list{location}{1}{%
+        {Joinville}%
+      }
+      \strng{namehash}{2752b722b785bbde5dfca061af9b7925}
+      \strng{fullhash}{2752b722b785bbde5dfca061af9b7925}
+      \strng{bibnamehash}{2752b722b785bbde5dfca061af9b7925}
+      \strng{authorbibnamehash}{2752b722b785bbde5dfca061af9b7925}
+      \strng{authornamehash}{2752b722b785bbde5dfca061af9b7925}
+      \strng{authorfullhash}{2752b722b785bbde5dfca061af9b7925}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{EXTENSOMETRIA: ESTUDO E APLICAÇÃO}
+      \field{type}{mathesis}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{PRODIP}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30ab286be16e3f85193929ff01686dfd}{%
+           family={NEDIP-UFSC},
+           familyi={N\bibinithyphendelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{30ab286be16e3f85193929ff01686dfd}
+      \strng{fullhash}{30ab286be16e3f85193929ff01686dfd}
+      \strng{bibnamehash}{30ab286be16e3f85193929ff01686dfd}
+      \strng{authorbibnamehash}{30ab286be16e3f85193929ff01686dfd}
+      \strng{authornamehash}{30ab286be16e3f85193929ff01686dfd}
+      \strng{authorfullhash}{30ab286be16e3f85193929ff01686dfd}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Metodologia PRODIP}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://nedip.ufsc.br/sessao/modelo-prodip-1
+      \endverb
+      \verb{url}
+      \verb https://nedip.ufsc.br/sessao/modelo-prodip-1
+      \endverb
+    \endentry
+    \entry{Niedworok2014}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=06daa920926450fc1664e93bb4ca9deb}{%
+           family={Niedworok},
+           familyi={N\bibinitperiod},
+           given={Andrzej},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{06daa920926450fc1664e93bb4ca9deb}
+      \strng{fullhash}{06daa920926450fc1664e93bb4ca9deb}
+      \strng{bibnamehash}{06daa920926450fc1664e93bb4ca9deb}
+      \strng{authorbibnamehash}{06daa920926450fc1664e93bb4ca9deb}
+      \strng{authornamehash}{06daa920926450fc1664e93bb4ca9deb}
+      \strng{authorfullhash}{06daa920926450fc1664e93bb4ca9deb}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 16th European Conference on Power Electronics and Applications}
+      \field{month}{8}
+      \field{title}{Dynamic torque measurement of drive transmission in vehicles being in motion using strain gauges measurement technique and wireless data transmission}
+      \field{year}{2014}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/epe.2014.6910707
+      \endverb
+    \endentry
+    \entry{Norton2011}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f2c3f3917e374c3e4de6b4e613982b9a}{%
+           family={Norton},
+           familyi={N\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=534810343c47f3c4ae1969bff1d4a5bc}{%
+           family={4th},
+           familyi={4\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{f2c3f3917e374c3e4de6b4e613982b9a}
+      \strng{fullhash}{f2c3f3917e374c3e4de6b4e613982b9a}
+      \strng{bibnamehash}{f2c3f3917e374c3e4de6b4e613982b9a}
+      \strng{authorbibnamehash}{f2c3f3917e374c3e4de6b4e613982b9a}
+      \strng{authornamehash}{f2c3f3917e374c3e4de6b4e613982b9a}
+      \strng{authorfullhash}{f2c3f3917e374c3e4de6b4e613982b9a}
+      \strng{editorbibnamehash}{534810343c47f3c4ae1969bff1d4a5bc}
+      \strng{editornamehash}{534810343c47f3c4ae1969bff1d4a5bc}
+      \strng{editorfullhash}{534810343c47f3c4ae1969bff1d4a5bc}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{isbn}{9780136123705}
+      \field{title}{Machine design : an integrated approach}
+      \field{year}{2011}
+    \endentry
+    \entry{Nurprasetio2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d7bf4beb7210311cb040672af2164376}{%
+           family={Nurprasetio},
+           familyi={N\bibinitperiod},
+           given={Ignatius\bibnamedelima Pulung},
+           giveni={I\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e398b3bf3029378a29ad439326cb2214}{%
+           family={Aziz},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a445a6b086ddcbe1c7df0c7ffdb1b5d5}{%
+           family={Budiman},
+           familyi={B\bibinitperiod},
+           given={Bentang\bibnamedelima Arief},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8de2c7bb9b33a9b267258d00509f283e}{%
+           family={Afwan},
+           familyi={A\bibinitperiod},
+           given={Ahmad\bibnamedelima Alfin},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d22d60b7946944a5e3ae67de5b296d7c}
+      \strng{fullhash}{ecb64a118ae7a39c84e117f8cc19d556}
+      \strng{bibnamehash}{d22d60b7946944a5e3ae67de5b296d7c}
+      \strng{authorbibnamehash}{d22d60b7946944a5e3ae67de5b296d7c}
+      \strng{authornamehash}{d22d60b7946944a5e3ae67de5b296d7c}
+      \strng{authorfullhash}{ecb64a118ae7a39c84e117f8cc19d556}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 5th International Conference on Electric Vehicular Technology ({ICEVT})}
+      \field{month}{10}
+      \field{title}{Development of Static and Dynamic Online Measurement System for Ground Vehicles}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/icevt.2018.8628346
+      \endverb
+    \endentry
+    \entry{Silva2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=eac802692a2013088dac68259710d56c}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Anderson},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c7030a7e01296f7c2144eba847402fa}{%
+           family={Varanis},
+           familyi={V\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77ee6a6732a0a8899a4c4028761e7d80}{%
+           family={Mereles},
+           familyi={M\bibinitperiod},
+           given={Arthur\bibnamedelima Guilherme},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{ABMEC} Brazilian Association of Computational Methods in Engineering}%
+      }
+      \strng{namehash}{8fb53b9796268adfd750864f656d49d4}
+      \strng{fullhash}{8fb53b9796268adfd750864f656d49d4}
+      \strng{bibnamehash}{8fb53b9796268adfd750864f656d49d4}
+      \strng{authorbibnamehash}{8fb53b9796268adfd750864f656d49d4}
+      \strng{authornamehash}{8fb53b9796268adfd750864f656d49d4}
+      \strng{authorfullhash}{8fb53b9796268adfd750864f656d49d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {XXXVIII} Iberian Latin American Congress on Computational Methods in Engineering}
+      \field{title}{A consistent experimental approach for strain measurement: Two case studies}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.20906/cps/cilamce2017-0718
+      \endverb
+    \endentry
+    \entry{Silva2018}{article}{}
+      \name{author}{5}{ul=3}{%
+        {{un=0,uniquepart=base,hash=205d1178ff2b462cae5f5694f91f3d4f}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Anderson\bibnamedelima Langone},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c7030a7e01296f7c2144eba847402fa}{%
+           family={Varanis},
+           familyi={V\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77ee6a6732a0a8899a4c4028761e7d80}{%
+           family={Mereles},
+           familyi={M\bibinitperiod},
+           given={Arthur\bibnamedelima Guilherme},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4a922d40002c0f15218cf19149c054a}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Clivaldo},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75491dec46b56b4a9a2f57efa2313b98}{%
+           family={Balthazar},
+           familyi={B\bibinitperiod},
+           given={Jos{é}\bibnamedelima Manoel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{FapUNIFESP} ({SciELO})}%
+      }
+      \strng{namehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
+      \strng{fullhash}{cb24ca23c47b17449b43dcd12d7b5d1f}
+      \strng{bibnamehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
+      \strng{authorbibnamehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
+      \strng{authornamehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
+      \strng{authorfullhash}{cb24ca23c47b17449b43dcd12d7b5d1f}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Brasileira de Ensino de F{ı́}sica}
+      \field{month}{12}
+      \field{number}{3}
+      \field{title}{A study of strain and deformation measurement using the Arduino microcontroller and strain gauges devices}
+      \field{volume}{41}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1590/1806-9126-rbef-2018-0206
+      \endverb
+    \endentry
+    \entry{TimHall2010}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=26653e45333f806ffc7849071bbec1ee}{%
+           family={Tim\bibnamedelima Hall},
+           familyi={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={J.-P.\bibnamedelimi Stacey},
+           giveni={J\bibinithyphendelim P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag GmbH}%
+      }
+      \strng{namehash}{26653e45333f806ffc7849071bbec1ee}
+      \strng{fullhash}{26653e45333f806ffc7849071bbec1ee}
+      \strng{bibnamehash}{26653e45333f806ffc7849071bbec1ee}
+      \strng{authorbibnamehash}{26653e45333f806ffc7849071bbec1ee}
+      \strng{authornamehash}{26653e45333f806ffc7849071bbec1ee}
+      \strng{authorfullhash}{26653e45333f806ffc7849071bbec1ee}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781430216339}
+      \field{month}{3}
+      \field{title}{Python 3 for Absolute Beginners}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://www.ebook.de/de/product/12469709/tim_hall_j_p_stacey_python_3_for_absolute_beginners.html
+      \endverb
+      \verb{url}
+      \verb https://www.ebook.de/de/product/12469709/tim_hall_j_p_stacey_python_3_for_absolute_beginners.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
