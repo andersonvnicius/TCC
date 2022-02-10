@@ -304,7 +304,7 @@ A ponte de wheatstone é normalmente utilizada em comparações e medições de 
 
 \begin{equation}\label{eq:Eq_220}%
 \mbox{\fontsize{17.28}{21.6}\selectfont\( %
-E = V \frac{R_1R_3 - R_2R_4}{(R_1+R_2)(R_3+R_4)}
+V_{out} = V_{in} \frac{R_1R_3 - R_2R_4}{(R_1+R_2)(R_3+R_4)}
 \)} %
 \end{equation}
 
@@ -322,7 +322,7 @@ Em uma aplicação onde o sensor de deformação representa uma resistência var
 
 \begin{equation}\label{eq:Eq_220}%
 \mbox{\fontsize{17.28}{21.6}\selectfont\( %
-TBD
+\frac{V_{out}}{V_{in}} = \frac{k}{4}(\varepsilon_1 - \varepsilon_2 + \varepsilon_3 - \varepsilon_4)
 \)} %
 \end{equation}
 
@@ -341,7 +341,7 @@ Medidas experimentais podem ocorrer de diversas formas e em vários casos os sin
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/1100.png}
 	\end{center}
-	\fonte{TBD}
+	\fonte{www.electronics-tutorials.ws/amplifier/amp_1.html acesso em fev 2022}
 \end{figure}
 
 Devido a efeitos aleatórios ou conhecidos ruídos característicos sempre estarão presentes em em situações de tomada de medidas, esses ruídos podem ser filtrados utilizando circuitos que apenas permitem que uma certa parte das frequências que compõem o sinal obtido passem adiante no circuito a fim de modificar o sinal de saída do amplificador. Essa filtragem não resolve todos os problemas que podem ser encontrados, porém melhora significativamente o resultado de um experimento \autocite{Hollman2011}.
@@ -351,7 +351,7 @@ Devido a efeitos aleatórios ou conhecidos ruídos característicos sempre estar
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/1110.png}
 	\end{center}
-	\fonte{TBD}
+	\fonte{www.quora.com/How-can-digital-signals-posses-noise-immunity acesso em fev 2022}
 \end{figure}
 
 Uma vez que os sinais encontrados até aqui no sistema são de característica analógica e espera-se que a utilização e tratamento deles ocorra em um computador ou placa controladora como Arduino, que opera de maneira digital, deve-se então converter essas informações de tensão de um meio analogico para um meio digital, para isso é utilizado um conversor digital-analógico.
@@ -361,7 +361,7 @@ Uma vez que os sinais encontrados até aqui no sistema são de característica a
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/1120.png}
 	\end{center}
-	\fonte{TBD}
+	\fonte{www.arrow.com/en/research-and-events/articles/engineering-resource-basics-of-analog-to-digital-converters acesso em fev 2022}
 \end{figure}
 
 Em um meio analógico, as variáveis físicas são processadas como valores num meio contínuo, enquanto em um meio digital, valores são caracterizados por uma representação discreta. Uma faz razões para o tratamento de sinais de maneira digital é imunizar o sinal obtido do efeito de ruídos durante a transmissão, uma vez que definir se um sinal obtido é de valor 1 ou 0 é muito mais fácil do que definir se é um valor dentre os infinitos possíveis em um meio contínuo \autocite{Hollman2011}.
@@ -370,7 +370,7 @@ Com a finalidade de não ser perdidas informações no momento de conversão de 
 
 A aquisição e processamento subsequente dos sinais obtidos pode ser feito de diversas formas, desde simples cálculos e obtenção manuais de dados até utilizando  rotinas computacionais complexas. O objetivo do sistema de aquisição de dados é o de coletar, processar e/ou armazenar os dados obtidos em um experimento ou medição \autocite{Hollman2011}.
 
-\section{OBTENÇÃO DOS SINAIS}
+\section{SISTEMAS DE MEDIÇÃO}
 
 A maior parte dos sistemas de medição podem ser divididos em três partes, um estágio de detecção da medida física, um estágio intermediário de amplificação, filtragem e conversão de sinal e um estágio final, que engloba a obtenção e processamento do sinal por um dispositivo de controle \autocite{Hollman2011}.
 
@@ -392,7 +392,7 @@ Para desenvolver o sistema de controle e obtenção do sinal foi utilizado a pla
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/1140.png}
 	\end{center}
-	\fonte{TBD}
+	\fonte{amazon.com}
 \end{figure}
 
 A programação do controlador é feita utilizando uma linguagem de programação baseada na linguagem C + + adaptada para a utilização em placas de controle utilizando o ambiente de desenvolvimento Arduino IDE, que permite a utilização de extensões para programação e utilização de módulos externos, como o amplificador de sinal.
@@ -404,7 +404,7 @@ O ADS1115 é conversor analógico digital de precisão com resolução de 16 bit
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/1150.png}
 	\end{center}
-	\fonte{TBD}
+	\fonte{amazon.com}
 \end{figure}
 
 Os dados obtidos pelo sistema de medição são todos em formato digital em forma de vetores unidimensionais compostos pelos valores das amostra obtidas durante o  tempo do experimento, esses valores são transmitidos em tempo real para um computador que executa um programa de obtenção de dados para realizar transformações mais complexas e análises dos sinais obtidos em tempo real.
@@ -415,9 +415,33 @@ Algum tipo de análise deve sempre ser feita em todo tipo de conjuntos de dados 
 
 Leituras individuais em um instrumento podem variar devido a erros de natureza aleatória, que seguem uma distribuição estatística normal, e o experimentador pode estar desejando obter o valor médio de diversas leituras realizadas \autocite{Hollman2011}. A equação () obtém o valor médio para uma medição experimental consistente de diversas leituras.
 
+\begin{equation}\label{eq:Eq_220}%
+\mbox{\fontsize{17.28}{21.6}\selectfont\( %
+\overline{x} = {\frac {1}{n}}\sum _{i=1}^{x}a_{i}
+\)} %
+\end{equation}
+
+\hfill
+
 Para cada leitura é esperado um valor de desvio lido, deve se notar que quanto melhor for o sistema de medição menor serão os valores de desvio obtidos no conjunto de leituras, o desvio padrão , representado pela equação(), se mostra como um bom indicador da situação dos desvios, e consequentemente da exatidão de um sistema de medição.
 
+\begin{equation}\label{eq:Eq_220}%
+\mbox{\fontsize{17.28}{21.6}\selectfont\( %
+\sigma = \sqrt{\frac{\Sigma(x_i-\mu)^{2}}{n}}
+\)} %
+\end{equation}
+
+\hfill
+
 Essa equação de desvio padrão deve ser utilizada para grandes populações de amostras ou para quando os dados obtidos podem ser comparados com grandezas conhecidas \autocite{Hollman2011}. Para se obter a informação de se os valores experimentais estão de acordo com os desejados pode-se utilizar o teste do chi quadrado, representado na equação().
+
+\begin{equation}\label{eq:Eq_220}%
+\mbox{\fontsize{17.28}{21.6}\selectfont\( %
+\chi^{2} = \sum{\frac{(observed - expected)^{2}}{expected}}
+\)} %
+\end{equation}
+
+\hfill
 
 Esse teste é uma importante ferramenta de teste de qualquer resultado de distribuição experimental esperada. Se o valor de chi quadrado é igual a zero então a distribuição assumida é exatamente a distribuição real, quanto maior o valor de chi quadrado, menor é a correlação entre os dados medidos e os reais \autocite{Hollman2011}. Com o objetivo de facilitar a obtenção dos dados estatísticos para cada amostra obtida, foi criada uma ferramenta computacional utilizando a linguagem python.
 
@@ -426,6 +450,25 @@ Esse teste é uma importante ferramenta de teste de qualquer resultado de distri
 Python se caracteriza como uma linguagem de programação humanamente amigável, básica e de fácil leitura e entendimento. Que permite ao usuário a utilização de extensões e pacotes com funções de conveniência para resolver a maior parte dos problemas computacionais encontrados \autocite{TimHall2010}.
 
 A extensão numpy é um pacote fundamental para computação científica utilizando a linguagem de programação Python. O numpy é uma ferramenta utilizada para o processamento de dados em forma vetorial, uni ou multidimensional, seu funcionamento é baseado na conversão dos dados numéricos do formato de lista para um formato específico, altamente otimizado chamado ndarray. O pacote numpy também apresenta diversas funções matemáticas, lógicas, estatísticas, algébricas feitas para serem utilizadas com objetos ndarray, isso acarreta em uma minimização do tempo de processamento de um programa se comparado com utilizando funções nativas de python \autocite{DocsPandas}. As principais funções utilizadas são demonstradas na tabela().
+
+\begin{table}[htb]
+\caption[Funções do pacote NumPy utilizadas]{Funções utilizadas}
+\label{tab-nivinv}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{2.0cm}p{5.0cm}p{3.0cm}p{3.0cm}}
+  \toprule
+   \textbf{Função} & \textbf{Descrição } & \textbf{Parâmetros de entrada} & \textbf{Parâmetros de saída} \\
+    \midrule
+    array & Cria um objeto do numpy & Lista python & Vetor ndarray \\
+    average & Obtem valor médio & Vetor ndarray & Valor médio \\
+    std & Obtém desvio padrão & Vetor ndarray & Valor desvio padrão \\
+    amax & Obtém valor máximo & Vetor ndarray & Valor máximo \\
+    amin & Obtém valor mínimo & Vetor ndarray & Valor mínimo \\
+   \bottomrule
+\end{tabular}
+}
+\fonte{O autor (2022)}
+\end{table}
 
 Uma grande gama de outros pacotes em python usam como base a estrutura de dados e funções presentes, como o pandas, que é utilizado para facilitar a manipulação e armazenamento de dados em formato de tabular, como planilhas e bancos de dados \autocite{DocsPandas}. Dados em formatos tabulares do pandas podem facilmente ser processados, analisados e armazenados utilizando funções do numpy e funções nativas do pandas.
 
@@ -442,7 +485,7 @@ A principal visualização a ser obtida no experimento é o gráfico de distribu
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/1160.png}
 	\end{center}
-	\fonte{TBD}
+	\fonte{www.researchgate.net/figure/Linear-Regression-model-sample-illustration_fig3_340271573 acesso em fev 2022}
 \end{figure}
 
 O gráfico de regressão linear dos dados experimentais é obtido utilizando a função scipy.lialg.regress do pacote scipy.
@@ -460,9 +503,4 @@ O projeto de um produto engloba todas as etapas de definição das funções e c
 \end{figure}
 
 Essa metodologia foi utilizada para organizar e linearizar as atividades de desenvolvimento do dispositivo, certas etapas ilustradas foram ignoradas e outras adicionadas devido ao objetivo do projeto e o tipo do produto desenvolvido.
-
-
-
-
-
 

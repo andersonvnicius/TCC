@@ -226,7 +226,6 @@
       \field{title}{{DEVELOPMENT} {AND} {VALIDATION} {OF} A {TRACK} {BICYCLE}~{INSTRUMENT} {FOR} {TORQUE} {MEASUREMENT} {USING} {THE} {ZIGBEE} {WIRELESS} {SENSOR} {NETWORK}}
       \field{volume}{10}
       \field{year}{2017}
-      \true{nocite}
       \field{pages}{124\bibrangedash 145}
       \range{pages}{22}
       \verb{doi}
@@ -358,7 +357,6 @@
       \field{title}{EXTENSOMETRIA: ESTUDO E APLICAÇÃO}
       \field{type}{mathesis}
       \field{year}{2017}
-      \true{nocite}
     \endentry
     \entry{PRODIP}{online}{}
       \name{author}{1}{}{%
@@ -416,7 +414,6 @@
       \field{month}{8}
       \field{title}{Dynamic torque measurement of drive transmission in vehicles being in motion using strain gauges measurement technique and wireless data transmission}
       \field{year}{2014}
-      \true{nocite}
       \verb{doi}
       \verb 10.1109/epe.2014.6910707
       \endverb
@@ -507,7 +504,6 @@
       \field{month}{10}
       \field{title}{Development of Static and Dynamic Online Measurement System for Ground Vehicles}
       \field{year}{2018}
-      \true{nocite}
       \verb{doi}
       \verb 10.1109/icevt.2018.8628346
       \endverb
@@ -551,7 +547,6 @@
       \field{booktitle}{Proceedings of the {XXXVIII} Iberian Latin American Congress on Computational Methods in Engineering}
       \field{title}{A consistent experimental approach for strain measurement: Two case studies}
       \field{year}{2017}
-      \true{nocite}
       \verb{doi}
       \verb 10.20906/cps/cilamce2017-0718
       \endverb
@@ -610,7 +605,6 @@
       \field{title}{A study of strain and deformation measurement using the Arduino microcontroller and strain gauges devices}
       \field{volume}{41}
       \field{year}{2018}
-      \true{nocite}
       \verb{doi}
       \verb 10.1590/1806-9126-rbef-2018-0206
       \endverb

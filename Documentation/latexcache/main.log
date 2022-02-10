@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  8 FEB 2022 02:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  9 FEB 2022 22:58
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2582,16 +2582,34 @@ LaTeX Warning: Label `eq:Eq_220' multiply defined.
 
 LaTeX Warning: Label `eq:Eq_220@cref' multiply defined.
 
-) (latexcache/chapters/chapter_2.aux) (latexcache/chapters/chapter_3.aux
+
+LaTeX Warning: Label `eq:Eq_220' multiply defined.
+
+
+LaTeX Warning: Label `eq:Eq_220@cref' multiply defined.
+
+
+LaTeX Warning: Label `eq:Eq_220' multiply defined.
+
+
+LaTeX Warning: Label `eq:Eq_220@cref' multiply defined.
+
+
+LaTeX Warning: Label `eq:Eq_220' multiply defined.
+
+
+LaTeX Warning: Label `eq:Eq_220@cref' multiply defined.
+
+) (latexcache/chapters/chapter_2.aux
 
 LaTeX Warning: Label `fig:Fig_401' multiply defined.
 
 
 LaTeX Warning: Label `fig:Fig_401@cref' multiply defined.
 
-) (latexcache/chapters/chapter_4.aux) (latexcache/chapters/conclusion.aux) (lat
-excache/aftertext/apendice_a.aux) (latexcache/aftertext/anexo_a.aux) (latexcach
-e/aftertext/anexo_b.aux))
+) (latexcache/chapters/chapter_3.aux) (latexcache/chapters/chapter_4.aux) (late
+xcache/chapters/conclusion.aux) (latexcache/aftertext/apendice_a.aux) (latexcac
+he/aftertext/anexo_a.aux) (latexcache/aftertext/anexo_b.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 227.
@@ -3096,7 +3114,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 \openout5 = `main.mw'.
 
 ) (latexcache/main.lof)
-The height of the list 'Lista de Figuras' is '473.61551pt'
+The height of the list 'Lista de Figuras' is '383.6432pt'
 \openout5 = `main.mw'.
 
 [10
@@ -3109,7 +3127,15 @@ The height of the list 'Lista de Figuras' is '473.61551pt'
 (latexcache/main.loq)
 The height of the list 'Lista de Quadros' is '24.37787pt'
 (latexcache/main.lot)
-The height of the list 'Lista de Tabelas' is '23.9039pt'
+The height of the list 'Lista de Tabelas' is '41.74844pt'
+\openout5 = `main.mw'.
+
+[11
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
 (latexcache/main.lol)
 The height of the list 'Lista de Códigos' is '26.25584pt'
 \openout2 = `beforetext/siglas.aux'.
@@ -3117,9 +3143,7 @@ The height of the list 'Lista de Códigos' is '26.25584pt'
 (./beforetext/siglas.tex
 \openout5 = `main.mw'.
 
-[11
-
-
+[12
 
 
 
@@ -3133,7 +3157,7 @@ The height of the list 'Lista de Códigos' is '26.25584pt'
 (./beforetext/simbolos.tex
 \openout5 = `main.mw'.
 
-[12
+[13
 
 
 
@@ -3144,14 +3168,14 @@ The height of the list 'Lista de Códigos' is '26.25584pt'
 
 ) (latexcache/main.toc
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 11.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 11.
+(Font)              <14.4> on input line 12.
 )
-The height of the list 'Sum\'ario' is '1227.6702pt'
+The height of the list 'Sum\'ario' is '1161.68681pt'
 \openout5 = `main.mw'.
 
-[13
+[14
 
 
 
@@ -3161,14 +3185,14 @@ The height of the list 'Sum\'ario' is '1227.6702pt'
 )
 \openout5 = `main.mw'.
 
-[14] (latexcache/main.mw)
+[15] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 248.
 \openout5 = `main.mw'.
 
-[15
+[16
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
@@ -3178,7 +3202,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (./chapters/intro.tex
 \openout5 = `main.mw'.
 
-[16
+[17
 
 
 ] (latexcache/main.mw)
@@ -3187,7 +3211,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 )
 \openout5 = `main.mw'.
 
-[17] (latexcache/main.mw)
+[18] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/chapter_1.aux'.
@@ -3195,63 +3219,63 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (./chapters/chapter_1.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 17.
-<pictures/1010.png, id=360, 1006.76125pt x 257.96375pt>
+<pictures/1010.png, id=353, 1006.76125pt x 257.96375pt>
 File: pictures/1010.png Graphic file (type png)
 <use pictures/1010.png>
 Package pdftex.def Info: pictures/1010.png  used on input line 38.
 (pdftex.def)             Requested size: 455.0pt x 116.5825pt.
 \openout5 = `main.mw'.
 
-[18
+[19
 
 
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1020.png, id=380, 1116.17pt x 719.68875pt>
+<pictures/1020.png, id=373, 1116.17pt x 719.68875pt>
 File: pictures/1020.png Graphic file (type png)
 <use pictures/1020.png>
 Package pdftex.def Info: pictures/1020.png  used on input line 70.
 (pdftex.def)             Requested size: 455.0pt x 293.37216pt.
 \openout5 = `main.mw'.
 
-[19 <./pictures/1010.png>] (latexcache/main.mw)
+[20 <./pictures/1010.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[20 <./pictures/1020.png>] (latexcache/main.mw)
+[21 <./pictures/1020.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1030.png, id=408, 631.35875pt x 198.7425pt>
+<pictures/1030.png, id=401, 631.35875pt x 198.7425pt>
 File: pictures/1030.png Graphic file (type png)
 <use pictures/1030.png>
 Package pdftex.def Info: pictures/1030.png  used on input line 102.
 (pdftex.def)             Requested size: 455.0pt x 143.2279pt.
 \openout5 = `main.mw'.
 
-[21 <./pictures/1030.png>] (latexcache/main.mw)
+[22 <./pictures/1030.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1040.png, id=419, 973.6375pt x 435.6275pt>
+<pictures/1040.png, id=412, 973.6375pt x 435.6275pt>
 File: pictures/1040.png Graphic file (type png)
 <use pictures/1040.png>
 Package pdftex.def Info: pictures/1040.png  used on input line 134.
 (pdftex.def)             Requested size: 455.0pt x 203.57506pt.
 \openout5 = `main.mw'.
 
-[22 <./pictures/1040.png>] (latexcache/main.mw)
+[23 <./pictures/1040.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1050.png, id=430, 891.33pt x 375.4025pt>
+<pictures/1050.png, id=424, 891.33pt x 375.4025pt>
 File: pictures/1050.png Graphic file (type png)
 <use pictures/1050.png>
 Package pdftex.def Info: pictures/1050.png  used on input line 177.
 (pdftex.def)             Requested size: 455.0pt x 191.63603pt.
 \openout5 = `main.mw'.
 
-[23 <./pictures/1050.png>] (latexcache/main.mw)
+[24 <./pictures/1050.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 
@@ -3276,236 +3300,510 @@ l.211 ...lástico, logo os valores esperados de θ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<pictures/1060.png, id=444, 1063.975pt x 421.575pt>
+<pictures/1060.png, id=437, 1063.975pt x 421.575pt>
 File: pictures/1060.png Graphic file (type png)
 <use pictures/1060.png>
 Package pdftex.def Info: pictures/1060.png  used on input line 220.
 (pdftex.def)             Requested size: 455.0pt x 180.28307pt.
-<pictures/1070.png, id=451, 1041.8925pt x 512.91624pt>
+<pictures/1070.png, id=444, 1041.8925pt x 512.91624pt>
 File: pictures/1070.png Graphic file (type png)
 <use pictures/1070.png>
 Package pdftex.def Info: pictures/1070.png  used on input line 230.
 (pdftex.def)             Requested size: 455.0pt x 223.99333pt.
 \openout5 = `main.mw'.
 
-[24 <./pictures/1060.png>] (latexcache/main.mw)
+[25 <./pictures/1060.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[25 <./pictures/1070.png>] (latexcache/main.mw)
+[26 <./pictures/1070.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1080.png, id=472, 360.34625pt x 317.185pt>
+<pictures/1080.png, id=465, 360.34625pt x 317.185pt>
 File: pictures/1080.png Graphic file (type png)
 <use pictures/1080.png>
 Package pdftex.def Info: pictures/1080.png  used on input line 262.
 (pdftex.def)             Requested size: 455.0pt x 400.50217pt.
 \openout5 = `main.mw'.
 
-[26 <./pictures/1080.png>] (latexcache/main.mw)
+[27 <./pictures/1080.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1090.png, id=485, 696.6025pt x 663.47874pt>
+<pictures/1090.png, id=478, 696.6025pt x 663.47874pt>
 File: pictures/1090.png Graphic file (type png)
 <use pictures/1090.png>
 Package pdftex.def Info: pictures/1090.png  used on input line 298.
 (pdftex.def)             Requested size: 455.0pt x 433.36183pt.
 \openout5 = `main.mw'.
 
-[27] (latexcache/main.mw)
+[28] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[28 <./pictures/1090.png>] (latexcache/main.mw)
+[29 <./pictures/1090.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1100.png, id=504, 714.67pt x 239.89626pt>
+<pictures/1100.png, id=498, 714.67pt x 239.89626pt>
 File: pictures/1100.png Graphic file (type png)
 <use pictures/1100.png>
 Package pdftex.def Info: pictures/1100.png  used on input line 342.
 (pdftex.def)             Requested size: 455.0pt x 152.73141pt.
+./chapters/chapter_1.tex:344: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+<argument> ...ctronics-tutorials.ws/amplifier/amp_
+                                                  1.html acesso em fev 2022
+\caption@tfmt@simple #1->#1
+                           
+<argument> ...ifier/amp_1.html acesso em fev 2022}
+                                                  \caption@ifstrut {\ifhmode...
+
+\caption@fmt #1#2#3->#1#2#3
+                           \par 
+\sbox  #1#2->\setbox #1\hbox {\color@setgroup #2
+                                                \color@endgroup }
+\caption@slc ...empboxa {\caption@@@make {#1}{#2}}
+                                                  \ifdim \wd \@tempboxa >\ca...
+<argument> ... 2022}\caption@singleline \relax }{}
+                                                  \caption@calcmargin \capti...
+
+\caption@box@none #1#2->#2
+                          
+\caption@@make@ ...\fi \hspace \caption@tempdima }
+                                                  \caption@endhook 
+\caption@@make ...ingroup \caption@@make@ {#1}{#2}
+                                                  \endgroup \caption@@make@e...
+
+\@makecaption ...ake@above \caption@@make {#1}{#2}
+                                                  \caption@make@below 
+\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
+                                                  \par \endgroup 
+l.344 .../amplifier/amp_1.html acesso em fev 2022}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapters/chapter_1.tex:344: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \@@par 
+\par ->\@@par 
+              \caption@@par 
+<argument> ...ut \strutbox \fi }{}\captiontextend 
+                                                  }
+\caption@fmt #1#2#3->#1#2#3
+                           \par 
+\sbox  #1#2->\setbox #1\hbox {\color@setgroup #2
+                                                \color@endgroup }
+\caption@slc ...empboxa {\caption@@@make {#1}{#2}}
+                                                  \ifdim \wd \@tempboxa >\ca...
+<argument> ... 2022}\caption@singleline \relax }{}
+                                                  \caption@calcmargin \capti...
+
+\caption@box@none #1#2->#2
+                          
+\caption@@make@ ...\fi \hspace \caption@tempdima }
+                                                  \caption@endhook 
+\caption@@make ...ingroup \caption@@make@ {#1}{#2}
+                                                  \endgroup \caption@@make@e...
+
+\@makecaption ...ake@above \caption@@make {#1}{#2}
+                                                  \caption@make@below 
+\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
+                                                  \par \endgroup 
+l.344 .../amplifier/amp_1.html acesso em fev 2022}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapters/chapter_1.tex:344: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+<argument> ...ctronics-tutorials.ws/amplifier/amp_
+                                                  1.html acesso em fev 2022
+\caption@tfmt@simple #1->#1
+                           
+<argument> ...ifier/amp_1.html acesso em fev 2022}
+                                                  \caption@ifstrut {\ifhmode...
+
+\caption@fmt #1#2#3->#1#2#3
+                           \par 
+<argument> ...ifier/amp_1.html acesso em fev 2022}
+                                                  \@@par 
+\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
+                                                  \color@endgroup }\def \wid...
+
+\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
+                                                  \ifx \relax #2\else \setle...
+<argument> ...fier/amp_1.html acesso em fev 2022}}
+                                                  \caption@tempdima \caption...
+
+\caption@box@none #1#2->#2
+                          
+\caption@@make@ ...\fi \hspace \caption@tempdima }
+                                                  \caption@endhook 
+\caption@@make ...ingroup \caption@@make@ {#1}{#2}
+                                                  \endgroup \caption@@make@e...
+
+\@makecaption ...ake@above \caption@@make {#1}{#2}
+                                                  \caption@make@below 
+\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
+                                                  \par \endgroup 
+l.344 .../amplifier/amp_1.html acesso em fev 2022}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapters/chapter_1.tex:344: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \@@par 
+\par ->\@@par 
+              \caption@@par 
+<argument> ...ut \strutbox \fi }{}\captiontextend 
+                                                  }
+\caption@fmt #1#2#3->#1#2#3
+                           \par 
+<argument> ...ifier/amp_1.html acesso em fev 2022}
+                                                  \@@par 
+\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
+                                                  \color@endgroup }\def \wid...
+
+\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
+                                                  \ifx \relax #2\else \setle...
+<argument> ...fier/amp_1.html acesso em fev 2022}}
+                                                  \caption@tempdima \caption...
+
+\caption@box@none #1#2->#2
+                          
+\caption@@make@ ...\fi \hspace \caption@tempdima }
+                                                  \caption@endhook 
+\caption@@make ...ingroup \caption@@make@ {#1}{#2}
+                                                  \endgroup \caption@@make@e...
+
+\@makecaption ...ake@above \caption@@make {#1}{#2}
+                                                  \caption@make@below 
+\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
+                                                  \par \endgroup 
+l.344 .../amplifier/amp_1.html acesso em fev 2022}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 \openout5 = `main.mw'.
 
-[29 <./pictures/1100.png>] (latexcache/main.mw)
+[30 <./pictures/1100.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1110.png, id=514, 997.7275pt x 412.54124pt>
+<pictures/1110.png, id=508, 997.7275pt x 412.54124pt>
 File: pictures/1110.png Graphic file (type png)
 <use pictures/1110.png>
 Package pdftex.def Info: pictures/1110.png  used on input line 352.
 (pdftex.def)             Requested size: 455.0pt x 188.13461pt.
-<pictures/1120.png, id=515, 1022.82124pt x 379.4175pt>
+<pictures/1120.png, id=509, 1022.82124pt x 379.4175pt>
 File: pictures/1120.png Graphic file (type png)
 <use pictures/1120.png>
 Package pdftex.def Info: pictures/1120.png  used on input line 362.
 (pdftex.def)             Requested size: 455.0pt x 168.77946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[][]|\T1/phv/m/n/10 (+10) www.arrow.com/en/research-and-events/articles/enginee
+ring-resource-basics-of-analog-to-
+ []
+
 \openout5 = `main.mw'.
 
-[30 <./pictures/1110.png>] (latexcache/main.mw)
+[31 <./pictures/1110.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1130.png, id=529, 894.34125pt x 421.575pt>
+<pictures/1130.png, id=523, 894.34125pt x 421.575pt>
 File: pictures/1130.png Graphic file (type png)
 <use pictures/1130.png>
 Package pdftex.def Info: pictures/1130.png  used on input line 380.
 (pdftex.def)             Requested size: 455.0pt x 214.47934pt.
-<pictures/1140.png, id=534, 575.14874pt x 421.575pt>
+<pictures/1140.png, id=528, 575.14874pt x 421.575pt>
 File: pictures/1140.png Graphic file (type png)
 <use pictures/1140.png>
 Package pdftex.def Info: pictures/1140.png  used on input line 393.
 (pdftex.def)             Requested size: 455.0pt x 333.51662pt.
 \openout5 = `main.mw'.
 
-[31 <./pictures/1120.png>] (latexcache/main.mw)
+[32 <./pictures/1120.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1150.png, id=543, 874.26625pt x 500.87125pt>
+<pictures/1150.png, id=537, 874.26625pt x 500.87125pt>
 File: pictures/1150.png Graphic file (type png)
 <use pictures/1150.png>
 Package pdftex.def Info: pictures/1150.png  used on input line 405.
 (pdftex.def)             Requested size: 455.0pt x 260.66853pt.
 \openout5 = `main.mw'.
 
-[32 <./pictures/1130.png>] (latexcache/main.mw)
+[33 <./pictures/1130.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[33 <./pictures/1140.png>] (latexcache/main.mw)
+[34 <./pictures/1140.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[34 <./pictures/1150.png>] (latexcache/main.mw)
+[35 <./pictures/1150.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1160.png, id=578, 722.7pt x 525.965pt>
+\openout5 = `main.mw'.
+
+[36] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1160.png, id=580, 722.7pt x 525.965pt>
 File: pictures/1160.png Graphic file (type png)
 <use pictures/1160.png>
-Package pdftex.def Info: pictures/1160.png  used on input line 443.
+Package pdftex.def Info: pictures/1160.png  used on input line 486.
 (pdftex.def)             Requested size: 455.0pt x 331.143pt.
-<pictures/1170.png, id=581, 1082.0425pt x 294.09875pt>
+./chapters/chapter_1.tex:488: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+<argument> ...egression-model-sample-illustration_
+                                                  fig3_340271573 acesso em f...
+
+\caption@tfmt@simple #1->#1
+                           
+<argument> ...n_fig3_340271573 acesso em fev 2022}
+                                                  \caption@ifstrut {\ifhmode...
+
+\caption@fmt #1#2#3->#1#2#3
+                           \par 
+\sbox  #1#2->\setbox #1\hbox {\color@setgroup #2
+                                                \color@endgroup }
+\caption@slc ...empboxa {\caption@@@make {#1}{#2}}
+                                                  \ifdim \wd \@tempboxa >\ca...
+<argument> ... 2022}\caption@singleline \relax }{}
+                                                  \caption@calcmargin \capti...
+
+\caption@box@none #1#2->#2
+                          
+\caption@@make@ ...\fi \hspace \caption@tempdima }
+                                                  \caption@endhook 
+\caption@@make ...ingroup \caption@@make@ {#1}{#2}
+                                                  \endgroup \caption@@make@e...
+
+\@makecaption ...ake@above \caption@@make {#1}{#2}
+                                                  \caption@make@below 
+\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
+                                                  \par \endgroup 
+l.488 ...ration_fig3_340271573 acesso em fev 2022}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapters/chapter_1.tex:488: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \@@par 
+\par ->\@@par 
+              \caption@@par 
+<argument> ...ut \strutbox \fi }{}\captiontextend 
+                                                  }
+\caption@fmt #1#2#3->#1#2#3
+                           \par 
+\sbox  #1#2->\setbox #1\hbox {\color@setgroup #2
+                                                \color@endgroup }
+\caption@slc ...empboxa {\caption@@@make {#1}{#2}}
+                                                  \ifdim \wd \@tempboxa >\ca...
+<argument> ... 2022}\caption@singleline \relax }{}
+                                                  \caption@calcmargin \capti...
+
+\caption@box@none #1#2->#2
+                          
+\caption@@make@ ...\fi \hspace \caption@tempdima }
+                                                  \caption@endhook 
+\caption@@make ...ingroup \caption@@make@ {#1}{#2}
+                                                  \endgroup \caption@@make@e...
+
+\@makecaption ...ake@above \caption@@make {#1}{#2}
+                                                  \caption@make@below 
+\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
+                                                  \par \endgroup 
+l.488 ...ration_fig3_340271573 acesso em fev 2022}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapters/chapter_1.tex:488: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+<argument> ...egression-model-sample-illustration_
+                                                  fig3_340271573 acesso em f...
+
+\caption@tfmt@simple #1->#1
+                           
+<argument> ...n_fig3_340271573 acesso em fev 2022}
+                                                  \caption@ifstrut {\ifhmode...
+
+\@secondoftwo #1#2->#2
+                      
+<argument> ...n_fig3_340271573 acesso em fev 2022}
+                                                  \@@par 
+\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
+                                                  \color@endgroup }\def \wid...
+
+\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
+                                                  \ifx \relax #2\else \setle...
+<argument> ..._fig3_340271573 acesso em fev 2022}}
+                                                  \caption@tempdima \caption...
+
+\caption@box@none #1#2->#2
+                          
+\caption@@make@ ...\fi \hspace \caption@tempdima }
+                                                  \caption@endhook 
+\caption@@make ...ingroup \caption@@make@ {#1}{#2}
+                                                  \endgroup \caption@@make@e...
+
+\@makecaption ...ake@above \caption@@make {#1}{#2}
+                                                  \caption@make@below 
+\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
+                                                  \par \endgroup 
+l.488 ...ration_fig3_340271573 acesso em fev 2022}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapters/chapter_1.tex:488: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \@@par 
+\par ->\@@par 
+              \caption@@par 
+<argument> ...ut \strutbox \fi }{}\captiontextend 
+                                                  }\par 
+\@secondoftwo #1#2->#2
+                      
+<argument> ...n_fig3_340271573 acesso em fev 2022}
+                                                  \@@par 
+\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
+                                                  \color@endgroup }\def \wid...
+
+\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
+                                                  \ifx \relax #2\else \setle...
+<argument> ..._fig3_340271573 acesso em fev 2022}}
+                                                  \caption@tempdima \caption...
+
+\caption@box@none #1#2->#2
+                          
+\caption@@make@ ...\fi \hspace \caption@tempdima }
+                                                  \caption@endhook 
+\caption@@make ...ingroup \caption@@make@ {#1}{#2}
+                                                  \endgroup \caption@@make@e...
+
+\@makecaption ...ake@above \caption@@make {#1}{#2}
+                                                  \caption@make@below 
+\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
+                                                  \par \endgroup 
+l.488 ...ration_fig3_340271573 acesso em fev 2022}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (37.89035pt too wide) in paragraph at lines 488--488
+[][]|\T1/phv/m/n/10 (-10) www.researchgate.net/figure/Linear-Regression-model-s
+ample-illustration$[]\OML/lmm/m/it/10 ig\OT1/lmr/m/n/10 (-10) 3[]40271573\OML/l
+mm/m/it/10 acessoemfev\OT1/lmr/m/n/10 (-10) 2022$ 
+ []
+
+\openout5 = `main.mw'.
+
+[37 <./pictures/1160.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1170.png, id=591, 1082.0425pt x 294.09875pt>
 File: pictures/1170.png Graphic file (type png)
 <use pictures/1170.png>
-Package pdftex.def Info: pictures/1170.png  used on input line 457.
+Package pdftex.def Info: pictures/1170.png  used on input line 500.
 (pdftex.def)             Requested size: 455.0pt x 123.66872pt.
 )
 \openout5 = `main.mw'.
 
-[35] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[36 <./pictures/1160.png> <./pictures/1170.png>] (latexcache/main.mw)
+[38 <./pictures/1170.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/chapter_2.aux'.
 
 (./chapters/chapter_2.tex
-<images/img301.jpg, id=601, 105.0324pt x 51.7935pt>
-File: images/img301.jpg Graphic file (type jpg)
-<use images/img301.jpg>
-Package pdftex.def Info: images/img301.jpg  used on input line 17.
-(pdftex.def)             Requested size: 455.0pt x 224.37047pt.
-<images/img302.jpg, id=603, 690.58pt x 446.66875pt>
-File: images/img302.jpg Graphic file (type jpg)
-<use images/img302.jpg>
-Package pdftex.def Info: images/img302.jpg  used on input line 27.
-(pdftex.def)             Requested size: 455.0pt x 294.29793pt.
-\openout5 = `main.mw'.
-
-[37
-
-
-
- <./images/img301.jpg>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<images/img303.jpg, id=609, 676.5275pt x 344.28625pt>
-File: images/img303.jpg Graphic file (type jpg)
-<use images/img303.jpg>
-Package pdftex.def Info: images/img303.jpg  used on input line 37.
-(pdftex.def)             Requested size: 455.0pt x 231.5584pt.
-\openout5 = `main.mw'.
-
-[38 <./images/img302.jpg>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[39 <./images/img303.jpg>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<images/img501.jpg, id=623, 533.995pt x 206.7725pt>
-File: images/img501.jpg Graphic file (type jpg)
-<use images/img501.jpg>
-Package pdftex.def Info: images/img501.jpg  used on input line 137.
-(pdftex.def)             Requested size: 455.0pt x 176.1897pt.
-\openout5 = `main.mw'.
-
-[40 <./images/img501.jpg>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<images/img502.png, id=632, 1204.5pt x 925.4575pt>
-File: images/img502.png Graphic file (type png)
-<use images/img502.png>
-Package pdftex.def Info: images/img502.png  used on input line 207.
-(pdftex.def)             Requested size: 455.0pt x 349.58755pt.
-)
-\openout5 = `main.mw'.
-
-[41] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[42 <./images/img502.png>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout2 = `chapters/chapter_3.aux'.
-
-(./chapters/chapter_3.tex
-<images/img401.png, id=647, 639.8304pt x 166.4619pt>
+<images/img401.png, id=603, 639.8304pt x 166.4619pt>
 File: images/img401.png Graphic file (type png)
 <use images/img401.png>
 Package pdftex.def Info: images/img401.png  used on input line 16.
 (pdftex.def)             Requested size: 455.0pt x 118.37671pt.
 \openout5 = `main.mw'.
 
-[43
+[39
 
 
 
  <./images/img401.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<images/img403.jpg, id=655, 369.38pt x 247.92625pt>
+
+Overfull \hbox (17.18878pt too wide) in paragraph at lines 31--32
+\T1/phv/m/n/12 (-10) men-to, se-gun-do a fa-bri-can-te Kyowa (www.kyowa-ei.com/
+eng/technical/sensors/torque.html
+ []
+
+<images/img403.jpg, id=613, 369.38pt x 247.92625pt>
 File: images/img403.jpg Graphic file (type jpg)
 <use images/img403.jpg>
-Package pdftex.def Info: images/img403.jpg  used on input line 35.
+Package pdftex.def Info: images/img403.jpg  used on input line 36.
 (pdftex.def)             Requested size: 369.37909pt x 247.92564pt.
 \openout5 = `main.mw'.
 
-[44 <./images/img403.jpg>] (latexcache/main.mw)
+[40 <./images/img403.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<images/img402.jpg, id=660, 534.49687pt x 384.6872pt>
+\openout5 = `main.mw'.
+
+[41] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<images/img402.jpg, id=640, 534.49687pt x 384.6872pt>
 File: images/img402.jpg Graphic file (type jpg)
 <use images/img402.jpg>
-Package pdftex.def Info: images/img402.jpg  used on input line 55.
+Package pdftex.def Info: images/img402.jpg  used on input line 68.
 (pdftex.def)             Requested size: 455.0pt x 327.48459pt.
+\openout5 = `main.mw'.
+
+[42 <./images/img402.jpg>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
 )
 \openout5 = `main.mw'.
 
-[45 <./images/img402.jpg>] (latexcache/main.mw)
+[43] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+\openout2 = `chapters/chapter_3.aux'.
+
+(./chapters/chapter_3.tex)
 \openout5 = `main.mw'.
 
-[46
+[44
+
+
 
 
 ] (latexcache/main.mw)
@@ -3516,22 +3814,22 @@ Package pdftex.def Info: images/img402.jpg  used on input line 55.
 (./chapters/chapter_4.tex
 \openout5 = `main.mw'.
 
+[45
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[46
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 [47
-
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[48
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[49
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
@@ -3539,7 +3837,7 @@ Package pdftex.def Info: images/img402.jpg  used on input line 55.
 )
 \openout5 = `main.mw'.
 
-[50
+[48
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
@@ -3549,7 +3847,7 @@ Package pdftex.def Info: images/img402.jpg  used on input line 55.
 (./chapters/conclusion.tex)
 \openout5 = `main.mw'.
 
-[51
+[49
 
 
 
@@ -3560,7 +3858,7 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 292.
 \openout5 = `main.mw'.
 
-[52
+[50
 
 
 ] (latexcache/main.mw)
@@ -3634,12 +3932,12 @@ You may provide a definition with
 
 \openout5 = `main.mw'.
 
-[53] (latexcache/main.mw)
+[51] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[54
+[52
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
@@ -3649,7 +3947,7 @@ You may provide a definition with
 (./aftertext/apendice_a.tex
 \openout5 = `main.mw'.
 
-[55
+[53
 
 
 ] (latexcache/main.mw)
@@ -3657,18 +3955,18 @@ You may provide a definition with
 
 \openout5 = `main.mw'.
 
-[56] (latexcache/main.mw)
+[54] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 )
 \openout5 = `main.mw'.
 
-[57] (latexcache/main.mw)
+[55] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[58
+[56
 
 
 ] (latexcache/main.mw)
@@ -3677,7 +3975,7 @@ You may provide a definition with
 \openout2 = `aftertext/anexo_a.aux'.
 
 (./aftertext/anexo_a.tex
-<pictures/SOBRAEP.pdf, id=772, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=756, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf>
 Package pdftex.def Info: pictures/SOBRAEP.pdf  used on input line 43.
@@ -3686,7 +3984,7 @@ File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf>
 Package pdftex.def Info: pictures/SOBRAEP.pdf  used on input line 43.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<pictures/SOBRAEP.pdf, id=775, page=1, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=759, page=1, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf, page 1>
 Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
@@ -3697,7 +3995,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
-[59
+[57
 
 
 ] (latexcache/main.mw)
@@ -3717,61 +4015,61 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
+[58 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/SOBRAEP.pdf, id=790, page=2, 597.50829pt x 845.0471pt>
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf, page 2>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf, page 2>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf, page 2>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+\openout5 = `main.mw'.
+
+[59 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/SOBRAEP.pdf, id=803, page=3, 597.50829pt x 845.0471pt>
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf, page 3>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf, page 3>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf, page 3>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+\openout5 = `main.mw'.
+
 [60 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/SOBRAEP.pdf, id=808, page=2, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=823, page=4, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 2>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+<use pictures/SOBRAEP.pdf, page 4>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 2>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+<use pictures/SOBRAEP.pdf, page 4>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 2>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+<use pictures/SOBRAEP.pdf, page 4>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
 [61 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<pictures/SOBRAEP.pdf, id=819, page=3, 597.50829pt x 845.0471pt>
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 3>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 3>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 3>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-\openout5 = `main.mw'.
-
-[62 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<pictures/SOBRAEP.pdf, id=839, page=4, 597.50829pt x 845.0471pt>
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 4>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 4>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 4>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-\openout5 = `main.mw'.
-
-[63 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 )
@@ -3780,7 +4078,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (./aftertext/anexo_b.tex
 \openout5 = `main.mw'.
 
-[64
+[62
 
 
 
@@ -3790,7 +4088,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 )
 \openout5 = `main.mw'.
 
-[65] (latexcache/main.mw)
+[63] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 (latexcache/main.ind) 
@@ -3869,6 +4167,10 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 (latexcache/beforetext/siglas.aux
 \openout5 = `main.mw'.
 
@@ -3926,6 +4228,10 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 \openout5 = `main.mw'.
 
 ) (latexcache/chapters/chapter_1.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4139,60 +4445,7 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
-) (latexcache/chapters/chapter_3.aux
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-)
+) (latexcache/chapters/chapter_3.aux)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4523,13 +4776,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65055 strings out of 481239
- 1247123 string characters out of 5920377
- 2301925 words of memory out of 5000000
- 78431 multiletter control sequences out of 15000+600000
- 632243 words of font info for 191 fonts, out of 8000000 for 9000
+ 65016 strings out of 481239
+ 1246497 string characters out of 5920377
+ 2299901 words of memory out of 5000000
+ 78406 multiletter control sequences out of 15000+600000
+ 632557 words of font info for 194 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 78i,19n,117p,1453b,4353s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,19n,117p,1453b,4352s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/texmf-dist/font
@@ -4539,22 +4792,23 @@ nconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uh
-vro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on latexcache/main.pdf (67 pages, 3703842 bytes).
+b></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/sy
+mbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on latexcache/main.pdf (65 pages, 3458742 bytes).
 PDF statistics:
- 1162 PDF objects out of 1200 (max. 8388607)
- 968 compressed objects within 10 object streams
- 249 named destinations out of 1000 (max. 500000)
- 42810 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1143 PDF objects out of 1200 (max. 8388607)
+ 955 compressed objects within 10 object streams
+ 240 named destinations out of 1000 (max. 500000)
+ 42769 words of extra memory for PDF output out of 42996 (max. 10000000)
 
