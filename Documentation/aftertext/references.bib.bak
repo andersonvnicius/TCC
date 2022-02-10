@@ -1,0 +1,165 @@
+@Book{Hibbeler2010,
+  author    = {Hibbeler, R. C.},
+  publisher = {Pearson Education do Brasil},
+  title     = {Resistência dos materiais},
+  year      = {2010},
+  address   = {São Paulo (SP)},
+  edition   = {7},
+  isbn      = {9788576053736},
+}
+
+@Book{Norton2011,
+  author    = {Norton, Robert},
+  editor    = {4th},
+  publisher = {Prentice Hall},
+  title     = {Machine design : an integrated approach},
+  year      = {2011},
+  address   = {Boston},
+  edition   = {4},
+  isbn      = {9780136123705},
+}
+
+@Electronic{PRODIP,
+  author = {NEDIP-UFSC},
+  month  = dec,
+  title  = {Metodologia PRODIP},
+  url    = {https://nedip.ufsc.br/sessao/modelo-prodip-1},
+  year   = {2021},
+}
+
+@MastersThesis{Minela2017,
+  author  = {Sthefani Neves Minela},
+  school  = {UFSC},
+  title   = {EXTENSOMETRIA: ESTUDO E APLICAÇÃO},
+  year    = {2017},
+  address = {Joinville},
+}
+
+@Book{Doebelin1983,
+  author    = {Doebelin, Ernest O.},
+  publisher = {McGraw- Hill},
+  title     = {Measurement system: Application and design.},
+  year      = {1983},
+  address   = {Ohio},
+  edition   = {3},
+}
+
+@Electronic{Documentação Pandas,
+  author   = {Pandas developers},
+  language = {English},
+  month    = jan,
+  title    = {Documentação Pandas},
+  url      = {https://pandas.pydata.org/docs/},
+  year     = {2022},
+}
+
+@Electronic{Documentação ESP32,
+  author   = {espressif},
+  language = {English},
+  month    = jan,
+  title    = {Documentação ESP32},
+  url      = {https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf},
+  year     = {2022},
+}
+
+@Electronic{Documentação SciPy,
+  author   = {SciPy developers},
+  language = {English},
+  month    = jan,
+  title    = {Documentação SciPy},
+  url      = {https://docs.scipy.org/doc/},
+  year     = {2022},
+}
+
+@Electronic{Documentação ADS1115,
+  author   = {Texas Instruments},
+  language = {English},
+  month    = jan,
+  title    = {ADS1115 Datasheet},
+  url      = {https://www.alldatasheet.com/datasheet-pdf/pdf/292735/TI/ADS1115.html},
+  year     = {2022},
+}
+
+@Electronic{Documentação NumPy,
+  author   = {NumPy Developers},
+  language = {English},
+  month    = jan,
+  title    = {Documentação NumPy},
+  url      = {https://numpy.org/doc/stable/},
+  year     = {2022},
+}
+
+@Book{Hollman2011,
+  author    = {Jack Philip Hollman},
+  publisher = {Mcgraw - Hill},
+  title     = {Experimental methods for engineers.},
+  year      = {2011},
+  edition   = {8},
+}
+
+@Book{TimHall2010,
+  author    = {Tim Hall, J.-P. Stacey},
+  publisher = {Springer-Verlag GmbH},
+  title     = {Python 3 for Absolute Beginners},
+  year      = {2010},
+  isbn      = {9781430216339},
+  month     = mar,
+  ean       = {9781430216339},
+  pagetotal = {300},
+  url       = {https://www.ebook.de/de/product/12469709/tim_hall_j_p_stacey_python_3_for_absolute_beginners.html},
+}
+
+@InProceedings{Nurprasetio2018,
+  author    = {Ignatius Pulung Nurprasetio and Muhammad Aziz and Bentang Arief Budiman and Ahmad Alfin Afwan},
+  booktitle = {2018 5th International Conference on Electric Vehicular Technology ({ICEVT})},
+  title     = {Development of Static and Dynamic Online Measurement System for Ground Vehicles},
+  year      = {2018},
+  month     = {oct},
+  publisher = {{IEEE}},
+  doi       = {10.1109/icevt.2018.8628346},
+}
+
+@InProceedings{Niedworok2014,
+  author    = {Andrzej Niedworok},
+  booktitle = {2014 16th European Conference on Power Electronics and Applications},
+  title     = {Dynamic torque measurement of drive transmission in vehicles being in motion using strain gauges measurement technique and wireless data transmission},
+  year      = {2014},
+  month     = {aug},
+  publisher = {{IEEE}},
+  doi       = {10.1109/epe.2014.6910707},
+}
+
+@Article{Gharghan2017,
+  author    = {Sadik Kamel Gharghan and Rosdiadee Nordin and Mahamod Ismail},
+  journal   = {International Journal on Smart Sensing and Intelligent Systems},
+  title     = {{DEVELOPMENT} {AND} {VALIDATION} {OF} A {TRACK} {BICYCLE}~{INSTRUMENT} {FOR} {TORQUE} {MEASUREMENT} {USING} {THE} {ZIGBEE} {WIRELESS} {SENSOR} {NETWORK}},
+  year      = {2017},
+  number    = {1},
+  pages     = {124--145},
+  volume    = {10},
+  doi       = {10.21307/ijssis-2017-206},
+  publisher = {Walter de Gruyter {GmbH}},
+}
+
+@Article{Silva2018,
+  author    = {Anderson Langone Silva and Marcus Varanis and Arthur Guilherme Mereles and Clivaldo Oliveira and Jos{\'{e}} Manoel Balthazar},
+  journal   = {Revista Brasileira de Ensino de F{\'{\i}}sica},
+  title     = {A study of strain and deformation measurement using the Arduino microcontroller and strain gauges devices},
+  year      = {2018},
+  month     = {dec},
+  number    = {3},
+  volume    = {41},
+  doi       = {10.1590/1806-9126-rbef-2018-0206},
+  publisher = {{FapUNIFESP} ({SciELO})},
+}
+
+@InProceedings{Silva2017,
+  author    = {Anderson Silva and Marcus Varanis and Arthur Guilherme Mereles},
+  booktitle = {Proceedings of the {XXXVIII} Iberian Latin American Congress on Computational Methods in Engineering},
+  title     = {A consistent experimental approach for strain measurement: Two case studies},
+  year      = {2017},
+  publisher = {{ABMEC} Brazilian Association of Computational Methods in Engineering},
+  doi       = {10.20906/cps/cilamce2017-0718},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
