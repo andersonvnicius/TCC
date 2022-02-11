@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  9 FEB 2022 22:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  11 FEB 2022 11:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -3114,7 +3114,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 \openout5 = `main.mw'.
 
 ) (latexcache/main.lof)
-The height of the list 'Lista de Figuras' is '383.6432pt'
+The height of the list 'Lista de Figuras' is '365.64874pt'
 \openout5 = `main.mw'.
 
 [10
@@ -3166,13 +3166,8 @@ The height of the list 'Lista de Códigos' is '26.25584pt'
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-) (latexcache/main.toc
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 12.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 12.
-)
-The height of the list 'Sum\'ario' is '1161.68681pt'
+) (latexcache/main.toc)
+The height of the list 'Sum\'ario' is '1189.79575pt'
 \openout5 = `main.mw'.
 
 [14
@@ -3188,21 +3183,12 @@ The height of the list 'Sum\'ario' is '1161.68681pt'
 [15] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 248.
-\openout5 = `main.mw'.
-
-[16
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
 \openout2 = `chapters/intro.aux'.
 
 (./chapters/intro.tex
 \openout5 = `main.mw'.
 
-[17
+[16
 
 
 ] (latexcache/main.mw)
@@ -3211,7 +3197,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 )
 \openout5 = `main.mw'.
 
-[18] (latexcache/main.mw)
+[17] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/chapter_1.aux'.
@@ -3219,63 +3205,63 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (./chapters/chapter_1.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 17.
-<pictures/1010.png, id=353, 1006.76125pt x 257.96375pt>
+<pictures/1010.png, id=351, 1006.76125pt x 257.96375pt>
 File: pictures/1010.png Graphic file (type png)
 <use pictures/1010.png>
 Package pdftex.def Info: pictures/1010.png  used on input line 38.
 (pdftex.def)             Requested size: 455.0pt x 116.5825pt.
 \openout5 = `main.mw'.
 
-[19
+[18
 
 
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1020.png, id=373, 1116.17pt x 719.68875pt>
+<pictures/1020.png, id=371, 1116.17pt x 719.68875pt>
 File: pictures/1020.png Graphic file (type png)
 <use pictures/1020.png>
 Package pdftex.def Info: pictures/1020.png  used on input line 70.
 (pdftex.def)             Requested size: 455.0pt x 293.37216pt.
 \openout5 = `main.mw'.
 
-[20 <./pictures/1010.png>] (latexcache/main.mw)
+[19 <./pictures/1010.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[21 <./pictures/1020.png>] (latexcache/main.mw)
+[20 <./pictures/1020.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1030.png, id=401, 631.35875pt x 198.7425pt>
+<pictures/1030.png, id=399, 631.35875pt x 198.7425pt>
 File: pictures/1030.png Graphic file (type png)
 <use pictures/1030.png>
 Package pdftex.def Info: pictures/1030.png  used on input line 102.
 (pdftex.def)             Requested size: 455.0pt x 143.2279pt.
 \openout5 = `main.mw'.
 
-[22 <./pictures/1030.png>] (latexcache/main.mw)
+[21 <./pictures/1030.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1040.png, id=412, 973.6375pt x 435.6275pt>
+<pictures/1040.png, id=410, 973.6375pt x 435.6275pt>
 File: pictures/1040.png Graphic file (type png)
 <use pictures/1040.png>
 Package pdftex.def Info: pictures/1040.png  used on input line 134.
 (pdftex.def)             Requested size: 455.0pt x 203.57506pt.
 \openout5 = `main.mw'.
 
-[23 <./pictures/1040.png>] (latexcache/main.mw)
+[22 <./pictures/1040.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1050.png, id=424, 891.33pt x 375.4025pt>
+<pictures/1050.png, id=421, 891.33pt x 375.4025pt>
 File: pictures/1050.png Graphic file (type png)
 <use pictures/1050.png>
 Package pdftex.def Info: pictures/1050.png  used on input line 177.
 (pdftex.def)             Requested size: 455.0pt x 191.63603pt.
 \openout5 = `main.mw'.
 
-[24 <./pictures/1050.png>] (latexcache/main.mw)
+[23 <./pictures/1050.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 
@@ -3300,52 +3286,52 @@ l.211 ...lástico, logo os valores esperados de θ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<pictures/1060.png, id=437, 1063.975pt x 421.575pt>
+<pictures/1060.png, id=435, 1063.975pt x 421.575pt>
 File: pictures/1060.png Graphic file (type png)
 <use pictures/1060.png>
 Package pdftex.def Info: pictures/1060.png  used on input line 220.
 (pdftex.def)             Requested size: 455.0pt x 180.28307pt.
-<pictures/1070.png, id=444, 1041.8925pt x 512.91624pt>
+<pictures/1070.png, id=442, 1041.8925pt x 512.91624pt>
 File: pictures/1070.png Graphic file (type png)
 <use pictures/1070.png>
 Package pdftex.def Info: pictures/1070.png  used on input line 230.
 (pdftex.def)             Requested size: 455.0pt x 223.99333pt.
 \openout5 = `main.mw'.
 
-[25 <./pictures/1060.png>] (latexcache/main.mw)
+[24 <./pictures/1060.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[26 <./pictures/1070.png>] (latexcache/main.mw)
+[25 <./pictures/1070.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1080.png, id=465, 360.34625pt x 317.185pt>
+<pictures/1080.png, id=462, 360.34625pt x 317.185pt>
 File: pictures/1080.png Graphic file (type png)
 <use pictures/1080.png>
 Package pdftex.def Info: pictures/1080.png  used on input line 262.
 (pdftex.def)             Requested size: 455.0pt x 400.50217pt.
 \openout5 = `main.mw'.
 
-[27 <./pictures/1080.png>] (latexcache/main.mw)
+[26 <./pictures/1080.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1090.png, id=478, 696.6025pt x 663.47874pt>
+<pictures/1090.png, id=476, 696.6025pt x 663.47874pt>
 File: pictures/1090.png Graphic file (type png)
 <use pictures/1090.png>
 Package pdftex.def Info: pictures/1090.png  used on input line 298.
 (pdftex.def)             Requested size: 455.0pt x 433.36183pt.
 \openout5 = `main.mw'.
 
-[28] (latexcache/main.mw)
+[27] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[29 <./pictures/1090.png>] (latexcache/main.mw)
+[28 <./pictures/1090.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1100.png, id=498, 714.67pt x 239.89626pt>
+<pictures/1100.png, id=495, 714.67pt x 239.89626pt>
 File: pictures/1100.png Graphic file (type png)
 <use pictures/1100.png>
 Package pdftex.def Info: pictures/1100.png  used on input line 342.
@@ -3500,15 +3486,15 @@ you left one out. Proceed, with fingers crossed.
 
 \openout5 = `main.mw'.
 
-[30 <./pictures/1100.png>] (latexcache/main.mw)
+[29 <./pictures/1100.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1110.png, id=508, 997.7275pt x 412.54124pt>
+<pictures/1110.png, id=506, 997.7275pt x 412.54124pt>
 File: pictures/1110.png Graphic file (type png)
 <use pictures/1110.png>
 Package pdftex.def Info: pictures/1110.png  used on input line 352.
 (pdftex.def)             Requested size: 455.0pt x 188.13461pt.
-<pictures/1120.png, id=509, 1022.82124pt x 379.4175pt>
+<pictures/1120.png, id=507, 1022.82124pt x 379.4175pt>
 File: pictures/1120.png Graphic file (type png)
 <use pictures/1120.png>
 Package pdftex.def Info: pictures/1120.png  used on input line 362.
@@ -3521,50 +3507,50 @@ ring-resource-basics-of-analog-to-
 
 \openout5 = `main.mw'.
 
-[31 <./pictures/1110.png>] (latexcache/main.mw)
+[30 <./pictures/1110.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1130.png, id=523, 894.34125pt x 421.575pt>
+<pictures/1130.png, id=521, 894.34125pt x 421.575pt>
 File: pictures/1130.png Graphic file (type png)
 <use pictures/1130.png>
 Package pdftex.def Info: pictures/1130.png  used on input line 380.
 (pdftex.def)             Requested size: 455.0pt x 214.47934pt.
-<pictures/1140.png, id=528, 575.14874pt x 421.575pt>
+<pictures/1140.png, id=526, 575.14874pt x 421.575pt>
 File: pictures/1140.png Graphic file (type png)
 <use pictures/1140.png>
 Package pdftex.def Info: pictures/1140.png  used on input line 393.
 (pdftex.def)             Requested size: 455.0pt x 333.51662pt.
 \openout5 = `main.mw'.
 
-[32 <./pictures/1120.png>] (latexcache/main.mw)
+[31 <./pictures/1120.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1150.png, id=537, 874.26625pt x 500.87125pt>
+<pictures/1150.png, id=535, 874.26625pt x 500.87125pt>
 File: pictures/1150.png Graphic file (type png)
 <use pictures/1150.png>
 Package pdftex.def Info: pictures/1150.png  used on input line 405.
 (pdftex.def)             Requested size: 455.0pt x 260.66853pt.
 \openout5 = `main.mw'.
 
-[33 <./pictures/1130.png>] (latexcache/main.mw)
+[32 <./pictures/1130.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[34 <./pictures/1140.png>] (latexcache/main.mw)
+[33 <./pictures/1140.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[35 <./pictures/1150.png>] (latexcache/main.mw)
+[34 <./pictures/1150.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[36] (latexcache/main.mw)
+[35] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1160.png, id=580, 722.7pt x 525.965pt>
+<pictures/1160.png, id=578, 722.7pt x 525.965pt>
 File: pictures/1160.png Graphic file (type png)
 <use pictures/1160.png>
 Package pdftex.def Info: pictures/1160.png  used on input line 486.
@@ -3728,31 +3714,26 @@ mm/m/it/10 acessoemfev\OT1/lmr/m/n/10 (-10) 2022$
 
 \openout5 = `main.mw'.
 
-[37 <./pictures/1160.png>] (latexcache/main.mw)
+[36 <./pictures/1160.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1170.png, id=591, 1082.0425pt x 294.09875pt>
-File: pictures/1170.png Graphic file (type png)
-<use pictures/1170.png>
-Package pdftex.def Info: pictures/1170.png  used on input line 500.
-(pdftex.def)             Requested size: 455.0pt x 123.66872pt.
 )
 \openout5 = `main.mw'.
 
-[38 <./pictures/1170.png>] (latexcache/main.mw)
+[37] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/chapter_2.aux'.
 
 (./chapters/chapter_2.tex
-<images/img401.png, id=603, 639.8304pt x 166.4619pt>
+<images/img401.png, id=596, 639.8304pt x 166.4619pt>
 File: images/img401.png Graphic file (type png)
 <use images/img401.png>
 Package pdftex.def Info: images/img401.png  used on input line 16.
 (pdftex.def)             Requested size: 455.0pt x 118.37671pt.
 \openout5 = `main.mw'.
 
-[39
+[38
 
 
 
@@ -3765,35 +3746,35 @@ Overfull \hbox (17.18878pt too wide) in paragraph at lines 31--32
 eng/technical/sensors/torque.html
  []
 
-<images/img403.jpg, id=613, 369.38pt x 247.92625pt>
+<images/img403.jpg, id=606, 369.38pt x 247.92625pt>
 File: images/img403.jpg Graphic file (type jpg)
 <use images/img403.jpg>
 Package pdftex.def Info: images/img403.jpg  used on input line 36.
 (pdftex.def)             Requested size: 369.37909pt x 247.92564pt.
 \openout5 = `main.mw'.
 
-[40 <./images/img403.jpg>] (latexcache/main.mw)
+[39 <./images/img403.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[41] (latexcache/main.mw)
+[40] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<images/img402.jpg, id=640, 534.49687pt x 384.6872pt>
+<images/img402.jpg, id=632, 534.49687pt x 384.6872pt>
 File: images/img402.jpg Graphic file (type jpg)
 <use images/img402.jpg>
 Package pdftex.def Info: images/img402.jpg  used on input line 68.
 (pdftex.def)             Requested size: 455.0pt x 327.48459pt.
 \openout5 = `main.mw'.
 
-[42 <./images/img402.jpg>] (latexcache/main.mw)
+[41 <./images/img402.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 )
 \openout5 = `main.mw'.
 
-[43] (latexcache/main.mw)
+[42] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/chapter_3.aux'.
@@ -3801,8 +3782,7 @@ Package pdftex.def Info: images/img402.jpg  used on input line 68.
 (./chapters/chapter_3.tex)
 \openout5 = `main.mw'.
 
-[44
-
+[43
 
 
 
@@ -3814,8 +3794,16 @@ Package pdftex.def Info: images/img402.jpg  used on input line 68.
 (./chapters/chapter_4.tex
 \openout5 = `main.mw'.
 
-[45
+[44
 
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[45
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
@@ -3827,17 +3815,10 @@ Package pdftex.def Info: images/img402.jpg  used on input line 68.
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-[47
-
-] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
 )
 \openout5 = `main.mw'.
 
-[48
+[47
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
@@ -3847,7 +3828,7 @@ Package pdftex.def Info: images/img402.jpg  used on input line 68.
 (./chapters/conclusion.tex)
 \openout5 = `main.mw'.
 
-[49
+[48
 
 
 
@@ -3858,7 +3839,7 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 292.
 \openout5 = `main.mw'.
 
-[50
+[49
 
 
 ] (latexcache/main.mw)
@@ -3932,12 +3913,14 @@ You may provide a definition with
 
 \openout5 = `main.mw'.
 
-[51] (latexcache/main.mw)
+[50] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 301.
 \openout5 = `main.mw'.
 
-[52
+[51
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
@@ -3947,7 +3930,7 @@ You may provide a definition with
 (./aftertext/apendice_a.tex
 \openout5 = `main.mw'.
 
-[53
+[52
 
 
 ] (latexcache/main.mw)
@@ -3955,18 +3938,18 @@ You may provide a definition with
 
 \openout5 = `main.mw'.
 
-[54] (latexcache/main.mw)
+[53] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 )
 \openout5 = `main.mw'.
 
-[55] (latexcache/main.mw)
+[54] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[56
+[55
 
 
 ] (latexcache/main.mw)
@@ -3975,7 +3958,7 @@ You may provide a definition with
 \openout2 = `aftertext/anexo_a.aux'.
 
 (./aftertext/anexo_a.tex
-<pictures/SOBRAEP.pdf, id=756, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=749, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf>
 Package pdftex.def Info: pictures/SOBRAEP.pdf  used on input line 43.
@@ -3984,7 +3967,7 @@ File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf>
 Package pdftex.def Info: pictures/SOBRAEP.pdf  used on input line 43.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<pictures/SOBRAEP.pdf, id=759, page=1, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=752, page=1, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
 <use pictures/SOBRAEP.pdf, page 1>
 Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
@@ -3995,7 +3978,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
-[57
+[56
 
 
 ] (latexcache/main.mw)
@@ -4015,61 +3998,61 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page1 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
+[57 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/SOBRAEP.pdf, id=783, page=2, 597.50829pt x 845.0471pt>
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf, page 2>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf, page 2>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: pictures/SOBRAEP.pdf Graphic file (type pdf)
+<use pictures/SOBRAEP.pdf, page 2>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+\openout5 = `main.mw'.
+
 [58 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/SOBRAEP.pdf, id=790, page=2, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=795, page=3, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 2>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+<use pictures/SOBRAEP.pdf, page 3>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 2>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+<use pictures/SOBRAEP.pdf, page 3>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 2>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page2 used on input line 43.
+<use pictures/SOBRAEP.pdf, page 3>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
 [59 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/SOBRAEP.pdf, id=803, page=3, 597.50829pt x 845.0471pt>
+<pictures/SOBRAEP.pdf, id=816, page=4, 597.50829pt x 845.0471pt>
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 3>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
+<use pictures/SOBRAEP.pdf, page 4>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 3>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
+<use pictures/SOBRAEP.pdf, page 4>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 3>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page3 used on input line 43.
+<use pictures/SOBRAEP.pdf, page 4>
+Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
 \openout5 = `main.mw'.
 
 [60 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<pictures/SOBRAEP.pdf, id=823, page=4, 597.50829pt x 845.0471pt>
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 4>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 4>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: pictures/SOBRAEP.pdf Graphic file (type pdf)
-<use pictures/SOBRAEP.pdf, page 4>
-Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-\openout5 = `main.mw'.
-
-[61 <./pictures/SOBRAEP.pdf>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 )
@@ -4078,7 +4061,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 (./aftertext/anexo_b.tex
 \openout5 = `main.mw'.
 
-[62
+[61
 
 
 
@@ -4088,7 +4071,7 @@ Package pdftex.def Info: pictures/SOBRAEP.pdf , page4 used on input line 43.
 )
 \openout5 = `main.mw'.
 
-[63] (latexcache/main.mw)
+[62] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 (latexcache/main.ind) 
@@ -4186,10 +4169,6 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 (latexcache/chapters/intro.aux
 \openout5 = `main.mw'.
 
@@ -4228,10 +4207,6 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 \openout5 = `main.mw'.
 
 ) (latexcache/chapters/chapter_1.aux
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4445,12 +4420,44 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
-) (latexcache/chapters/chapter_3.aux)
+) (latexcache/chapters/chapter_3.aux
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-(latexcache/chapters/chapter_4.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+) (latexcache/chapters/chapter_4.aux
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4776,11 +4783,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65016 strings out of 481239
- 1246497 string characters out of 5920377
- 2299901 words of memory out of 5000000
- 78406 multiletter control sequences out of 15000+600000
- 632557 words of font info for 194 fonts, out of 8000000 for 9000
+ 64979 strings out of 481239
+ 1245812 string characters out of 5920377
+ 2300664 words of memory out of 5000000
+ 78377 multiletter control sequences out of 15000+600000
+ 623189 words of font info for 182 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  78i,19n,117p,1453b,4352s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
@@ -4805,10 +4812,10 @@ mbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on latexcache/main.pdf (65 pages, 3458742 bytes).
+Output written on latexcache/main.pdf (64 pages, 3330943 bytes).
 PDF statistics:
- 1143 PDF objects out of 1200 (max. 8388607)
- 955 compressed objects within 10 object streams
- 240 named destinations out of 1000 (max. 500000)
- 42769 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1142 PDF objects out of 1200 (max. 8388607)
+ 959 compressed objects within 10 object streams
+ 239 named destinations out of 1000 (max. 500000)
+ 38684 words of extra memory for PDF output out of 42996 (max. 10000000)
 
