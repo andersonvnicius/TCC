@@ -44,7 +44,7 @@
   edition   = {3},
 }
 
-@Electronic{Documentação Pandas,
+@Electronic{DocsPandas,
   author   = {Pandas developers},
   language = {English},
   month    = jan,
@@ -53,7 +53,7 @@
   year     = {2022},
 }
 
-@Electronic{Documentação ESP32,
+@Electronic{DocsESP32,
   author   = {espressif},
   language = {English},
   month    = jan,
@@ -62,7 +62,7 @@
   year     = {2022},
 }
 
-@Electronic{Documentação SciPy,
+@Electronic{DocsSciPy,
   author   = {SciPy developers},
   language = {English},
   month    = jan,
@@ -71,7 +71,7 @@
   year     = {2022},
 }
 
-@Electronic{Documentação ADS1115,
+@Electronic{DocsADS1115,
   author   = {Texas Instruments},
   language = {English},
   month    = jan,
@@ -80,7 +80,7 @@
   year     = {2022},
 }
 
-@Electronic{Documentação NumPy,
+@Electronic{DocsNumPy,
   author   = {NumPy Developers},
   language = {English},
   month    = jan,
@@ -160,6 +160,40 @@
   year      = {2017},
   publisher = {{ABMEC} Brazilian Association of Computational Methods in Engineering},
   doi       = {10.20906/cps/cilamce2017-0718},
+}
+
+@Book{Back2008,
+  author    = {Back, Nelson and Ogliari, Andr{\'e} and Dias, Acires and Silva, JC da},
+  publisher = {Barueri: Manole},
+  title     = {Projeto integrado de produtos: planejamento, concep{\c{c}}{\~a}o e modelagem},
+  year      = {2008},
+}
+
+@Electronic{Isso88es,
+  author   = {Madgetech},
+  language = {English},
+  month    = jan,
+  title    = {Documentação Bridge101A},
+  url      = {https://www.madgetech.com/products/bridge101a/},
+  year     = {2022},
+}
+
+@Electronic{Isso44es,
+  author   = {Isso},
+  language = {English},
+  month    = jan,
+  title    = {Documentação DMI TCR 44es},
+  url      = {https://isso.digital/produtos/48/dmi_tcr_44es},
+  year     = {2022},
+}
+
+@Electronic{Isso88es,
+  author   = {Isso},
+  language = {English},
+  month    = jan,
+  title    = {Documentação DMI TCR 88es},
+  url      = {https://isso.digital/produtos/48/dmi_tcr_88es},
+  year     = {2022},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

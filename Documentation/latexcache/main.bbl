@@ -19,6 +19,51 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Back2008}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d85e59688da79aeca740dc8de9fb5798}{%
+           family={Back},
+           familyi={B\bibinitperiod},
+           given={Nelson},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5164667a80ba0aba52ce23feb3e4d90b}{%
+           family={Ogliari},
+           familyi={O\bibinitperiod},
+           given={Andr{é}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12024b88882bbeee4a1b88790f3c9d3c}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={Acires},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9c021fe9579b6fd06c39d32e77b33c2}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={JC\bibnamedelima da},
+           giveni={J\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Barueri: Manole}%
+      }
+      \strng{namehash}{ade0ca38f105119d03671a4289dff87a}
+      \strng{fullhash}{38a16405f4706106dd4821209f62ff84}
+      \strng{bibnamehash}{ade0ca38f105119d03671a4289dff87a}
+      \strng{authorbibnamehash}{ade0ca38f105119d03671a4289dff87a}
+      \strng{authornamehash}{ade0ca38f105119d03671a4289dff87a}
+      \strng{authorfullhash}{38a16405f4706106dd4821209f62ff84}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Projeto integrado de produtos: planejamento, concep{ç}{ã}o e modelagem}
+      \field{year}{2008}
+    \endentry
     \entry{DocsNumPy}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ac8f9f6d402eb41cc08675c881fbc576}{%
@@ -326,6 +371,104 @@
       \verb https://www.alldatasheet.com/datasheet-pdf/pdf/292735/TI/ADS1115.html
       \endverb
     \endentry
+    \entry{Isso44es}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4362084b096e7b1d7d1e6d9b661fe0a1}{%
+           family={Isso},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \strng{fullhash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \strng{bibnamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \strng{authorbibnamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \strng{authornamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \strng{authorfullhash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Documentação DMI TCR 44es}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://isso.digital/produtos/48/dmi_tcr_44es
+      \endverb
+      \verb{url}
+      \verb https://isso.digital/produtos/48/dmi_tcr_44es
+      \endverb
+    \endentry
+    \entry{Isso88es}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4362084b096e7b1d7d1e6d9b661fe0a1}{%
+           family={Isso},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \strng{fullhash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \strng{bibnamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \strng{authorbibnamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \strng{authornamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \strng{authorfullhash}{4362084b096e7b1d7d1e6d9b661fe0a1}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Documentação DMI TCR 88es}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://isso.digital/produtos/48/dmi_tcr_88es
+      \endverb
+      \verb{url}
+      \verb https://isso.digital/produtos/48/dmi_tcr_88es
+      \endverb
+    \endentry
+    \entry{Bridge101A}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28516338c0b7f6b7172e5107c5c290a8}{%
+           family={Madgetech},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{28516338c0b7f6b7172e5107c5c290a8}
+      \strng{fullhash}{28516338c0b7f6b7172e5107c5c290a8}
+      \strng{bibnamehash}{28516338c0b7f6b7172e5107c5c290a8}
+      \strng{authorbibnamehash}{28516338c0b7f6b7172e5107c5c290a8}
+      \strng{authornamehash}{28516338c0b7f6b7172e5107c5c290a8}
+      \strng{authorfullhash}{28516338c0b7f6b7172e5107c5c290a8}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Documentação Bridge101A}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.madgetech.com/products/bridge101a/
+      \endverb
+      \verb{url}
+      \verb https://www.madgetech.com/products/bridge101a/
+      \endverb
+    \endentry
     \entry{Minela2017}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2752b722b785bbde5dfca061af9b7925}{%
@@ -605,6 +748,7 @@
       \field{title}{A study of strain and deformation measurement using the Arduino microcontroller and strain gauges devices}
       \field{volume}{41}
       \field{year}{2018}
+      \true{nocite}
       \verb{doi}
       \verb 10.1590/1806-9126-rbef-2018-0206
       \endverb

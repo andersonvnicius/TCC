@@ -66,6 +66,7 @@ chapter=TITLE, % Título de capítulos em caixa alta
 section=TITLE, % Título de seções em caixa alta
 ]{setup/ufscthesisx}
 \usepackage{amsmath}
+\usepackage{textcomp}
 
 % Utilize o arquivo aftertext/references.bib para incluir sua bibliografia.
 % http://tug.ctan.org/tex-archive/macros/latex/contrib/cleveref/cleveref.pdf
@@ -248,16 +249,12 @@ section=TITLE, % Título de seções em caixa alta
 %    \ifforcedinclude\else\part{\lang{Research}{Pesquisa}}\fi
 %    \label{primeira_parte}
 
-    % Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
     \include{chapters/intro}
 
-    % Capitulo com exemplos de comandos inseridos de arquivo externo
     \include{chapters/chapter_1}
 
-    % Capitulo de revisão de literatura
     \include{chapters/chapter_2}
 
-    % Primeiro capitulo de Resultados
     \include{chapters/chapter_3}
 
     % PARTE
@@ -265,7 +262,7 @@ section=TITLE, % Título de seções em caixa alta
 %    \label{segunda_parte}
 
     % Segundo capitulo de Resultados
-    \include{chapters/chapter_4}
+%    \include{chapters/chapter_4}
 
     % Finaliza a parte no bookmark do PDF para que se inicie o bookmark na raiz
     % e adiciona espaço de parte no Sumário
@@ -294,29 +291,29 @@ section=TITLE, % Título de seções em caixa alta
 
     % Glossário, consulte o manual da classe abntex2 para orientações sobre o glossário.
     % \ifforcedinclude\else\glossary\fi
-
-    % Inicia os apêndices
-    \begin{apendicesenv}
-        % Imprime uma página indicando o início dos apêndices
-        \ifforcedinclude\else\partapendices\fi
-        \setlength\beforechapskip{50pt}
-        \setlength\midchapskip{20pt}
-        \setlength\afterchapskip{20pt}
-
-        \include{aftertext/apendice_a}
-    \end{apendicesenv}
-
-    % Inicia os anexos
-    \begin{anexosenv}
-        % Imprime uma página indicando o início dos anexos
-        \ifforcedinclude\else\partanexos\fi
-        \setlength\beforechapskip{50pt}
-        \setlength\midchapskip{20pt}
-        \setlength\afterchapskip{20pt}
-
-        \include{aftertext/anexo_a}
-        \include{aftertext/anexo_b}
-    \end{anexosenv}
+%
+%    % Inicia os apêndices
+%    \begin{apendicesenv}
+%        % Imprime uma página indicando o início dos apêndices
+%        \ifforcedinclude\else\partapendices\fi
+%        \setlength\beforechapskip{50pt}
+%        \setlength\midchapskip{20pt}
+%        \setlength\afterchapskip{20pt}
+%
+%        \include{aftertext/apendice_a}
+%    \end{apendicesenv}
+%
+%    % Inicia os anexos
+%    \begin{anexosenv}
+%        % Imprime uma página indicando o início dos anexos
+%        \ifforcedinclude\else\partanexos\fi
+%        \setlength\beforechapskip{50pt}
+%        \setlength\midchapskip{20pt}
+%        \setlength\afterchapskip{20pt}
+%
+%        \include{aftertext/anexo_a}
+%        \include{aftertext/anexo_b}
+%    \end{anexosenv}
 
     % INDICE REMISSIVO
     \ifforcedinclude\else

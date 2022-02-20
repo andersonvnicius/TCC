@@ -1,313 +1,310 @@
-
 \phantomsection
 
+\chapter{Desenvolvimento}
 
-\chapter{Metodologia}\label{cap:Metodologia}
+O presente capítulo é dividido em duas fases, a primeira apresenta o desenvolvimento e os resultados das etapas da metodologia de desenvolvimento do protótipo do dispositivo.
+E a segunda seção apresenta a metodologia do experimento utilizado como prova de conceito do dispositivo desenvolvido.
 
-O presente capítulo apresenta uma breve introdução e apresenta os resultados das etapas da metodologia de desenvolvimento do protótipo do dispositovo, e apresenta a metodologia do experimento utilizado para obter os resultados de performance do protótipo.
+\section{Planejamento do projeto}
 
-\section{Metodologia de projeto de produto}
+O problema a ser solucionado é o de difícil acesso e altos custos para a obtenção de dados de deformação em tempo real.
+A primeira etapa para realizar o planejamento do projeto foi uma pesquisa de custo e disponibilidade de produtos iguais ou semelhantes a este propósito no mercado digital,
+os resultados da pesquisa são apresentados na próxima subseção.
 
-O projeto de um produto engloba todas as etapas de definição das funções e características operacionais necessárias em um produto a ser desenvolvido, o modelo PRODIP divide o projeto em macro etapas, cada uma contemplando uma fase do desenvolvimento de um produto \autocite{PRODIP}.
+\subsection{Mapeamento tecnológico}
 
-\begin{figure}[htb]
-	\caption{\label{fig:Fig_401}Etapas da metodologia PRODIP}
-	\begin{center}
-		\includegraphics[width=\textwidth]{images/img401.png}
-	\end{center}
-	\fonte{**PRODIP (2020)**}
-\end{figure}
+Foram encontrados inúmeros dispositivos para telemetria e obtenção de sinais de sensores para aplicações industriais, de alta performance, ou para aplicações muito específicas,
+estes foram ignorados devido devido a altos custos ou baixa flexibilidade em relação ao dispositivo proposto. Dos produtos encontrados, três se mostraram mais semelhantes ao que será desenvolvido.
 
-Essa metodologia foi utilizada para organizar e linearizar as atividades de desenvolvimento do dispositivo, certas etapas ilustradas foram ignoradas e outras adicionadas devido ao objetivo do projeto e o tipo do produto desenvolvido.
-
-\subsection{Fase de planejamento}
-
-A fase de planejamento do projeto visa definir as etapas de desenvolvimento das ideias selecionadas utilizando definições de escopo, cronograma, orçamento riscos etc. Nessa etapa são definidas as ideias do problema e produto, então é feito um mapeamento tecnológico, em que, segundo a metodologia "são organizadas as informações do mercado, produto e tecnologia ao longo do tempo. Essas informações são correlacionadas e servem de base para estabelecer o plano de produtos." \autocite{PRODIP}.
-
-O problema proposto foi o de encontrar a solução para a medição de torque dinâmico em aplicações automotivas, e a principal motivação é o fato de que foi verificado ser um tipo de grandeza não muito monitorada devido a dificuldade de obtenção dos valores e do custo, peso e complexidade dos dispositivos existentes para esses fins atualmente. Os principais tipos de produtos disponíveis identificados para esse tipo de aplicação são os transdutores de torque, utilizados em ramos industriais, e os dinamômetros de bancada, que são usualmente utilizados para identificar as curvas de torque e potência de motores.
-
-\subsubsection[]{pesquisa de mapeamento tecnológico}
-
-Os transdutores de torque são de maior interesse dado o princípio de funcionamento, segundo a fabricante Kyowa (www.kyowa-ei.com/eng/technical/sensors/torque.html acesso em julho de 2020) seus transdutores de torque convertem torção, calculadas pela tensão de cisalhamento superficial, em tensão elétrica, garantem medição fácil e acurada de torque sob condições de funcionamento desde paradas até altas rotações, e devido ao fato de serem utilizados extensômetros como sensor, medidas estáveis e precisas são garantidas até em longas durações de operação e condições severas. A \autoref{fig:Fig_403} mostra os principais componentes desse tipo de dispositivo.
+A empresa Isso disponibiliza em sua loja virtual Dois dispositivos para controle e obtenção de dados, denominados dmi tcr 44es, mostrado na \autoref{fig:2010}, e dmi tcr 88es.
+Segundo o fabricante esses dispositivos são utilizados para aplicações de acionamentos e telemetria remota, e são indicados para uso em automações residenciais e industriais,
+a única diferença observada entre os dois modelos são o número de entradas e saídas de sinais que o dispositivo possui. \autocite{Isso44es}
 
 \begin{figure}[htb]
-	\caption{\label{fig:Fig_403}Principais componentes de um transdutor de torque industrial}
+	\caption{\label{fig:2010} Datalogger DMI TCR 44es}
 	\begin{center}
-		\includegraphics{images/img403.jpg}
+		\includegraphics[width=\textwidth]{pictures/2010.jpg}
 	\end{center}
-	\fonte{**Showa Sokki (acesso em julho de 2020)
-	%http://www.showa-sokki.co.jp/English/Products_e/Torque_Tr_e.html%
-		**}
+	\fonte{\autocite{Isso44es}}
 \end{figure}
 
-O princípio de funcionamento dos transdutores industriais é baseado na leitura das tensões superficiais de um eixo utilizando extensômetros, foi definido que o principio de funcionamento do dispositivo seguiria os mesmos princípios ja utilizados.
-
-\subsubsection[]{revisão bibliográfica}
-
-Com o intuito de facilitar o desenvolvimento do dispositivo, foi realizada uma revisão sistemática de trabalhos científicos e acadêmicos disponíveis nas bases de dados Web of Science, Springer, Sciencedirect e Google Scholar, utilizando como palavras-chave “Dynamic, Torque, Shaft, Sensor, Strain, Gauge”, os principais obtidos são apresentados nessa subseção.
-
-Um artigo desenvolvido por \autocite{Niedworok2014} relata o desenvolvimento e aplicação de um sistema de sensoriamento de torque em tempo real em um eixo cardan de um carro de mina utilizando a medição da deformação utilizando extensômetro com transferência dos dados via radiofrequência, o trabalho também indica que o posicionamento do sensor necessita estar em contato com a superfície de maior deformação do componente, o autor realiza uma análise por elementos finitos para encontrar esse local. O artigo também aponta que o sinal vindo do sensor deve ser ampliado utilizando uma ponte de Wheatstone para conseguir ter a instrumentação correta da grandeza. O artigo mostrou resultados satisfatórios e não discutiu sobre ruídos e imprecisões presentes nos dados obtidos.
-
-\autocite{Nurprasetio2018} desenvolve, em seu trabalho, um sistema de medição para veículos terrestres, aplicado em uma bancada de testes que simula o estado de veículos terrestres em operação, o sistema utiliza um microprocessador Arduino nano de fácil acesso e baixo custo. Os dados são transmitidos via comunicação bluetooth. O artigo também ilustra o processo de calibração do dispositivo feito antes do teste dinâmico, assim como no trabalho anterior, também é enfatizada a necessidade das metodologias de instrumentação do sinal vindo do extensômetro. Seus resultados também se mostraram promissores, porém o autor indica que é necessário a remoção dos ruídos de medição, o que segundo ele será endereçado em um trabalho futuro.
-
-\autocite{Gharghan2017} compara um sistema de medição similar ao dos dois trabalhos prévios com um sistema de medição de torque em tempo real de alto custo utilizado por ciclistas profissionais no pedivela. O artigo introduz a tecnologia de transmissão de dados Zigbee, que consegue transmitir dados a um baixo consumo energético. Após a obtenção dos dados, o autor utiliza as ferramentas de análise estatística de Bland-Altman e porcentagem de erro médio absoluto para a validação do sistema.
-
-\autocite{Silva2017} \autocite{Silva2018} compara os dados de um sistema semelhante aos anteriores com resultados de análises de modelo matemático analítico e análise por elementos finitos aplicados em bancadas de viga engastada com carga na ponta e de torque aplicado em um eixo com um dos lados travados, diferente dos trabalhos anteriores, este possui uma seção com o desenvolvimento das equações dos modelos utilizados, e assim como os artigos anteriores foram encontrados resultados satisfatórios.
-
-O presente trabalho tambem é fortemente baseado no experimento e nos resultados do trabalho de conclusão de curso desenvolvido por \autocite{Minela2017}, será utilizado o mesmo dispositivo para realizar os experimentos e a metodologia de análise dos sinais será semelhante a este trabalho mencionado.
-
-Com os dados do mapeamento tecnológico e da revisão dos trabalhos científicos recentes, é elaborado um escopo base do projeto, seguido pela definição de um conceito básico de funcionamento, os componentes necessários e os respectivos preços, estes dados estão disponíveis no apêndice A. (**Falta anexar, arquivo 0 - Escopo do projeto no drive, planilha "mapa de tecnologias", incorporar uma parte da planilha de revisão bibliográfica junto**)
-
-\subsection{Projeto Informacional}
-
-O projeto informacional utiliza ferramentas para definição de especificações de projeto que irão orientar o desenvolvimento do produto, o principal é a matriz QFD, utilizada para definir a importância dos requisitos do produto.
+Outro dispositivo, denominado Bridge101A, mostrado na \autoref{fig:2030}, fabricado pela empresa Madgetech foi encontrado, segundo a empresa é um data logger compacto que mede e armazena valores de tensões elétricas,
+e é normalmente utilizado com extensômetros, células de carga e outras sensores de baixa tensão, e que o dispositivo é utilizado para calcular com precisão parâmetros de tensão, torque, deformação
+e pressão ao longo do tempo. \autocite{Bridge101A}
 
 \begin{figure}[htb]
-	\caption{\label{fig:Fig_401}Etapas do projeto informacional}
+	\caption{\label{fig:2030} Dispositivo Bridge101A}
 	\begin{center}
-		\includegraphics[width=\textwidth]{images/img402.jpg}
+		\includegraphics[width=\textwidth]{pictures/2030.jpg}
 	\end{center}
-	\fonte{**PRODIP (2020)**}
+	\fonte{\autocite{Bridge101A}}
 \end{figure}
 
-apresentar o resultado das pesquisas de mercado, listagem de atributos e da matriz QFD.
+A \autoref{tab:Banchmarking} mostra uma comparação entre os dados de utilização obtidos pela documentação dos dois dispositivos previamente apresentados.
 
-\subsection{Projeto Conceitual}
+\begin{table}[!ht]
+    \caption{Benchmarking entre dispositivos encontrados}
+    \label{tab:Banchmarking}
+    \centering
+    \resizebox{\linewidth}{!}{%
+        \begin{tabular}{ l | c c r } \toprule
+         			  & Isso DMI TCR 44es & Isso DMI TCR 88es & Madgetech Bridge101A \\
+			\midrule
+			Dimensões & 124x117x55mm & 190x117x55mm & 36x64x16mm \\
+			Comunicação com PC & Conexão Ethernet & Conexão Ethernet & Conexão USB \\
+%			Interface com o usuário & Software próprio & Software próprio & Software próprio \\
+%			Programação & Software próprio & Software próprio & Software próprio \\
+			Taxa de leitura & Não disponiblizado & Não disponiblizado & $\SI{4}{\hz}$ \\
+			Faixa de tensão de leitura & Não disponiblizado & Não disponiblizado & $\SI{\pm 30}{\mV}$ \\
+			Faixa de preço & R\$1100,00 & R\$1300,00 & R\$2800,00 \\
+            \bottomrule
+        \end{tabular}}
+\fonte{O autor 2022}
+\end{table}
 
-Busca de soluções conceituais para o problema, onde as alternativas são geradas e avaliadas técnica e economicamente, as ferramentas disponíveis são a síntese de funções, matriz morfológica e matriz multi critério de seleção
+Dentre os valores apresentados na tabela fica claro os altos preços envolvidos em qualquer aplicação que necessite a utilização desse tipo de dispositivo.
+Muitos deles necessitam ainda de programas para programação e utilização proprietários e que ainda tem custos adicionais para utilização. O dispositivo desenvolvido neste trabalho tem como objetivo um preço
+consideravelmente menor que os analisados e programável e utilizável utilizando tecnologias gratuitas e de código aberto.
 
-\subsection{Projeto Preliminar}
+\subsection{Pesquisa científica}
 
-“Solução conceitual é desenvolvida em termos de layout, arranjo, formas, geometria, materiais e processos de fabricação”. A configuração da solução solucionada (embodiment design). modelos de análise, simulação e otimização da solução são empregados. Construção e testes de protótipos.
+Com o intuito de facilitar o desenvolvimento do dispositivo, foi realizada uma revisão sistemática de trabalhos científicos e acadêmicos disponíveis nas bases de dados Web of Science, Springer,
+Sciencedirect e Google Scholar, utilizando como palavras-chave “Dynamic, Torque, Shaft, Sensor, Strain, Gauge”, os principais obtidos são apresentados nessa subseção.
 
-\subsection{Projeto Detalhado}
+Um artigo desenvolvido por \autocite{Niedworok2014} relata o desenvolvimento e aplicação de um sistema de sensoriamento de torque em tempo real em um eixo cardan de um carro de mina utilizando a medição
+da deformação utilizando extensômetro com transferência dos dados via radiofrequência, o trabalho também indica que o posicionamento do sensor necessita estar em contato com a superfície de maior deformação do componente,
+o autor realiza uma análise por elementos finitos para encontrar esse local. O artigo também aponta que o sinal vindo do sensor deve ser ampliado utilizando uma ponte de Wheatstone para conseguir ter a instrumentação
+correta da grandeza. O artigo mostrou resultados satisfatórios e não discutiu sobre ruídos e imprecisões presentes nos dados obtidos.
 
-Os detalhes da solução otimizada são finalizados. Concluem-se os testes de protótipos e revisa-se a solução em detalhes, prepara-se a documentação final do produto e da produção
+\autocite{Nurprasetio2018} desenvolve, em seu trabalho, um sistema de medição para veículos terrestres, aplicado em uma bancada de testes que simula o estado de veículos terrestres em operação, o sistema
+utiliza um microprocessador Arduino nano de fácil acesso e baixo custo. Os dados são transmitidos via comunicação bluetooth. O artigo também ilustra o processo de calibração do dispositivo feito antes do teste dinâmico,
+assim como no trabalho anterior, também é enfatizada a necessidade das metodologias de instrumentação do sinal vindo do extensômetro. Seus resultados também se mostraram promissores, porém o autor indica que é necessário
+a remoção dos ruídos de medição, o que segundo ele será endereçado em um trabalho futuro.
 
-\section{Metodologia do experimento de validação}
+\autocite{Gharghan2017} compara um sistema de medição similar ao dos dois trabalhos prévios com um sistema de medição de torque em tempo real de alto custo utilizado por ciclistas profissionais no pedivela.
+O artigo introduz a tecnologia de transmissão de dados Zigbee, que consegue transmitir dados a um baixo consumo energético. Após a obtenção dos dados, o autor utiliza as ferramentas de análise estatística de Bland-Altman
+e porcentagem de erro médio absoluto para a validação do sistema.
+
+\autocite{Silva2017} compara os dados de um sistema semelhante aos anteriores com resultados de análises de modelo matemático analítico e análise por elementos finitos aplicados em bancadas de viga engastada com carga
+na ponta e de torque aplicado em um eixo com um dos lados travados, diferente dos trabalhos anteriores, este possui uma seção com o desenvolvimento das equações dos modelos utilizados, e assim como os artigos anteriores
+foram encontrados resultados satisfatórios.
+
+Com os dados do mapeamento tecnológico e da revisão dos trabalhos científicos recentes, é elaborado um documento de escopo base do projeto com o conceito de funcionamento básico e uma descrição dos componentes
+necessários e seus respectivos preços, esse escopo está disponível no apêndice A.
+
+\section{Projeto informacional}
+
+%Definição do público alvo
+%
+%Formulário de pesquisa
+%
+%Matriz de requisitos do cliente
+%
+%Matriz de requisitos do projeto
+%
+%Matriz QFD
+
+\section{Elaboração do conceito}
+
+%Matriz morfológica
+%
+%Comparação e benchmarking
+%
+%Placa de controle:	Opções	Vantagens e desvantagens de cada uma	Qual foi a escolhida	Preços
+
+\begin{table}[!ht]
+    \caption{Características de ganho para o ADS1115}
+    \label{tab:ads1115modes}
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{ l | c c r } \toprule
+         	Ganho & Faixa de leitura & Resolução \\
+			\midrule
+			 2/3x & ${\pm 6.144}V$ & $1bit$ = ${0.1875}{m}V$ \\
+			 1x & ${\pm 4.096}V$ & $1bit$ = ${0.125}{m}V$ \\
+			 2x & ${\pm 2.048}V$ & $1bit$ = ${0.0625}{m}V$ \\
+			 4x & ${\pm 1.024}V$ & $1bit$ = ${0.03125}{m}V$ \\
+			 8x & ${\pm 0.512}V$ & $1bit$ = ${0.015625}{m}V$ \\
+			 16x & ${\pm 0.256}V$ & $1bit$ = ${0.0078125}{m}V$ \\
+            \bottomrule
+        \end{tabular}}
+\fonte{O autor 2022}
+\end{table}
+
+%
+%amplificador: Opções	Vantagens e desvantagens de cada uma	Qual foi a escolhida	Preços
+
+\section{Preparação do protótipo}
 
 
-%
-%\phantomsection
-%
-%\chapter{Contexto}%\label{cap:Contexto}
-%
-%O presente capítulo apresenta o contexto no qual o dispositivo desenvolvido pode ser aplicado mostrando os conceitos de dinâmica veicular longitudinal, principais sistemas de segurança envolvidos, e os esforços mecânicos presentes nos componentes de interesse.
-%
-%\section{Dinâmica veicular}
-%
-%%DESCREVER UM EIXO DE TRANSMISSAO
-%
-%Dinâmica veicular é o campo da física aplicada que investiga o comportamento de um veículo automotor em condições de uso e estáticas, a norma SAE J670 (2008) adota o sistema de coordenadas ilustrado na \autoref{fig:Fig_301} para um veículo genérico com a origem na posição do seu centro de massa nas análises dinâmicas em veículos terrestres.
-%
-%\begin{figure}[htb]
-%	\caption{\label{fig:Fig_301}Sistema de coordenadas SAE}
-%	\begin{center}
-%		\includegraphics[width=\textwidth]{images/img301.jpg}
-%	\end{center}
-%	\fonte{**Tsirogiannis (2015)**}
-%\end{figure}
-%
-%A dinâmica veicular é composta por três campos de estudo (longitudinal, lateral e vertical) que investigam o comportamento do veículo ao longo das direções padrões. A dinâmica longitudinal veicular engloba a análise da movimentação do veículo no seu eixo de pitch e na direção longitudinal causadas pelo trem de força, conjunto de componentes responsáveis pela geração de potencia e transmissão do movimento para os pneus do eixo de tração, e do sistema de frenagem. A \autoref{fig:Fig_302} ilustra os principais componentes presentes no trem de força em um veículo com tração traseira.
-%
-%\begin{figure}[htb]
-%	\caption{\label{fig:Fig_302}Elementos principais do trem de potência}
-%	\begin{center}
-%		\includegraphics[width=\textwidth]{images/img302.jpg}
-%	\end{center}
-%	\fonte{**Gillespie (1992)**}
-%\end{figure}
-%
-%Nas análises simplificadas de dinâmica veicular a unidade motora é modelada por suas curvas de torque e potência, os componentes da transmissão como as respectivas relações de amplificação de torque e as rodas pelo seu raio e coeficiente de atrito do contato entre pneu e pista. A figura 3 mostra o diagrama de corpo livre de um automóvel simplificado. Em um veículo com tração unicamente traseira e sem a presença de reboque, as forças de tração geradas nas interfaces pneu pista frontais e reações das cargas traseiras não estarão presentes, simplificando a análise.
-%
-%\begin{figure}[htb]
-%	\caption{\label{fig:Fig_303}Principais forças envolvidas na dinâmica longitudinal}
-%	\begin{center}
-%		\includegraphics[width=\textwidth]{images/img303.jpg}
-%	\end{center}
-%	\fonte{**Gillespie (1992)**}
-%\end{figure}
-%
-%\subsection{Capacidade de aceleração}
-%
-%Dentre as análises do veículo na dinâmica longitudinal pode-se definir sua capacidade máxima de aceleração, Gillespie (1992) afirma que esse potencial é determinado por um entre dois limites, definidos primariamente pela velocidade do veículo, em altas velocidades espera-se o limite seja relacionado a potência da unidade motora, e em baixas velocidades a capacidade de tração das rodas motrizes.
-%
-%Presumindo que haja potência suficiente na unidade motora, a aceleração será limitada pelo coeficiente de atrito na interface entre o pneu das rodas motrizes e a superfície de contato nesse caso, o limite de tração é mostrado pela \autoref{eq:Eq_301}.
-%
-%O coeficiente de atrito do contato pneu pista é dependente de diversos fatores, entre eles a área de superfície de contato do pneu, tipo de compósito e condição, parâmetros operacionais como temperatura e pressão, carga aplicada no pneu, etc.
-%
-%\vspace{\baselineskip}
-%
-%\begin{equation}\label{eq:Eq_301}
-%F_{x} = \mu W
-%\end{equation}
-%
-%sendo
-%
-%$F_{x}$: Força de tração gerada pelos pneus
-%
-%$\mu$: Coeficiente de atrito máximo do contato
-%
-%W: Carga aplicada no eixo de tração
-%
-%\vspace{\baselineskip}
-%
-%\section{Esforços em componentes}
-%
-%
-%Os sistemas veiculares responsáveis pela transmissão do torque no trem de potencia, uma vez que são compostos de elementos rotativos, apresentam tensões geradas pelas cargas de torque e flexão durante a operação.
-%
-%%Esse capítulo ilustra o desenvolvimento matemático a ser utilizado nas etapas de análises computacionais e validação do conceito experimental.
-%
-%%\subsection{Deformação de viga devido a carga estática}
-%%
-%%Em uma viga retangular engastada, a tensão máxima causada por flexão é dada pela \autoref{eq:Eq_501}.
-%%
-%%\begin{equation}\label{eq:Eq_501}
-%%\sigma = \frac{My}{I}
-%%\end{equation}
-%%
-%%onde
-%%
-%%$\sigma$: Tensão causada pelo momento fletor
-%%
-%%M: Momento fletor na posição x
-%%
-%%y: Distância entre superfície de análise e linha neutra
-%%
-%%I: Segundo momento de inércia da seção transversal
-%%
-%%\vspace{\baselineskip}
-%%
-%%O segundo momento de inércia de uma seção retangular em relação ao seu centro é dado pela \autoref{eq:Eq_502}.
-%%
-%%\begin{equation}\label{eq:Eq_502}
-%%I = \frac{bh^{3}}{12}
-%%\end{equation}
-%%
-%%onde
-%%
-%%b: Largura da seção retangular
-%%
-%%h: Altura da seção retangular
-%%
-%%\vspace{\baselineskip}
-%%
-%%Os valores de deformação para um caso geral podem ser facilmente obtido utilizando a lei de Hooke representado pela \autoref{eq:Eq_503}.
-%%
-%%\begin{equation}\label{eq:Eq_503}
-%%\sigma = E \varepsilon
-%%\end{equation}
-%%
-%%onde
-%%
-%%E: Módulo de elasticidade do material
-%%
-%%$\varepsilon$: Deformação
-%%
-%%\vspace{\baselineskip}
-%%
-%%Então, pode-se encontrar uma equação geral para a deformação de uma viga genérica sujeita a um momento M \autoref{eq:Eq_504}.
-%%
-%%\begin{equation}\label{eq:Eq_504}
-%%\varepsilon = \frac{6My}{Ebh^{2}}
-%%\end{equation}
-%%
-%%\vspace{\baselineskip}
-%
-%\subsection{Deformação de um eixo em torção}
-%
-%Norton (2013) afirma que quando barras estão solicitadas por um momento em relação ao seu eixo longitudinal, diz-se que estão sob torção, esse tipo de momento aplicado é denominado torque e está situação é comum em eixos que transmitem potência. A \autoref{fig:Fig_501} ilustra os ângulos de deformação vistos em um eixo e a distribuição de tensão de cisalhamento ao longo da sua seção transversal, os valores são dados pela \autoref{eq:Eq_505} e \autoref{eq:Eq_506},
-%
-%
-%\begin{figure}[htb]
-%	\caption{\label{fig:Fig_501}Deflexão e distribuição de tensão devido a torção}
-%	\begin{center}
-%		\includegraphics[width=\textwidth]{images/img501.jpg}
-%	\end{center}
-%	\fonte{**Norton 4ed**}
-%\end{figure}
-%
-%\begin{equation}\label{eq:Eq_505}
-%\theta = \frac{Tl}{GJ}
-%\end{equation}
-%
-%\begin{equation}\label{eq:Eq_506}
-%\tau = \frac{Tr}{J}
-%\end{equation}
-%
-%onde:
-%
-%$\theta$: ângulo de torção
-%
-%$\tau$: tensão superficial causada pela torção
-%
-%$T$: valor de torque aplicado
-%
-%$r$: raio do eixo
-%
-%$l$: comprimento até o ponto de análise
-%
-%$G$: Modulo de cisalhamento do material
-%
-%$J$: Momento de inércia polar da seção transversal
-%
-%\vspace{\baselineskip}
-%
-%As equações consideram a operação do componente apenas em regime de deformação elástico, logo os valores esperados de $\theta$ serão relativamente pequenos. (escrever sobre a influencia disso na operação do eixo)
-%
-%\vspace{\baselineskip}
-%
-%\section{Sensoriamento de deformações}
-%
-%Com o objetivo de obter grandezas associadas em um veículo durante sua operação, são utilizado sensores baseados na sua variação de resistência.
-%
-%\subsection{Extensômetro}
-%
-%Extensômetros são sensores que sofrem alterações de resistência elétrica conforme a deformação ocorrida na superfície em que são aplicados, uma relação entre a variação de resistência e deformação nesse tipo de sensor é denominado gauge factor, que pode ser representado pela \autoref{eq:Eq_507}.
-%
-%\begin{equation}\label{eq:Eq_507}
-%K\varepsilon = \frac{\Delta R_{s}}{R_{s}}
-%\end{equation}
-%
-%onde
-%
-%K: Gauge factor
-%
-%$\varepsilon$: deformação na superfície
-%
-%$\Delta R_{s}$: variação de resistência no strain gauge
-%
-%$R_{s}$: resistência nominal do strain gauge
-%
-%\vspace{\baselineskip}
-%
-%Uma vez que os valores deformação superficiais durante a operação são pequenos isso acarreta em pequenas variações de resistência no extensômetro, logo, para se ter uma medição com precisão aceitável, devem ser utilizados artifícios de instrumentação como uma ponte de Wheatstone com fim de detectar mais precisamente a variação de resistência do sensor.
-%
-%%O resistor a ser utilizado é do modelo B350-3AA, que possui resistência nominal de 350 ohms e gauge factor de 2.
-%
-%\subsection{Ponte de Wheatstone}
-%
-%Uma vez apresentadas pequenas variações de resistência durante o funcionamento o que gera pequenas variações de tensão em seu funcionamento no circuito elétrico, o extensômetro é montado como parte de um circuito de ponte de Wheatstone. Esse tipo de montagem facilita a instrumentação desses sensores, devido a melhor sensibilidade na leitura do voltímetro $V_g$ ilustrado na \autoref{fig:Fig_502}.
-%
-%\begin{figure}[htb]
-%	\caption{\label{fig:Fig_502}esquema basico de ponte de Wheatstone}
-%	\begin{center}
-%		\includegraphics[width=\textwidth]{images/img502.png}
-%	\end{center}
-%	\fonte{*internet**}
-%\end{figure}
-%
-%Em uma aplicação com sensor de deformação o resistor variável $R_2$ é substituído pela expressão de resistência do extensômetro, e os resistores $R_1$, $R_3$ e $R_x$ são definidos com valores de resistências iguais ao do valor nominal do sensor utilizado, logo, utilizando as leis de Kirchoff para o circuito, a equação de transferência do circuito é mostrada na \autoref{eq:Eq_508}.
-%
-%\begin{equation}\label{eq:Eq_508}
-%\frac{V}{V_{in}} = \frac{K \varepsilon}{4 = K \varepsilon}
-%\end{equation}
-%
-%onde
-%
-%Vin: Tensão de alimentação do circuito
-%
-%V: Tensão mostrada pelo voltímetro Vg
-%
-%
+
+\section{Validação do protótipo}
+
+A metodologia de execução do experimento para validar o funcionamento do protótipo desenvolvido segue a mesma metodologia do experimento realizado no trabalho de conclusão
+de curso de \autocite{Minela2017}, uma introdução aos principais tópicos dessa metodologia e eventuais diferenças entre os dispositivos utilizados nos dois trabalhos para cada tópico é feita nessa seção.
+
+Os ensaios realizados envolvem a leitura de extensômetros colados em corpos de prova sobre ação de cargas específicas. Um dispositivo de análise de cargas de flexão e
+um para cargas em torção foram desenvolvidos e produzidos por \autocite{Minela2017}, os mesmos dispositivos foram utilizados para este trabalho.
+
+\subsection{Dispositivo para ensaio de flexão}
+
+O dispositivo para realizar o ensaio de flexão é composto por uma viga de seção retangular de $20mm$ de largura por $2mm$ de espessura, que mede $200mm$
+de comprimento e é de uma liga desconhecida de alumínio, e uma base projetada e fabricada em aço 1020 para fixar a viga em uma situação de engaste na viga.
+A imagem mostra o projeto do dispositivo desenvolvido por \autocite{Minela2017}.
+
+\begin{figure}[htb]
+	\caption{\label{fig:2040} Dispositivo de ensaio de flexão}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2040.png}
+	\end{center}
+	\fonte{\autocite{Minela2017}}
+\end{figure}
+
+Na viga é colado um extensômetro unidimensional para obter os dados de deformação, as propriedades do extensômetro utilizado são mostradas na
+\autoref{tab:PropriedadesExtensometro}.
+
+\begin{table}[htb]
+\caption[]{Propriedades do extensômetro colado ao dispositivo de flexão}
+\label{tab:PropriedadesExtensometro}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{6.5cm}p{8cm}}
+	\toprule
+	Marca & Micro Measurements \textregistered \\
+	Tipo de extensômetro & EA-06-250AF-120 \\
+	Resistência Elétrica & ${120\pm 0.15\% \Omega}$ \\
+	Factor de gage até ${75 ^\circ F}$ & ${2.025 \pm 0.5 \%}$ \\
+	Comprimento & ${6.35} \mm$ \\
+	Limite de têmperatura & ${-75\tccentigrade}$ á ${175\tccentigrade}$ para medições estáticas \\
+	\bottomrule
+\end{tabular}
+}
+\fonte{Adapdato de \autocite{Minela2017}}
+\end{table}
+
+As cargas são aplicadas na extremidade livre da viga a distância de 150mm entre o centro do extensômetro e o ponto de aplicação da carga.
+Com a finalidade de se obter os valores de deformação causados pela aplicação de cada carga, cada trabalho utiliza-se de um sistema de medição diferente, apresentado
+na seção seguinte.
+
+\subsection{Sistemas de medição}
+
+Tanto o sistema de medição utilizado em \autocite{Minela2017} quanto o utilizado para o desenvolvimento deste trabalho seguem o mesmo princípio de funcionamento.
+
+\begin{figure}[htb]
+	\caption{\label{fig:2050} Sistema de medição utilizado por \autocite{Minela2017}}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2050.png}
+	\end{center}
+	\fonte{\autocite{Minela2017}}
+\end{figure}
+
+O sistema de medição utilizado por \autocite{Minela2017} é composto por um dispositivo de obtenção de dados ADS2002, desenvolvido e fabricado pela LYNX Tecnologia,
+que é conectado a um computador. O ADS2002 obtém os dados gerados pelo sensor e os envia ao computador via conexão ethernet.
+O computador utiliza o software AQDados para conexão com o ADS2002, calibração e aferição dos extensômetros, e o softwre AqAnalysis para fazer o processamento dos sinais
+e gerar relatórios de análise, ambos os programas são desenvolvidos pela fabricante do dispositivo de obtenção de dados.
+
+\begin{figure}[htb]
+	\caption{\label{fig:2060} Sistema de de medição utilizando o LINX ADS2002}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2060.png}
+	\end{center}
+	\fonte{\autocite{Minela2017}}
+\end{figure}
+
+A conexão entre o dispositivo de obtenção de dados e o extensômetro ocorre utilizando os terminais elétricos do canal específico de análise, o ADS2002 já possui,
+integrado em si, os componentes elétricos do circuito da ponte de wheatstone para a instrumentação do sinal.
+A calibração do extensômetro afim dos resultados serem mostrados como valores deformação, ao invés de tensões, é feita utilizando a \autoref{eq:Eq_270} que define um valor de
+fator de engenharia em função do fator gage $FG$ da resistência média do extensômetro $RM$, resistência de calibração $RC$, que é disponibilizada pelo fabricante.
+
+\begin{equation}\label{eq:Eq_270}%
+\mbox{\fontsize{17.28}{21.6}\selectfont\( %
+VE = \left ( \frac{1}{FG}\left ( \frac{RM}{RM + RC} \right ) \right )
+\)} %
+\end{equation}
+
+\newline
+
+O sistema de medição utilizando o protótipo desenvolvido pelo autor é feito pela conexão entre o controlador ESP 32 e o computador via o software desenvolvido em python
+para realizar a transferência dos dados obtidos entre o controlador e o computador em tempo real.
+
+\begin{figure}[htb]
+	\caption{\label{fig:2070} Protótipo do dispositivo desenvolvido conectado com o extensometro no dispositivo de flexão}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2070.png}
+	\end{center}
+	\fonte{O autor 2021}
+\end{figure}
+
+A calibração do dispositivo desenvolvido pelo autor é feita utilizando os sinais resultantes da aplicação de duas massas distintas conhecidas.
+Os valores nominais obtidos nos sinais alimentam a \autoref{eq:Eq_280} que é utilizada para converter os valores discretos obtidos em bits pelo
+amplificador de sinal para um valor de gradeza física desejado.
+
+\begin{equation}\label{eq:Eq_280}%
+\mbox{\fontsize{17.28}{21.6}\selectfont\( %
+F(W) = \frac{output_{high}-output_{low}}{W_{high}-W_{low}}(W - W_{low}) + output_{low}
+\)} %
+\end{equation}
+
+onde
+
+$F(W)$: Função de calibração
+
+$W$: Valor nominal do sinal
+
+$W_{high}$: Carga de calibração de massa alta
+
+$W_{low}$: Carga de calibração de massa baixa
+
+$output_{high}$: Valor nominal do sinal obtido pela aplicação da carga alta
+
+$output_{high}$: Valor nominal do sinal obtido pela aplicação da carga baixa
+
+\hfill
+
+A calibração ocorre por um método automatizado implementado no software de comunicação entre o controlador e o computador.
+Após calibrado, o dados são mostrados como os valores de grandeza física calibrada.
+
+\subsection{Cargas aplicadas}
+
+\autocite{Minela2017} utiliza pesos com massas pré definidas apoiadas utilizando um fuso de fixação para aplicação das cargas no ponto “F” no dispositivo, mostrado na figura.
+Dentre as massas utilizadas por \autocite{Minela2017} duas não foram localizadas pelo autor deste trabalho, com a finalidade de poder se obter resultados que se possam fazer
+comparações diretas entre os trabalhos foram substituidas as massas não encontradas por massas semelhantes.
+
+Todos os valores de massa dos pesos utilizados foram obtidos novamente pelo autor utilizando o valor médio de três leituras obtidas por uma balança de precisão disponibilizada pelo laboratório de metrologia
+da UFSC Joinville. Os valores obtidos são apresentados na \autoref{tab:MassasUtilizadas}.
+
+\begin{table}[!ht]
+    \caption{Valores de massas utilizadas para aplicação das cargas nos dispositivos de flexão e torção}
+    \label{tab:MassasUtilizadas}
+    \centering
+    \resizebox{\linewidth}{!}{%
+        \begin{tabular}{ l | c c r } \toprule
+            Item & Massa obtida & Massa \autocite{Minela2017} & Variação \\\hline
+            Porca & $\SI{3.06}{\g}$ & $\SI{14.98}{\g}$ & $\SI{78.84}{\%}$ \\
+            Fuso & $\SI{48.63}{\g}$ & $\SI{48.78}{\g}$ & $\SI{0.31}{\%}$ \\
+            Peso 1 & $\SI{86.73}{\g}$ & $\SI{99.68}{\g}$ & $\SI{12.99}{\%}$ \\
+            Peso 2 & $\SI{198.38}{\g}$ & $\SI{198.36}{\g}$ & $\SI{0.01}{\%}$ \\
+            Peso 3 & $\SI{997.13}{\g}$ & $\SI{997.3}{\g}$ & $\SI{0.02}{\%}$ \\
+            Peso 4 & $\SI{497.66}{\g}$ &$\SI{497.69}{\g}$ & $\SI{0.02}{\%}$ \\
+            Peso 5 & $\SI{495.25}{\g}$ & $\SI{496.22}{\g}$ & $\SI{0.20}{\%}$ \\
+            \bottomrule
+        \end{tabular}}
+\fonte{O autor 2022}
+\end{table}
+
+As massas da porca e do “peso 1” utilizados em \autocite{Minela2017} variam de forma considerável em relação aos pesos utilizados neste trabalho, então para todas as comparações diretas de
+resultados experimentais obtidos entre os dois trabalhos deve ser aplicados fatores de correção de 11.42g para a porca e 12.95g para o “peso 1”.
+
+O método de aplicação de cargas é caracterizado pela aplicação na extremidade livre da viga das massas utilizando o fuso como suporte, a Figura mostra a viga de aluminio defletida pela aplicação da carga do "peso 3".
+
+\begin{figure}[htb]
+	\caption{\label{fig:2080} Aplicaçao do 'peso 3' no dispositivo de flexão}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2080.png}
+	\end{center}
+	\fonte{O autor 2021}
+\end{figure}
+
+Na extremidade da viga encontra-se uma demarcação para auxiliar o posicionamento do apoio do fuso e as cargas são aplicadas de maneira cuidadosa de modo que não sejam geradas forças de impulso na viga.
+O sistema de medição obtem valores em bits proporcionais a carga aplicada no experimento.
+
+Os valores obtidos em bits são posteriormente convertidos em valores de carga, ou de deformação utilizando uma função de transferencia obtida pelo método de calibração.
