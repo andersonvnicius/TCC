@@ -8,7 +8,7 @@ from pandas import read_csv, DataFrame
 from datetime import datetime
 import matplotlib.pyplot as plt
 
-AMP_FACTOR = 1/123
+AMP_FACTOR = 1 / 123
 
 _ANALYSIS = 'x14h'
 
@@ -34,11 +34,13 @@ if _ANALYSIS == 'x14h':
         '3_a': weights_kg['weight_a'] + weights_kg['fuse'] + weights_kg['nut'],
         '3_a_p_1': weights_kg['weight_a'] + weights_kg['weight_1'] + weights_kg['fuse'] + weights_kg['nut'],
         '3_a_p_2': weights_kg['weight_a'] + weights_kg['weight_2'] + weights_kg['fuse'] + weights_kg['nut'],
-        '3_a_p_2_p_1': weights_kg['weight_a'] + weights_kg['weight_1'] + weights_kg['weight_2'] + weights_kg['fuse'] + weights_kg['nut'],
+        '3_a_p_2_p_1': weights_kg['weight_a'] + weights_kg['weight_1'] + weights_kg['weight_2'] + weights_kg['fuse'] +
+                       weights_kg['nut'],
         '4': weights_kg['weight_3'] + weights_kg['fuse'] + weights_kg['nut'],
         '4_p_1': weights_kg['weight_3'] + weights_kg['weight_1'] + weights_kg['fuse'] + weights_kg['nut'],
         '4_p_2': weights_kg['weight_3'] + weights_kg['weight_2'] + weights_kg['fuse'] + weights_kg['nut'],
-        '4_p_2_p_1': weights_kg['weight_3'] + weights_kg['weight_1'] + weights_kg['weight_2'] + weights_kg['fuse'] + weights_kg['nut'],
+        '4_p_2_p_1': weights_kg['weight_3'] + weights_kg['weight_1'] + weights_kg['weight_2'] + weights_kg['fuse'] +
+                     weights_kg['nut'],
     }
 
     colors = {
@@ -161,6 +163,9 @@ def read_adjust(data_):
     return read_array * transfer_constant
 
 
+def calibrate(calibration_values, calibration_results):
+    return
+
 def plot_read(plot_item, adjust=True, savefig=False, savefig_dir=''):
     plt.close()
     plt.figure()
@@ -176,9 +181,66 @@ def plot_read(plot_item, adjust=True, savefig=False, savefig_dir=''):
 
     if adjust:
         load_axis = read_adjust(plot_item)
-        load_hline = plot_item['weight_value']
+        load_hline = round(plot_item['weight_value'], 2)
         load_unit = 'kg'
         plt.ylabel('load value [kg]')
+        filecomp = ''
+    else:
+        load_axis = plot_item['read_full']
+        if plot_item['read_load'] >= plot_item['read_offset']:
+            load_hline = plot_item['read_load']
+        else:
+            load_hline = plot_item['read_offset']
+        load_unit = ''
+        plt.ylabel('load value [ADC units]')
+        filecomp = '_ADCunits'
+
+    plt.plot(time_axis, load_axis, color=colors[plot_item['weight_class'].split('c_')[-1].split('r_')[-1]])
+    plt.axhline(load_hline, color='orange', linestyle='--')
+    plt.xlabel('Elapsed time [s]')
+
+    plt.legend(
+        [
+            f'weight class {plot_item["weight_class"]}',
+            f'{load_hline} {load_unit}'
+        ]
+    )
+
+    if savefig:
+
+        if savefig_dir:
+            filename = f'{savefig_dir}/{plot_item["file_name"].rstrip(".csv")}{filecomp}.png'
+        else:
+            filename = f'{plot_item["file_name"].rstrip(".csv")}{filecomp}.png'
+
+        plt.savefig(filename)
+        plt.close()
+
+    plt.show()
+
+
+def plot_strain(plot_item, adjust=True, savefig=False, savefig_dir='', time_x2=True):
+    plt.close()
+    plt.figure()
+
+    time_start = datetime.strptime(plot_item['time_start'], '%H:%M:%S')
+    time_end = datetime.strptime(plot_item['time_end'], '%H:%M:%S')
+    delta_t = time_end - time_start
+
+    if time_x2:
+        time_end = time_start + 2 * delta_t
+
+    time_axis = linspace(
+        0,
+        delta_t.seconds,
+        len(plot_item['read_full'])
+    )
+
+    if adjust:
+        load_axis = get_strain_value(read_adjust(plot_item))*1E6
+        load_hline = round(get_strain_value(plot_item['weight_value'])*1E6, 4)
+        load_unit = ''
+        plt.ylabel('strain [mm/mm]')
         filecomp = ''
     else:
         load_axis = plot_item['read_full']
@@ -258,53 +320,65 @@ data = data_from_directory_files(dir_, delete_plots=True)
 # obtendo dados de cada leitura
 df = DataFrame(data).sort_values('read_load').drop(['file_name', 'read_full'], axis=1)
 
-# regressoes entre peso e valor obtido pelo ADC
-plt.figure()
-plot_regression(
-    regression_list=[
-        regression_weight_read(  # regressão com 2 pontos
-            adj_points=['x_c_1', 'x_c_4'],
-            data_=data
-        )
-    ],
-    x_points=array(df['weight_value']),
-    y_points=array(df['read_load']),
-    color_int=1
-)
-plt.title('Regressão entre peso e valor no ADC')
-plt.xlabel('Massa aplicada [kg]')
-plt.ylabel('Leitura do amplificador analógico digital')
-plt.legend()
-plt.show()
-plt.savefig(f'{dir_}_weight.png')
-plt.close()
+df2 = DataFrame(data).sort_values('read_load').drop(['file_name'], axis=1).sort_values('time_start').iloc[3:]
 
-# regressoes entre valor do ADC e deformacao
-regression_list = [
-    regression_read_strain(  # regressão com 2 pontos
-        adj_points=['x_c_1', 'x_c_4'],
-        data_=data
-    ),
-]
+for i in range(0, len(df2), 2):
+    data = [
+        *df2.iloc[i]['read_full'],
+        *df2.iloc[i + 1]['read_full']
+    ]
+    df = df2.iloc[i]
+    df['read_full'] = data
 
-i = 1
-for regression in regression_list:
-    df[f'linreg_{i}'] = regression.slope * df['read_load'] + regression.intercept
-    i += 1
+    plot_strain(df)
 
-# df.to_csv('Results/sep_24_1_results.csv', index=None)
-
-plt.figure()
-plot_regression(
-    regression_list=regression_list,
-    x_points=array(df['read_load']),
-    y_points=array(df['strain_value']),
-    color_int=1
-)
-plt.title('Regressão entre valor obtido e deformação')
-plt.xlabel('Valor obtido pelo amplificador analógico digital')
-plt.ylabel('Deformação no strain gauge [um]')
-plt.legend()
-plt.show()
-plt.savefig(f'{dir_}_deformation.png')
-plt.close()
+# # regressoes entre peso e valor obtido pelo ADC
+# plt.figure()
+# plot_regression(
+#     regression_list=[
+#         regression_weight_read(  # regressão com 2 pontos
+#             adj_points=['x_c_1', 'x_c_4'],
+#             data_=data
+#         )
+#     ],
+#     x_points=array(df['weight_value']),
+#     y_points=array(df['read_load']),
+#     color_int=1
+# )
+# plt.title('Regressão entre peso e valor no ADC')
+# plt.xlabel('Massa aplicada [kg]')
+# plt.ylabel('Leitura do amplificador analógico digital')
+# plt.legend()
+# plt.show()
+# plt.savefig(f'{dir_}_weight.png')
+# plt.close()
+#
+# # regressoes entre valor do ADC e deformacao
+# regression_list = [
+#     regression_read_strain(  # regressão com 2 pontos
+#         adj_points=['x_c_1', 'x_c_4'],
+#         data_=data
+#     ),
+# ]
+#
+# i = 1
+# for regression in regression_list:
+#     df[f'linreg_{i}'] = regression.slope * df['read_load'] + regression.intercept
+#     i += 1
+#
+# # df.to_csv('Results/sep_24_1_results.csv', index=None)
+#
+# plt.figure()
+# plot_regression(
+#     regression_list=regression_list,
+#     x_points=array(df['read_load']),
+#     y_points=array(df['strain_value']),
+#     color_int=1
+# )
+# plt.title('Regressão entre valor obtido e deformação')
+# plt.xlabel('Valor obtido pelo amplificador analógico digital')
+# plt.ylabel('Deformação no strain gauge [um]')
+# plt.legend()
+# plt.show()
+# plt.savefig(f'{dir_}_deformation.png')
+# plt.close()
