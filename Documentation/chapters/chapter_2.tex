@@ -54,7 +54,7 @@ A \autoref{tab:Banchmarking} mostra uma comparação entre os dados de utilizaç
 			Comunicação com PC & Conexão Ethernet & Conexão Ethernet & Conexão USB \\
 %			Interface com o usuário & Software próprio & Software próprio & Software próprio \\
 %			Programação & Software próprio & Software próprio & Software próprio \\
-			Taxa de leitura & Não disponiblizado & Não disponiblizado & $\SI{4}{\hz}$ \\
+			Taxa de leitura & Não disponiblizado & Não disponiblizado & $\SI{4}hz$ \\
 			Faixa de tensão de leitura & Não disponiblizado & Não disponiblizado & $\SI{\pm 30}{\mV}$ \\
 			Faixa de preço & R\$1100,00 & R\$1300,00 & R\$2800,00 \\
             \bottomrule
@@ -63,8 +63,14 @@ A \autoref{tab:Banchmarking} mostra uma comparação entre os dados de utilizaç
 \end{table}
 
 Dentre os valores apresentados na tabela fica claro os altos preços envolvidos em qualquer aplicação que necessite a utilização desse tipo de dispositivo.
-Muitos deles necessitam ainda de programas para programação e utilização proprietários e que ainda tem custos adicionais para utilização. O dispositivo desenvolvido neste trabalho tem como objetivo um preço
-consideravelmente menor que os analisados e programável e utilizável utilizando tecnologias gratuitas e de código aberto.
+Muitos deles necessitam ainda de programas para programação e utilização proprietários e que ainda tem custos adicionais para utilização.
+O dispositivo desenvolvido neste trabalho tem como objetivo um preço consideravelmente menor que os analisados e programável e utilizável utilizando tecnologias gratuitas
+e de código aberto.
+
+Uma possível aplicação mais específica de um produto semelhante aos pesquisados seria um dispositivo que possibilite a telemetria direta de cargas de torque presentes em
+eixos de tração durante seu funcionamento, para isso seria necessário que o dispositivo fosse desenvolvido voltado para esse tipo de aplicação, a falta de um dispositivo
+desse tipo disponível no mercado levou ao autor elaborar uma pesquisa científica focado em encontrar dispositivos desenvolvidos semelhantes a ideia.
+
 
 \subsection{Pesquisa científica}
 
@@ -89,28 +95,141 @@ e porcentagem de erro médio absoluto para a validação do sistema.
 na ponta e de torque aplicado em um eixo com um dos lados travados, diferente dos trabalhos anteriores, este possui uma seção com o desenvolvimento das equações dos modelos utilizados, e assim como os artigos anteriores
 foram encontrados resultados satisfatórios.
 
-Com os dados do mapeamento tecnológico e da revisão dos trabalhos científicos recentes, é elaborado um documento de escopo base do projeto com o conceito de funcionamento básico e uma descrição dos componentes
-necessários e seus respectivos preços, esse escopo está disponível no apêndice A.
+A ideia inicial da concepção do produto seria o do desenvolvimento de um dispositivo que obtivesse os valores de torque em um eixo em tempo real. Para que fosse possível solucionar tal problema, o dispositivo teria que
+obter os dados de tensão dos pólos de uma ponte de wheatstone, com um extensômetro montado a um eixo sob torque e transmitir os dados obtidos via conexão sem fio em tempo real a um computador. O projeto inicial do
+dispositivo é mostrado na \autoref{fig:2029}.
+
+\begin{figure}[htb]
+	\caption{\label{fig:2029} Projeto inicial do dispositivo}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2029.png}
+	\end{center}
+	\fonte{O autor 2022}
+\end{figure}
+
+O conceito é composto por uma placa de desenvolvimento Arduino, que controla um amplificador de sinal que por si obtém os dados de tensão de uma ponte de wheatstone. Os dados obtidos pela ponte de wheatstone então
+são transmitidos utilizando um módulo bluetooth HC-05. O custo total desses dois componentes é baixo, e um protótipo de dispositivo pode ser montado por aproximadamente R$150,00, desconsiderando os componentes de
+encapsulamento. O projeto informacional é iniciado considerando este conceito como a ideia inicial do produto.
 
 \section{Projeto informacional}
 
-%Definição do público alvo
-%
-%Formulário de pesquisa
-%
-%Matriz de requisitos do cliente
-%
-%Matriz de requisitos do projeto
-%
-%Matriz QFD
+Uma vez que a ideia inicial do produto é caracterizada pelo grande potencial de ser de baixo custo e de ser consideravelmente compacto em relação aos outros produtos
+encontrados no mercado, pode-se traçar uma estratégia de definição de público alvo, o que facilita as tomadas de decisão durante o desenvolvimento do produto.
+Dentre os possíveis públicos que são beneficiados pelas características do produto que será desenvolvido, as equipes de competição Baja SAE foram
+escolhidas como público alvo para guiar o desenvolvimento do dispositivo, uma vez que o baixo custo, baixas dimensões e flexibilidade de aplicação são características
+desejadas para utilização nesses grupos.
 
-\section{Elaboração do conceito}
+Foi elaborado um formulário eletrônico que apresenta a ideia do conceito de funcionamento de um dispositivo para sensoriar dados de torque em tempo real. No formulário
+são apresentadas duas perguntas iniciais, que avaliam a importância da obtenção desse tipo de dado e a importância de serem obtidas em tempo real, além das duas perguntas
+iniciais, são apresentados os seguintes tópicos sobre a necessidade do produto em desenvolvimento de:
 
-%Matriz morfológica
-%
-%Comparação e benchmarking
-%
-%Placa de controle:	Opções	Vantagens e desvantagens de cada uma	Qual foi a escolhida	Preços
+\begin{alineas}
+
+	\item Qual sua opinião sobre a importância da obtenção de dados de torque, potência e rotação do sistema de propulsão durante a utilização?;
+	\item Qual sua opinião sobre o recebimento a distância e ilustração desses dados em tempo real?;
+	\item Capacidade de gravação/armazenamento de dados;
+	\item Ser de baixo preço;
+	\item Ser compacto;
+	\item Ser leve;
+	\item Suportar grande variação da faixa de torque;
+	\item Ser a prova de água, fluidos, poeira, lama, etc;
+	\item Ser resistente a impactos;
+	\item Ser de fácil utilização e montagem;
+	\item Ser de fácil manutenção;
+	\item Possuir bateria de longa duração (duração da prova mais longa);
+	\item Possuir disjuntor/botão de liga/desliga;
+
+\end{alineas}
+
+Todas as perguntas e tópicos foram respondidos pela seleção de uma nota de 1 a 5 para cada questão, onde o valor 1 significa que o requisito listado é de baixa importância e
+o valor 5 é de extrema importância. As respostas do formulário são avaliadas pela análise do valor médio obtido pelos valores respondidos. Foram obtidas as respostas de 8
+membros de diferentes equipes de competição. Os resultados são mostrados na \autoref{tab:resultpesquisa}.
+
+\begin{table}[!ht]
+    \caption{Resultado pesquisa de mercado}
+    \label{tab:resultpesquisa}
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{ l | r } \toprule
+         	Pergunta/Requisito & Importância \\
+			\midrule
+			 Importância de obtenção dos dados & 4.875 \\
+			 Importancia de obtenção em tempo real & 3.875 \\
+			 Ser de baixo preço & 3.625\\
+			 Ser compacto & 3.875\\
+			 Ser leve & 3.75\\
+			 Suportar grande variação da faixa de torque & 4.125\\
+			 Ser a prova de água, fluidos, poeira, lama, etc & 4.75\\
+			 Ser resistente a impactos & 4\\
+			 Ser de fácil utilização e montagem & 3.375\\
+			 Ser de fácil manutenção & 3.75\\
+			 Possuir bateria de longa duração & 4.25\\
+			 Possuir botão de liga/desliga & 3.375\\
+			 Capacidade de gravação de dados & 4.125\\
+            \bottomrule
+        \end{tabular}}
+\fonte{O autor 2022}
+\end{table}
+
+Com as respostas do formulário de pesquisa do público alvo, pode ser elaborada uma matriz de listagem de atributos, que serve para mapear quais funcionalidades produto deve ter para atender cada um dos requisitos
+do produto, e quais sistemas necessários para garantir as funcionalidades listadas, a matriz é mostrada na \autoref{fig:2031}.
+
+\begin{figure}[htb]
+	\caption{\label{fig:2031} Matriz de listagem de atributos}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2031.png}
+	\end{center}
+	\fonte{O autor 2022}
+\end{figure}
+
+Com os dados de avaliação quantitativa dos requisitos do produto obtidas pela pesquisa com o público alvo e os dados de requisitos dos sistemas necessários para atender os requisitos do diagrama de listagem de
+atributos pode-se então elaborar uma matriz de avaliação de qualidade, chamada de matriz QFD. Essa matriz mostra as relações entre os requisitos do cliente com as características desejadas do produto,
+com a finalidade de apontar quais as qualidades devem ser priorizadas na etapa de desenvolvimento do projeto.
+
+\begin{figure}[htb]
+	\caption{\label{fig:2032} Matriz QFD}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2032.png}
+	\end{center}
+	\fonte{O autor 2022}
+\end{figure}
+
+Utilizando o modelo de QFD também é realizada uma comparação do conceito do produto que será desenvolvido com as opções disponíveis no mercado previamente mencionadas, com a finalidade de indicar as vantagens de se utilizar o conceito desenvolvido em relação aos outros modelos disponíveis.
+
+%% imagem benchmarking qfd
+
+O resultado dos calculos de prioridade realizado pela matriz QFD são apresentados na \autoref{tab:resultqfd}.
+
+\begin{table}[!ht]
+    \caption{Resultado pesquisa de mercado}
+    \label{tab:resultqfd}
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{ l | r } \toprule
+         	Pergunta/Requisito & Importância \\
+			\midrule
+			 Importância de obtenção dos dados & 4.875 \\
+			 Importancia de obtenção em tempo real & 3.875 \\
+			 Ser de baixo preço & 3.625\\
+			 Ser compacto & 3.875\\
+			 Ser leve & 3.75\\
+			 Suportar grande variação da faixa de torque & 4.125\\
+			 Ser a prova de água, fluidos, poeira, lama, etc & 4.75\\
+			 Ser resistente a impactos & 4\\
+			 Ser de fácil utilização e montagem & 3.375\\
+			 Ser de fácil manutenção & 3.75\\
+			 Possuir bateria de longa duração & 4.25\\
+			 Possuir botão de liga/desliga & 3.375\\
+			 Capacidade de gravação de dados & 4.125\\
+            \bottomrule
+        \end{tabular}}
+\fonte{O autor 2022}
+\end{table}
+
+
+\section{Projeto conceitual}
+
+
 
 \begin{table}[!ht]
     \caption{Características de ganho para o ADS1115}
@@ -131,12 +250,50 @@ necessários e seus respectivos preços, esse escopo está disponível no apênd
 \fonte{O autor 2022}
 \end{table}
 
-%
-%amplificador: Opções	Vantagens e desvantagens de cada uma	Qual foi a escolhida	Preços
-
-\section{Preparação do protótipo}
 
 
+\section{Projeto detalhado}
+
+
+
+
+\section{Projeto preliminar}
+
+\subsection[]{Montagem do dispositivo}
+
+\subsection[]{Desenvolvimento do software}
+
+\begin{lstlisting}[language=Python,caption={[Python example]{Python example -- \showfont}}]
+import numpy as np
+
+def incmatrix(genl1,genl2):
+    m = len(genl1)
+    n = len(genl2)
+    M = None  # to become the incidence matrix
+    VT = np.zeros((n*m,1), int)  # dummy variable
+
+    #compute the bitwise xor matrix
+    M1 = bitxormatrix(genl1)
+    M2 = np.triu(bitxormatrix(genl2),1)
+
+    for i in range(m-1):
+        for j in range(i+1, m):
+            [r,c] = np.where(M2 == M1[i,j])
+            for k in range(len(r)):
+                VT[(i)*n + r[k]] = 1;
+                VT[(i)*n + c[k]] = 1;
+                VT[(j)*n + r[k]] = 1;
+                VT[(j)*n + c[k]] = 1;
+
+                if M is None:
+                    M = np.copy(VT)
+                else:
+                M = np.concatenate((M, VT), 1)
+
+                VT = np.zeros((n*m,1), int)
+
+    return M
+\end{lstlisting}
 
 \section{Validação do protótipo}
 
