@@ -1,5 +1,7 @@
 """
-object for using with serial devices
+serial_object.py
+
+This file is used for the creation of objects associated with connection and data gathering with serial devices.
 """
 
 
@@ -56,7 +58,6 @@ class SerialDevice:
 
     def read_samples(self, n_of_samples):
         """returns a number of data lines given a sample size"""
-        from time import sleep
         current_sample = 0
         data = []
         while current_sample < n_of_samples:
@@ -178,6 +179,8 @@ class SerialDevice:
         datetime_end = datetime.now().strftime('%H_%M_%S')
         filename = f'Report_{"_".join(description)}_{datetime_start}_{datetime_end}.csv'
         DataFrame(data).to_csv(f'{filename}')
+
+        return
 
 
 if __name__ == '__main__':

@@ -38,15 +38,15 @@
 \contentsline {subsection}{\numberline {3.1.1}Mapeamento tecnológico}{40}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Pesquisa científica}{42}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}Projeto informacional}{44}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Projeto conceitual}{46}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Projeto detalhado}{46}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Projeto preliminar}{46}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}}{46}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}}{46}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Validação do protótipo}{48}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Dispositivo para ensaio de flexão}{48}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Sistemas de medição}{49}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Cargas aplicadas}{50}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.3}Projeto conceitual}{48}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Projeto detalhado}{49}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Projeto preliminar}{49}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}}{49}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}}{49}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Validação do protótipo}{52}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Dispositivo para ensaio de flexão}{52}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Sistemas de medição}{53}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Cargas aplicadas}{57}{subsection.3.6.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{60}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Sinais obtidos}{60}{section.4.1}%
@@ -59,4 +59,4 @@
 \vspace {0em}
 \vspace {0em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
-\contentsline {chapter}{REFERÊNCIAS}{66}{section*.75}%
+\contentsline {chapter}{REFERÊNCIAS}{66}{section*.77}%

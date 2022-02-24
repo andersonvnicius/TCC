@@ -108,7 +108,7 @@ dispositivo é mostrado na \autoref{fig:2029}.
 \end{figure}
 
 O conceito é composto por uma placa de desenvolvimento Arduino, que controla um amplificador de sinal que por si obtém os dados de tensão de uma ponte de wheatstone. Os dados obtidos pela ponte de wheatstone então
-são transmitidos utilizando um módulo bluetooth HC-05. O custo total desses dois componentes é baixo, e um protótipo de dispositivo pode ser montado por aproximadamente R$150,00, desconsiderando os componentes de
+são transmitidos utilizando um módulo bluetooth HC-05. O custo total desses dois componentes é baixo, e um protótipo de dispositivo pode ser montado por aproximadamente $R\$150,00$, desconsiderando os componentes de
 encapsulamento. O projeto informacional é iniciado considerando este conceito como a ideia inicial do produto.
 
 \section{Projeto informacional}
@@ -174,17 +174,37 @@ membros de diferentes equipes de competição. Os resultados são mostrados na \
 Com as respostas do formulário de pesquisa do público alvo, pode ser elaborada uma matriz de listagem de atributos, que serve para mapear quais funcionalidades produto deve ter para atender cada um dos requisitos
 do produto, e quais sistemas necessários para garantir as funcionalidades listadas, a matriz é mostrada na \autoref{fig:2031}.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 	\caption{\label{fig:2031} Matriz de listagem de atributos}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/2031.png}
+		\includegraphics[width=350]{pictures/2031.png}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
 
-Com os dados de avaliação quantitativa dos requisitos do produto obtidas pela pesquisa com o público alvo e os dados de requisitos dos sistemas necessários para atender os requisitos do diagrama de listagem de
-atributos pode-se então elaborar uma matriz de avaliação de qualidade, chamada de matriz QFD. Essa matriz mostra as relações entre os requisitos do cliente com as características desejadas do produto,
-com a finalidade de apontar quais as qualidades devem ser priorizadas na etapa de desenvolvimento do projeto.
+A partir da análise da matriz de listagem de atributos e da pesquisa com o público alvo é feito um levantamento das principais características do produto final:
+
+\begin{alineas}
+
+	\item Preço final
+	\item Capacidade de processamento
+	\item Taxa de obtenção de dados
+	\item Sistema de armazenamento
+	\item Software com interface gráfica
+	\item Comunicação sem fio
+	\item Capacidade da bateria
+	\item Diâmetro da carcaça
+	\item Comprimento da carcaça
+	\item Sistema de vedação
+	\item Sistema de resistência a impactos
+	\item Massa total
+
+\end{alineas}
+
+Com os dados de avaliação quantitativa dos requisitos do produto obtidos pela pesquisa com o público alvo e os dados das características do produto é elaborada uma matriz de
+avaliação de qualidade, ou QFD. Essa matriz serve para correlacionar os requisitos com as características desejadas do produto, com a finalidade de apontar quais as qualidades
+devem ser priorizadas na etapa de desenvolvimento do projeto.
+Os símbolos preenchidos na matriz qfd representam os fatores de correlação, que numéricamente são iguais a 9 para correlaçẽos fortes, 3 para correlações médias e 1 para correlações fracas.
 
 \begin{figure}[htb]
 	\caption{\label{fig:2032} Matriz QFD}
@@ -194,29 +214,90 @@ com a finalidade de apontar quais as qualidades devem ser priorizadas na etapa d
 	\fonte{O autor 2022}
 \end{figure}
 
-O resultado dos calculos de prioridade realizado pela matriz QFD são apresentados na \autoref{tab:resultqfd}.
+Os resultados de peso de importância para cada requisito de qualidade é calculado pelo somatório das multiplicações entre fator de correlação e o peso relativo relativos dos requisitos do cliente.
+Os resultados de priorização obtidos pela matriz QFD são apresentados na \autoref{tab:resultqfd}.
 
 \begin{table}[!ht]
     \caption{Prioridade dos requisitos definidos pela matriz QFD}
     \label{tab:resultqfd}
     \centering
     \resizebox{\textwidth}{!}{%
-        \begin{tabular}{ l | r } \toprule
-         	Pergunta/Requisito & Importância \\
+        \begin{tabular}{ l | c r } \toprule
+			Característica 						& 	Peso de importância 	& Prioridade \\
 			\midrule
-			req1 & 4.875 \\
-			req2 & 3.875 \\
-			req3 & 3.625 \\
-			req4 & 3.875 \\
-			req5 & 3.75 \\
+			Preço Final							& 	429,5 					& alta \\
+			Capacidade de processamento 		& 	219,2 					& baixa \\
+			Taxa de obtenção de dados 			& 	385,4 					& média \\
+			Sistema de armazenamento 			& 	146,3 					& baixa \\
+			Software com interface gráfica 		& 	355,5 					& média \\
+			Comunicação sem fio 				& 	230,6 					& baixa \\
+			Capacidade da bateria 				& 	367,3 					& média \\
+			Diâmetro da carcaça 				& 	257,7 					& baixa \\
+			Comprimento da carcaça 				& 	197,9 					& baixa \\
+			Sistema de vedação 					& 	260,8 					& baixa \\
+			Sistema de resistência a impactos 	& 	295,8 					& baixa \\
+			Massa total 						& 	374,4 					& média \\
             \bottomrule
         \end{tabular}}
 \fonte{O autor 2022}\
 \end{table}
 
-%Utilizando o modelo de QFD também é realizada uma comparação do conceito do produto que será desenvolvido com as opções disponíveis no mercado previamente mencionadas, com a finalidade de indicar as vantagens de se utilizar o conceito desenvolvido em relação aos outros modelos disponíveis.
+A priorização dos requisitos é utilizado para guiar a tomada de decisões de projeto e escolha de componentes nos estágios do projeto conceitual.
 
 \section{Projeto conceitual}
+
+
+Na fase de projeto conceitual são avaliadas tecnicamente e economicamente as alternativas levantadas para se desenvolver um dispositivo que atenda os requisitos de cliente e de projeto.
+O conceito de funcionamento básico do dispositivo é ilustrado na \autoref{fig:2036}.
+
+\begin{figure}[htb]
+	\caption{\label{fig:2036} Conceito de funcionamento inicial}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2036.png}
+	\end{center}
+	\fonte{O autor 2022}
+\end{figure}
+
+As opções de placa controladora avaliadas foram o Arduino Nano, o ESP32 ou o ESP8266, todos podem ser programados utilizando a linguagem de programação Arduino, e podem ser encontrados por preços menores que 60 reais, as principais diferenças entre os controladores são de que os módulos ESP possuem opções de comunicação sem fio integradas.
+
+Caso seja necessária a utilização de comunicação sem fio em um módulo que não possua integrado as principais opções disponíveis são o módulo bluetooth HC-05, que tem o custo aproximado de 50 reais e o módulo wifi ESP8266, que tem o custo aproximado de 25 reais. A comunicação bluetooth funciona com a transferência de dados diretamente entre o módulo e o receptor. E a comunicação wifi pode ser feita tanto pela conexão do dispositivo receptor diretamente ao módulo bluetooth quanto pela comunicação entre servidor e cliente.
+
+As opções de módulo de amplificação de sinal avaliadas foram o HX711, que se apresenta como um módulo altamente utilizado em aplicações de células de carga porém apresenta uma taxa de leitura baixa, de até 80 amostras por segundo, e o ADS1115, que possui diversas opções de fator de amplificação que podem ser programadas e uma taxa de amostragem de 860 amostras por segundo. Ambos os módulos de amplificação já possuem conversores ADC integrados.
+
+Só foi encontrada uma opção adequada para armazenamento local pelo dispositivo, que é a utilização de um módulo de cartão Micro SD. Também foram avaliadas opções de alimentação energética para o dispositivo, materiais para construção do encapsulamento externo. Uma breve apresentação do levantamento de componentes é mostrado na \autoref{tab:levantamentocomponentes}.
+
+\begin{table}[!ht]
+    \caption{Levantamento de componentes}
+    \label{tab:levantamentocomponentes}
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{ l c r } \toprule
+		Tipo de componente & Características principais & Preço aproximado \\
+		\midrule
+		\multicolumn{1}{l}{\textbf{Controladores}} & \\
+			Arduino nano & compacto e fácil de programar & $R\${60.00}$ \\
+			ESP 32 & comunicação sem fio integrada & $R\${40.00}$ \\
+		\multicolumn{1}{l}{\textbf{Amplificadores de sinal}} & \\
+			HX711 & Desenvolvido para aplicações de célula de carga & $R\${20.00}$ \\
+			ADS1115 & Alta taxa de leitura & $R\${70.00}$ \\
+			LM358 & Alta taxa de ganho & $R\${10.00}$ \\
+		\multicolumn{1}{l}{\textbf{Comunicação sem fio}} & \\
+			Bluetooth HC-05 & Dificil programação, emite e recebe dados  & $R\${50.00}$ \\
+			Módulo wifi & Facil acesso a qualquer dispositivo na mesma rede & $R\${25.00}$ \\
+			Módulo radiofrequência & Comunicação apenas do transmissor para o receptor & $R\${15.00}$ \\
+		\multicolumn{1}{l}{\textbf{Armazenamento}} & \\
+			Módulo cartão micro SD + cartão SD & Permite armazenamento de dados & $R\${30.00}$ \\
+		\multicolumn{1}{l}{\textbf{Alimentação}} & \\
+			4x pilha AAA & mais compacto, alta disponibilidade & $R\${30.00}$ \\
+			1x Bateria 9V & alta tensão e duração & $R\${40.00}$ \\
+			2x Bateria li-ion & grandes dimensões, recarregavel & $R\${35.00}$ \\
+		\multicolumn{1}{l}{\textbf{Encapsulamento}} & \\
+			Carcaça ABS & Pode fabricado por impressão 3D & $R\${150.00}$ \\
+			Carcaça multi material & Maior custo com fabricação, maior resitência & ?? \\
+            \bottomrule
+        \end{tabular}}
+\fonte{O autor 2022}\
+\end{table}
 
 
 
@@ -264,36 +345,7 @@ O resultado dos calculos de prioridade realizado pela matriz QFD são apresentad
 	\fonte{O autor 2022}
 \end{figure}
 
-
-\begin{lstlisting}[language=Python,caption={[Objeto SerialDevice]{SerialDevice}}]
-class SerialDevice:
-    """
-    Creates a serial connection device object
-    """
-    from serial import Serial
-
-    def __init__(self, port, baudrate, delay_time):
-        self.serial_object = self.Serial(port=port, baudrate=baudrate, timeout=1)
-        self.delay_time = float(delay_time) * 1e-3
-
-    def read_line(self):
-        """returns the last line of data sent by the device"""
-        self.serial_object.flushInput()
-        data = self.serial_object.readline()
-        return data
-
-    def read_samples(self, n_of_samples):
-        """returns a number of data lines given a sample size"""
-        current_sample = 0
-        data = []
-        while current_sample < n_of_samples:
-            data.append(self.read_line())
-            current_sample += 1
-        return data
-\end{lstlisting}
-
-
-\begin{lstlisting}[language=Python,caption={[Objeto SerialDevice]{SerialDevice}}]
+\begin{lstlisting}[language=Python,caption={[SerialDevice]{Objeto SerialDevice}}]
 class SerialDevice:
     """
     Creates a serial connection device object
