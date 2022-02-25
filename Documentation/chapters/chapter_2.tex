@@ -43,7 +43,7 @@ e pressão ao longo do tempo. \autocite{Bridge101A}
 A \autoref{tab:Banchmarking} mostra uma comparação entre os dados de utilização obtidos pela documentação dos dois dispositivos previamente apresentados.
 
 \begin{table}[!ht]
-    \caption{Benchmarking entre dispositivos encontrados}
+    \caption{Comparação entre dispositivos encontrados}
     \label{tab:Banchmarking}
     \centering
     \resizebox{\linewidth}{!}{%
@@ -142,8 +142,8 @@ iniciais, são apresentados os seguintes tópicos sobre a necessidade do produto
 \end{alineas}
 
 Todas as perguntas e tópicos foram respondidos pela seleção de uma nota de 1 a 5 para cada questão, onde o valor 1 significa que o requisito listado é de baixa importância e
-o valor 5 é de extrema importância. As respostas do formulário são avaliadas pela análise do valor médio obtido pelos valores respondidos. Foram obtidas as respostas de 8
-membros de diferentes equipes de competição. Os resultados são mostrados na \autoref{tab:resultpesquisa}.
+o valor 5 é de extrema importância. As respostas do formulário são avaliadas pela análise do valor médio obtido pelos valores respondidos. Foram obtidas as respostas de 7
+membros de diferentes equipes que participam da competição. Os resultados são mostrados na \autoref{tab:resultpesquisa}.
 
 \begin{table}[!ht]
     \caption{Resultado pesquisa de mercado}
@@ -248,23 +248,28 @@ A priorização dos requisitos é utilizado para guiar a tomada de decisões de 
 
 
 Na fase de projeto conceitual são avaliadas tecnicamente e economicamente as alternativas levantadas para se desenvolver um dispositivo que atenda os requisitos de cliente e de projeto.
-O conceito de funcionamento básico do dispositivo é ilustrado na \autoref{fig:2036}.
+O conceito de funcionamento básico do dispositivo é ilustrado na \autoref{fig:2035}.
 
 \begin{figure}[htb]
-	\caption{\label{fig:2036} Conceito de funcionamento inicial}
+	\caption{\label{fig:2035} Conceito de funcionamento inicial}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/2036.png}
-	\end{center}
+		\includegraphics[width=\textwidth]{pictures/2035.png}
+	\end{center}l
 	\fonte{O autor 2022}
 \end{figure}
 
-As opções de placa controladora avaliadas foram o Arduino Nano, o ESP32 ou o ESP8266, todos podem ser programados utilizando a linguagem de programação Arduino, e podem ser encontrados por preços menores que 60 reais, as principais diferenças entre os controladores são de que os módulos ESP possuem opções de comunicação sem fio integradas.
+As opções de placa controladora avaliadas foram o Arduino Nano, o ESP32 ou o ESP8266, todos podem ser programados utilizando a linguagem de programação Arduino, e podem ser
+encontrados por preços menores que 60 reais, as principais diferenças entre os controladores são de que os módulos ESP possuem opções de comunicação sem fio integradas.
 
-Caso seja necessária a utilização de comunicação sem fio em um módulo que não possua integrado as principais opções disponíveis são o módulo bluetooth HC-05, que tem o custo aproximado de 50 reais e o módulo wifi ESP8266, que tem o custo aproximado de 25 reais. A comunicação bluetooth funciona com a transferência de dados diretamente entre o módulo e o receptor. E a comunicação wifi pode ser feita tanto pela conexão do dispositivo receptor diretamente ao módulo bluetooth quanto pela comunicação entre servidor e cliente.
+Caso seja necessária a utilização de comunicação sem fio em um módulo que não possua integrado as principais opções disponíveis são o módulo bluetooth HC-05, que tem o custo
+aproximado de 50 reais e o módulo wifi ESP8266, que tem o custo aproximado de 25 reais. A comunicação bluetooth funciona com a transferência de dados diretamente entre o módulo e o receptor. E a comunicação wifi pode ser feita tanto pela conexão do dispositivo receptor diretamente ao módulo bluetooth quanto pela comunicação entre servidor e cliente.
 
-As opções de módulo de amplificação de sinal avaliadas foram o HX711, que se apresenta como um módulo altamente utilizado em aplicações de células de carga porém apresenta uma taxa de leitura baixa, de até 80 amostras por segundo, e o ADS1115, que possui diversas opções de fator de amplificação que podem ser programadas e uma taxa de amostragem de 860 amostras por segundo. Ambos os módulos de amplificação já possuem conversores ADC integrados.
+As opções de módulo de amplificação de sinal avaliadas foram o HX711, que se apresenta como um módulo altamente utilizado em aplicações de células de carga porém apresenta
+uma taxa de leitura baixa, de até 80 amostras por segundo, e o ADS1115, que possui diversas opções de fator de amplificação que podem ser programadas e uma taxa de amostragem de 860 amostras por segundo. Ambos os módulos de amplificação já possuem conversores ADC integrados.
 
-Só foi encontrada uma opção adequada para armazenamento local pelo dispositivo, que é a utilização de um módulo de cartão Micro SD. Também foram avaliadas opções de alimentação energética para o dispositivo, materiais para construção do encapsulamento externo. Uma breve apresentação do levantamento de componentes é mostrado na \autoref{tab:levantamentocomponentes}.
+Apenas uma sólução foi considerada como adequada para armazenamento de dados locais pelo dispositivo, que é a utilização de um módulo de cartão Micro SD, devido
+ás baixas dimensões. Também foram avaliadas opções de alimentação energética para o dispositivo, materiais para construção do encapsulamento externo.
+Uma breve apresentação do levantamento de componentes é mostrado na \autoref{tab:levantamentocomponentes}.
 
 \begin{table}[!ht]
     \caption{Levantamento de componentes}
@@ -301,6 +306,34 @@ Só foi encontrada uma opção adequada para armazenamento local pelo dispositiv
 
 
 
+\begin{figure}[htb]
+	\caption{\label{fig:2036} Matriz morfológica}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2036.png}
+	\end{center}l
+	\fonte{O autor 2022}
+\end{figure}
+
+
+
+\begin{figure}[htb]
+	\caption{\label{fig:2037} Matriz de avaliação}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2037.png}
+	\end{center}l
+	\fonte{O autor 2022}
+\end{figure}
+
+
+
+\begin{figure}[htb]
+	\caption{\label{fig:2038} Soluções escolhidas}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2038.png}
+	\end{center}l
+	\fonte{O autor 2022}
+\end{figure}
+
 \section{Projeto detalhado}
 
 \section{Projeto preliminar}
@@ -329,18 +362,18 @@ Só foi encontrada uma opção adequada para armazenamento local pelo dispositiv
 \subsection[]{Desenvolvimento do software}
 
 \begin{figure}[htb]
-	\caption{\label{fig:2034} Objeto SerialDevice}
+	\caption{\label{fig:2040} Objeto SerialDevice}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/2034.png}
+		\includegraphics[width=\textwidth]{pictures/2040.png}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
 
 
 \begin{figure}[htb]
-	\caption{\label{fig:2035} Interface gráfica}
+	\caption{\label{fig:2041} Interface gráfica}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/2035.png}
+		\includegraphics[width=\textwidth]{pictures/2041.png}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
@@ -389,9 +422,9 @@ de comprimento e é de uma liga desconhecida de alumínio, e uma base projetada 
 A imagem mostra o projeto do dispositivo desenvolvido por \autocite{Minela2017}.
 
 \begin{figure}[htb]
-	\caption{\label{fig:2040} Dispositivo de ensaio de flexão}
+	\caption{\label{fig:2049} Dispositivo de ensaio de flexão}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/2040.png}
+		\includegraphics[width=\textwidth]{pictures/2049.png}
 	\end{center}
 	\fonte{\autocite{Minela2017}}
 \end{figure}
