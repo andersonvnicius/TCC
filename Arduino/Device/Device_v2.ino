@@ -27,7 +27,6 @@ void handleRead() {
   if (server.method() != HTTP_POST) {
     server.send(405, "text/plain", "Method now allowed");
   } else {
-//    server.send(200, "text/plain", "DATA HERE" + server.arg("plain"));
     server.send(200, "text/plain", String(hx711.read()) + server.arg("plain"));
   }
 }
