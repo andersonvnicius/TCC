@@ -1,5 +1,6 @@
 """
 script to boot the user interface
+version 1 - used for serial communication
 
 TBD:
 - !!needs to return an error if wrong baudrate is selected!!
@@ -12,7 +13,7 @@ TBD:
 from tkinter import *  # sudo apt-get install python3-tk
 from tkinter import scrolledtext
 from tkinter.ttk import *
-import Scripts.serial_object as serial_object
+import scripts.device_connection as serial_object
 
 
 def gui_start():
