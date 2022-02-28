@@ -44,7 +44,7 @@ def gui_start():
         txt_read_delay.config(state='normal')
         btn_connect.config(state='normal')
         btn_disconnect.config(state='disable')
-        btn_plot.config(state='disabled')
+        btn_run.config(state='disabled')
 
     def button_calibration_lock():
         """calibrates the device"""
@@ -95,7 +95,7 @@ def gui_start():
             serial_monitor.insert(END, f'done!\n')
             serial_monitor.see('end')
             serial_monitor.config(state='disabled')
-            btn_plot.config(state='normal')
+            btn_run.config(state='normal')
             btn_calibrate_lock.config(state='normal')
             txt_v1.config(state='normal')
             txt_v2.config(state='normal')
@@ -109,15 +109,7 @@ def gui_start():
             serial_monitor.see('end')
             button_stop()
 
-    # def calibrate():
-    #     """plots stuff"""
-    #     DataFrame(
-    #         wireless_device.plot_data(
-    #             n_of_samples=int(txt_n_samples.get())
-    #         )
-    #     ).to_csv(f"{datetime.now()}_{txt_report_name.get()}")
-
-    def live_plot():
+    def run_experiment():
         """plots stuff"""
         DataFrame(
             wireless_device.read_samples(
@@ -127,16 +119,23 @@ def gui_start():
             )
         ).to_csv(f"results/{datetime.now()}_{txt_report_name.get()}")
 
-    # todo colocar wireless!!
+    wireless_device = None
+
+    # initial device port and read rate data
     device_ip = '192.168.1.4'
     read_delay = 100
 
-    wireless_device = None
+    # initial device calibration
+    v1 = 16         # nominal value of the first data point
+    v2 = 59         # nominal value of the second data point
+    r1 = 24464      # read value of the first data point
+    r2 = 96689      # read value of the first data point
 
+    # starting the gui object
     root = Tk()
     root.title("Telemetry center (alpha 0.1.0)")
 
-    # CONNECTION SET UP
+    # connection setup frame
     frame_connection = LabelFrame(root, text="Connection setup")
     frame_connection.pack(padx=10, pady=5)
 
@@ -157,14 +156,10 @@ def gui_start():
     btn_disconnect = Button(frame_connection, text='Disconnect', command=button_stop, state='disabled')
     btn_disconnect.grid(row=41, column=1, padx=20)
 
-    # CALIBRATION SET UP
+    # calibration setup frame
     frame_calibration = LabelFrame(root, text="Device Calibration")
     frame_calibration.pack(padx=10, pady=5)
 
-    v1 = 16
-    v2 = 59
-    r1 = 24464
-    r2 = 96689
 
     lbl_v1 = Label(frame_calibration, text="Nominal value 1: ", font=('Arial', 11))
     lbl_v1.grid(row=50, column=0)
@@ -200,7 +195,7 @@ def gui_start():
     btn_calibrate_unlock = Button(frame_calibration, text='Reset', command=button_calibration_unlock, state='disabled')
     btn_calibrate_unlock.grid(row=71, column=1, pady=10)
 
-    # SERIAL MONITOR
+    # experiment frame
     frame_monitor = LabelFrame(root, text="Serial monitor")
     frame_monitor.pack(padx=10, pady=5)
 
@@ -219,15 +214,16 @@ def gui_start():
     txt_n_samples.insert(END, 250)
     txt_n_samples.grid(row=31, column=0, columnspan=2)
 
-    btn_plot = Button(frame_monitor, text='plot', command=live_plot, state='disabled')
-    btn_plot.grid(row=31, column=1, pady=10)
+    btn_run = Button(frame_monitor, text='run', command=run_experiment, state='disabled')
+    btn_run.grid(row=31, column=1, pady=10)
 
-    # KILL PROCESS BUTTON
+    # kill process button
     frame_root = Frame(root)
     frame_root.pack()
     btn_kill = Button(frame_root, text='Exit', command=root.destroy)
     btn_kill.grid(row=100, pady=5)
 
+    # keep gui running in loop
     root.mainloop()
 
 
