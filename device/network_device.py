@@ -1,4 +1,5 @@
-from datetime import datetime
+# from datetime import datetime
+
 from time import sleep
 
 from matplotlib import pyplot as plt
@@ -18,7 +19,7 @@ class NetworkDevice:
         self.a = 1
         self.b = 0
 
-    def read_line(self, calibrated=False):
+    def read_line(self, calibrated: bool = False):
         """returns the last line of data sent by the device"""
         read = int(post(self.url).text) - self.offset
         if calibrated:
@@ -59,7 +60,7 @@ class NetworkDevice:
 
         return value_list
 
-    def plot_data(self, n_of_samples, calibrated: bool = False):
+    def plot_data(self, n_of_samples: int, calibrated: bool = False):
         """plot the numerical data received"""
         value_list = array([])
 
@@ -84,26 +85,26 @@ class NetworkDevice:
         return value_list
 
 
-if __name__ == '__main__':
-    # TESTING wireless device object
-    device_ip = '192.168.1.4'
-    read_rate = 100e-3
-
-    device = NetworkDevice(
-        ip=device_ip,
-        delay_time=read_rate
-    )
-
-    # device calibration
-    device.calibrate_offset()
-
-    from pandas import read_csv, DataFrame
-
-    device.calibrate_readings(
-        {'nominal_value': 16, 'signal': array(read_csv('../results/read_1.csv')[:-100]['read'])},
-        {'nominal_value': 59, 'signal': array(read_csv('../results/read_2.csv')[:-100]['read'])}
-    )
-
-    # device testing
-    read = device.read_samples(n_of_samples=300, plot=True, calibrated=True)
-    DataFrame(read, columns=['read']).to_csv(f'../results/test_{datetime.now()}.csv')
+# if __name__ == '__main__':
+#     # TESTING wireless device object
+#     device_ip = '192.168.1.4'
+#     read_rate = 100e-3
+#
+#     device = NetworkDevice(
+#         ip=device_ip,
+#         delay_time=read_rate
+#     )
+#
+#     # device calibration
+#     device.calibrate_offset()
+#
+#     from pandas import read_csv, DataFrame
+#
+#     device.calibrate_readings(
+#         {'nominal_value': 16, 'signal': array(read_csv('../results/read_1.csv')[:-100]['read'])},
+#         {'nominal_value': 59, 'signal': array(read_csv('../results/read_2.csv')[:-100]['read'])}
+#     )
+#
+#     # device testing
+#     read = device.read_samples(n_of_samples=300, plot=True, calibrated=True)
+#     DataFrame(read, columns=['read']).to_csv(f'../results/test_{datetime.now()}.csv')
