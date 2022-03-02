@@ -9,8 +9,8 @@ Script wifi datalogger
 #include <Q2HX711.h>
 
 #ifndef STASSID
-#define STASSID "Unifique(Valentine)"
-#define STAPSK  "valentops1812"
+#define STASSID "SSID"
+#define STAPSK  "WIFIPASS"
 #endif
 
 const char* ssid     = STASSID;

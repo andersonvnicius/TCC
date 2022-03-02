@@ -145,7 +145,7 @@ Todas as perguntas e tópicos foram respondidos pela seleção de uma nota de 1 
 o valor 5 é de extrema importância. As respostas do formulário são avaliadas pela análise do valor médio obtido pelos valores respondidos. Foram obtidas as respostas de 7
 membros de diferentes equipes que participam da competição. Os resultados são mostrados na \autoref{tab:resultpesquisa}.
 
-\begin{table}[!ht]
+\begin{table}[!hb]
     \caption{Resultado pesquisa de mercado}
     \label{tab:resultpesquisa}
     \centering
@@ -174,7 +174,7 @@ membros de diferentes equipes que participam da competição. Os resultados são
 Com as respostas do formulário de pesquisa do público alvo, pode ser elaborada uma matriz de listagem de atributos, que serve para mapear quais funcionalidades produto deve ter para atender cada um dos requisitos
 do produto, e quais sistemas necessários para garantir as funcionalidades listadas, a matriz é mostrada na \autoref{fig:2031}.
 
-\begin{figure}[!htb]
+\begin{figure}[!hb]
 	\caption{\label{fig:2031} Matriz de listagem de atributos}
 	\begin{center}
 		\includegraphics[width=350]{pictures/2031.png}
@@ -217,7 +217,7 @@ Os símbolos preenchidos na matriz qfd representam os fatores de correlação, q
 Os resultados de peso de importância para cada requisito de qualidade é calculado pelo somatório das multiplicações entre fator de correlação e o peso relativo relativos dos requisitos do cliente.
 Os resultados de priorização obtidos pela matriz QFD são apresentados na \autoref{tab:resultqfd}.
 
-\begin{table}[!ht]
+\begin{table}[H]
     \caption{Prioridade dos requisitos definidos pela matriz QFD}
     \label{tab:resultqfd}
     \centering
@@ -246,15 +246,14 @@ A priorização dos requisitos é utilizado para guiar a tomada de decisões de 
 
 \section{Projeto conceitual}
 
-
 Na fase de projeto conceitual são avaliadas tecnicamente e economicamente as alternativas levantadas para se desenvolver um dispositivo que atenda os requisitos de cliente e de projeto.
 O conceito de funcionamento básico do dispositivo é ilustrado na \autoref{fig:2035}.
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\caption{\label{fig:2035} Conceito de funcionamento inicial}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/2035.png}
-	\end{center}l
+	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
 
@@ -262,13 +261,16 @@ As opções de placa controladora avaliadas foram o Arduino Nano, o ESP32 ou o E
 encontrados por preços menores que 60 reais, as principais diferenças entre os controladores são de que os módulos ESP possuem opções de comunicação sem fio integradas.
 
 Caso seja necessária a utilização de comunicação sem fio em um módulo que não possua integrado as principais opções disponíveis são o módulo bluetooth HC-05, que tem o custo
-aproximado de 50 reais e o módulo wifi ESP8266, que tem o custo aproximado de 25 reais. A comunicação bluetooth funciona com a transferência de dados diretamente entre o módulo e o receptor. E a comunicação wifi pode ser feita tanto pela conexão do dispositivo receptor diretamente ao módulo bluetooth quanto pela comunicação entre servidor e cliente.
+aproximado de 50 reais e o módulo wifi ESP8266, que tem o custo aproximado de 25 reais.
+A comunicação bluetooth funciona com a transferência de dados diretamente entre o módulo e o receptor.
+E a comunicação wifi pode ser feita tanto pela conexão do dispositivo receptor diretamente ao módulo bluetooth quanto pela comunicação entre servidor e cliente.
 
 As opções de módulo de amplificação de sinal avaliadas foram o HX711, que se apresenta como um módulo altamente utilizado em aplicações de células de carga porém apresenta
-uma taxa de leitura baixa, de até 80 amostras por segundo, e o ADS1115, que possui diversas opções de fator de amplificação que podem ser programadas e uma taxa de amostragem de 860 amostras por segundo. Ambos os módulos de amplificação já possuem conversores ADC integrados.
+uma taxa de leitura baixa, de até 80 amostras por segundo, e o ADS1115, que possui diversas opções de fator de amplificação que podem ser programadas e uma taxa de amostragem de 860 amostras
+por segundo. Ambos os módulos de amplificação já possuem conversores ADC integrados.
 
-Apenas uma sólução foi considerada como adequada para armazenamento de dados locais pelo dispositivo, que é a utilização de um módulo de cartão Micro SD, devido
-ás baixas dimensões. Também foram avaliadas opções de alimentação energética para o dispositivo, materiais para construção do encapsulamento externo.
+Apenas uma sólução foi considerada como adequada para armazenamento de dados locais pelo dispositivo, que é a utilização de um módulo de cartão Micro SD, devidoás baixas dimensões.
+Também foram avaliadas opções de alimentação energética para o dispositivo, materiais para construção do encapsulamento externo.
 Uma breve apresentação do levantamento de componentes é mostrado na \autoref{tab:levantamentocomponentes}.
 
 \begin{table}[!ht]
@@ -297,16 +299,18 @@ Uma breve apresentação do levantamento de componentes é mostrado na \autoref{
 			1x Bateria 9V & alta tensão e duração & $R\${40.00}$ \\
 			2x Bateria li-ion & grandes dimensões, recarregavel & $R\${35.00}$ \\
 		\multicolumn{1}{l}{\textbf{Encapsulamento}} & \\
-			Carcaça ABS & Pode fabricado por impressão 3D & $R\${150.00}$ \\
-			Carcaça multi material & Maior custo com fabricação, maior resitência & ?? \\
+			Carcaça ABS & Pode fabricado por impressão 3D & -- \\
+			Carcaça multi material & Maior custo com fabricação, maior resitência & -- \\
             \bottomrule
         \end{tabular}}
 \fonte{O autor 2022}\
 \end{table}
 
+Após feito o levantamento de componentes pode-se montar a matriz morfológica, que serve para relacionar cada função elementar principal originada da matriz de
+funções do produto com os componentes levantados anteriormente.
+A matriz morfológica é mostrada na \autoref{fig:2036}.
 
-
-\begin{figure}[htb]
+\begin{figure}[H]
 	\caption{\label{fig:2036} Matriz morfológica}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/2036.png}
@@ -314,9 +318,13 @@ Uma breve apresentação do levantamento de componentes é mostrado na \autoref{
 	\fonte{O autor 2022}
 \end{figure}
 
+Na matriz morfológica também foi adicionado uma coluna para listar os principais requisitos de avaliação de cada produto,
+esses requisitos mostrados estão diretamente relacionados com os requisitos de cliente e produto obtidos da análise da matriz da casa da qualidade.
+Para a avaliação e comparação das soluções em relação aos requisitos levantados é utilizado a matriz de avaliação, mostrada na \autoref{fig:2037} a
+matriz de avaliação lista as possíveis tecnologias utilizadas para a solução e os requisitos, e para cada relação uma nota é definida entre -3,
+que significa que a tecnologia é a mais adequada ao requisito relacionado, até 3, que significa que a tecnologia é a menos adequada ao requisito relacionado.
 
-
-\begin{figure}[htb]
+\begin{figure}[H]
 	\caption{\label{fig:2037} Matriz de avaliação}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/2037.png}
@@ -324,9 +332,11 @@ Uma breve apresentação do levantamento de componentes é mostrado na \autoref{
 	\fonte{O autor 2022}
 \end{figure}
 
+A matriz de avaliação resulta em um valor quantitativo que avalia o quão adequado cada opção tecnológica é ao projeto do dispositivo.
+Após a análise dos resultados da matriz de avaliação as tecnologias escolhidas são mostradas na \autoref{fig:2038}.
 
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\caption{\label{fig:2038} Soluções escolhidas}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/2038.png}
@@ -334,78 +344,201 @@ Uma breve apresentação do levantamento de componentes é mostrado na \autoref{
 	\fonte{O autor 2022}
 \end{figure}
 
+Após definido as tecnologias que serão utilizadas no desenvolvimento do produto, deve-se seguir para a etapa de projeto detalhado.
+
 \section{Projeto detalhado}
 
-\section{Projeto preliminar}
+A documentação do projeto detalhado do produto é composta pelos projetos mecânico, elétrico/eletrônico e pelo desenvolvimento do software de comunicação.
 
-\subsection[]{Montagem do dispositivo}
+O projeto mecânico do dispositivo foi desenvolvido utilizando o software Solidworks 2017, os modelos da placa de controle ESP8266 e do amplificador de sinal HX711
+foram obtidos na plataforma de compartilhamento de modelos GrabCAD. Após ser definido um arranjo inicial da posição dos componentes no dispositivo foi modelado um
+componente de encapsulamento para o dispositivo.
+O modelo da montagem do dispositivo é ilustrado na \autoref{fig:2039}.
 
-\begin{table}[!ht]
-    \caption{Características de ganho para o ADS1115}
-    \label{tab:ads1115modes}
-    \centering
-    \resizebox{\textwidth}{!}{%
-        \begin{tabular}{ l | c c r } \toprule
-         	Ganho & Faixa de leitura & Resolução \\
-			\midrule
-			 2/3x & ${\pm 6.144}V$ & $1bit$ = ${0.1875}{m}V$ \\
-			 1x & ${\pm 4.096}V$ & $1bit$ = ${0.125}{m}V$ \\
-			 2x & ${\pm 2.048}V$ & $1bit$ = ${0.0625}{m}V$ \\
-			 4x & ${\pm 1.024}V$ & $1bit$ = ${0.03125}{m}V$ \\
-			 8x & ${\pm 0.512}V$ & $1bit$ = ${0.015625}{m}V$ \\
-			 16x & ${\pm 0.256}V$ & $1bit$ = ${0.0078125}{m}V$ \\
-            \bottomrule
-        \end{tabular}}
-\fonte{O autor 2022}
-\end{table}
+\begin{figure}[H]
+	\caption{\label{fig:2039} Modelagem da montagem do dispositivo}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2039.png}
+	\end{center}
+	\fonte{O autor 2022}
+\end{figure}
 
-\subsection[]{Desenvolvimento do software}
+A ilustração do projeto do dispositivo nas três vistas padrão e vista isométrica é mostrado na \autoref{fig:2040}.
 
-\begin{figure}[htb]
-	\caption{\label{fig:2040} Objeto SerialDevice}
+\begin{figure}[H]
+	\caption{\label{fig:2040} Desenho em vistas padrões (primeiro diedro)}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/2040.png}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
 
+O projeto elétrico do dispositivo foi feito no programa ... e é mostrado na \autoref{fig:2041}
 
 \begin{figure}[htb]
-	\caption{\label{fig:2041} Interface gráfica}
+	\caption{\label{fig:2041} Projeto elétrico do dispositivo}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/2041.png}
+		\includegraphics[width=\textwidth]{pictures/11 - ESP32 Device wiring.jpg}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
 
-\begin{lstlisting}[language=Python,caption={[SerialDevice]{Objeto SerialDevice}}]
-class SerialDevice:
-    """
-    Creates a serial connection device object
-    """
-    from serial import Serial
+A fase de desenvolvimento do software engloba duas etapas principais, a primeira é o desenvolvimento da programação da placa de controle,
+que é feita utilizando o programa Arduino IDE para conectar e programar o controlador da plataforma.
+Uma introdução a estrutura do programa de controle e das suas funções é mostrada na \autoref{fig:2042}
 
-    def __init__(self, port, baudrate, delay_time):
-        self.serial_object = self.Serial(port=port, baudrate=baudrate, timeout=1)
-        self.delay_time = float(delay_time) * 1e-3
+\begin{figure}[H]
+	\caption{\label{fig:2042} Esquema da programação do dispositivo}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2042.png}
+	\end{center}
+	\fonte{O autor 2022}
+\end{figure}
 
-    def read_line(self):
-        """returns the last line of data sent by the device"""
-        self.serial_object.flushInput()
-        data = self.serial_object.readline()
-        return data
+A programação da placa de controle é feita com uma linguagem de programação baseada em C++, com funções específicas para a programação de controladores de
+plataformas abertas, como o Arduino e o ESP8266.
 
-    def read_samples(self, n_of_samples):
-        """returns a number of data lines given a sample size"""
-        current_sample = 0
-        data = []
-        while current_sample < n_of_samples:
-            data.append(self.read_line())
-            current_sample += 1
-        return data
+A função handleRead utiliza o método hx711.read(), conforme o \autoref{lst:handle_read}, para obter os valores de tensão na saída da ponte de wheatstone e os
+enviar ao computador via rede local.
+
+\begin{lstlisting}[label={lst:handle_read}][language=C++,caption={[Controller Program]{Função de obtenção de sinal pelo amplificador HX711}}]
+
+void handleRead() {
+  if (server.method() != HTTP_POST) {
+    server.send(405, "text/plain", "Method now allowed");
+  } else {
+    server.send(200, "text/plain", String(hx711.read()) + server.arg("plain"));
+  }
+}
+
 \end{lstlisting}
 
+O programa completo do controlador completo é apresentado no \autoref{appendix_a}. % TODO como referenciar APENDICES
 
+Uma vez configurado o controlador do dispositivo, foi desenvolvido utilizando a linguagem python um objeto computacional
+para facilitar a conexão e utilização dos dados originados pelo dispositivo.
+O objeto e suas funções é ilustrado pela \autoref{fig:2043]}.
+
+\begin{figure}[htb]
+	\caption{\label{fig:2043} Objeto SerialDevice}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2043.png}
+	\end{center}
+	\fonte{O autor 2022}
+\end{figure}
+
+As funções de base do objeto são mostradas na \autoref{lst:essentialobjectfuncions}.
+O método \_\_init\_\_ recebe e salva como parâmetros do objeto os dados de endereço de ip do dispositivo e intervalo de leitura inseridos,
+e o método read\_line utiliza a função post do pacote requests para enviar uma requisição ao endereço de ip do objeto e retorna o valor obtido em forma de
+texto de maneira calibrada, caso o argumento calibrated seja igual a verdadeiro, ou não calibrado, caso contrário.
+
+\begin{lstlisting}[label={lst:essentialobjectfuncions}][language=Python,caption={[NetworkDevice]{Funções base do objeto NetworkDevice}}]
+
+"""
+Creates a local network connection device object
+"""
+
+def __init__(self, ip, delay_time):
+	self.url = f'http://{ip}/read'
+	self.delay_time = delay_time
+	self.offset = 0
+	self.a = 1
+	self.b = 0
+
+def read_line(self, calibrated: bool = False):
+	"""returns the last line of data sent by the device"""
+	read = int(post(self.url).text) - self.offset
+	if calibrated:
+		return self.a * read + self.b
+	else:
+		return read
+
+\end{lstlisting}
+
+Caso seja necessária a obtenção de dados em sequência ao longo do tempo foram desenvolvidas as funções read\_samples e plot, mostradas na \autoref{lst:sample_reading},
+o número de amostras é passado para a obtenção repetida dos dados, utilizando o parâmetro de intervalo de leitura para determinar o intervalo de execução da chamada do
+método read\_line, e é retornado um objeto de lista do numpy com os dados obtidos.
+
+\begin{lstlisting}[label={lst:sample_reading}][language=Python,caption={[Network Device calibrate offset]{'Calibração do parametro de offset do objeto NetworkDevice}}]
+
+def read_samples(self, n_of_samples: int, plot: bool = False, calibrated: bool = False):
+	"""returns a number of data lines given a sample size"""
+
+	if not plot:
+		value_list = array([])
+		while len(value_list) < n_of_samples:
+			value_list = append(
+				value_list,
+				int(self.read_line(calibrated=calibrated))
+			)
+			sleep(self.delay_time)
+			# print(f"sample: {len(value_list)}, value: {int(value_list[-1])}")
+
+	else:
+		value_list = self.plot_data(n_of_samples=n_of_samples, calibrated=calibrated)
+
+	return value_list
+
+def plot_data(self, n_of_samples: int, calibrated: bool = False):
+	"""plot the numerical data received"""
+	value_list = array([])
+
+	plt.ion()
+	fig, axs = plt.subplots(1)
+	fig.suptitle('Readings')
+
+	while len(value_list) < n_of_samples:
+		try:
+			value_list = append(value_list, int(self.read_line(calibrated=calibrated)))
+
+			axs.cla()
+			axs.plot(value_list[-25:])
+
+			plt.pause(self.delay_time)
+
+		except:
+			print("error!")
+
+	plt.close()
+
+	return value_list
+
+\end{lstlisting}
+
+As funções de calibração do objeto de conexão com o dispositivo são mostradas no \autoref{lst:objectcalibration}. O método calibrate\_offset serve para definir o ponto de leitura quando
+nenhuma carga está presente, e funciona obtendo 40 amostras utilizando o método read\_samples, arredondando o valor médio dessas amostras a um número inteiro e definindo o parâmetro
+offset do objeto ao valor obtido. A função calibrate readings utiliza recebe duas cargas nominais conhecidas e seus sinais obtidos em forma de dicionário e utiliza estes valores para
+definir os parâmetros a e b da função linear de calibração, com a finalidade de ser utilizada no método read\_line para converter os valores em forma de bits para um formato de valor
+nominal da grandeza física calibrada.
+
+\begin{lstlisting}[label={lst:objectcalibration}][language=Python,caption={[Network Device calibrate offset]{'Calibração do parametro de offset do objeto NetworkDevice}}]
+def calibrate_offset(self):
+	"""sets the offset value for the device data gathering"""
+	self.offset = 0
+	self.offset = round(self.read_samples(n_of_samples=40).mean())
+
+def calibrate_readings(self, calibration_dict_1: dict, calibration_dict_2: dict):
+	"""calibrate the device readings"""
+	w1 = calibration_dict_1['nominal_value']
+	w2 = calibration_dict_2['nominal_value']
+	r1 = round(calibration_dict_1['signal'].mean())
+	r2 = round(calibration_dict_1['signal'].mean())
+
+	self.b = w2 / ((r2 / r1) * (w1 - 1) + 1)
+	self.a = (w1 - self.b) / r1
+\end{lstlisting}
+
+Com o intuito de facilitar a utilização do método pelo usuário é desenvolvido uma interface gráfica simples, uma breve apresentação da interface desenvolvida utilizando o pacote tkinter é mostrada na \autoref{fig:2044}.
+
+\begin{figure}[htb]
+	\caption{\label{fig:2044} Interface gráfica}
+		\begin{center}
+			\includegraphics[width=\textwidth]{pictures/2044.png}
+		\end{center}
+	\fonte{O autor 2022}
+\end{figure}
+
+Os códigos completos para o objeto NetworkDevice e para a geração da interface gráfica são apresentados no \autoref{appendix_b}.
 
 \section{Validação do protótipo}
 
