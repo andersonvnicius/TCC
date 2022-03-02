@@ -31,20 +31,23 @@
 \contentsline {figure}{\numberline {26}{\ignorespaces Soluções escolhidas\relax }}{52}{figure.caption.56}%
 \contentsline {figure}{\numberline {27}{\ignorespaces Modelagem da montagem do dispositivo\relax }}{53}{figure.caption.57}%
 \contentsline {figure}{\numberline {28}{\ignorespaces Desenho em vistas padrões (primeiro diedro)\relax }}{54}{figure.caption.58}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Esquema da programação do dispositivo\relax }}{55}{figure.caption.59}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Objeto SerialDevice\relax }}{56}{figure.caption.60}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Interface gráfica\relax }}{60}{figure.caption.61}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Dispositivo de ensaio de flexão\relax }}{61}{figure.caption.62}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Sistema de medição utilizado por \autocite {Minela2017}\relax }}{62}{figure.caption.64}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Sistema de de medição utilizando o LINX ADS2002\relax }}{63}{figure.caption.65}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Protótipo do dispositivo desenvolvido conectado com o extensometro no dispositivo de flexão\relax }}{63}{figure.caption.66}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Aplicaçao do 'peso 3' no dispositivo de flexão\relax }}{65}{figure.caption.68}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Projeto elétrico do dispositivo\relax }}{55}{figure.caption.59}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Esquema da programação do dispositivo\relax }}{56}{figure.caption.60}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Objeto NetworkDevice\relax }}{57}{figure.caption.61}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Interface gráfica\relax }}{61}{figure.caption.62}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Dispositivo de ensaio de flexão\relax }}{62}{figure.caption.63}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Sistema de medição utilizado por \autocite {Minela2017}\relax }}{63}{figure.caption.65}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Sistema de de medição utilizando o LINX ADS2002\relax }}{64}{figure.caption.66}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Protótipo do dispositivo desenvolvido conectado com o extensometro no dispositivo de flexão\relax }}{65}{figure.caption.67}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Aplicaçao do 'peso 3' no dispositivo de flexão\relax }}{67}{figure.caption.69}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {37}{\ignorespaces Sinal obtido sem a aplicação de cargas no dispositivo\relax }}{67}{figure.caption.70}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Sinal obtido pela aplicação da cargas de calibração baixa\relax }}{67}{figure.caption.71}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Sinal obtido pela aplicação da cargas de calibração alta\relax }}{68}{figure.caption.72}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Amostras e valores médios obtidos\relax }}{68}{figure.caption.73}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Função de ajuste de dados de deformação em relação aos valores obtidos no amplificador\relax }}{69}{figure.caption.74}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Comparação dos valores convertidos usando diferentes funções de ajuste\relax }}{70}{figure.caption.75}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Erro entre valores encontrados com a função de ajuste e os valores esperados pela análise analítica\relax }}{70}{figure.caption.76}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Sinal obtido sem a aplicação de cargas no dispositivo\relax }}{69}{figure.caption.71}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Sinal obtido pela aplicação da cargas de calibração baixa\relax }}{69}{figure.caption.72}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Sinal obtido pela aplicação da cargas de calibração alta\relax }}{70}{figure.caption.73}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Amostras e valores médios obtidos\relax }}{70}{figure.caption.74}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Função de ajuste de dados de deformação em relação aos valores obtidos no amplificador\relax }}{71}{figure.caption.75}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Comparação dos valores convertidos usando diferentes funções de ajuste\relax }}{72}{figure.caption.76}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Erro entre valores encontrados com a função de ajuste e os valores esperados pela análise analítica\relax }}{72}{figure.caption.77}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }

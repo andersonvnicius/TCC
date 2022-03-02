@@ -1,6 +1,3 @@
-/*
-Script wifi datalogger
-*/
 
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>

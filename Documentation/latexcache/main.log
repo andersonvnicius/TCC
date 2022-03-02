@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  1 MAR 2022 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  2 MAR 2022 11:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2588,7 +2588,8 @@ LaTeX Warning: Label `fig:4020' multiply defined.
 
 LaTeX Warning: Label `fig:4020@cref' multiply defined.
 
-) (latexcache/chapters/conclusion.aux))
+) (latexcache/chapters/conclusion.aux) (latexcache/aftertext/apendice_b.aux) (l
+atexcache/aftertext/apendice_c.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 230.
@@ -3098,7 +3099,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 \openout5 = `main.mw'.
 
 ) (latexcache/main.lof)
-The height of the list 'Lista de Figuras' is '869.49365pt'
+The height of the list 'Lista de Figuras' is '887.48811pt'
 \openout5 = `main.mw'.
 
 [10
@@ -3126,7 +3127,7 @@ The height of the list 'Lista de Tabelas' is '149.71521pt'
 \openout5 = `main.mw'.
 
 (latexcache/main.lol)
-The height of the list 'Lista de Códigos' is '44.10039pt'
+The height of the list 'Lista de Códigos' is '98.08377pt'
 \openout5 = `main.mw'.
 
 [13
@@ -3153,7 +3154,7 @@ The height of the list 'Lista de Códigos' is '44.10039pt'
 \openout5 = `main.mw'.
 
 ) (latexcache/main.toc)
-The height of the list 'Sum\'ario' is '835.87883pt'
+The height of the list 'Sum\'ario' is '931.85667pt'
 \openout5 = `main.mw'.
 
 [15
@@ -3191,7 +3192,7 @@ The height of the list 'Sum\'ario' is '835.87883pt'
 (./chapters/chapter_1.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 22.
-<pictures/1010.png, id=409, 1006.76125pt x 257.96375pt>
+<pictures/1010.png, id=425, 1006.76125pt x 257.96375pt>
 File: pictures/1010.png Graphic file (type png)
 <use pictures/1010.png>
 Package pdftex.def Info: pictures/1010.png  used on input line 47.
@@ -3205,7 +3206,7 @@ Package pdftex.def Info: pictures/1010.png  used on input line 47.
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1020.png, id=430, 1116.17pt x 719.68875pt>
+<pictures/1020.png, id=446, 1116.17pt x 719.68875pt>
 File: pictures/1020.png Graphic file (type png)
 <use pictures/1020.png>
 Package pdftex.def Info: pictures/1020.png  used on input line 85.
@@ -3220,7 +3221,7 @@ Package pdftex.def Info: pictures/1020.png  used on input line 85.
 [21 <./pictures/1020.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1030.png, id=460, 631.35875pt x 198.7425pt>
+<pictures/1030.png, id=476, 631.35875pt x 198.7425pt>
 File: pictures/1030.png Graphic file (type png)
 <use pictures/1030.png>
 Package pdftex.def Info: pictures/1030.png  used on input line 125.
@@ -3230,12 +3231,12 @@ Package pdftex.def Info: pictures/1030.png  used on input line 125.
 [22 <./pictures/1030.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1060.png, id=476, 1063.975pt x 421.575pt>
+<pictures/1060.png, id=492, 1063.975pt x 421.575pt>
 File: pictures/1060.png Graphic file (type png)
 <use pictures/1060.png>
 Package pdftex.def Info: pictures/1060.png  used on input line 277.
 (pdftex.def)             Requested size: 455.0pt x 180.28307pt.
-<pictures/1070.png, id=484, 1041.8925pt x 512.91624pt>
+<pictures/1070.png, id=500, 1041.8925pt x 512.91624pt>
 File: pictures/1070.png Graphic file (type png)
 <use pictures/1070.png>
 Package pdftex.def Info: pictures/1070.png  used on input line 289.
@@ -3245,7 +3246,7 @@ Package pdftex.def Info: pictures/1070.png  used on input line 289.
 [23 <./pictures/1060.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1080.png, id=500, 360.34625pt x 317.185pt>
+<pictures/1080.png, id=516, 360.34625pt x 317.185pt>
 File: pictures/1080.png Graphic file (type png)
 <use pictures/1080.png>
 Package pdftex.def Info: pictures/1080.png  used on input line 326.
@@ -3260,7 +3261,7 @@ Package pdftex.def Info: pictures/1080.png  used on input line 326.
 [25 <./pictures/1080.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1090.png, id=522, 1204.5pt x 925.4575pt>
+<pictures/1090.png, id=538, 1204.5pt x 925.4575pt>
 File: pictures/1090.png Graphic file (type png)
 <use pictures/1090.png>
 Package pdftex.def Info: pictures/1090.png  used on input line 372.
@@ -3423,7 +3424,7 @@ you left one out. Proceed, with fingers crossed.
 [27] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1100.png, id=543, 714.67pt x 239.89626pt>
+<pictures/1100.png, id=559, 714.67pt x 239.89626pt>
 File: pictures/1100.png Graphic file (type png)
 <use pictures/1100.png>
 Package pdftex.def Info: pictures/1100.png  used on input line 436.
@@ -3633,7 +3634,7 @@ l.438 ...mplifier/amp_1.html\\ acesso em fev 2022}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<pictures/1110.png, id=547, 997.7275pt x 412.54124pt>
+<pictures/1110.png, id=563, 997.7275pt x 412.54124pt>
 File: pictures/1110.png Graphic file (type png)
 <use pictures/1110.png>
 Package pdftex.def Info: pictures/1110.png  used on input line 467.
@@ -3643,7 +3644,7 @@ Package pdftex.def Info: pictures/1110.png  used on input line 467.
 [28 <./pictures/1100.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1120.png, id=555, 1022.82124pt x 379.4175pt>
+<pictures/1120.png, id=571, 1022.82124pt x 379.4175pt>
 File: pictures/1120.png Graphic file (type png)
 <use pictures/1120.png>
 Package pdftex.def Info: pictures/1120.png  used on input line 479.
@@ -3659,7 +3660,7 @@ ring-resource-basics-of-analog-to-
 [29 <./pictures/1110.png> <./pictures/1120.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1130.jpg, id=571, 1027.84pt x 513.92pt>
+<pictures/1130.jpg, id=587, 1027.84pt x 513.92pt>
 File: pictures/1130.jpg Graphic file (type jpg)
 <use pictures/1130.jpg>
 Package pdftex.def Info: pictures/1130.jpg  used on input line 503.
@@ -3669,7 +3670,7 @@ Package pdftex.def Info: pictures/1130.jpg  used on input line 503.
 [30 <./pictures/1130.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1140.png, id=580, 575.14874pt x 421.575pt>
+<pictures/1140.png, id=596, 575.14874pt x 421.575pt>
 File: pictures/1140.png Graphic file (type png)
 <use pictures/1140.png>
 Package pdftex.def Info: pictures/1140.png  used on input line 518.
@@ -3690,7 +3691,7 @@ and I'll forget about whatever was undefined.
 [31 <./pictures/1140.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1150.png, id=589, 874.26625pt x 500.87125pt>
+<pictures/1150.png, id=606, 874.26625pt x 500.87125pt>
 File: pictures/1150.png Graphic file (type png)
 <use pictures/1150.png>
 Package pdftex.def Info: pictures/1150.png  used on input line 533.
@@ -3710,7 +3711,7 @@ Package pdftex.def Info: pictures/1150.png  used on input line 533.
 [34] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1160.png, id=631, 722.7pt x 525.965pt>
+<pictures/1160.png, id=647, 722.7pt x 525.965pt>
 File: pictures/1160.png Graphic file (type png)
 <use pictures/1160.png>
 Package pdftex.def Info: pictures/1160.png  used on input line 642.
@@ -3877,7 +3878,7 @@ mm/m/it/10 acessoemfev\OT1/lmr/m/n/10 (-10) 2022$
 [35 <./pictures/1160.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1170.png, id=644, 1082.0425pt x 294.09875pt>
+<pictures/1170.png, id=660, 1082.0425pt x 294.09875pt>
 File: pictures/1170.png Graphic file (type png)
 <use pictures/1170.png>
 Package pdftex.def Info: pictures/1170.png  used on input line 662.
@@ -3887,7 +3888,7 @@ Package pdftex.def Info: pictures/1170.png  used on input line 662.
 [36 <./pictures/1170.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1180.jpg, id=664, 534.49687pt x 384.6872pt>
+<pictures/1180.jpg, id=680, 534.49687pt x 384.6872pt>
 File: pictures/1180.jpg Graphic file (type jpg)
 <use pictures/1180.jpg>
 Package pdftex.def Info: pictures/1180.jpg  used on input line 694.
@@ -3897,7 +3898,7 @@ Package pdftex.def Info: pictures/1180.jpg  used on input line 694.
 [37 <./pictures/1180.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1190.png, id=675, 553.06625pt x 400.49625pt>
+<pictures/1190.png, id=691, 553.06625pt x 400.49625pt>
 File: pictures/1190.png Graphic file (type png)
 <use pictures/1190.png>
 Package pdftex.def Info: pictures/1190.png  used on input line 712.
@@ -3916,12 +3917,12 @@ Package pdftex.def Info: pictures/1190.png  used on input line 712.
 \openout2 = `chapters/chapter_2.aux'.
 
 (./chapters/chapter_2.tex
-<pictures/2010.jpg, id=696, 1003.75pt x 699.61375pt>
+<pictures/2010.jpg, id=712, 1003.75pt x 699.61375pt>
 File: pictures/2010.jpg Graphic file (type jpg)
 <use pictures/2010.jpg>
 Package pdftex.def Info: pictures/2010.jpg  used on input line 26.
 (pdftex.def)             Requested size: 455.0pt x 317.1398pt.
-<pictures/2030.jpg, id=704, 1003.75pt x 1003.75pt>
+<pictures/2030.jpg, id=720, 1003.75pt x 1003.75pt>
 File: pictures/2030.jpg Graphic file (type jpg)
 <use pictures/2030.jpg>
 Package pdftex.def Info: pictures/2030.jpg  used on input line 38.
@@ -3945,7 +3946,7 @@ Package pdftex.def Info: pictures/2030.jpg  used on input line 38.
 [42 <./pictures/2030.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2029.png, id=738, 462.72874pt x 403.5075pt>
+<pictures/2029.png, id=754, 462.72874pt x 403.5075pt>
 File: pictures/2029.png Graphic file (type png)
 <use pictures/2029.png>
 Package pdftex.def Info: pictures/2029.png  used on input line 105.
@@ -3960,7 +3961,7 @@ Package pdftex.def Info: pictures/2029.png  used on input line 105.
 [44 <./pictures/2029.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2031.png, id=752, 667.49374pt x 829.0975pt>
+<pictures/2031.png, id=768, 667.49374pt x 829.0975pt>
 ./chapters/chapter_2.tex:180: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -4056,7 +4057,7 @@ You may provide a definition with
 [46] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2032.png, id=786, 1059.96pt x 867.24pt>
+<pictures/2032.png, id=802, 1059.96pt x 867.24pt>
 File: pictures/2032.png Graphic file (type png)
 <use pictures/2032.png>
 Package pdftex.def Info: pictures/2032.png  used on input line 212.
@@ -4074,7 +4075,7 @@ Overfull \vbox (40.13144pt too high) has occurred while \output is active []
 [48 <./pictures/2032.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2035.png, id=800, 1126.2075pt x 666.49pt>
+<pictures/2035.png, id=816, 1126.2075pt x 666.49pt>
 File: pictures/2035.png Graphic file (type png)
 <use pictures/2035.png>
 Package pdftex.def Info: pictures/2035.png  used on input line 255.
@@ -4084,136 +4085,138 @@ Package pdftex.def Info: pictures/2035.png  used on input line 255.
 [49 <./pictures/2035.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2036.png, id=808, 1062.97125pt x 549.05125pt>
+<pictures/2036.png, id=824, 1062.97125pt x 549.05125pt>
 File: pictures/2036.png Graphic file (type png)
 <use pictures/2036.png>
-Package pdftex.def Info: pictures/2036.png  used on input line 318.
+Package pdftex.def Info: pictures/2036.png  used on input line 316.
 (pdftex.def)             Requested size: 455.0pt x 235.02345pt.
 \openout5 = `main.mw'.
 
 [50] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2037.png, id=814, 1234.6125pt x 630.355pt>
+<pictures/2037.png, id=830, 1234.6125pt x 630.355pt>
 File: pictures/2037.png Graphic file (type png)
 <use pictures/2037.png>
-Package pdftex.def Info: pictures/2037.png  used on input line 332.
+Package pdftex.def Info: pictures/2037.png  used on input line 330.
 (pdftex.def)             Requested size: 455.0pt x 232.30432pt.
 \openout5 = `main.mw'.
 
 [51 <./pictures/2036.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2038.png, id=821, 758.835pt x 332.24126pt>
+<pictures/2038.png, id=837, 758.835pt x 332.24126pt>
 File: pictures/2038.png Graphic file (type png)
 <use pictures/2038.png>
-Package pdftex.def Info: pictures/2038.png  used on input line 344.
+Package pdftex.def Info: pictures/2038.png  used on input line 342.
 (pdftex.def)             Requested size: 455.0pt x 199.21448pt.
 \openout5 = `main.mw'.
 
 [52 <./pictures/2037.png> <./pictures/2038.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2039.png, id=829, 1505.625pt x 1228.59pt>
+<pictures/2039.png, id=846, 1505.625pt x 1228.59pt>
 File: pictures/2039.png Graphic file (type png)
 <use pictures/2039.png>
-Package pdftex.def Info: pictures/2039.png  used on input line 363.
+Package pdftex.def Info: pictures/2039.png  used on input line 361.
 (pdftex.def)             Requested size: 455.0pt x 371.27937pt.
-<pictures/2040.png, id=831, 3842.355pt x 3488.03125pt>
+<pictures/2040.png, id=848, 3842.355pt x 3488.03125pt>
 File: pictures/2040.png Graphic file (type png)
 <use pictures/2040.png>
-Package pdftex.def Info: pictures/2040.png  used on input line 373.
+Package pdftex.def Info: pictures/2040.png  used on input line 371.
 (pdftex.def)             Requested size: 455.0pt x 413.0105pt.
 \openout5 = `main.mw'.
 
 [53 <./pictures/2039.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2042.png, id=840, 819.06pt x 686.565pt>
-File: pictures/2042.png Graphic file (type png)
-<use pictures/2042.png>
-Package pdftex.def Info: pictures/2042.png  used on input line 396.
-(pdftex.def)             Requested size: 455.0pt x 381.40427pt.
+<pictures/2041.png, id=856, 1255.69125pt x 749.80125pt>
+File: pictures/2041.png Graphic file (type png)
+<use pictures/2041.png>
+Package pdftex.def Info: pictures/2041.png  used on input line 381.
+(pdftex.def)             Requested size: 455.0pt x 271.69016pt.
 \openout5 = `main.mw'.
 
 [54 <./pictures/2040.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+<pictures/2042.png, id=863, 819.06pt x 686.565pt>
+File: pictures/2042.png Graphic file (type png)
+<use pictures/2042.png>
+Package pdftex.def Info: pictures/2042.png  used on input line 393.
+(pdftex.def)             Requested size: 455.0pt x 381.40427pt.
+\openout5 = `main.mw'.
+
+[55 <./pictures/2041.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+)
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 407.
-
-Package Listings Warning: Text dropped after begin of listing on input line 407
-.
-
+(Font)              scaled to size 10.95pt on input line 405.
 \openout5 = `main.mw'.
 
-[55 <./pictures/2042.png>] (latexcache/main.mw)
+[56 <./pictures/2042.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-
-LaTeX Warning: Reference `appendix_a' on page 56 undefined on input line 419.
-
-
-LaTeX Warning: Reference `fig:2043]' on page 56 undefined on input line 423.
-
-<pictures/2043.png, id=858, 1625.07124pt x 1240.635pt>
+<pictures/2043.png, id=882, 1625.07124pt x 1240.635pt>
 File: pictures/2043.png Graphic file (type png)
 <use pictures/2043.png>
-Package pdftex.def Info: pictures/2043.png  used on input line 428.
+Package pdftex.def Info: pictures/2043.png  used on input line 424.
 (pdftex.def)             Requested size: 455.0pt x 347.3565pt.
-
-Package Listings Warning: Text dropped after begin of listing on input line 438
-.
-
 \openout5 = `main.mw'.
 
-[56 <./pictures/2043.png>] (latexcache/main.mw)
+[57 <./pictures/2043.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 4
-45.
+41.
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 445.
+(Font)              scaled to size 10.95pt on input line 441.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Package Listings Warning: Text dropped after begin of listing on input line 465
-.
-
-\openout5 = `main.mw'.
-
-[57] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-
-Package Listings Warning: Text dropped after begin of listing on input line 517
-.
-
 \openout5 = `main.mw'.
 
 [58] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2044.png, id=947, 1188.44pt x 1096.095pt>
+\openout5 = `main.mw'.
+
+[59] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/2044.png, id=967, 1188.44pt x 1096.095pt>
 File: pictures/2044.png Graphic file (type png)
 <use pictures/2044.png>
-Package pdftex.def Info: pictures/2044.png  used on input line 539.
+Package pdftex.def Info: pictures/2044.png  used on input line 537.
 (pdftex.def)             Requested size: 455.0pt x 419.64801pt.
+\openout5 = `main.mw'.
 
-LaTeX Warning: Reference `appendix_b' on page 59 undefined on input line 544.
+[60] (latexcache/main.mw)
+\openout5 = `main.mw'.
 
-<pictures/2049.png, id=954, 500.87125pt x 409.53pt>
+\openout5 = `main.mw'.
+
+[61 <./pictures/2044.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/2049.png, id=999, 500.87125pt x 409.53pt>
 File: pictures/2049.png Graphic file (type png)
 <use pictures/2049.png>
-Package pdftex.def Info: pictures/2049.png  used on input line 563.
+Package pdftex.def Info: pictures/2049.png  used on input line 561.
 (pdftex.def)             Requested size: 455.0pt x 372.04173pt.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
-85.
+83.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
@@ -4221,7 +4224,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-./chapters/chapter_2.tex:585: Undefined control sequence.
+./chapters/chapter_2.tex:583: Undefined control sequence.
 \mm ->\ERROR 
              
 <argument> ...5 \%}$ \\ Comprimento & ${6.35} \mm 
@@ -4232,7 +4235,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 \Gscale@box@dd #1#2#3->\@begin@tempboxa \hbox {#3}
                                                   \setlength \@tempdima {#1}...
-l.585 }
+l.583 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4242,26 +4245,26 @@ and I'll forget about whatever was undefined.
 
 \openout5 = `main.mw'.
 
-[59] (latexcache/main.mw)
+[62 <./pictures/2049.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2050.png, id=987, 653.44125pt x 322.20375pt>
+<pictures/2050.png, id=1021, 653.44125pt x 322.20375pt>
 File: pictures/2050.png Graphic file (type png)
 <use pictures/2050.png>
-Package pdftex.def Info: pictures/2050.png  used on input line 600.
+Package pdftex.def Info: pictures/2050.png  used on input line 598.
 (pdftex.def)             Requested size: 455.0pt x 224.3513pt.
 \openout5 = `main.mw'.
 
-[60 <./pictures/2044.png>] (latexcache/main.mw)
+[63 <./pictures/2050.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2060.png, id=999, 635.37375pt x 246.9225pt>
+<pictures/2060.png, id=1035, 635.37375pt x 246.9225pt>
 File: pictures/2060.png Graphic file (type png)
 <use pictures/2060.png>
-Package pdftex.def Info: pictures/2060.png  used on input line 613.
+Package pdftex.def Info: pictures/2060.png  used on input line 611.
 (pdftex.def)             Requested size: 455.0pt x 176.83081pt.
 
-./chapters/chapter_2.tex:629: LaTeX Error: There's no line here to end.
+./chapters/chapter_2.tex:627: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -4276,62 +4279,57 @@ Type  H <return>  for immediate help.
                                   \else \unskip \reserved@e {\reserved@f #1}...
 <to be read again> 
                    \relax 
-l.629 \newline
+l.627 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-\openout5 = `main.mw'.
-
-[61 <./pictures/2049.png>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<pictures/2070.png, id=1011, 679.53876pt x 365.365pt>
+<pictures/2070.png, id=1041, 679.53876pt x 365.365pt>
 File: pictures/2070.png Graphic file (type png)
 <use pictures/2070.png>
-Package pdftex.def Info: pictures/2070.png  used on input line 637.
+Package pdftex.def Info: pictures/2070.png  used on input line 635.
 (pdftex.def)             Requested size: 455.0pt x 244.63718pt.
 \openout5 = `main.mw'.
 
-[62 <./pictures/2050.png>] (latexcache/main.mw)
+[64 <./pictures/2060.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[63 <./pictures/2060.png> <./pictures/2070.png>] (latexcache/main.mw)
+[65 <./pictures/2070.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2080.png, id=1036, 380.42125pt x 369.38pt>
+<pictures/2080.png, id=1065, 380.42125pt x 369.38pt>
 File: pictures/2080.png Graphic file (type png)
 <use pictures/2080.png>
-Package pdftex.def Info: pictures/2080.png  used on input line 707.
+Package pdftex.def Info: pictures/2080.png  used on input line 705.
 (pdftex.def)             Requested size: 455.0pt x 441.80525pt.
-\openout5 = `main.mw'.
-
-[64] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
 )
 \openout5 = `main.mw'.
 
-[65 <./pictures/2080.png>] (latexcache/main.mw)
+[66] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[67 <./pictures/2080.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/chapter_3.aux'.
 
 (./chapters/chapter_3.tex
-<pictures/x_cal_0.png, id=1049, 1005.7575pt x 397.485pt>
+<pictures/x_cal_0.png, id=1077, 1005.7575pt x 397.485pt>
 File: pictures/x_cal_0.png Graphic file (type png)
 <use pictures/x_cal_0.png>
 Package pdftex.def Info: pictures/x_cal_0.png  used on input line 25.
 (pdftex.def)             Requested size: 455.0pt x 179.81882pt.
-<pictures/x_cal_1.png, id=1052, 1439.3775pt x 592.2125pt>
+<pictures/x_cal_1.png, id=1080, 1439.3775pt x 592.2125pt>
 File: pictures/x_cal_1.png Graphic file (type png)
 <use pictures/x_cal_1.png>
 Package pdftex.def Info: pictures/x_cal_1.png  used on input line 35.
 (pdftex.def)             Requested size: 455.0pt x 187.19853pt.
-<pictures/x_cal_4.png, id=1053, 1397.22pt x 543.02875pt>
+<pictures/x_cal_4.png, id=1081, 1397.22pt x 543.02875pt>
 File: pictures/x_cal_4.png Graphic file (type png)
 <use pictures/x_cal_4.png>
 Package pdftex.def Info: pictures/x_cal_4.png  used on input line 43.
@@ -4352,7 +4350,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<pictures/val_func_cal.png, id=1055, 451.6875pt x 367.3725pt>
+<pictures/val_func_cal.png, id=1083, 451.6875pt x 367.3725pt>
 File: pictures/val_func_cal.png Graphic file (type png)
 <use pictures/val_func_cal.png>
 Package pdftex.def Info: pictures/val_func_cal.png  used on input line 72.
@@ -4375,14 +4373,14 @@ deleted material, e.g., by typing `I$}'.
 
 \openout5 = `main.mw'.
 
-[66
+[68
 
 
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/sep_24_1_deformation.png, id=1062, 462.528pt x 346.896pt>
+<pictures/sep_24_1_deformation.png, id=1091, 462.528pt x 346.896pt>
 File: pictures/sep_24_1_deformation.png Graphic file (type png)
 <use pictures/sep_24_1_deformation.png>
 Package pdftex.def Info: pictures/sep_24_1_deformation.png  used on input line 
@@ -4404,7 +4402,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<pictures/comp_func_reg.png, id=1063, 746.79pt x 365.365pt>
+<pictures/comp_func_reg.png, id=1092, 746.79pt x 365.365pt>
 File: pictures/comp_func_reg.png Graphic file (type png)
 <use pictures/comp_func_reg.png>
 Package pdftex.def Info: pictures/comp_func_reg.png  used on input line 96.
@@ -4425,7 +4423,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<pictures/comp_func_reg_erros.png, id=1064, 588.1975pt x 360.34625pt>
+<pictures/comp_func_reg_erros.png, id=1093, 588.1975pt x 360.34625pt>
 File: pictures/comp_func_reg_erros.png Graphic file (type png)
 <use pictures/comp_func_reg_erros.png>
 Package pdftex.def Info: pictures/comp_func_reg_erros.png  used on input line 1
@@ -4450,23 +4448,23 @@ deleted material, e.g., by typing `I$}'.
 )
 \openout5 = `main.mw'.
 
-[67 <./pictures/x_cal_0.png> <./pictures/X_cal_1.png>] (latexcache/main.mw)
+[69 <./pictures/x_cal_0.png> <./pictures/X_cal_1.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[68 <./pictures/x_cal_4.png> <./pictures/val_func_cal.png>] (latexcache/main.mw
+[70 <./pictures/x_cal_4.png> <./pictures/val_func_cal.png>] (latexcache/main.mw
 )
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[69 <./pictures/sep_24_1_deformation.png>] (latexcache/main.mw)
+[71 <./pictures/sep_24_1_deformation.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[70 <./pictures/comp_func_reg.png> <./pictures/comp_func_reg_erros.png>] (latex
+[72 <./pictures/comp_func_reg.png> <./pictures/comp_func_reg_erros.png>] (latex
 cache/main.mw)
 \openout5 = `main.mw'.
 
@@ -4475,7 +4473,7 @@ cache/main.mw)
 (./chapters/conclusion.tex)
 \openout5 = `main.mw'.
 
-[71
+[73
 
 
 
@@ -4486,85 +4484,98 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 291.
 \openout5 = `main.mw'.
 
-[72
+[74
 
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
 
-./main.tex:291: Package inputenc Error: Unicode character ́ (U+0301)
-(inputenc)                not set up for use with LaTeX.
+[75] (latexcache/main.mw)
+\openout5 = `main.mw'.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\sl@GenericError ...                              
-                                                  \endgroup 
-\GenericError  ...sl@GenericError {#1}{#2}{#3}{#4}
-                                                  \fi \ifcase \sl@Save \or \...
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 300.
+\openout5 = `main.mw'.
 
-\UTFviii@defined ...ax \UTFviii@undefined@err {#1}
-                                                  \else \PackageError {input...
-<argument> Revista Brasileira de Ensino de F{ı́
-                                                 }sica
-\blx@theformat #1->#1
-                     
-<argument> ...e abx@field@journaltitle\endcsname }
-                                                  \blx@endunit 
-\@secondoftwo #1#2->#2
-                      
-<argument> \printfield [titlecase]{journaltitle}
-                                                \iffieldendswithpunct {journ...
+[76
 
-\textbf  ...xt@command {#1}\bfseries \check@icl #1
-                                                  \check@icr \expandafter \e...
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
 
-\mkbibbold #1->\textbf {#1}
-                           \blx@imc@setpunctfont \textbf 
-<argument> ...field [normalfont]{journalsubtitle}}
-                                                  \isdot 
-\etb@tgl@ittitles #1#2->#2
-                          
-<argument> ...field [normalfont]{journalsubtitle}}
-                                                  \blx@endunit 
-\@secondoftwo #1#2->#2
-                      
-\abx@macro@journal+section ...sebibmacro {journal}
-                                                  \iffieldundef {section}{}{...
+\openout2 = `aftertext/apendice_b.aux'.
 
-\blx@bbx@article ...\usebibmacro {journal+section}
-                                                  \setunit *{\addcomma \adds...
-<argument> ...er \blx@driver \abx@field@entrytype 
-                                                  \blx@postpunct \blx@endlan...
+(./aftertext/apendice_b.tex
+\openout5 = `main.mw'.
 
-\etb@tgl@blx@skipentry #1#2->#2
-                               
-<argument> ...ype \blx@postpunct \blx@endlangbib }
-                                                  \endgroup 
-\@firstoftwo #1#2->#1
-                     
-<argument> \blx@do {Silva2018}
-                              \blx@listloop@i 
-\@secondoftwo #1#2->#2
-                      
-\blx@tempa ...Nurprasetio2018|Silva2017|Silva2018|
-                                                  TimHall2010|
-\blx@listloop #1->\expandafter \blx@listloop@i #1
-                                                 |&
-l.291 ...hy[title=\lang{REFERENCES}{REFERÊNCIAS}]
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
+[77
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+)
+\openout5 = `main.mw'.
+
+[78] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout2 = `aftertext/apendice_c.aux'.
+
+(./aftertext/apendice_c.tex
+\openout5 = `main.mw'.
+
+[79
+
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[80] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[81] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[82] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[83] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[84] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[85] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[86] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+)
+\openout5 = `main.mw'.
+
+[87] (latexcache/main.mw)
+\openout5 = `main.mw'.
 
 (latexcache/main.ind) 
 AED: lastpage setting LastPage
-\openout5 = `main.mw'.
-
-[73] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
 \tf@lof=\write26
 \openout5 = `main.lof'.
 
@@ -4580,8 +4591,8 @@ AED: lastpage setting LastPage
 \tf@toc=\write30
 \openout5 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
 (latexcache/main.aux
 \openout5 = `main.mw'.
 
@@ -5020,6 +5031,22 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 ) (latexcache/chapters/chapter_3.aux
 \openout5 = `main.mw'.
 
@@ -5135,12 +5162,95 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 326.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 326.
+\openout5 = `main.mw'.
 
-LaTeX Warning: There were undefined references.
+\openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+(latexcache/aftertext/apendice_b.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+) (latexcache/aftertext/apendice_c.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 328.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -5161,13 +5271,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66051 strings out of 481239
- 1257924 string characters out of 5920377
- 2377188 words of memory out of 5000000
- 79266 multiletter control sequences out of 15000+600000
- 627904 words of font info for 198 fonts, out of 8000000 for 9000
+ 66922 strings out of 481239
+ 1270802 string characters out of 5920377
+ 2420638 words of memory out of 5000000
+ 79698 multiletter control sequences out of 15000+600000
+ 630634 words of font info for 200 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 78i,16n,117p,1453b,4344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,16n,117p,1453b,4850s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
 /fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
 s/inconsolata/i4-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
@@ -5187,10 +5297,10 @@ lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on latexcache/main.pdf (75 pages, 9490613 bytes).
+Output written on latexcache/main.pdf (89 pages, 9602510 bytes).
 PDF statistics:
- 1473 PDF objects out of 1728 (max. 8388607)
- 1227 compressed objects within 13 object streams
- 378 named destinations out of 1000 (max. 500000)
- 44329 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 2010 PDF objects out of 2073 (max. 8388607)
+ 1743 compressed objects within 18 object streams
+ 765 named destinations out of 1000 (max. 500000)
+ 44878 words of extra memory for PDF output out of 51595 (max. 10000000)
 

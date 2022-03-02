@@ -314,7 +314,7 @@ A matriz morfológica é mostrada na \autoref{fig:2036}.
 	\caption{\label{fig:2036} Matriz morfológica}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/2036.png}
-	\end{center}l
+	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
 
@@ -328,7 +328,7 @@ que significa que a tecnologia é a mais adequada ao requisito relacionado, até
 	\caption{\label{fig:2037} Matriz de avaliação}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/2037.png}
-	\end{center}l
+	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
 
@@ -340,7 +340,7 @@ Após a análise dos resultados da matriz de avaliação as tecnologias escolhid
 	\caption{\label{fig:2038} Soluções escolhidas}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/2038.png}
-	\end{center}l
+	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
 
@@ -373,12 +373,12 @@ A ilustração do projeto do dispositivo nas três vistas padrão e vista isomé
 	\fonte{O autor 2022}
 \end{figure}
 
-O projeto elétrico do dispositivo foi feito no programa ... e é mostrado na \autoref{fig:2041}
+O projeto elétrico do dispositivo foi desenvolvido utilizando o software para desenvolvimento de placas eletrônicas EasyEDA e é mostrado na \autoref{fig:2041}.
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\caption{\label{fig:2041} Projeto elétrico do dispositivo}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/11 - ESP32 Device wiring.jpg}
+		\includegraphics[width=\textwidth]{pictures/2041.png}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
@@ -400,8 +400,9 @@ plataformas abertas, como o Arduino e o ESP8266.
 
 A função handleRead utiliza o método hx711.read(), conforme o \autoref{lst:handle_read}, para obter os valores de tensão na saída da ponte de wheatstone e os
 enviar ao computador via rede local.
+O programa completo do controlador completo é apresentado no \autoref{ch:algoritmo-de-programação-do-controlador-do-dispositivo}.
 
-\begin{lstlisting}[label={lst:handle_read}][language=C++,caption={[Controller Program]{Função de obtenção de sinal pelo amplificador HX711}}]
+\begin{lstlisting}[label={lst:handle_read},language=C++,caption={[Controller Program]{Função de obtenção de sinal pelo amplificador HX711}}]
 
 void handleRead() {
   if (server.method() != HTTP_POST) {
@@ -413,14 +414,12 @@ void handleRead() {
 
 \end{lstlisting}
 
-O programa completo do controlador completo é apresentado no \autoref{appendix_a}. % TODO como referenciar APENDICES
-
 Uma vez configurado o controlador do dispositivo, foi desenvolvido utilizando a linguagem python um objeto computacional
 para facilitar a conexão e utilização dos dados originados pelo dispositivo.
-O objeto e suas funções é ilustrado pela \autoref{fig:2043]}.
+O objeto e suas funções é ilustrado pela \autoref{fig:2043}.
 
 \begin{figure}[htb]
-	\caption{\label{fig:2043} Objeto SerialDevice}
+	\caption{\label{fig:2043} Objeto NetworkDevice}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/2043.png}
 	\end{center}
@@ -432,7 +431,7 @@ O método \_\_init\_\_ recebe e salva como parâmetros do objeto os dados de end
 e o método read\_line utiliza a função post do pacote requests para enviar uma requisição ao endereço de ip do objeto e retorna o valor obtido em forma de
 texto de maneira calibrada, caso o argumento calibrated seja igual a verdadeiro, ou não calibrado, caso contrário.
 
-\begin{lstlisting}[label={lst:essentialobjectfuncions}][language=Python,caption={[NetworkDevice]{Funções base do objeto NetworkDevice}}]
+\begin{lstlisting}[label={lst:essentialobjectfuncions},language=Python,caption={[NetworkDevice]{Métodos base do objeto NetworkDevice}}]
 
 """
 Creates a local network connection device object
@@ -459,7 +458,7 @@ Caso seja necessária a obtenção de dados em sequência ao longo do tempo fora
 o número de amostras é passado para a obtenção repetida dos dados, utilizando o parâmetro de intervalo de leitura para determinar o intervalo de execução da chamada do
 método read\_line, e é retornado um objeto de lista do numpy com os dados obtidos.
 
-\begin{lstlisting}[label={lst:sample_reading}][language=Python,caption={[Network Device calibrate offset]{'Calibração do parametro de offset do objeto NetworkDevice}}]
+\begin{lstlisting}[language=Python,label={lst:sample_reading},caption={[Network Device calibrate offset]{Métodos para executar experimentos do objeto NetworkDevice}}]
 
 def read_samples(self, n_of_samples: int, plot: bool = False, calibrated: bool = False):
 	"""returns a number of data lines given a sample size"""
@@ -511,7 +510,8 @@ offset do objeto ao valor obtido. A função calibrate readings utiliza recebe d
 definir os parâmetros a e b da função linear de calibração, com a finalidade de ser utilizada no método read\_line para converter os valores em forma de bits para um formato de valor
 nominal da grandeza física calibrada.
 
-\begin{lstlisting}[label={lst:objectcalibration}][language=Python,caption={[Network Device calibrate offset]{'Calibração do parametro de offset do objeto NetworkDevice}}]
+\begin{lstlisting}[label={lst:objectcalibration},language=Python,caption={[Network Device calibrate offset]{Métodos de calibração do objeto NetworkDevice}}]
+
 def calibrate_offset(self):
 	"""sets the offset value for the device data gathering"""
 	self.offset = 0
@@ -526,11 +526,12 @@ def calibrate_readings(self, calibration_dict_1: dict, calibration_dict_2: dict)
 
 	self.b = w2 / ((r2 / r1) * (w1 - 1) + 1)
 	self.a = (w1 - self.b) / r1
+
 \end{lstlisting}
 
 Com o intuito de facilitar a utilização do método pelo usuário é desenvolvido uma interface gráfica simples, uma breve apresentação da interface desenvolvida utilizando o pacote tkinter é mostrada na \autoref{fig:2044}.
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\caption{\label{fig:2044} Interface gráfica}
 		\begin{center}
 			\includegraphics[width=\textwidth]{pictures/2044.png}
@@ -538,7 +539,7 @@ Com o intuito de facilitar a utilização do método pelo usuário é desenvolvi
 	\fonte{O autor 2022}
 \end{figure}
 
-Os códigos completos para o objeto NetworkDevice e para a geração da interface gráfica são apresentados no \autoref{appendix_b}.
+Os códigos completos para o objeto NetworkDevice e para a geração da interface gráfica são apresentados no \autoref{ch:algoritmos-desenvolvidos-para-o-software-de-conexão}.
 
 \section{Validação do protótipo}
 

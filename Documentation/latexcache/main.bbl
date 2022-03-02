@@ -64,41 +64,6 @@
       \field{title}{Projeto integrado de produtos: planejamento, concep{ç}{ã}o e modelagem}
       \field{year}{2008}
     \endentry
-    \entry{DocsNumPy}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ac8f9f6d402eb41cc08675c881fbc576}{%
-           family={Developers},
-           familyi={D\bibinitperiod},
-           given={NumPy},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \strng{namehash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \strng{fullhash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \strng{bibnamehash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \strng{authorbibnamehash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \strng{authornamehash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \strng{authorfullhash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{1}
-      \field{title}{Documentação NumPy}
-      \field{year}{2022}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://numpy.org/doc/stable/
-      \endverb
-      \verb{url}
-      \verb https://numpy.org/doc/stable/
-      \endverb
-    \endentry
     \entry{DocsPandas}{online}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=b9ac2437ba5ca8e31ef14dc21be6b425}{%
@@ -166,38 +131,6 @@
       \verb{url}
       \verb https://docs.scipy.org/doc/
       \endverb
-    \endentry
-    \entry{Doebelin1983}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=07c58cd6bc9287b12510302bd561870f}{%
-           family={Doebelin},
-           familyi={D\bibinitperiod},
-           given={Ernest\bibnamedelima O.},
-           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Ohio}%
-      }
-      \list{publisher}{1}{%
-        {McGraw- Hill}%
-      }
-      \strng{namehash}{07c58cd6bc9287b12510302bd561870f}
-      \strng{fullhash}{07c58cd6bc9287b12510302bd561870f}
-      \strng{bibnamehash}{07c58cd6bc9287b12510302bd561870f}
-      \strng{authorbibnamehash}{07c58cd6bc9287b12510302bd561870f}
-      \strng{authornamehash}{07c58cd6bc9287b12510302bd561870f}
-      \strng{authorfullhash}{07c58cd6bc9287b12510302bd561870f}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{3}
-      \field{title}{Measurement system: Application and design.}
-      \field{year}{1983}
-      \true{nocite}
     \endentry
     \entry{DocsESP32}{online}{}
       \name{author}{1}{}{%
@@ -386,10 +319,8 @@
       \strng{authorbibnamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
       \strng{authornamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
       \strng{authorfullhash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \field{extraname}{1}
       \field{sortinit}{I}
       \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -402,40 +333,6 @@
       \endverb
       \verb{url}
       \verb https://isso.digital/produtos/48/dmi_tcr_44es
-      \endverb
-    \endentry
-    \entry{Isso88es}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4362084b096e7b1d7d1e6d9b661fe0a1}{%
-           family={Isso},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \strng{namehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \strng{fullhash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \strng{bibnamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \strng{authorbibnamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \strng{authornamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \strng{authorfullhash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \field{extraname}{2}
-      \field{sortinit}{I}
-      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{1}
-      \field{title}{Documentação DMI TCR 88es}
-      \field{year}{2022}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://isso.digital/produtos/48/dmi_tcr_88es
-      \endverb
-      \verb{url}
-      \verb https://isso.digital/produtos/48/dmi_tcr_88es
       \endverb
     \endentry
     \entry{Bridge101A}{online}{}
@@ -692,65 +589,6 @@
       \field{year}{2017}
       \verb{doi}
       \verb 10.20906/cps/cilamce2017-0718
-      \endverb
-    \endentry
-    \entry{Silva2018}{article}{}
-      \name{author}{5}{ul=3}{%
-        {{un=0,uniquepart=base,hash=205d1178ff2b462cae5f5694f91f3d4f}{%
-           family={Silva},
-           familyi={S\bibinitperiod},
-           given={Anderson\bibnamedelima Langone},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5c7030a7e01296f7c2144eba847402fa}{%
-           family={Varanis},
-           familyi={V\bibinitperiod},
-           given={Marcus},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=77ee6a6732a0a8899a4c4028761e7d80}{%
-           family={Mereles},
-           familyi={M\bibinitperiod},
-           given={Arthur\bibnamedelima Guilherme},
-           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f4a922d40002c0f15218cf19149c054a}{%
-           family={Oliveira},
-           familyi={O\bibinitperiod},
-           given={Clivaldo},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=75491dec46b56b4a9a2f57efa2313b98}{%
-           family={Balthazar},
-           familyi={B\bibinitperiod},
-           given={Jos{é}\bibnamedelima Manoel},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {{FapUNIFESP} ({SciELO})}%
-      }
-      \strng{namehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
-      \strng{fullhash}{cb24ca23c47b17449b43dcd12d7b5d1f}
-      \strng{bibnamehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
-      \strng{authorbibnamehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
-      \strng{authornamehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
-      \strng{authorfullhash}{cb24ca23c47b17449b43dcd12d7b5d1f}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Revista Brasileira de Ensino de F{ı́}sica}
-      \field{month}{12}
-      \field{number}{3}
-      \field{title}{A study of strain and deformation measurement using the Arduino microcontroller and strain gauges devices}
-      \field{volume}{41}
-      \field{year}{2018}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1590/1806-9126-rbef-2018-0206
       \endverb
     \endentry
     \entry{TimHall2010}{book}{}

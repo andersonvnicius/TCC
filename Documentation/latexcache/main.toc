@@ -40,20 +40,33 @@
 \contentsline {section}{\numberline {3.2}Projeto informacional}{44}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Projeto conceitual}{49}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Projeto detalhado}{53}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Validação do protótipo}{59}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Dispositivo para ensaio de flexão}{59}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Sistemas de medição}{60}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Cargas aplicadas}{64}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.5}Validação do protótipo}{61}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Dispositivo para ensaio de flexão}{62}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Sistemas de medição}{63}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Cargas aplicadas}{65}{subsection.3.5.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{66}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Sinais obtidos}{66}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Sinais de calibração}{66}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Ruídos presentes}{66}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Valores nominais}{66}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Funções de ajuste}{67}{section.4.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{68}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Sinais obtidos}{68}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Sinais de calibração}{68}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Ruídos presentes}{68}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Valores nominais}{68}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Funções de ajuste}{69}{section.4.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{71}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{73}{chapter.5}%
 \vspace {0em}
 \vspace {0em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
-\contentsline {chapter}{REFERÊNCIAS}{72}{section*.82}%
+\contentsline {chapter}{REFERÊNCIAS}{74}{section*.83}%
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\cftinsert {A}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {CodigoDispositivo}}{77}{appendix.A}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {CodigoSoftware}}{79}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Objeto NetworkDevice}{79}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Interface Gráfica}{81}{section.B.2}%
