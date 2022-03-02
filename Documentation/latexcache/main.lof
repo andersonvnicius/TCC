@@ -13,12 +13,12 @@
 \contentsline {figure}{\numberline {9}{\ignorespaces Ilustração de ruidos presentes em sinais analógicos e digitais\relax }}{29}{figure.caption.33}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Representação gráfica de um sinal analógico em forma digital\relax }}{29}{figure.caption.34}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Diagrama de blocos dos estágios de um sistema de medição\relax }}{30}{figure.caption.35}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Controlador ESP32\relax }}{31}{figure.caption.36}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Amplificador de sinal ADS1115\relax }}{32}{figure.caption.37}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Regressão linear\relax }}{35}{figure.caption.39}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Etapas da metodologia PRODIP\relax }}{36}{figure.caption.40}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Etapas do projeto informacional\relax }}{37}{figure.caption.41}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Etapas do projeto conceitual\relax }}{38}{figure.caption.42}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Controlador ESP8266\relax }}{31}{figure.caption.36}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Conversor analógico digital HX711\relax }}{32}{figure.caption.37}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Regressão linear\relax }}{36}{figure.caption.39}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Etapas da metodologia PRODIP\relax }}{37}{figure.caption.40}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Etapas do projeto informacional\relax }}{38}{figure.caption.41}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Etapas do projeto conceitual\relax }}{39}{figure.caption.42}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {18}{\ignorespaces Datalogger DMI TCR 44es\relax }}{41}{figure.caption.44}%
 \contentsline {figure}{\numberline {19}{\ignorespaces Dispositivo Bridge101A\relax }}{42}{figure.caption.45}%
@@ -28,26 +28,27 @@
 \contentsline {figure}{\numberline {23}{\ignorespaces Conceito de funcionamento inicial\relax }}{49}{figure.caption.52}%
 \contentsline {figure}{\numberline {24}{\ignorespaces Matriz morfológica\relax }}{51}{figure.caption.54}%
 \contentsline {figure}{\numberline {25}{\ignorespaces Matriz de avaliação\relax }}{52}{figure.caption.55}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Soluções escolhidas\relax }}{52}{figure.caption.56}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Modelagem da montagem do dispositivo\relax }}{53}{figure.caption.57}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Desenho em vistas padrões (primeiro diedro)\relax }}{54}{figure.caption.58}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Projeto elétrico do dispositivo\relax }}{55}{figure.caption.59}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Esquema da programação do dispositivo\relax }}{56}{figure.caption.60}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Objeto NetworkDevice\relax }}{57}{figure.caption.61}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Interface gráfica\relax }}{61}{figure.caption.62}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Dispositivo de ensaio de flexão\relax }}{62}{figure.caption.63}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Sistema de medição utilizado por \autocite {Minela2017}\relax }}{63}{figure.caption.65}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Sistema de de medição utilizando o LINX ADS2002\relax }}{64}{figure.caption.66}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Protótipo do dispositivo desenvolvido conectado com o extensometro no dispositivo de flexão\relax }}{65}{figure.caption.67}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Aplicaçao do 'peso 3' no dispositivo de flexão\relax }}{67}{figure.caption.69}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Soluções escolhidas\relax }}{53}{figure.caption.56}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Modelagem da montagem do dispositivo\relax }}{54}{figure.caption.57}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Desenho em vistas padrões (primeiro diedro)\relax }}{55}{figure.caption.58}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Projeto elétrico do dispositivo\relax }}{56}{figure.caption.59}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Esquema da programação do dispositivo\relax }}{57}{figure.caption.60}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Objeto NetworkDevice\relax }}{58}{figure.caption.61}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Interface gráfica\relax }}{62}{figure.caption.62}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Protótipo preparado para os experimentos\relax }}{63}{figure.caption.63}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Dispositivo de ensaio de flexão\relax }}{64}{figure.caption.64}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Sistema de medição utilizado por \autocite {Minela2017}\relax }}{65}{figure.caption.66}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Sistema de de medição utilizando o LINX ADS2002\relax }}{66}{figure.caption.67}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Protótipo do dispositivo desenvolvido conectado com o extensometro no dispositivo de flexão\relax }}{67}{figure.caption.68}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Aplicaçao do 'peso 3' no dispositivo de flexão\relax }}{69}{figure.caption.70}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {38}{\ignorespaces Sinal obtido sem a aplicação de cargas no dispositivo\relax }}{69}{figure.caption.71}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Sinal obtido pela aplicação da cargas de calibração baixa\relax }}{69}{figure.caption.72}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Sinal obtido pela aplicação da cargas de calibração alta\relax }}{70}{figure.caption.73}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Amostras e valores médios obtidos\relax }}{70}{figure.caption.74}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Função de ajuste de dados de deformação em relação aos valores obtidos no amplificador\relax }}{71}{figure.caption.75}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Comparação dos valores convertidos usando diferentes funções de ajuste\relax }}{72}{figure.caption.76}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Erro entre valores encontrados com a função de ajuste e os valores esperados pela análise analítica\relax }}{72}{figure.caption.77}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Sinal obtido sem a aplicação de cargas no dispositivo\relax }}{71}{figure.caption.72}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Sinal obtido pela aplicação da cargas de calibração baixa\relax }}{71}{figure.caption.73}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Sinal obtido pela aplicação da cargas de calibração alta\relax }}{72}{figure.caption.74}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Amostras e valores médios obtidos\relax }}{72}{figure.caption.75}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Função de ajuste de dados de deformação em relação aos valores obtidos no amplificador\relax }}{73}{figure.caption.76}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Comparação dos valores convertidos usando diferentes funções de ajuste\relax }}{74}{figure.caption.77}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Erro entre valores encontrados com a função de ajuste e os valores esperados pela análise analítica\relax }}{74}{figure.caption.78}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

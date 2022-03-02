@@ -505,17 +505,17 @@ e conversão de sinal e um estágio final, que engloba a obtenção e processame
 	\fonte{https://www.engineeringtribe.com/2020/09/generalized-measurement-system.html\\ acesso em fev 2022}
 \end{figure}
 
-Uma medição é considerada estática quando a grandeza física analisada não apresenta mudanças no tempo, como uma viga sobre uma carga constante de flexão. se essa viga
+Uma medição é considerada estática quando a grandeza física analisada não apresenta mudanças no tempo como uma viga sobre uma carga constante de flexão, caso essa viga
 é sujeita a um tipo de vibração, ou a um carregamento cíclico, então não pode mais se considerar o sinal estático \autocite{Hollman2011}.
 
-Para desenvolver o sistema de controle e obtenção do sinal foi utilizado a plataforma de desenvolvimento ESP32. Suas principais vantagens sobre a plataforma Arduino, de menor
-preço e mais amplamente utilizada, é devido ao fato de que o ESP32 apresenta em sua construção módulos de comunicação sem fio bluetooth e wifi integrados, o que reduz o tamanho
-do dispositivo e o torna mais barato em aplicações que necessitam de comunicação wireless \autocite{DocsESP32}.
+Para desenvolver o sistema de controle e obtenção do sinal foi utilizado a plataforma de desenvolvimento ESP8266.
+Suas principais vantagens sobre a plataforma Arduino, de menor preço e mais amplamente utilizada, é devido ao fato de que o ESP8266 apresenta em sua construção um módulo de
+comunicação sem fio wifi integrado, o que reduz o tamanho do dispositivo e o torna mais barato em aplicações que necessitam de comunicação wireless \autocite{DocsESP8266}.
 
 \begin{figure}[htb]
-	\caption{\label{fig:1140} Controlador ESP32}
+	\caption{\label{fig:1140} Controlador ESP8266}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/1140.png}
+		\includegraphics[width=\textwidth]{pictures/1140.jpg}
 	\end{center}
 	\fonte{amazon.com}
 \end{figure}
@@ -523,14 +523,14 @@ do dispositivo e o torna mais barato em aplicações que necessitam de comunica�
 A programação do controlador é feita utilizando uma linguagem de programação baseada na linguagem C + + adaptada para a utilização em placas de controle utilizando o ambiente
 de desenvolvimento Arduino IDE, que permite a utilização de extensões para programação e utilização de módulos externos, como o amplificador de sinal.
 
-O ADS1115 é conversor analógico digital de precisão com resolução de 16 bits, desenvolvido com precisão e facilidade de implementação em mente. O módulo é capaz de converter
-sinais obtidos na frequência de até 860 amostras por segundo, e oferece um amplificador de sinal que pode obter sinais tão baixos quanto na faixa de ${\pm 256}{m\V}$,
-o que permite pequenos sinais serem medidos com alta resolução \autocite{DocsADS1115}.
+O HX711 é conversor analógico digital de precisão com resolução de 24 bits, desenvolvido para utilização para balanças e aplicações de controle industriais para se conectar
+diretamente com circuitos de ponte. O módulo é capaz de obter sinais na frequência de até 80 amostras por segundo e fator de ganho de 128. O amplificador de sinal que pode ser
+utilizado para obtenção de sinais com tensão tão baixas quanto na faixa de ${\pm 20}{m\V}$, o que permite pequenos sinais serem medidos com alta resolução \autocite{DocsHX711}.
 
 \begin{figure}[htb]
-	\caption{\label{fig:1150} Amplificador de sinal ADS1115}
+	\caption{\label{fig:1150} Conversor analógico digital HX711}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/1150.png}
+		\includegraphics[width=\textwidth]{pictures/1150.jpg}
 	\end{center}
 	\fonte{amazon.com}
 \end{figure}

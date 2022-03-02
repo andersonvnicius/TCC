@@ -2345,8 +2345,8 @@
     <bcf:citekey order="37">Hollman2011</bcf:citekey>
     <bcf:citekey order="38">Hollman2011</bcf:citekey>
     <bcf:citekey order="39">Hollman2011</bcf:citekey>
-    <bcf:citekey order="40">DocsESP32</bcf:citekey>
-    <bcf:citekey order="41">DocsADS1115</bcf:citekey>
+    <bcf:citekey order="40">DocsESP8266</bcf:citekey>
+    <bcf:citekey order="41">DocsHX711</bcf:citekey>
     <bcf:citekey order="42">Hollman2011</bcf:citekey>
     <bcf:citekey order="43">Hollman2011</bcf:citekey>
     <bcf:citekey order="44">Hollman2011</bcf:citekey>
@@ -2400,6 +2400,7 @@
     <bcf:citekey order="92">Minela2017</bcf:citekey>
     <bcf:citekey order="93">Minela2017</bcf:citekey>
     <bcf:citekey order="94">Minela2017</bcf:citekey>
+    <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -23,15 +23,15 @@
 \contentsline {subsection}{\numberline {2.2.1}Ponte de Wheatstone}{26}{subsection.2.2.1}%
 \contentsline {section}{\numberline {2.3}OBTENÇÃO DE SINAIS}{28}{section.2.3}%
 \contentsline {section}{\numberline {2.4}SISTEMAS DE MEDIÇÃO}{30}{section.2.4}%
-\contentsline {section}{\numberline {2.5}ANÁLISE DOS SINAIS OBTIDOS}{32}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Ambiente de desenvolvimento computacional Python}{33}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Análise dos valores nominais}{34}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.5}ANÁLISE DOS SINAIS OBTIDOS}{33}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Ambiente de desenvolvimento computacional Python}{34}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Análise dos valores nominais}{35}{subsection.2.5.2}%
 \contentsline {section}{\numberline {2.6}METODOLOGIA DE DESENVOLVIMENTO DE PROJETO DE PRODUTO}{35}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Fase de planejamento}{36}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Projeto informacional}{37}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Projeto conceitual}{38}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Projeto preliminar}{39}{subsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.6.5}Projeto detalhado}{39}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.6.3}Projeto conceitual}{37}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Projeto preliminar}{38}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}Projeto detalhado}{38}{subsection.2.6.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Desenvolvimento}}{40}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Planejamento do projeto}{40}{section.3.1}%
@@ -40,33 +40,33 @@
 \contentsline {section}{\numberline {3.2}Projeto informacional}{44}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Projeto conceitual}{49}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Projeto detalhado}{53}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Validação do protótipo}{61}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Dispositivo para ensaio de flexão}{62}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Sistemas de medição}{63}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Cargas aplicadas}{65}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.5}Validação do protótipo do dispositivo}{62}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Dispositivo para ensaio de flexão}{64}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Sistemas de medição}{65}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Cargas aplicadas}{67}{subsection.3.5.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{68}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Sinais obtidos}{68}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Sinais de calibração}{68}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Ruídos presentes}{68}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Valores nominais}{68}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Funções de ajuste}{69}{section.4.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{70}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Sinais obtidos}{70}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Sinais de calibração}{70}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Ruídos presentes}{70}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Valores nominais}{70}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Funções de ajuste}{71}{section.4.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{73}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{75}{chapter.5}%
 \vspace {0em}
 \vspace {0em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
-\contentsline {chapter}{REFERÊNCIAS}{74}{section*.83}%
+\contentsline {chapter}{REFERÊNCIAS}{76}{section*.84}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
 \cftinsert {A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {CodigoDispositivo}}{77}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {CodigoDispositivo}}{79}{appendix.A}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {CodigoSoftware}}{79}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Objeto NetworkDevice}{79}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Interface Gráfica}{81}{section.B.2}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {CodigoSoftware}}{81}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Objeto NetworkDevice}{81}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Interface Gráfica}{83}{section.B.2}%
