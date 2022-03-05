@@ -66,10 +66,12 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Algoritmo de controle}}{79}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Algoritmos do controlador}}{79}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Algoritmo utilizando o controlador ESP8266 e o amplificador HX711}{79}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Algoritmo utilizando o controlador ESP32 e o amplificador ADS1115}{80}{section.B.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Algoritmos do software}}{81}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Objeto NetworkDevice}{81}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Interface Gráfica}{83}{section.C.2}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Algoritmos do software de obtenção de dados}}{82}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Objeto NetworkDevice}{82}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Interface Gráfica}{84}{section.C.2}%
