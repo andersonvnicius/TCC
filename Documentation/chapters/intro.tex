@@ -4,15 +4,50 @@
 \chapter{\lang{Introduction}{Introdução}}
 \phantomsection
 
-Atualmente, é notado o constante aumento da importância da otimização dos projetos de componentes em projetos de produtos na indústria automotiva, produtos altamente otimizados resultam em um menor custo de material e de fabricação dos componentes, \autocite{Hibbeler2010} afirma que “a carga para a qual um elemento é projetado pode ser diferente das cargas realmente aplicadas. As dimensões estipuladas no projeto de uma estrutura ou máquina podem não ser exatas, na realidade, por causa de erros de fabricação ou cometidos na montagem de seus componentes”.
+Atualmente, pode-se observar o constante aumento da importância da otimização dos projetos de componentes em projetos de produtos na indústria automotiva, produtos altamente otimizados
+resultam em um menor custo de material e de fabricação dos componentes.
 
-Segundo \autocite{Hibbeler2010} “Para se garantir a segurança, é preciso escolher uma tensão admissível que restrinja a carga aplicada a um valor menor do que a carga que o elemento pode suportar totalmente.” Então como resposta às incertezas envolvidas no projeto analítico de um componente os projetistas devem projetar componentes que suportam forças superiores às presentes na utilização do componente. O que resulta em altos valores de fator de segurança em um projeto, o que causa impacto monetário e aumento de massa do componente. Uma das maneiras que permite a diminuição de valores de fator de segurança é a alimentação do projeto do componente com dados de cargas que representam o mais próximo o possível aos presentes na situação real.
+A carga presente em um componente em operação pode ser diferente que as cargas previstas no seu projeto, isso pode ocorrer devido a erros durante a fabricação ou na montagem dos componentes.
+Para se garantir a segurança, um componente devem ser projetado para suportar tensões admissíveis maiores do que as presentes durante a sua utilização. \autocite{Hibbeler2010}
 
-Dados reais de utilização podem ser obtidos por sensores em componentes reais ou de teste submetidos a situações reais, porém atualmente certos parâmetros não podem ser facilmente medidos de maneira direta em um veículo, dentre eles forças normais e forças torcionais \autocite{Nurprasetio2018}. Hibbeler afirma que “as medições de deformação são experimentais e, uma vez obtidas, podem ser relacionadas com as cargas aplicadas, ou tensões, que agem no interior do corpo.” Logo conclui-se que uma maneira direta de medir as forças internas atuantes em um componentes é obtendo os dados de deformação local.
+Como resposta às essas incertezas envolvidas no projeto analítico de um componente os engenheiros tendem a selecionar maiores valores de fator de segurança em um projeto, o que causa o aumento
+de custo e de massa de um componente.
+Um método de evitar os altos valores de fatores de segurança é a utilização de dados de cargas que representam com mais exatidão as situações reais de cargas aplicadas em um componente.
 
-Foi observado que dispositivos utilizados para obter dados de deformação em tempo real com precisão são usualmente utilizados em testes de impacto e de controle de qualidade em componentes pela indústria automotiva, esses dispositivos apresentam altos níveis de precisão e confiabilidade e, consequentemente altos custos, o que inviabiliza sua utilização fora do produto final. Os valores de deformação local em um componente podem ser obtidos utilizando sensores de deformação chamados de extensômetros, esses sensores apresentam uma boa disponibilidade no mercado e são amplamente utilizados em células de carga. Os sinais gerados por esse tipo de sensor devem ser instrumentados, ampliados e convertidos para possibilitar sua obtenção por uma interface controladora.
+Dados reais de utilização podem ser obtidos utilizando dispositivos de sensoriamento, porém, nota-se que ainda existe uma dificuldade de obtenção de alguns tipos de dados de maneira direta
+em um veículo, como os dados de cargas de tração em um eixo em movimento \autocite{Nurprasetio2018}. Um dos motivos desse problema é devido ao fato de que os equipamentos disponíveis para se
+Medir são usualmente para aplicações de alta precisão como os transdutores de torque, o princípio de funcionamento de um transdutor de torque é mostrado na \autoref{fig:0100}.
 
-O presente trabalho propõe o desenvolvimento de um protótipo de um dispositivo de baixo custo para obtenção de dados de deformação em componentes. O desenvolvimento do dispositivo seguirá a metodologia de projeto de produto PRODIP com o objetivo de garantir replicabilidade, permitir futuras otimizações e expansões e facilitar sua implementação em um caso real. Por fim, o funcionamento, efetividade e precisão do protótipo desenvolvido será avaliado comparando dados obtidos pelo protótipo e por um dispositivo industrial homologado, seguindo a metodologia de \autocite{Minela2017}.
+\begin{figure}[htb]
+	\caption{\label{fig:0100} Princípio de funcionamento de um transdutor de torque}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/0100.png}
+	\end{center}
+	\fonte{adaptado de \autocite{Kyowa}}
+\end{figure}
+
+
+O elemento sensor em um transdutor de torque são sensores de deformação montados no eixo, esse tipo de sensor é utilizado uma vez que as deformações locais em um corpo são proporcionais às
+cargas presentes no corpo caso o material esteja operando em condição de deformação elástica.
+Um extensômetros, ilustrados na \autoref{fig:0200}, é um elemento sensor que, quando colado á uma superfície apresenta variação de sua resistência elétrica caso ocorra a deformação local na
+superfície que está colado.
+Esses tipos de sensores apresentam uma boa disponibilidade no mercado e são amplamente utilizados em balanças e células de carga.
+
+\begin{figure}[H]
+	\caption{\label{fig:0200} Extensômetro}
+	\begin{center}
+		\includegraphics[width=290]{pictures/0200.png}
+	\end{center}
+	\fonte{https://www.althensensors.com/sensors/strain-sensors-strain-gauges/high-strain-repeated-straingauges/4468/yfla-series-strain-gauges-for-very-high-strain/ acesso em fev 2022}
+\end{figure}
+
+O presente trabalho propõe o desenvolvimento do projeto de um dispositivo de baixo custo para obtenção de dados de torque em um eixo em movimento, de forma que os sinais obtidos pelo dispositivo
+sejam transmitidos utilizando tecnologias de comunicação sem fio, para eliminar a necessidade dos conectores elétricos rotativos.
+O desenvolvimento do projeto do dispositivo seguirá a metodologia de projeto de produto PRODIP com o objetivo de garantir replicabilidade, permitir futuras otimizações e expansões e facilitar sua
+implementação em um caso real.
+
+Por fim, será montado o protótipo do dispositivo com a finalidade de validar seu princípio de funcionamento e verificar a precisão dos dados obtidos com sua utilização, que é feito seguindo a
+metodologia de experimentos e com a comparação dos resultados de dados de deformação obtidos por um dispositivo industrial nos estudos de caso desenvolvidos por Minela (2017).
 
 \section{Objetivos}
 
@@ -20,15 +55,16 @@ Os objetivos do trabalho são apresentados nas seções a seguir.
 
 \subsection{Objetivo Geral}
 
-Desenvolver um dispositivo de baixo custo para obtenção de dados em tempo real de deflexão em componentes mecânicos.
+Desenvolver um dispositivo de baixo custo para obtenção de dados de torque em componentes rotativos.
 
 \subsection{Objetivos Específicos}
 
-Obter dados de deflexão em vigas
+Identificar e desenvolver o dispositivo com foco na utilização por um público alvo
 
-Obter módulo de elasticidade de uma liga desconhecida
+Desenvolver as documentações necessárias para garantir a replicabilidade e expansibilidade do dispositivo
 
-Desenvolver utilizando tecnologias de código aberto
+%Minimizar os custos dos componentes utilizados e de fabricação do projeto
 
-Obter valores de precisão do protótipo desenvolvido
+Obter valores de precisão aceitáveis para utilização pelo público alvo identificado
+
 

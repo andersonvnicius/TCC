@@ -19,37 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{DocsHX711}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=64a2434f87cb8340ae521d70825e40c0}{%
-           family={Avia},
-           familyi={A\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \strng{namehash}{64a2434f87cb8340ae521d70825e40c0}
-      \strng{fullhash}{64a2434f87cb8340ae521d70825e40c0}
-      \strng{bibnamehash}{64a2434f87cb8340ae521d70825e40c0}
-      \strng{authorbibnamehash}{64a2434f87cb8340ae521d70825e40c0}
-      \strng{authornamehash}{64a2434f87cb8340ae521d70825e40c0}
-      \strng{authorfullhash}{64a2434f87cb8340ae521d70825e40c0}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{1}
-      \field{title}{HX711 Datasheet}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf
-      \endverb
-      \verb{url}
-      \verb https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf
-      \endverb
-    \endentry
     \entry{Back2008}{book}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=d85e59688da79aeca740dc8de9fb5798}{%
@@ -95,109 +64,6 @@
       \field{title}{Projeto integrado de produtos: planejamento, concep{ç}{ã}o e modelagem}
       \field{year}{2008}
     \endentry
-    \entry{DocsNumPy}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ac8f9f6d402eb41cc08675c881fbc576}{%
-           family={Developers},
-           familyi={D\bibinitperiod},
-           given={NumPy},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \strng{namehash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \strng{fullhash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \strng{bibnamehash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \strng{authorbibnamehash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \strng{authornamehash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \strng{authorfullhash}{ac8f9f6d402eb41cc08675c881fbc576}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{1}
-      \field{title}{Documentação NumPy}
-      \field{year}{2022}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://numpy.org/doc/stable/
-      \endverb
-      \verb{url}
-      \verb https://numpy.org/doc/stable/
-      \endverb
-    \endentry
-    \entry{DocsPandas}{online}{}
-      \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=b9ac2437ba5ca8e31ef14dc21be6b425}{%
-           family={developers},
-           familyi={d\bibinitperiod},
-           given={Pandas},
-           giveni={P\bibinitperiod},
-           givenun=1}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \strng{namehash}{b9ac2437ba5ca8e31ef14dc21be6b425}
-      \strng{fullhash}{b9ac2437ba5ca8e31ef14dc21be6b425}
-      \strng{bibnamehash}{b9ac2437ba5ca8e31ef14dc21be6b425}
-      \strng{authorbibnamehash}{b9ac2437ba5ca8e31ef14dc21be6b425}
-      \strng{authornamehash}{b9ac2437ba5ca8e31ef14dc21be6b425}
-      \strng{authorfullhash}{b9ac2437ba5ca8e31ef14dc21be6b425}
-      \field{sortinit}{d}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{1}
-      \field{title}{Documentação Pandas}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://pandas.pydata.org/docs/
-      \endverb
-      \verb{url}
-      \verb https://pandas.pydata.org/docs/
-      \endverb
-    \endentry
-    \entry{DocsSciPy}{online}{}
-      \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=1eec54ef3897798d13dcf37fb9d129eb}{%
-           family={developers},
-           familyi={d\bibinitperiod},
-           given={SciPy},
-           giveni={S\bibinitperiod},
-           givenun=1}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \strng{namehash}{1eec54ef3897798d13dcf37fb9d129eb}
-      \strng{fullhash}{1eec54ef3897798d13dcf37fb9d129eb}
-      \strng{bibnamehash}{1eec54ef3897798d13dcf37fb9d129eb}
-      \strng{authorbibnamehash}{1eec54ef3897798d13dcf37fb9d129eb}
-      \strng{authornamehash}{1eec54ef3897798d13dcf37fb9d129eb}
-      \strng{authorfullhash}{1eec54ef3897798d13dcf37fb9d129eb}
-      \field{sortinit}{d}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{1}
-      \field{title}{Documentação SciPy}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://docs.scipy.org/doc/
-      \endverb
-      \verb{url}
-      \verb https://docs.scipy.org/doc/
-      \endverb
-    \endentry
     \entry{Doebelin1983}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=07c58cd6bc9287b12510302bd561870f}{%
@@ -230,7 +96,7 @@
       \field{year}{1983}
       \true{nocite}
     \endentry
-    \entry{DocsESP8266}{online}{}
+    \entry{DocsESP32}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5dbf4b4cef955ac1a7b0da67dd48c59e}{%
            family={espressif},
@@ -252,13 +118,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{1}
-      \field{title}{Documentação ESP8266}
+      \field{title}{Documentação ESP32}
       \field{year}{2022}
       \verb{urlraw}
-      \verb https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf
+      \verb https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
       \endverb
       \verb{url}
-      \verb https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf
+      \verb https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
       \endverb
     \endentry
     \entry{Gharghan2017}{article}{}
@@ -368,6 +234,40 @@
       \field{title}{Experimental methods for engineers.}
       \field{year}{2011}
     \endentry
+    \entry{DocsADS115}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{ADS1115 Datasheet}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://pdf1.alldatasheet.com/datasheet-pdf/view/292735/TI/ADS1115.html
+      \endverb
+      \verb{url}
+      \verb https://pdf1.alldatasheet.com/datasheet-pdf/view/292735/TI/ADS1115.html
+      \endverb
+    \endentry
     \entry{Isso44es}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4362084b096e7b1d7d1e6d9b661fe0a1}{%
@@ -383,10 +283,8 @@
       \strng{authorbibnamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
       \strng{authornamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
       \strng{authorfullhash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \field{extraname}{1}
       \field{sortinit}{I}
       \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -401,38 +299,32 @@
       \verb https://isso.digital/produtos/48/dmi_tcr_44es
       \endverb
     \endentry
-    \entry{Isso88es}{online}{}
+    \entry{Kyowa}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4362084b096e7b1d7d1e6d9b661fe0a1}{%
-           family={Isso},
-           familyi={I\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=81a27732df2772162cc10bfc38b307fa}{%
+           family={Kyowa},
+           familyi={K\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {English}%
-      }
-      \strng{namehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \strng{fullhash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \strng{bibnamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \strng{authorbibnamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \strng{authornamehash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \strng{authorfullhash}{4362084b096e7b1d7d1e6d9b661fe0a1}
-      \field{extraname}{2}
-      \field{sortinit}{I}
-      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{extradate}{2}
+      \strng{namehash}{81a27732df2772162cc10bfc38b307fa}
+      \strng{fullhash}{81a27732df2772162cc10bfc38b307fa}
+      \strng{bibnamehash}{81a27732df2772162cc10bfc38b307fa}
+      \strng{authorbibnamehash}{81a27732df2772162cc10bfc38b307fa}
+      \strng{authornamehash}{81a27732df2772162cc10bfc38b307fa}
+      \strng{authorfullhash}{81a27732df2772162cc10bfc38b307fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{1}
-      \field{title}{Documentação DMI TCR 88es}
+      \field{month}{3}
+      \field{title}{Torque Transducers}
       \field{year}{2022}
-      \true{nocite}
       \verb{urlraw}
-      \verb https://isso.digital/produtos/48/dmi_tcr_88es
+      \verb https://kyowa-ei.meclib.jp/e2021/book/#target/page_no=208
       \endverb
       \verb{url}
-      \verb https://isso.digital/produtos/48/dmi_tcr_88es
+      \verb https://kyowa-ei.meclib.jp/e2021/book/#target/page_no=208
       \endverb
     \endentry
     \entry{Bridge101A}{online}{}
@@ -516,9 +408,9 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{12}
+      \field{month}{1}
       \field{title}{Metodologia PRODIP}
-      \field{year}{2021}
+      \field{year}{2022}
       \verb{urlraw}
       \verb https://nedip.ufsc.br/sessao/modelo-prodip-1
       \endverb
@@ -598,6 +490,37 @@
       \field{title}{Machine design : an integrated approach}
       \field{year}{2011}
     \endentry
+    \entry{DocsNumPy}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b7f949b2343f9e5390e29f6ef5e1778}{%
+           family={NumPy},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{3b7f949b2343f9e5390e29f6ef5e1778}
+      \strng{fullhash}{3b7f949b2343f9e5390e29f6ef5e1778}
+      \strng{bibnamehash}{3b7f949b2343f9e5390e29f6ef5e1778}
+      \strng{authorbibnamehash}{3b7f949b2343f9e5390e29f6ef5e1778}
+      \strng{authornamehash}{3b7f949b2343f9e5390e29f6ef5e1778}
+      \strng{authorfullhash}{3b7f949b2343f9e5390e29f6ef5e1778}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Documentação NumPy}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://numpy.org/doc/stable/
+      \endverb
+      \verb{url}
+      \verb https://numpy.org/doc/stable/
+      \endverb
+    \endentry
     \entry{Nurprasetio2018}{inproceedings}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=d7bf4beb7210311cb040672af2164376}{%
@@ -646,6 +569,38 @@
       \field{year}{2018}
       \verb{doi}
       \verb 10.1109/icevt.2018.8628346
+      \endverb
+    \endentry
+    \entry{DocsRequests}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=251d2bbfe9a3b95e5691ceb30dc6784a}{%
+           family={Pandas},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{fullhash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{bibnamehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{authorbibnamehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{authornamehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{authorfullhash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Documentação Pandas}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://pandas.pydata.org/docs/
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org/docs/
       \endverb
     \endentry
     \entry{Silva2017}{inproceedings}{}

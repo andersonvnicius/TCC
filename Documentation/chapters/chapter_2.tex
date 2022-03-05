@@ -5,20 +5,42 @@
 O presente capítulo é dividido em duas fases, a primeira apresenta o desenvolvimento e os resultados das etapas da metodologia de desenvolvimento do protótipo do dispositivo.
 E a segunda seção apresenta a metodologia do experimento utilizado como prova de conceito do dispositivo desenvolvido.
 
+Como visto na seção de introdução é observado que existem diversas limitações e dificuldades no sensoriamento de cargas de torque em eixos, este trabalho é tem como objetido
+desenvolver uma solução para tal problema assim criando uma alternativa que facilita o acesso e diminui os custos para a obtenção desses tipos de dados.
+
+Um dispositivo existente que é utilizado para obter dado de cargas de torção são os transdutores de torque, que são são dispositivos que tem como princípio de funcionamento
+a utilização de um sensor de deformação em um eixo de dimensões conhecidas que se encontra sob a atuação das cargas, esses dispositivos são utilizados em aplicações de experimento
+ou industriais.
+Os sinais de tensão obtidos são transferidos em tempo real utilizando contatos elétricos rotativos \autocite{Kyowa}.
+A utilização de um transdutor de torque em uma aplicação industrial é mostrada na \autoref{fig:2001}.
+
+\begin{figure}[htb]
+	\caption{\label{fig:2001} Utilização de um transdutor de torque}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/2001.png}
+	\end{center}
+	\fonte{\autocite{Kyowa}}
+\end{figure}
+
+Será desenvolvido um dispositivo baseado no funcionamento do transdutor de torque apresentado, porém, ao invés da transmissão de dados via contato elétrico rotativo será
+desenvolvido um conceito em que os dados são transmitidos via conexão sem fio, com o objetivo de se criar um produto que funcione de maneira totalmente remota sem a necessidade
+de utilização de nenhum chicote para a transmissão dos dados.
+
 \section{Planejamento do projeto}
 
-O problema a ser solucionado é o de difícil acesso e altos custos para a obtenção de dados de deformação em tempo real.
 A primeira etapa para realizar o planejamento do projeto foi uma pesquisa de custo e disponibilidade de produtos iguais ou semelhantes a este propósito no mercado digital,
 os resultados da pesquisa são apresentados na próxima subseção.
 
 \subsection{Mapeamento tecnológico}
 
-Foram encontrados inúmeros dispositivos para telemetria e obtenção de sinais de sensores para aplicações industriais, de alta performance, ou para aplicações muito específicas,
-estes foram ignorados devido devido a altos custos ou baixa flexibilidade em relação ao dispositivo proposto. Dos produtos encontrados, três se mostraram mais semelhantes ao que será desenvolvido.
+Foram encontrados inúmeros dispositivos para telemetria e obtenção de sinais de sensores para aplicações industriais, no mapeamento foram considerados apenas os que foram
+encontrados a preços acessíveis.
+Dos produtos encontrados, dois se mostraram de grande semelhança ao conceito que será desenvolvido.
 
-A empresa Isso disponibiliza em sua loja virtual Dois dispositivos para controle e obtenção de dados, denominados dmi tcr 44es, mostrado na \autoref{fig:2010}, e dmi tcr 88es.
-Segundo o fabricante esses dispositivos são utilizados para aplicações de acionamentos e telemetria remota, e são indicados para uso em automações residenciais e industriais,
-a única diferença observada entre os dois modelos são o número de entradas e saídas de sinais que o dispositivo possui. \autocite{Isso44es}
+A empresa Isso disponibiliza em sua loja virtual um dispositivo para controle e obtenção de dados, denominados dmi tcr 44es, mostrado na \autoref{fig:2010}.
+Segundo o fabricante esse dispositivos é utilizado para aplicações de acionamentos e telemetria remota, e é indicados para uso em automações residenciais e
+industriais \autocite{Isso44es}.
+A empresa também disponibiliza outro modelo muito semelhante, denominado dmi tcr 88es, que possui maior número de conexões de entradas e saídas de sinais.
 
 \begin{figure}[htb]
 	\caption{\label{fig:2010} Datalogger DMI TCR 44es}
@@ -28,9 +50,9 @@ a única diferença observada entre os dois modelos são o número de entradas e
 	\fonte{\autocite{Isso44es}}
 \end{figure}
 
-Outro dispositivo, denominado Bridge101A, mostrado na \autoref{fig:2030}, fabricado pela empresa Madgetech foi encontrado, segundo a empresa é um data logger compacto que mede e armazena valores de tensões elétricas,
-e é normalmente utilizado com extensômetros, células de carga e outras sensores de baixa tensão, e que o dispositivo é utilizado para calcular com precisão parâmetros de tensão, torque, deformação
-e pressão ao longo do tempo. \autocite{Bridge101A}
+Outro dispositivo, denominado Bridge101A, mostrado na \autoref{fig:2030}, fabricado pela empresa Madgetech foi encontrado.
+Segundo o fabricante é um dispositivo de obtenção de dados compacto que mede e armazena valores de tensões elétricas, e é normalmente utilizado com extensômetros, células
+de carga e outros sensores de baixa tensão, e é utilizado para calcular com precisão parâmetros de tensão, torque, deformação e pressão ao longo do tempo \autocite{Bridge101A}.
 
 \begin{figure}[htb]
 	\caption{\label{fig:2030} Dispositivo Bridge101A}
@@ -63,41 +85,42 @@ A \autoref{tab:Banchmarking} mostra uma comparação entre os dados de utilizaç
 \end{table}
 
 Dentre os valores apresentados na tabela fica claro os altos preços envolvidos em qualquer aplicação que necessite a utilização desse tipo de dispositivo.
-Muitos deles necessitam ainda de programas para programação e utilização proprietários e que ainda tem custos adicionais para utilização.
-O dispositivo desenvolvido neste trabalho tem como objetivo um preço consideravelmente menor que os analisados e programável e utilizável utilizando tecnologias gratuitas
-e de código aberto.
-
-Uma possível aplicação mais específica de um produto semelhante aos pesquisados seria um dispositivo que possibilite a telemetria direta de cargas de torque presentes em
-eixos de tração durante seu funcionamento, para isso seria necessário que o dispositivo fosse desenvolvido voltado para esse tipo de aplicação, a falta de um dispositivo
-desse tipo disponível no mercado levou ao autor elaborar uma pesquisa científica focado em encontrar dispositivos desenvolvidos semelhantes a ideia.
-
+Muitos deles adicionalmente necessitam de softwares proprietários pagos para sua programação e utilização.
+O dispositivo desenvolvido neste trabalho tem como objetivo um preço consideravelmente menor que os analisados e programável e utilizável utilizando tecnologias
+de código aberto.
 
 \subsection{Pesquisa científica}
 
 Com o intuito de facilitar o desenvolvimento do dispositivo, foi realizada uma revisão sistemática de trabalhos científicos e acadêmicos disponíveis nas bases de dados Web of Science, Springer,
 Sciencedirect e Google Scholar, utilizando como palavras-chave “Dynamic, Torque, Shaft, Sensor, Strain, Gauge”, os principais obtidos são apresentados nessa subseção.
 
-Um artigo desenvolvido por \autocite{Niedworok2014} relata o desenvolvimento e aplicação de um sistema de sensoriamento de torque em tempo real em um eixo cardan de um carro de mina utilizando a medição
-da deformação utilizando extensômetro com transferência dos dados via radiofrequência, o trabalho também indica que o posicionamento do sensor necessita estar em contato com a superfície de maior deformação do componente,
-o autor realiza uma análise por elementos finitos para encontrar esse local. O artigo também aponta que o sinal vindo do sensor deve ser ampliado utilizando uma ponte de Wheatstone para conseguir ter a instrumentação
-correta da grandeza. O artigo mostrou resultados satisfatórios e não discutiu sobre ruídos e imprecisões presentes nos dados obtidos.
+Um artigo desenvolvido por Niedworok relata o desenvolvimento e aplicação de um sistema de sensoriamento de torque em tempo real em um eixo cardã de um carro de mina
+utilizando a medição da deformação utilizando extensômetro com transferência dos dados via radiofrequência.
+O trabalho também indica que o posicionamento do sensor necessita estar em contato com a superfície de maior deformação do componente, o autor realiza uma análise por elementos finitos
+para encontrar esse local.
+O artigo também aponta que o sinal vindo do sensor deve ser ampliado utilizando uma ponte de Wheatstone para conseguir ter a instrumentação correta da grandeza.
+O artigo mostrou resultados satisfatórios e não discutiu sobre ruídos e imprecisões presentes nos dados obtidos. \autocite{Niedworok2014}
 
-\autocite{Nurprasetio2018} desenvolve, em seu trabalho, um sistema de medição para veículos terrestres, aplicado em uma bancada de testes que simula o estado de veículos terrestres em operação, o sistema
-utiliza um microprocessador Arduino nano de fácil acesso e baixo custo. Os dados são transmitidos via comunicação bluetooth. O artigo também ilustra o processo de calibração do dispositivo feito antes do teste dinâmico,
-assim como no trabalho anterior, também é enfatizada a necessidade das metodologias de instrumentação do sinal vindo do extensômetro. Seus resultados também se mostraram promissores, porém o autor indica que é necessário
-a remoção dos ruídos de medição, o que segundo ele será endereçado em um trabalho futuro.
+Nurprasetio desenvolve, em seu trabalho, um sistema de medição para veículos terrestres, aplicado em uma bancada de testes que simula o estado de veículos terrestres em operação, o sistema
+utiliza um microprocessador Arduino nano de fácil acesso e baixo custo, em que s dados são transmitidos via comunicação bluetooth.
+O artigo também ilustra o processo de calibração do dispositivo feito antes do teste dinâmico, assim como no trabalho anterior, também é enfatizada a necessidade das metodologias de instrumentação
+do sinal vindo do extensômetro.
+Seus resultados também se mostraram promissores, porém o autor indica que é necessário a remoção dos ruídos de medição, o que segundo ele será endereçado em um trabalho futuro \autocite{Nurprasetio2018}.
 
-\autocite{Gharghan2017} compara um sistema de medição similar ao dos dois trabalhos prévios com um sistema de medição de torque em tempo real de alto custo utilizado por ciclistas profissionais no pedivela.
-O artigo introduz a tecnologia de transmissão de dados Zigbee, que consegue transmitir dados a um baixo consumo energético. Após a obtenção dos dados, o autor utiliza as ferramentas de análise estatística de Bland-Altman
-e porcentagem de erro médio absoluto para a validação do sistema.
+Gharghan compara um sistema de medição similar ao dos dois trabalhos prévios com um sistema de medição de torque em tempo real de alto custo utilizado por ciclistas profissionais no pedivela.
+O artigo introduz a tecnologia de transmissão de dados Zigbee, que consegue transmitir dados a um baixo consumo energético.
+Após a obtenção dos dados, o autor utiliza as ferramentas de análise estatística de Bland-Altman obtendo a porcentagem de erro médio absoluto para a validação do sistema \autocite{Gharghan2017}.
 
-\autocite{Silva2017} compara os dados de um sistema semelhante aos anteriores com resultados de análises de modelo matemático analítico e análise por elementos finitos aplicados em bancadas de viga engastada com carga
-na ponta e de torque aplicado em um eixo com um dos lados travados, diferente dos trabalhos anteriores, este possui uma seção com o desenvolvimento das equações dos modelos utilizados, e assim como os artigos anteriores
-foram encontrados resultados satisfatórios.
+Silva compara os dados de um sistema semelhante aos anteriores com resultados de análises de modelo matemático analítico e análise por elementos finitos aplicados em bancadas de viga engastada com carga
+na ponta e de torque aplicado em um eixo com um dos lados travados, diferente dos trabalhos anteriores, este possui uma seção com o desenvolvimento das equações dos modelos utilizados, e assim como os artigos
+anteriores foram encontrados resultados satisfatórios \autocite{Silva2017}.
 
-A ideia inicial da concepção do produto seria o do desenvolvimento de um dispositivo que obtivesse os valores de torque em um eixo em tempo real. Para que fosse possível solucionar tal problema, o dispositivo teria que
-obter os dados de tensão dos pólos de uma ponte de wheatstone, com um extensômetro montado a um eixo sob torque e transmitir os dados obtidos via conexão sem fio em tempo real a um computador. O projeto inicial do
-dispositivo é mostrado na \autoref{fig:2029}.
+A ideia inicial da concepção do produto seria o do desenvolvimento de um dispositivo que obtivesse os valores de torque em um eixo em tempo real.
+Para que fosse possível solucionar tal problema, o dispositivo teria que obter os dados de tensão dos polos de uma ponte de wheatstone, com um extensômetro montado a um eixo sob torque e transmitir os dados obtidos
+via conexão sem fio em tempo real a um computador.
+
+A modelagem de um produto conceito inicial baseado nos resultados da pesquisa de mercado e nos trabalhos científicos foi elaborado pelo autor utilizando o software Solidworks 2017,
+esta modelagem é mostrada na \autoref{fig:2029}.
 
 \begin{figure}[htb]
 	\caption{\label{fig:2029} Projeto inicial do dispositivo}
@@ -107,20 +130,22 @@ dispositivo é mostrado na \autoref{fig:2029}.
 	\fonte{O autor 2022}
 \end{figure}
 
-O conceito é composto por uma placa de desenvolvimento Arduino, que controla um amplificador de sinal que por si obtém os dados de tensão de uma ponte de wheatstone. Os dados obtidos pela ponte de wheatstone então
-são transmitidos utilizando um módulo bluetooth HC-05. O custo total desses dois componentes é baixo, e um protótipo de dispositivo pode ser montado por aproximadamente $R\$150,00$, desconsiderando os componentes de
-encapsulamento. O projeto informacional é iniciado considerando este conceito como a ideia inicial do produto.
+O conceito é composto por uma placa de desenvolvimento Arduino nano, que controla um amplificador de sinal que por si obtém os dados de tensão de uma ponte de wheatstone.
+Os dados obtidos pela ponte de wheatstone então são transmitidos utilizando um módulo bluetooth HC-05.
+O custo total desses dois componentes é baixo, e um protótipo de dispositivo pode ser montado por aproximadamente $R\$150,00$, desconsiderando os componentes de encapsulamento.
+O projeto informacional é iniciado considerando este conceito como a ideia inicial do produto.
 
 \section{Projeto informacional}
 
-Uma vez que a ideia inicial do produto é caracterizada pelo grande potencial de ser de baixo custo e de ser consideravelmente compacto em relação aos outros produtos
-encontrados no mercado, pode-se traçar uma estratégia de definição de público alvo, o que facilita as tomadas de decisão durante o desenvolvimento do produto.
-Dentre os possíveis públicos que são beneficiados pelas características do produto que será desenvolvido, as equipes de competição Baja SAE foram
-escolhidas como público alvo para guiar o desenvolvimento do dispositivo, uma vez que o baixo custo, baixas dimensões e flexibilidade de aplicação são características
-desejadas para utilização nesses grupos.
+Uma vez que a ideia inicial do produto é caracterizada pelo grande potencial de ser de baixo custo e de ser consideravelmente compacto em relação aos outros produtos encontrados no
+mercado, pode-se traçar uma estratégia de definição de público alvo, o que facilita as tomadas de decisão durante o desenvolvimento do produto.
+Os principais públicos identificados para a utilização do dispositivo são as equipes de competição veiculares universitárias, como as da competição Formula SAE e Baja SAE,
+uma vez que o baixo custo, baixas dimensões e flexibilidade de aplicação são características desejadas para utilização nesses grupos.
+O autor escolheu as equipes de competição Baja SAE como público alvo devido a proximidade com membros da equipa Baja SAE, da UFSC Joinville, e esse público alvo definido serve de ponto
+de início do desenvolvimento do projeto informacional do dispositivo.
 
-Foi elaborado um formulário eletrônico que apresenta a ideia do conceito de funcionamento de um dispositivo para sensoriar dados de torque em tempo real. No formulário
-são apresentadas duas perguntas iniciais, que avaliam a importância da obtenção desse tipo de dado e a importância de serem obtidas em tempo real, além das duas perguntas
+Foi elaborado um formulário eletrônico que apresenta a ideia do conceito de funcionamento de um dispositivo para sensoriar dados de torque em tempo real.
+No formulário são apresentadas duas perguntas iniciais, que avaliam a importância da obtenção desse tipo de dado e a importância de serem obtidas em tempo real, além das duas perguntas
 iniciais, são apresentados os seguintes tópicos sobre a necessidade do produto em desenvolvimento de:
 
 \begin{alineas}
@@ -142,8 +167,10 @@ iniciais, são apresentados os seguintes tópicos sobre a necessidade do produto
 \end{alineas}
 
 Todas as perguntas e tópicos foram respondidos pela seleção de uma nota de 1 a 5 para cada questão, onde o valor 1 significa que o requisito listado é de baixa importância e
-o valor 5 é de extrema importância. As respostas do formulário são avaliadas pela análise do valor médio obtido pelos valores respondidos. Foram obtidas as respostas de 7
-membros de diferentes equipes que participam da competição. Os resultados são mostrados na \autoref{tab:resultpesquisa}.
+o valor 5 é de extrema importância.
+As respostas do formulário são avaliadas pela análise do valor médio obtido pelos valores respondidos.
+Foram obtidas as respostas de 7 membros de diferentes equipes que participam da competição Baja SAE no Brasil.
+Os resultados são mostrados na \autoref{tab:resultpesquisa}.
 
 \begin{table}[!hb]
     \caption{Resultado pesquisa de mercado}
@@ -201,10 +228,9 @@ A partir da análise da matriz de listagem de atributos e da pesquisa com o púb
 
 \end{alineas}
 
-Com os dados de avaliação quantitativa dos requisitos do produto obtidos pela pesquisa com o público alvo e os dados das características do produto é elaborada uma matriz de
-avaliação de qualidade, ou QFD. Essa matriz serve para correlacionar os requisitos com as características desejadas do produto, com a finalidade de apontar quais as qualidades
-devem ser priorizadas na etapa de desenvolvimento do projeto.
-Os símbolos preenchidos na matriz qfd representam os fatores de correlação, que numéricamente são iguais a 9 para correlaçẽos fortes, 3 para correlações médias e 1 para correlações fracas.
+Com os dados de avaliação quantitativa dos requisitos do produto obtidos pela pesquisa com o público alvo e os dados das características do produto é elaborada uma matriz de  avaliação de qualidade, ou QFD.
+Essa matriz serve para correlacionar os requisitos com as características desejadas do produto, com a finalidade de apontar quais as qualidades devem ser priorizadas na etapa de desenvolvimento do projeto.
+Os símbolos preenchidos na matriz qfd representam os fatores de correlação, que numericamente são iguais a 9 para correlação forte, 3 para correlação média e 1 para correlação fraca.
 
 \begin{figure}[htb]
 	\caption{\label{fig:2032} Matriz QFD}
@@ -267,9 +293,10 @@ E a comunicação wifi pode ser feita tanto pela conexão do dispositivo recepto
 
 As opções de módulo de amplificação de sinal avaliadas foram o HX711, que se apresenta como um módulo altamente utilizado em aplicações de células de carga porém apresenta
 uma taxa de leitura baixa, de até 80 amostras por segundo, e o ADS1115, que possui diversas opções de fator de amplificação que podem ser programadas e uma taxa de amostragem de 860 amostras
-por segundo. Ambos os módulos de amplificação já possuem conversores ADC integrados.
+por segundo.
+Ambos os módulos de amplificação já possuem conversores ADC integrados.
 
-Apenas uma sólução foi considerada como adequada para armazenamento de dados locais pelo dispositivo, que é a utilização de um módulo de cartão Micro SD, devidoás baixas dimensões.
+Apenas uma solução foi considerada como adequada para armazenamento de dados locais pelo dispositivo, que é a utilização de um módulo de cartão Micro SD, devido ás baixas dimensões.
 Também foram avaliadas opções de alimentação energética para o dispositivo, materiais para construção do encapsulamento externo.
 Uma breve apresentação do levantamento de componentes é mostrado na \autoref{tab:levantamentocomponentes}.
 
@@ -289,18 +316,18 @@ Uma breve apresentação do levantamento de componentes é mostrado na \autoref{
 			ADS1115 & Alta taxa de leitura & $R\${70.00}$ \\
 			LM358 & Alta taxa de ganho & $R\${10.00}$ \\
 		\multicolumn{1}{l}{\textbf{Comunicação sem fio}} & \\
-			Bluetooth HC-05 & Dificil programação, emite e recebe dados  & $R\${50.00}$ \\
-			Módulo wifi & Facil acesso a qualquer dispositivo na mesma rede & $R\${25.00}$ \\
+			Bluetooth HC-05 & Difícil programação, emite e recebe dados  & $R\${50.00}$ \\
+			Módulo wifi & Fácil acesso a qualquer dispositivo na mesma rede & $R\${25.00}$ \\
 			Módulo radiofrequência & Comunicação apenas do transmissor para o receptor & $R\${15.00}$ \\
 		\multicolumn{1}{l}{\textbf{Armazenamento}} & \\
 			Módulo cartão micro SD + cartão SD & Permite armazenamento de dados & $R\${30.00}$ \\
 		\multicolumn{1}{l}{\textbf{Alimentação}} & \\
 			4x pilha AAA & mais compacto, alta disponibilidade & $R\${30.00}$ \\
 			1x Bateria 9V & alta tensão e duração & $R\${40.00}$ \\
-			2x Bateria li-ion & grandes dimensões, recarregavel & $R\${35.00}$ \\
+			2x Bateria li-ion & grandes dimensões, recarregável & $R\${35.00}$ \\
 		\multicolumn{1}{l}{\textbf{Encapsulamento}} & \\
 			Carcaça ABS & Pode fabricado por impressão 3D & -- \\
-			Carcaça multi material & Maior custo com fabricação, maior resitência & -- \\
+			Carcaça multi material & Maior custo com fabricação, maior resistência & -- \\
             \bottomrule
         \end{tabular}}
 \fonte{O autor 2022}\
@@ -318,11 +345,11 @@ A matriz morfológica é mostrada na \autoref{fig:2036}.
 	\fonte{O autor 2022}
 \end{figure}
 
-Na matriz morfológica também foi adicionado uma coluna para listar os principais requisitos de avaliação de cada produto,
-esses requisitos mostrados estão diretamente relacionados com os requisitos de cliente e produto obtidos da análise da matriz da casa da qualidade.
-Para a avaliação e comparação das soluções em relação aos requisitos levantados é utilizado a matriz de avaliação, mostrada na \autoref{fig:2037} a
-matriz de avaliação lista as possíveis tecnologias utilizadas para a solução e os requisitos, e para cada relação uma nota é definida entre -3,
-que significa que a tecnologia é a mais adequada ao requisito relacionado, até 3, que significa que a tecnologia é a menos adequada ao requisito relacionado.
+Na matriz morfológica também foi adicionado uma coluna para listar os principais requisitos de avaliação de cada produto, esses requisitos mostrados estão diretamente
+relacionados com os requisitos de cliente e produto obtidos da análise da matriz da casa da qualidade.
+Para a avaliação e comparação das soluções em relação aos requisitos levantados é utilizado a matriz de avaliação, mostrada na \autoref{fig:2037} a matriz de avaliação
+lista as possíveis tecnologias utilizadas para a solução e os requisitos, e para cada relação uma nota de comparação é definida entre -3, que significa que a tecnologia
+é a mais adequada ao requisito relacionado, até 3, que significa que a tecnologia é a menos adequada ao requisito relacionado.
 
 \begin{figure}[H]
 	\caption{\label{fig:2037} Matriz de avaliação}
@@ -334,7 +361,6 @@ que significa que a tecnologia é a mais adequada ao requisito relacionado, até
 
 A matriz de avaliação resulta em um valor quantitativo que avalia o quão adequado cada opção tecnológica é ao projeto do dispositivo.
 Após a análise dos resultados da matriz de avaliação as tecnologias escolhidas são mostradas na \autoref{fig:2038}.
-
 
 \begin{figure}[H]
 	\caption{\label{fig:2038} Soluções escolhidas}
@@ -406,7 +432,7 @@ O programa completo do controlador completo é apresentado no \autoref{ch:algori
 
 void handleRead() {
   if (server.method() != HTTP_POST) {
-    server.send(405, "text/plain", "Method now allowed");
+    server.send(405, "text/plain", "Method not allowed");
   } else {
     server.send(200, "text/plain", String(hx711.read()) + server.arg("plain"));
   }
@@ -414,8 +440,7 @@ void handleRead() {
 
 \end{lstlisting}
 
-Uma vez configurado o controlador do dispositivo, foi desenvolvido utilizando a linguagem python um objeto computacional
-para facilitar a conexão e utilização dos dados originados pelo dispositivo.
+Uma vez configurado o controlador do dispositivo, foi desenvolvido utilizando a linguagem Python um objeto computacional para facilitar a conexão e utilização dos dados originados pelo dispositivo.
 O objeto e suas funções é ilustrado pela \autoref{fig:2043}.
 
 \begin{figure}[htb]
@@ -456,7 +481,7 @@ def read_line(self, calibrated: bool = False):
 
 Caso seja necessária a obtenção de dados em sequência ao longo do tempo foram desenvolvidas as funções read\_samples e plot, mostradas na \autoref{lst:sample_reading},
 o número de amostras é passado para a obtenção repetida dos dados, utilizando o parâmetro de intervalo de leitura para determinar o intervalo de execução da chamada do
-método read\_line, e é retornado um objeto de lista do numpy com os dados obtidos.
+método read\_line, e é retornado um objeto de lista do Numpy com os dados obtidos.
 
 \begin{lstlisting}[language=Python,label={lst:sample_reading},caption={[Network Device calibrate offset]{Métodos para executar experimentos do objeto NetworkDevice}}]
 
@@ -471,7 +496,6 @@ def read_samples(self, n_of_samples: int, plot: bool = False, calibrated: bool =
 				int(self.read_line(calibrated=calibrated))
 			)
 			sleep(self.delay_time)
-			# print(f"sample: {len(value_list)}, value: {int(value_list[-1])}")
 
 	else:
 		value_list = self.plot_data(n_of_samples=n_of_samples, calibrated=calibrated)
@@ -543,7 +567,7 @@ Os códigos completos para o objeto NetworkDevice e para a geração da interfac
 
 \section{Validação do protótipo do dispositivo}
 
-Após a conclusão da fase de projeto detalhado foi montado o protótipo do dispostivo, com a finalidade ser executar experimentos de validação. O dispositivo montado é mostrado na \autoref{fig:2045}
+Após a conclusão da fase de projeto detalhado foi montado o protótipo do dispositivo, com a finalidade ser executar experimentos de validação. O dispositivo montado é mostrado na \autoref{fig:2045}
 
 \begin{figure}[H]
 	\caption{\label{fig:2045} Protótipo preparado para os experimentos}
@@ -636,7 +660,7 @@ VE = \left ( \frac{1}{FG}\left ( \frac{RM}{RM + RC} \right ) \right )
 
 \newline
 
-O sistema de medição utilizando o protótipo desenvolvido pelo autor é feito pela conexão entre o controlador ESP 32 e o computador via o software desenvolvido em python
+O sistema de medição utilizando o protótipo desenvolvido pelo autor é feito pela conexão entre o controlador ESP 32 e o computador via o software desenvolvido em Python
 para realizar a transferência dos dados obtidos entre o controlador e o computador em tempo real.
 
 \begin{figure}[htb]
@@ -657,19 +681,19 @@ F(W) = \frac{output_{high}-output_{low}}{W_{high}-W_{low}}(W - W_{low}) + output
 \)} %
 \end{equation}
 
-onde
-
-$F(W)$: Função de calibração
-
-$W$: Valor nominal do sinal
-
-$W_{high}$: Carga de calibração de massa alta
-
-$W_{low}$: Carga de calibração de massa baixa
-
-$output_{high}$: Valor nominal do sinal obtido pela aplicação da carga alta
-
-$output_{high}$: Valor nominal do sinal obtido pela aplicação da carga baixa
+%onde
+%
+%$F(W)$: Função de calibração
+%
+%$W$: Valor nominal do sinal
+%
+%$W_{high}$: Carga de calibração de massa alta
+%
+%$W_{low}$: Carga de calibração de massa baixa
+%
+%$output_{high}$: Valor nominal do sinal obtido pela aplicação da carga alta
+%
+%$output_{high}$: Valor nominal do sinal obtido pela aplicação da carga baixa
 
 \hfill
 
@@ -680,7 +704,7 @@ Após calibrado, o dados são mostrados como os valores de grandeza física cali
 
 \autocite{Minela2017} utiliza pesos com massas pré definidas apoiadas utilizando um fuso de fixação para aplicação das cargas no ponto “F” no dispositivo, mostrado na figura.
 Dentre as massas utilizadas por \autocite{Minela2017} duas não foram localizadas pelo autor deste trabalho, com a finalidade de poder se obter resultados que se possam fazer
-comparações diretas entre os trabalhos foram substituidas as massas não encontradas por massas semelhantes.
+comparações diretas entre os trabalhos foram substituídas as massas não encontradas por massas semelhantes.
 
 Todos os valores de massa dos pesos utilizados foram obtidos novamente pelo autor utilizando o valor médio de três leituras obtidas por uma balança de precisão disponibilizada pelo laboratório de metrologia
 da UFSC Joinville. Os valores obtidos são apresentados na \autoref{tab:MassasUtilizadas}.
@@ -707,7 +731,7 @@ da UFSC Joinville. Os valores obtidos são apresentados na \autoref{tab:MassasUt
 As massas da porca e do “peso 1” utilizados em \autocite{Minela2017} variam de forma considerável em relação aos pesos utilizados neste trabalho, então para todas as comparações diretas de
 resultados experimentais obtidos entre os dois trabalhos deve ser aplicados fatores de correção de 11.42g para a porca e 12.95g para o “peso 1”.
 
-O método de aplicação de cargas é caracterizado pela aplicação na extremidade livre da viga das massas utilizando o fuso como suporte, a Figura mostra a viga de aluminio defletida pela aplicação da carga do "peso 3".
+O método de aplicação de cargas é caracterizado pela aplicação na extremidade livre da viga das massas utilizando o fuso como suporte, a Figura mostra a viga de alumínio defletida pela aplicação da carga do "peso 3".
 
 \begin{figure}[htb]
 	\caption{\label{fig:2080} Aplicaçao do 'peso 3' no dispositivo de flexão}
@@ -718,6 +742,6 @@ O método de aplicação de cargas é caracterizado pela aplicação na extremid
 \end{figure}
 
 Na extremidade da viga encontra-se uma demarcação para auxiliar o posicionamento do apoio do fuso e as cargas são aplicadas de maneira cuidadosa de modo que não sejam geradas forças de impulso na viga.
-O sistema de medição obtem valores em bits proporcionais a carga aplicada no experimento.
+O sistema de medição obtêm valores em bits proporcionais a carga aplicada no experimento.
 
-Após a obtenção e armazenamento dos sinais obtidos nos experimentos prosegue-se para a etapa de análise dos resultados.
+Após a obtenção e armazenamento dos sinais obtidos nos experimentos prossegue-se para a etapa de análise dos resultados.
