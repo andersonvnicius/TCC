@@ -1,12 +1,52 @@
-
-% The \phantomsection command is needed to create a link to a place in the document that is not a
-% figure, equation, table, section, subsection, chapter, etc.
-% https://tex.stackexchange.com/questions/44088/when-do-i-need-to-invoke-phantomsection
+++
 \phantomsection
 
-% ---
-\chapter{\lang{Final Remarks}{Considerações Finais}}
-\phantomsection
+\chapter{Considerações Finais}
 
-    Lipsum me [31-33]
+O objetivo geral do trabalho foi considerado como alcançado, uma vez que foi desenvolvido com sucecsso um protótipo funcional.
+Por mais que não foi possível a sua aplicação em um eixo rotacional, o seu conceito de funcionamento foi validado por um experimento estático.
 
+O objetivos específico de desenvolver um protótipo focado na utilização por um público alvo foi parcialmente alcançado.
+As etapas e as decisões das fases da metodologia de projeto foram tomadas considerando os requisitos dos clientes, porém não foi possível validar
+um dos componentes essenciais do funcionamento do dispositivo na etapa de experimentação, os testes foram realizados utilizando um módulo de conversão
+de sinal diferentes do definido no projeto conceitual.
+
+As documentações necessárias para replicar o dispositivo se encontram nos \autoref{ch:projeto-elétrico}, \autoref{ch:algoritmo-de-programação-do-controlador-do-dispositivo}
+e \autoref{ch:algoritmos-desenvolvidos-para-o-software-de-conexão}.
+Porém o projeto detalhado, principalmente o projeto mecânico ainda pode ser consideravelmente melhorado adicionando com maior detalhe os encaixes para os componentes de alimentação
+e os encaixes dos módulos no encapsulamento do dispositivo.
+
+Os valores obtidos pelo experimento se mostraram com erros aceitáveis para aplicações de baixo custo, principalmente quando comparados com os
+valores obtidos por um dispositivo homologado, logo, a precisão do dispositivo foi considerada como aceitável para a utilização por equipes de competição,
+uma vez que atualmente é observado a dificuldade pela obtenção desses tipos de dados.
+
+Os dados obtidos pelo dispositivo ainda podem apresentar melhores valores de faixa de leitura e precisão, para isso é sugerido a implementação de um método de zerar a tensão
+inicial da ponte de Wheatstone substituindo um dos resitores da ponte por elemento de resistência variável que pode ser ajustado pelo usuário, como um resitor trimpot.
+
+Também deve-se apontar que uma equipe de competição provavelmente já estará utilizando dispositivos para obtenção de dados de sensor, logo, pode-se integrar o dispositivo desenvolvido
+á um dispositivo central de obtenção, caso esse suporte uma obtenção de dados utilizando comunicação via rede sem fio.
+
+O software de obtenção de dados desenvolvido pode ser facilmente modificado e expandido para a representação de diferentes tipos de dados, logo, ele pode ser aplicado para aplicações
+além de obter os dados do dispositivo desenvolvido.
+
+O Método de obtenção de dados via rede de internet faz com que o dispositivo possa ser utilizado para aplicações remotas, como em aplicações de telemetria industrial, porém
+deve-se notar as limitações em relação a precisão dos dados obtidos.
+
+O preço final encontrado do dispositivo se mostra consideravelmente menor do que os dos dispositivos encontrados no mercado, porém, deve-se notar que os módulos utilizados são
+desenvolvidos para aplicações específicas e normalmente utilizados por entusiastas em pequenos projetos, logo, não se pode confirmar a confiabilidade e precisão ao longo do tempo,
+assim como a durabilidade de um dispositivo fabricado.
+
+\subsection{Trabalhos futuros sugeridos}
+
+Possiveis melhorias do dispositivo e expansão do estudo desenvolvido pelo autor são apresentados na listagem a seguir:
+
+\begin{alineas}
+    \item{Utilizar o dispositivo para obter os dados em uma aplicação veícular}
+    \item{Estudar o efeito do desbalanceamento de massa do dispositivo no eixo em que está acoplado}
+    \item{Estudar o impacto da utilização de diferentes elementos extensômetros na obtenção do sinal pelo dispositivo}
+    \item{Realizar o experimento utilizando uma ponte de Wheatstone composta unicamente por extensômetros}
+    \item{Realizar o experimento utilizando o dispositivo de torção desenvolvido por Minela (2017)}
+    \item{Obter os valores de deformação de um eixo utilizando primariamente os valores de tensão obtidos utilizando uma função de transferência}
+    \item{Estudar efeitos de atraso na transfmissão dos sinais por comunicação sem fio}
+    \item{Desenvolver método para transmissão de dados em longas distâncias e em locais que não possuem redes de internet sem fio disponíveis}
+\end{alineas}

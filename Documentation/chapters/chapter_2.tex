@@ -125,7 +125,7 @@ esta modelagem é mostrada na \autoref{fig:2029}.
 \begin{figure}[htb]
 	\caption{\label{fig:2029} Projeto inicial do dispositivo}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/2029.png}
+		\includegraphics[width=200]{pictures/2029.png}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
@@ -172,7 +172,7 @@ As respostas do formulário são avaliadas pela análise do valor médio obtido 
 Foram obtidas as respostas de 7 membros de diferentes equipes que participam da competição Baja SAE no Brasil.
 Os resultados são mostrados na \autoref{tab:resultpesquisa}.
 
-\begin{table}[!hb]
+\begin{table}[H]
     \caption{Resultado pesquisa de mercado}
     \label{tab:resultpesquisa}
     \centering
@@ -201,7 +201,7 @@ Os resultados são mostrados na \autoref{tab:resultpesquisa}.
 Com as respostas do formulário de pesquisa do público alvo, pode ser elaborada uma matriz de listagem de atributos, que serve para mapear quais funcionalidades produto deve ter para atender cada um dos requisitos
 do produto, e quais sistemas necessários para garantir as funcionalidades listadas, a matriz é mostrada na \autoref{fig:2031}.
 
-\begin{figure}[!hb]
+\begin{figure}[H]
 	\caption{\label{fig:2031} Matriz de listagem de atributos}
 	\begin{center}
 		\includegraphics[width=350]{pictures/2031.png}
@@ -230,9 +230,9 @@ A partir da análise da matriz de listagem de atributos e da pesquisa com o púb
 
 Com os dados de avaliação quantitativa dos requisitos do produto obtidos pela pesquisa com o público alvo e os dados das características do produto é elaborada uma matriz de  avaliação de qualidade, ou QFD.
 Essa matriz serve para correlacionar os requisitos com as características desejadas do produto, com a finalidade de apontar quais as qualidades devem ser priorizadas na etapa de desenvolvimento do projeto.
-Os símbolos preenchidos na matriz QFD representam os fatores de correlação, que numericamente são iguais a 9 para correlação forte, 3 para correlação média e 1 para correlação fraca.
+A zona de relacionamento da matriz QFD do produto desenvolvido é mostrada na \autoref{fig:2032}.
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\caption{\label{fig:2032} Matriz QFD}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/2032.png}
@@ -240,7 +240,9 @@ Os símbolos preenchidos na matriz QFD representam os fatores de correlação, q
 	\fonte{O autor 2022}
 \end{figure}
 
-Os resultados de peso de importância para cada requisito de qualidade é calculado pelo somatório das multiplicações entre fator de correlação e o peso relativo relativos dos requisitos do cliente.
+Os símbolos preenchidos na matriz QFD representam os fatores de relação, que numericamente equivalem ao valor 9 para correlação forte, 3 para correlação média e 1 para correlação fraca.
+Os resultados de valor de importância para cada requisito do produto é calculado pelo somatório das multiplicações entre os fatores de relacionamento e o peso relativo relativos para
+cada requisitos do cliente em cada interseção na matriz QFD.
 Os resultados de priorização obtidos pela matriz QFD são apresentados na \autoref{tab:resultqfd}.
 
 \begin{table}[H]
@@ -268,6 +270,7 @@ Os resultados de priorização obtidos pela matriz QFD são apresentados na \aut
 \fonte{O autor 2022}\
 \end{table}
 
+A Matriz QFD desenvolvida para o projeto informacional do dispositivo desenvolvida pode ser encontrada no \autoref{ch:QFD}
 A priorização dos requisitos é utilizado para guiar a tomada de decisões de projeto e escolha de componentes nos estágios do projeto conceitual.
 
 \section{Projeto conceitual}
@@ -510,7 +513,7 @@ Uma equação linear genérica é mostrada na \autoref{eq:Eq_280}.
 
 \begin{equation}\label{eq:Eq_280}%
 \mbox{\fontsize{17.28}{21.6}\selectfont\( %
-f(D) = a * D + b
+f(D) = fa * D + fb
 \)} %
 \end{equation}
 
@@ -519,13 +522,13 @@ dos sinais pela utilização de duas cargas distintas conhecidas.
 
 \begin{equation}\label{eq:Eq_281}%
 \mbox{\fontsize{17.28}{21.6}\selectfont\( %
-a = \frac{NV_{high} - NV_{low}}{D_{high} - D_{low}}
+fa = \frac{NV_{high} - NV_{low}}{D_{high} - D_{low}}
 \)} %
 \end{equation}
 
 \begin{equation}\label{eq:Eq_282}%
 \mbox{\fontsize{17.28}{21.6}\selectfont\( %
-b = NV_{low} + D_{low} \frac{NV_{high} - NV_{low}}{D_{high} - D_{low}}
+fb = NV_{low} + D_{low} \frac{NV_{high} - NV_{low}}{D_{high} - D_{low}}
 \)} %
 \end{equation}
 
@@ -571,7 +574,7 @@ Os valores obtidos são apresentados na \autoref{tab:MassasUtilizadas}.
             Peso 2 & $\SI{198.38}{\g}$ & $\SI{198.36}{\g}$ & $\SI{0.01}{\%}$ \\
             Peso 3 & $\SI{997.13}{\g}$ & $\SI{997.3}{\g}$ & $\SI{0.02}{\%}$ \\
             Peso 4 & $\SI{497.66}{\g}$ &$\SI{497.69}{\g}$ & $\SI{0.02}{\%}$ \\
-            Peso 5 & $\SI{495.25}{\g}$ & $\SI{496.22}{\g}$ & $\SI{0.20}{\%}$ \\
+%            Peso 5 & $\SI{495.25}{\g}$ & $\SI{496.22}{\g}$ & $\SI{0.20}{\%}$ \\
             \bottomrule
         \end{tabular}}
 \fonte{O autor 2022}
@@ -665,7 +668,8 @@ void handleRead() {
 
 \end{lstlisting}
 
-Uma vez configurado o controlador do dispositivo, foi desenvolvido utilizando a linguagem Python um objeto computacional para facilitar a conexão e utilização dos dados originados pelo dispositivo.
+Uma vez configurado o controlador do dispositivo, foi desenvolvido utilizando a linguagem Python um objeto computacional para facilitar a conexão e utilização dos dados
+originados pelo dispositivo.
 O objeto e suas funções é ilustrado pela \autoref{fig:2043}.
 
 \begin{figure}[htb]
@@ -778,7 +782,8 @@ def calibrate_readings(self, calibration_dict_1: dict, calibration_dict_2: dict)
 
 \end{lstlisting}
 
-Com o intuito de facilitar a utilização do método pelo usuário é desenvolvido uma interface gráfica simples, uma breve apresentação da interface desenvolvida utilizando o pacote tkinter é mostrada na \autoref{fig:2044}.
+Com o intuito de facilitar a utilização do método pelo usuário é desenvolvido uma interface gráfica simples, uma breve apresentação da interface desenvolvida utilizando o pacote tkinter é
+mostrada na \autoref{fig:2044}.
 
 \begin{figure}[H]
 	\caption{\label{fig:2044} Interface gráfica}

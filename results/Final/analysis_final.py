@@ -329,18 +329,20 @@ def plot_regression(regression_list, x_points, y_points, color_int=1):
 
 # calibration signals
 
-# plt.figure()
-# cal_signal_1 = read_csv('calibration/calibration_weight1.csv')
-# plt.ylabel('Valor obtido [bits]')
-# plt.plot(cal_signal_1, color='black')
-#
-# plt.figure()
-# cal_signal_2 = read_csv('calibration/calibration_weight4.csv')
-# plt.ylabel('Valor obtido [bits]')
-# plt.plot(cal_signal_1, color='black')
+plt.figure(dpi=800)
+cal_signal_1 = read_csv('calibration/calibration_weight1.csv')
+plt.ylabel('Valor obtido [bits]')
+plt.plot(cal_signal_1, color='black')
+plt.savefig('cal_signal_1.png')
 
-# cal_nominal_value_1 = round(array(cal_signal_1[300:800]).mean())
-# cal_nominal_value_2 = round(array(cal_signal_2[400:900]).mean())
+plt.figure(dpi=800)
+cal_signal_2 = read_csv('calibration/calibration_weight4.csv')
+plt.ylabel('Valor obtido [bits]')
+plt.plot(cal_signal_2, color='black')
+plt.savefig('cal_signal_2.png')
+
+cal_nominal_value_1 = round(array(cal_signal_1[300:800]).mean())
+cal_nominal_value_2 = round(array(cal_signal_2[400:900]).mean())
 
 # obtendo dados dos arquivos de resultados
 data = data_from_directory_files(dir_, delete_plots=True)

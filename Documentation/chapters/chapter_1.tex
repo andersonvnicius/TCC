@@ -302,9 +302,10 @@ A \autoref{fig:1060} mostra uma representação ilustrativa do efeito do momento
 \end{figure}
 
 Em todo caso em que o material seja homogêneo e isotrópico e que a Lei de Hooke seja aplicável, pode-se relacionar o momento fletor presente com a distribuição de
-tensão na seção, como mostrado na \autoref{fig:1070}. Assim como a barra em torção, a tensão, e eventualmente a deformação presente será função da distância entre o
-ponto de análise e o centro da área da seção transversal do material \autocite{Hibbeler2010}.
-A \autoref{eq:Eq_200} caracteriza a distribuição de tensão ao longo da seção do componente.
+tensão na seção, como mostrado na \autoref{fig:1070}.
+No caso da flexão a tensão normal, e consequentemente sua deformação, varia em função da distância entre o ponto de análise e o centro da área da seção transversal
+do material \autocite{Hibbeler2010}.
+A \autoref{eq:Eq_200} caracteriza a distribuição de tensão ao longo da direção $ y $ da seção transversal de uma viga.
 
 \begin{figure}[htb]
 	\caption{\label{fig:1070} Deformação e distribuição de tensão em uma sob flexão}
@@ -332,13 +333,32 @@ A \autoref{eq:Eq_200} caracteriza a distribuição de tensão ao longo da seçã
 \hfill
 
 O valor de $I$ representa o momento de inércia da seção do material sobre carga de flexão e a variável $y$ representa a distância entre o centroide da seção transversal
-e o ponto de análise de tensão. Deve-se notar que as tensões máximas para qualquer corpo em flexão sempre acontecerão na superfície do material, e que enquanto um ponto
-qualquer está sob forças de tração, o ponto simétrico a este estará sob forças de compressão.
-Uma vez conhecido o módulo de elasticidade do material e a distribuição de tensão na seção de um corpo sob flexão, pode-se obter, utilizando a lei de Hooke, os valores
-de deformação na superfície causados pelas cargas de flexão.
+e o ponto de análise de tensão.
+Deve-se notar que as tensões máximas para qualquer corpo em flexão sempre acontecerão na superfície do material, e que enquanto um ponto qualquer está sob forças de tração,
+o ponto simétrico a este estará sob forças de compressão.
+
+Uma vez conhecido o módulo de elasticidade do material e a distribuição de tensão na seção de um corpo sob flexão,
+pode-se combinar a \autoref{eq:Eq_200} com a equação da lei de Hooke para obter os valores de deformação na superfície
+causados pelas cargas de flexão.
+Para uma situação como na mostrada na \autoref{fig:1071} a deformação em um ponto na superfície á distância $ L $ da força aplicada pode ser encontrada pela \autoref{eq:Eq_201}
+
+\begin{figure}[htb]
+	\caption{\label{fig:1071} Viga retângular sob flexão}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/1071.png}
+	\end{center}
+	\fonte{\autocite{}}
+\end{figure}
+
+\begin{equation}\label{eq:Eq_201}%
+\mbox{\fontsize{17.28}{21.6}\selectfont\( %
+\varepsilon = \frac{6PL}{Eb{t^2}}
+\)} %
+\end{equation}
 
 As deformações em um componente podem ser altamente visíveis ou praticamente imperceptíveis se não forem utilizados equipamentos que façam medições precisas
-\autocite{Hibbeler2010}. Considerando essa afirmação deve-se também ser estudado o método experimental de obtenção de dados de deformação nos componentes.
+\autocite{Hibbeler2010}.
+Considerando essa afirmação deve-se também ser estudado o método experimental de obtenção de dados de deformação nos componentes.
 
 \section{EXTENSOMETRIA}
 
