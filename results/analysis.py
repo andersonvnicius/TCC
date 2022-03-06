@@ -190,7 +190,7 @@ def plot_regression(regression_list, x_points, y_points, color_int=1):
 
 
 # diretorio dos arquivos pra analise
-dir_ = 'sep_24_1'
+dir_ = 'Final'
 
 # obtendo dados dos arquivos de resultados
 data = data_from_directory_files(dir_, delete_plots=True)

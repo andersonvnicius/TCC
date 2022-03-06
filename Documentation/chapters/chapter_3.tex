@@ -1,9 +1,10 @@
 \phantomsection
 
-\chapter{Resultados}
+\chapter{Resultados}\label{ch:capitulo_resultados}
 
-Este capítulo apresenta os sinais e valores obtidos no experimento realizado no dispositivo de flexão. Os tópicos aqui analisados apresentam a comparação dos resultados
-obtidos pelo experimento realizado pelo autor com os valores obtidos pelo estudo de caso feito por \autocite{Minela2017}.
+Este capítulo apresenta os sinais e valores obtidos no experimento realizado no dispositivo de flexão.
+Os tópicos aqui analisados apresentam a comparação dos resultados obtidos pelo experimento realizado pelo autor com os valores obtidos pelo
+estudo de caso feito por Minela (2017).
 
 O objetivo primário da comparação dos resultados é o de se obter dados descritivos de performance do dispositivo desenvolvido em relação a um sistema de medição industrial
 homologado, no final do capítulo são indicados as situações de melhor performance do protótipo.
@@ -15,97 +16,158 @@ sob a aplicação da carga, e a zona intermediária representa a total aplicaç�
 
 \subsection{Sinais de calibração}
 
-Nota-se que os valores obtidos sem cargas aplicadas não se igualam a valores nulos, isso acontece pois existe um diferencial de tensão entre os pólos da ponte de Wheatstone,
-esse diferencial pode ser causado por imprecisão nos valores de resistência dos resistores utilizados, fatores térmicos na execução do experimento que alteram a resistência
-do extensômetro, ou imprecisões ou ruídos que podem estar presentes nos componentes eletrônicos do amplificador de sinal utilizado.
+A primeira etapa da utilização do dispositivo é definir os sinais de calibração, para isso é obtido as respostas de leitura do amplificador de sinal para a aplicação das cargas
+de 0,138kg e 1,04kg, que representavam o menor e o maior peso disponível para o experimento, sem considerar as combinações.
+
+O sinal obtido para a massa de 0,138kg é mostrada na \autoref{fig:410}, o valor médio obtido pela análise do sinal foi de 190 bits.
 
 \begin{figure}[htb]
 	\caption{\label{fig:410} Sinal obtido sem a aplicação de cargas no dispositivo}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/x_cal_0.png}
+		\includegraphics[width=\textwidth]{pictures/signals/cal_signal_1.png}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
 
-Uma vez que o sinal sem cargas aplicadas apresenta ruídos e flçutuações indesejadas, foi decidido a utilização de duas cargas para calibração do dispositivo, os sinais
-obtidos pela aplicação das cargas são mostradas nas \autoref{fig:420} e \autoref{fig:430}
+O sinal obtido para a carga de 1,04kg é mostrada na \autoref{fig:420}, o valor médio obtido pela análise do sinal foi de 612 bits.
+
 \begin{figure}[htb]
-	\caption{\label{fig:420} Sinal obtido pela aplicação da cargas de calibração baixa}
+	\caption{\label{fig:420} Sinal obtido pela aplicação da cargas de calibração alta}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/x_cal_1.png}
+		\includegraphics[width=\textwidth]{pictures/signals/cal_signal_2.png}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
 
-\begin{figure}[htb]
-	\caption{\label{fig:430} Sinal obtido pela aplicação da cargas de calibração alta}
+Uma vez obtidos os valores em bits para cada ponto de calibraçãi e conhecidos os seus valores de deformação teóricos, é calculado os fatores "a" e "b" da função de interpolação
+linear que converte valores obtidos pelo amplificador de sinal em bits para valores equivalentes de deformação no extensômetro.
+O valor do fator a encontrado foi de $2.8881 bits/{\mu}m$ e o de b foi de $-363{\mu}m$.
+
+Uma vez definidos os parâmetros de calibração são feitos os experimentos aplicando a carga de cada peso no dispositivo de flexão.
+Alguns dos sinais obtidos e uma discussão geral sobre eles são discutidos nas seções a seguir.
+
+\subsection{Sinais obtidos}
+
+O sinal da menor carga aplicada é mostrada na \autoref{fig:4102},
+
+\begin{figure}[H]
+	\caption{\label{fig:4102} Sinal obtido da aplicação de 0,138 kg de carga aplicada no dispositivo}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/x_cal_4.png}
+		\includegraphics[width=\textwidth]{pictures/signals/w1.png}
 	\end{center}
-	\fonte{O autor 2022}}
+	\fonte{O autor 2022}
 \end{figure}
 
-%Após a calibração utilizando diferentes grandezas físicas como base são obtidos os dados demonstrados na \autoref{fig:4010}.
 
-%\begin{figure}[htb]
-%	\caption{\label{fig:440} Valores esperados conforme aplicação da carga na viga}
+%\begin{figure}[H]
+%	\caption{\label{fig:4103} Sinal obtido da aplicação de 0,250 kg de carga aplicada no dispositivo}
 %	\begin{center}
-%		\includegraphics[width=\textwidth]{pictures/sep_24_1_weight.png}
+%		\includegraphics[width=\textwidth]{pictures/signals/w2.png}
+%	\end{center}
+%	\fonte{O autor 2022}
+%\end{figure}
+%
+%\begin{figure}[H]
+%	\caption{\label{fig:4104} Sinal obtido da aplicação de 0,337 kg de carga aplicada no dispositivo}
+%	\begin{center}
+%		\includegraphics[width=\textwidth]{pictures/signals/w3.png}
+%	\end{center}
+%	\fonte{O autor 2022}
+%\end{figure}
+%
+%\begin{figure}[H]
+%	\caption{\label{fig:4105} Sinal obtido da aplicação de 0,549 kg de carga aplicada no dispositivo}
+%	\begin{center}
+%		\includegraphics[width=\textwidth]{pictures/signals/w4.png}
+%	\end{center}
+%	\fonte{O autor 2022}
+%\end{figure}
+%
+%\begin{figure}[H]
+%	\caption{\label{fig:4106} Sinal obtido da aplicação de 0,636 kg de carga aplicada no dispositivo}
+%	\begin{center}
+%		\includegraphics[width=\textwidth]{pictures/signals/w5.png}
+%	\end{center}
+%	\fonte{O autor 2022}
+%\end{figure}
+%
+%\begin{figure}[H]
+%	\caption{\label{fig:4107} Sinal obtido da aplicação de 0,748 kg de carga aplicada no dispositivo}
+%	\begin{center}
+%		\includegraphics[width=\textwidth]{pictures/signals/w6.png}
+%	\end{center}
+%	\fonte{O autor 2022}
+%\end{figure}
+%
+%
+%\begin{figure}[H]
+%	\caption{\label{fig:4108} Sinal obtido da aplicação de 0,834 kg de carga aplicada no dispositivo}
+%	\begin{center}
+%		\includegraphics[width=\textwidth]{pictures/signals/w7.png}
+%	\end{center}
+%	\fonte{O autor 2022}
+%\end{figure}
+%
+%
+
+
+\begin{figure}[H]
+	\caption{\label{fig:4109} Sinal obtido da aplicação de 1,040 kg de carga aplicada no dispositivo}
+	\begin{center}
+		\includegraphics[width=\textwidth]{pictures/signals/w8.png}
+	\end{center}
+	\fonte{O autor 2022}
+\end{figure}
+
+
+%
+%
+%\begin{figure}[H]
+%	\caption{\label{fig:4110} Sinal obtido da aplicação de 1,135 kg de carga aplicada no dispositivo}
+%	\begin{center}
+%		\includegraphics[width=\textwidth]{pictures/signals/w9.png}
+%	\end{center}
+%	\fonte{O autor 2022}
+%\end{figure}
+%
+%\begin{figure}[H]
+%	\caption{\label{fig:410} Sinal obtido da aplicação de 1,250 kg de carga aplicada no dispositivo}
+%	\begin{center}
+%		\includegraphics[width=\textwidth]{pictures/signals/w10.png}
+%	\end{center}
+%	\fonte{O autor 2022}
+%\end{figure}
+%
+%\begin{figure}[H]
+%	\caption{\label{fig:4111} Sinal obtido da aplicação de 1,330 kg de carga aplicada no dispositivo}
+%	\begin{center}
+%		\includegraphics[width=\textwidth]{pictures/signals/w11.png}
+%	\end{center}
+%	\fonte{O autor 2022}
+%\end{figure}
+
+
+
+%A \autoref{fig:4010} mostra os valores nominais de deformação para cada leitura da zona intermediária de cada sinal para cada combinação de cargas
+%realizadas na execução do experimento, assim como o valor médio das amostras para cada combinação e o desvio padrão dos dados na zona intermediária
+%de cada sinal como avaliação dos ruídos presentes.
+%
+%\begin{figure}[htb]
+%	\caption{\label{fig:4010} Amostras e valores médios obtidos}
+%	\begin{center}
+%		\includegraphics[width=\textwidth]{pictures/val_func_cal.png}
 %	\end{center}
 %	\fonte{O autor 2022}}
 %\end{figure}
 
-\subsection{Ruídos presentes}
-
-
-Os ruídos presentes no sinal se mostram de maior criticidade nas situações em que menores cargas são aplicadas.
-
-\subsection{Valores nominais}
-
-A \autoref{fig:4010} mostra os valores nominais de deformação para cada leitura da zona intermediária de cada sinal para cada combinação de cargas
-realizadas na execução do experimento, assim como o valor médio das amostras para cada combinação e o desvio padrão dos dados na zona intermediária
-de cada sinal como avaliação dos ruídos presentes.
-
-\begin{figure}[htb]
-	\caption{\label{fig:4010} Amostras e valores médios obtidos}
-	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/val_func_cal.png}
-	\end{center}
-	\fonte{O autor 2022}}
-\end{figure}
-
 %Os Valores de carga compensados pelo problema da porca e do peso não encontrados conforme indicado na \autoref{}, junto com a comparação dos resultados obtidos por
 %\autocite{Minela2017} são mostrados na \autoref{}.
-
-\section{Funções de ajuste}
-
-A resolução das funções de minimização de mínimos quadrados é feita utilizando a função stats.linregress do pacote SciPy, foram analisados a influência da utilização
-de quantidade e diferentes pontos nos indicadores obtidos na criação da função de ajuste, conforme a \autoref{fig:450}.
-
-\begin{figure}[htb]
-	\caption{\label{fig:450} Função de ajuste de dados de deformação em relação aos valores obtidos no amplificador}
-	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/sep_24_1_deformation.png}
-	\end{center}
-	\fonte{O autor 2022}}
-\end{figure}
-
-\begin{figure}[htb]
-	\caption{\label{fig:4020} Comparação dos valores convertidos usando diferentes funções de ajuste}
-	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/comp_func_reg.png}
-	\end{center}
-	\fonte{O autor 2022}}
-\end{figure}
-
-\begin{figure}[htb]
-	\caption{\label{fig:4020} Erro entre valores encontrados com a função de ajuste e os valores esperados pela análise analítica}
-	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/comp_func_reg_erros.png}
-	\end{center}
-	\fonte{O autor 2022}}
-\end{figure}
 
 %\section{Comparação final}
 %
 %A \autoref{} compara os principais resultados obtidos pelo experimento desenvolvido pelo autor com os resultados obtidos pelo trabalho de \autocite{Minela2017}.
+
+
+%% TODO IMAGENS DE CARGAS
+
+
