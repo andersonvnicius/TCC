@@ -19,11 +19,11 @@
   isbn      = {9780136123705},
 }
 
-@Electronic{Kyowa,
-  author = {Kyowa},
+@Electronic{BarretoJunior,
+  author = {Barreto Junior},
   month  = mar,
-  title  = {Torque Transducers},
-  url    = {https://kyowa-ei.meclib.jp/e2021/book/#target/page_no=208},
+  title  = {Extensometria - Manual Prático},
+  url    = {https://www.docsity.com/pt/extensometria-manual-pratico/4709263/},
   year   = {2022},
 }
 
@@ -44,7 +44,7 @@
   edition   = {3},
 }
 
-@Electronic{DocsRequests,
+@Electronic{DocsPandas_,
   author   = {Pandas},
   language = {English},
   month    = jan,
@@ -193,6 +193,70 @@
   title    = {Documentação Requests},
   url      = {https://docs.python-requests.org/en/latest/},
   year     = {2022},
+}
+
+@Electronic{Kyowa,
+  author = {Kyowa},
+  month  = mar,
+  title  = {Torque Transducers},
+  url    = {https://kyowa-ei.meclib.jp/e2021/book/#target/page_no=208},
+  year   = {2022},
+}
+
+@Electronic{imnoise,
+  author = {Quora},
+  month  = mar,
+  title  = {Digital signal noise immunity},
+  url    = {http://www.quora.com/How-can-digital-signals-posses-noise-immunity},
+  year   = {2022},
+}
+
+@Electronic{imsg,
+  author = {Althensensors},
+  month  = feb,
+  title  = {Strain gauges},
+  url    = {https://www.althensensors.com/sensors/strain-sensors-strain-gauges/high-strain-repeated-straingauges/4468/yfla-series-strain-gauges-for-very-high-strain/},
+  year   = {2022},
+}
+
+@Electronic{amplifier,
+  author = {Electronics Tutorials},
+  month  = mar,
+  title  = {Signal amplifiers},
+  url    = {https://www.electronics-tutorials.ws/amplifier/amp_1.html},
+  year   = {2022},
+}
+
+@Electronic{wbridge,
+  author = {Research Gate},
+  month  = feb,
+  title  = {Wheatstone bridge},
+  url    = {https://www.researchgate.net/figure/Monolithic-integration-of-a-Wheatstone-bridge-circuit-with-the-paper-based-sensor-A\_fig2\_224225141},
+  year   = {2022},
+}
+
+@Electronic{imsgshaft,
+  author = {Binsfeld},
+  month  = feb,
+  title  = {Strain gauges in shafts},
+  url    = {https://binsfeld.com/category/strain-gage/},
+  year   = {2022},
+}
+
+@Electronic{imforext,
+  author = {Pressbooks},
+  month  = mar,
+  title  = {Internal forces},
+  url    = {https://pressbooks.library.upei.ca/statics/chapter/3-types-of-internal-forces/},
+  year   = {2022},
+}
+
+@Electronic{imadc,
+  author = {Arrow},
+  month  = mar,
+  title  = {Analog to digital converters},
+  url    = {http://www.arrow.com/en/research-and-events/articles/engineering-resource-basics-of-analog-to-digital-converters},
+  year   = {2022},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

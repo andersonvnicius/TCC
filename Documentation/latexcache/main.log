@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  6 MAR 2022 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  19 MAR 2022 22:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2313,68 +2313,53 @@ Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
 ) 
-Notice palavraschaveufsc: palavraschaveingles is undefined with 'Keyword 1'
+Notice palavraschaveufsc: palavraschaveingles is undefined with 'Device'
 
-Notice palavraschaveufsc: palavraschaveingles is undefined with 'Keyword 1'
+Notice palavraschaveufsc: palavraschaveingles is undefined with 'Device'
 
-Notice palavraschaveufsc: palavraschaveingles is undefined with 'Keyword 1'
-
-
-Notice palavraschaveufsc: palavraschaveportugues is undefined with 'Palavra\pro
-tect \unhbox \voidb@x \protect \penalty \@M \hskip \z@skip -\discretionary {}{}
-{}\protect \penalty \@M \hskip \z@skip {}Chave 1'
+Notice palavraschaveufsc: palavraschaveingles is undefined with 'Device'
 
 
-Notice palavraschaveufsc: palavraschaveportugues is undefined with 'Palavra\pro
-tect \unhbox \voidb@x \protect \penalty \@M \hskip \z@skip -\discretionary {}{}
-{}\protect \penalty \@M \hskip \z@skip {}Chave 1'
+Notice palavraschaveufsc: palavraschaveportugues is undefined with 'Dispositivo
+'
 
 
-Notice palavraschaveufsc: palavraschaveportugues is undefined with 'Palavra\pro
-tect \unhbox \voidb@x \protect \penalty \@M \hskip \z@skip -\discretionary {}{}
-{}\protect \penalty \@M \hskip \z@skip {}Chave 1'
-
-Notice palavraschaveufsc: palavraschaveingles is defined with 'Keyword 2'
-
-Notice palavraschaveufsc: palavraschaveingles is defined with 'Keyword 2'
-
-Notice palavraschaveufsc: palavraschaveingles is defined with 'Keyword 2'
+Notice palavraschaveufsc: palavraschaveportugues is undefined with 'Dispositivo
+'
 
 
-Notice palavraschaveufsc: palavraschaveportugues is defined with 'Palavra\prote
-ct \unhbox \voidb@x \protect \penalty \@M \hskip \z@skip -\discretionary {}{}{}
-\protect \penalty \@M \hskip \z@skip {}Chave 2'
+Notice palavraschaveufsc: palavraschaveportugues is undefined with 'Dispositivo
+'
+
+Notice palavraschaveufsc: palavraschaveingles is defined with 'Sensoring'
+
+Notice palavraschaveufsc: palavraschaveingles is defined with 'Sensoring'
+
+Notice palavraschaveufsc: palavraschaveingles is defined with 'Sensoring'
 
 
-Notice palavraschaveufsc: palavraschaveportugues is defined with 'Palavra\prote
-ct \unhbox \voidb@x \protect \penalty \@M \hskip \z@skip -\discretionary {}{}{}
-\protect \penalty \@M \hskip \z@skip {}Chave 2'
+Notice palavraschaveufsc: palavraschaveportugues is defined with 'Sensoriamento
+'
 
 
-Notice palavraschaveufsc: palavraschaveportugues is defined with 'Palavra\prote
-ct \unhbox \voidb@x \protect \penalty \@M \hskip \z@skip -\discretionary {}{}{}
-\protect \penalty \@M \hskip \z@skip {}Chave 2'
-
-Notice palavraschaveufsc: palavraschaveingles is defined with 'Keyword 3'
-
-Notice palavraschaveufsc: palavraschaveingles is defined with 'Keyword 3'
-
-Notice palavraschaveufsc: palavraschaveingles is defined with 'Keyword 3'
+Notice palavraschaveufsc: palavraschaveportugues is defined with 'Sensoriamento
+'
 
 
-Notice palavraschaveufsc: palavraschaveportugues is defined with 'Palavra\prote
-ct \unhbox \voidb@x \protect \penalty \@M \hskip \z@skip -\discretionary {}{}{}
-\protect \penalty \@M \hskip \z@skip {}Chave 3'
+Notice palavraschaveufsc: palavraschaveportugues is defined with 'Sensoriamento
+'
 
+Notice palavraschaveufsc: palavraschaveingles is defined with 'Torque'
 
-Notice palavraschaveufsc: palavraschaveportugues is defined with 'Palavra\prote
-ct \unhbox \voidb@x \protect \penalty \@M \hskip \z@skip -\discretionary {}{}{}
-\protect \penalty \@M \hskip \z@skip {}Chave 3'
+Notice palavraschaveufsc: palavraschaveingles is defined with 'Torque'
 
+Notice palavraschaveufsc: palavraschaveingles is defined with 'Torque'
 
-Notice palavraschaveufsc: palavraschaveportugues is defined with 'Palavra\prote
-ct \unhbox \voidb@x \protect \penalty \@M \hskip \z@skip -\discretionary {}{}{}
-\protect \penalty \@M \hskip \z@skip {}Chave 3'
+Notice palavraschaveufsc: palavraschaveportugues is defined with 'Torque'
+
+Notice palavraschaveufsc: palavraschaveportugues is defined with 'Torque'
+
+Notice palavraschaveufsc: palavraschaveportugues is defined with 'Torque'
 (./settings.tex
 
 ******************************************************
@@ -2581,26 +2566,15 @@ Package csquotes Info: Redefining alias 'default' -> 'brazil'.
 atexcache/beforetext/resumos.aux) (latexcache/beforetext/siglas.aux) (latexcach
 e/beforetext/simbolos.aux) (latexcache/chapters/intro.aux) (latexcache/chapters
 /chapter_1.aux) (latexcache/chapters/chapter_2.aux) (latexcache/chapters/chapte
-r_3.aux) (latexcache/chapters/conclusion.aux) (latexcache/aftertext/apendice_a.
-aux) (latexcache/aftertext/apendice_b.aux) (latexcache/aftertext/apendice_c.aux
-) (latexcache/aftertext/apendice_d.aux) (latexcache/aftertext/apendice_e.aux
-
-LaTeX Warning: Label `fig:4102' multiply defined.
-
-
-LaTeX Warning: Label `fig:4102@cref' multiply defined.
-
+r_3.aux) (latexcache/chapters/conclusion.aux) (latexcache/aftertext/apendice_a0
+.aux) (latexcache/aftertext/apendice_a.aux) (latexcache/aftertext/apendice_b.au
+x) (latexcache/aftertext/apendice_c.aux) (latexcache/aftertext/apendice_d.aux) 
+(latexcache/aftertext/apendice_e.aux
 
 LaTeX Warning: Label `fig:4109' multiply defined.
 
 
 LaTeX Warning: Label `fig:4109@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:410' multiply defined.
-
-
-LaTeX Warning: Label `fig:410@cref' multiply defined.
 
 ))
 \openout1 = `main.aux'.
@@ -3043,8 +3017,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout2 = `beforetext/agradecimentos.aux'.
 
 (./beforetext/agradecimentos.tex
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 28.
 \openout5 = `main.mw'.
 
 [4
@@ -3082,37 +3054,62 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 \openout5 = `main.mw'.
 
 ) (latexcache/main.lof
+Overfull \hbox (1.41573pt too wide) detected at line 64
+ \T1/phv/m/n/12 107
+ []
+
+
+Overfull \hbox (1.41573pt too wide) detected at line 65
+ \T1/phv/m/n/12 108
+ []
+
+
+Overfull \hbox (1.41573pt too wide) detected at line 66
+ \T1/phv/m/n/12 108
+ []
+
+
 Overfull \hbox (1.41573pt too wide) detected at line 67
- \T1/phv/m/n/12 100
+ \T1/phv/m/n/12 109
  []
 
 
 Overfull \hbox (1.41573pt too wide) detected at line 68
- \T1/phv/m/n/12 100
+ \T1/phv/m/n/12 109
  []
 
 
 Overfull \hbox (1.41573pt too wide) detected at line 69
- \T1/phv/m/n/12 101
+ \T1/phv/m/n/12 110
  []
 
 
 Overfull \hbox (1.41573pt too wide) detected at line 70
- \T1/phv/m/n/12 101
+ \T1/phv/m/n/12 110
  []
 
 
 Overfull \hbox (1.41573pt too wide) detected at line 71
- \T1/phv/m/n/12 102
+ \T1/phv/m/n/12 111
  []
 
 
 Overfull \hbox (1.41573pt too wide) detected at line 72
- \T1/phv/m/n/12 102
+ \T1/phv/m/n/12 111
+ []
+
+
+Overfull \hbox (1.41573pt too wide) detected at line 73
+ \T1/phv/m/n/12 112
+ []
+
+
+Overfull \hbox (1.41573pt too wide) detected at line 74
+ \T1/phv/m/n/12 112
  []
 
 )
-The height of the list 'Lista de Figuras' is '1391.33302pt'
+The height of the list 'Lista de Figuras' is '1409.32748pt'
 \openout5 = `main.mw'.
 
 [7
@@ -3130,7 +3127,7 @@ The height of the list 'Lista de Figuras' is '1391.33302pt'
 (latexcache/main.loq)
 The height of the list 'Lista de Quadros' is '24.37787pt'
 (latexcache/main.lot)
-The height of the list 'Lista de Tabelas' is '167.70967pt'
+The height of the list 'Lista de Tabelas' is '221.69305pt'
 \openout5 = `main.mw'.
 
 [9
@@ -3171,8 +3168,18 @@ The height of the list 'Lista de Códigos' is '98.08377pt'
 [12] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-) (latexcache/main.toc)
-The height of the list 'Sum\'ario' is '1147.80128pt'
+) (latexcache/main.toc
+Overfull \hbox (1.41573pt too wide) detected at line 88
+ []\T1/phv/m/n/12 101
+ []
+
+
+Overfull \hbox (1.41573pt too wide) detected at line 92
+ []\T1/phv/b/n/12 107
+ []
+
+)
+The height of the list 'Sum\'ario' is '1249.77359pt'
 \openout5 = `main.mw'.
 
 [13
@@ -3193,13 +3200,15 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 \openout2 = `chapters/intro.aux'.
 
 (./chapters/intro.tex
-<pictures/0100.png, id=450, 1021.8175pt x 716.6775pt>
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 18.
+<pictures/0100.png, id=459, 1021.8175pt x 716.6775pt>
 File: pictures/0100.png Graphic file (type png)
 <use pictures/0100.png>
-Package pdftex.def Info: pictures/0100.png  used on input line 24.
+Package pdftex.def Info: pictures/0100.png  used on input line 25.
 (pdftex.def)             Requested size: 455.0pt x 319.1228pt.
-<pictures/0200.png, id=456, 903.375pt x 602.25pt>
-./chapters/intro.tex:39: Illegal unit of measure (pt inserted).
+<pictures/0200.png, id=465, 903.375pt x 602.25pt>
+./chapters/intro.tex:40: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -3221,7 +3230,7 @@ Package pdftex.def Info: pictures/0100.png  used on input line 24.
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.39 ...ludegraphics[width=290]{pictures/0200.png}
+l.40 ...ludegraphics[width=290]{pictures/0200.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3230,7 +3239,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/intro.tex:39: Illegal unit of measure (pt inserted).
+./chapters/intro.tex:40: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -3249,7 +3258,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.39 ...ludegraphics[width=290]{pictures/0200.png}
+l.40 ...ludegraphics[width=290]{pictures/0200.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3260,14 +3269,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pictures/0200.png Graphic file (type png)
 <use pictures/0200.png>
-Package pdftex.def Info: pictures/0200.png  used on input line 39.
+Package pdftex.def Info: pictures/0200.png  used on input line 40.
 (pdftex.def)             Requested size: 290.0pt x 193.33044pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-[][]|\T1/phv/m/n/10 (+10) https://www.althensensors.com/sensors/strain-sensors-
-strain-gauges/high-strain-repeated-
- []
-
 \openout5 = `main.mw'.
 
 [15
@@ -3291,11 +3294,11 @@ strain-gauges/high-strain-repeated-
 
 (./chapters/chapter_1.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 22.
-<pictures/1010.jpg, id=484, 1358.07375pt x 815.045pt>
+(Font)              <17.28> on input line 23.
+<pictures/1010.jpg, id=499, 1358.07375pt x 815.045pt>
 File: pictures/1010.jpg Graphic file (type jpg)
 <use pictures/1010.jpg>
-Package pdftex.def Info: pictures/1010.jpg  used on input line 47.
+Package pdftex.def Info: pictures/1010.jpg  used on input line 48.
 (pdftex.def)             Requested size: 455.0pt x 273.05731pt.
 \openout5 = `main.mw'.
 
@@ -3306,8 +3309,13 @@ Package pdftex.def Info: pictures/1010.jpg  used on input line 47.
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1011.png, id=500, 198.7425pt x 318.18875pt>
-./chapters/chapter_1.tex:86: Illegal unit of measure (pt inserted).
+\openout5 = `main.mw'.
+
+[19 <./pictures/1010.jpg>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1011.png, id=528, 198.7425pt x 318.18875pt>
+./chapters/chapter_1.tex:88: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -3329,7 +3337,7 @@ Package pdftex.def Info: pictures/1010.jpg  used on input line 47.
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.86 ...ludegraphics[width=150]{pictures/1011.png}
+l.88 ...ludegraphics[width=150]{pictures/1011.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3338,7 +3346,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/chapter_1.tex:86: Illegal unit of measure (pt inserted).
+./chapters/chapter_1.tex:88: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -3357,7 +3365,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.86 ...ludegraphics[width=150]{pictures/1011.png}
+l.88 ...ludegraphics[width=150]{pictures/1011.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3368,75 +3376,60 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pictures/1011.png Graphic file (type png)
 <use pictures/1011.png>
-Package pdftex.def Info: pictures/1011.png  used on input line 86.
+Package pdftex.def Info: pictures/1011.png  used on input line 88.
 (pdftex.def)             Requested size: 150.0pt x 240.16063pt.
-\openout5 = `main.mw'.
-
-[19 <./pictures/1010.jpg>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<pictures/1020.png, id=516, 1116.17pt x 719.68875pt>
+<pictures/1020.png, id=536, 1116.17pt x 719.68875pt>
 File: pictures/1020.png Graphic file (type png)
 <use pictures/1020.png>
-Package pdftex.def Info: pictures/1020.png  used on input line 100.
+Package pdftex.def Info: pictures/1020.png  used on input line 102.
 (pdftex.def)             Requested size: 455.0pt x 293.37216pt.
 \openout5 = `main.mw'.
 
 [20 <./pictures/1011.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1030.png, id=536, 849.1725pt x 252.945pt>
-File: pictures/1030.png Graphic file (type png)
-<use pictures/1030.png>
-Package pdftex.def Info: pictures/1030.png  used on input line 141.
-(pdftex.def)             Requested size: 455.0pt x 135.53072pt.
 \openout5 = `main.mw'.
 
 [21 <./pictures/1020.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1060.png, id=551, 1063.975pt x 421.575pt>
+<pictures/1030.png, id=562, 849.1725pt x 252.945pt>
+File: pictures/1030.png Graphic file (type png)
+<use pictures/1030.png>
+Package pdftex.def Info: pictures/1030.png  used on input line 144.
+(pdftex.def)             Requested size: 455.0pt x 135.53072pt.
+<pictures/1060.png, id=571, 1063.975pt x 421.575pt>
 File: pictures/1060.png Graphic file (type png)
 <use pictures/1060.png>
-Package pdftex.def Info: pictures/1060.png  used on input line 299.
+Package pdftex.def Info: pictures/1060.png  used on input line 302.
 (pdftex.def)             Requested size: 455.0pt x 180.28307pt.
 \openout5 = `main.mw'.
 
-[22 <./pictures/1030.png> <./pictures/1060.png>] (latexcache/main.mw)
+[22 <./pictures/1030.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1070.png, id=566, 1041.8925pt x 512.91624pt>
+<pictures/1070.png, id=586, 1041.8925pt x 512.91624pt>
 File: pictures/1070.png Graphic file (type png)
 <use pictures/1070.png>
-Package pdftex.def Info: pictures/1070.png  used on input line 313.
+Package pdftex.def Info: pictures/1070.png  used on input line 316.
 (pdftex.def)             Requested size: 455.0pt x 223.99333pt.
-<pictures/1071.png, id=574, 570.13pt x 336.25626pt>
+\openout5 = `main.mw'.
+
+[23 <./pictures/1060.png> <./pictures/1070.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1071.png, id=602, 570.13pt x 336.25626pt>
 File: pictures/1071.png Graphic file (type png)
 <use pictures/1071.png>
-Package pdftex.def Info: pictures/1071.png  used on input line 348.
+Package pdftex.def Info: pictures/1071.png  used on input line 350.
 (pdftex.def)             Requested size: 455.0pt x 268.35374pt.
 \openout5 = `main.mw'.
 
-[23 <./pictures/1070.png>] (latexcache/main.mw)
+[24] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1080.png, id=590, 360.34625pt x 317.185pt>
-File: pictures/1080.png Graphic file (type png)
-<use pictures/1080.png>
-Package pdftex.def Info: pictures/1080.png  used on input line 376.
-(pdftex.def)             Requested size: 455.0pt x 400.50217pt.
-\openout5 = `main.mw'.
-
-[24 <./pictures/1071.png>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-[25 <./pictures/1080.png>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<pictures/1090.png, id=610, 309.155pt x 313.17pt>
-./chapters/chapter_1.tex:418: Illegal unit of measure (pt inserted).
+<pictures/1080.png, id=620, 360.34625pt x 317.185pt>
+./chapters/chapter_1.tex:388: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -3458,7 +3451,7 @@ Package pdftex.def Info: pictures/1080.png  used on input line 376.
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.418 ...udegraphics[width=300]{pictures/1090.png}
+l.388 ...udegraphics[width=200]{pictures/1080.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3467,7 +3460,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/chapter_1.tex:418: Illegal unit of measure (pt inserted).
+./chapters/chapter_1.tex:388: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -3486,7 +3479,76 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.418 ...udegraphics[width=300]{pictures/1090.png}
+l.388 ...udegraphics[width=200]{pictures/1080.png}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/1080.png Graphic file (type png)
+<use pictures/1080.png>
+Package pdftex.def Info: pictures/1080.png  used on input line 388.
+(pdftex.def)             Requested size: 200.0pt x 176.04459pt.
+\openout5 = `main.mw'.
+
+[25 <./pictures/1071.png> <./pictures/1080.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1090.png, id=639, 309.155pt x 313.17pt>
+./chapters/chapter_1.tex:430: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+\calc@assign@generic ... \calc@B #2\calc@open (#4!
+                                                  \global \calc@A \calc@B \e...
+
+\Gscale@div ...he \dimen@ }\setlength \dimen@ {#2}
+                                                  \count@ 65536\relax \ifdim...
+
+\Gin@req@sizes ...lex \Gin@@ewidth \Gin@nat@width 
+                                                  \let \Gin@scaley \Gin@excl...
+
+\ETE@OrgGin@setfile ...-\Gin@llx bp\Gin@req@sizes 
+                                                  \expandafter \ifx \csname ...
+
+\Gin@setfile ...y \ETE@OrgGin@setfile {#1}{#2}{#3}
+                                                  \else \begingroup \ETE@Ins...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+l.430 ...udegraphics[width=300]{pictures/1090.png}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/chapter_1.tex:430: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+\calc@assign@generic ... \calc@B #2\calc@open (#4!
+                                                  \global \calc@A \calc@B \e...
+
+\Gin@req@sizes ...gth \Gin@req@width \Gin@@ewidth 
+                                                  \Gin@req@height \Gin@scale...
+
+\ETE@OrgGin@setfile ...-\Gin@llx bp\Gin@req@sizes 
+                                                  \expandafter \ifx \csname ...
+
+\Gin@setfile ...y \ETE@OrgGin@setfile {#1}{#2}{#3}
+                                                  \else \begingroup \ETE@Ins...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+l.430 ...udegraphics[width=300]{pictures/1090.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3497,494 +3559,109 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pictures/1090.png Graphic file (type png)
 <use pictures/1090.png>
-Package pdftex.def Info: pictures/1090.png  used on input line 418.
+Package pdftex.def Info: pictures/1090.png  used on input line 430.
 (pdftex.def)             Requested size: 300.0pt x 303.92265pt.
-./chapters/chapter_1.tex:420: Missing $ inserted.
-<inserted text> 
-                $
-<to be read again> 
-                   _
-<argument> ...rcuit-with-the-paper-based-sensor-A_
-                                                  fig2_224225141\\ acesso em...
+\openout5 = `main.mw'.
 
-\caption@tfmt@simple #1->#1
-                           
-<argument> ...fig2_224225141\\ acesso em fev 2022}
-                                                  \caption@ifstrut {\ifhmode...
-
-\caption@fmt #1#2#3->#1#2#3
-                           \par 
-\sbox  #1#2->\setbox #1\hbox {\color@setgroup #2
-                                                \color@endgroup }
-\caption@slc ...empboxa {\caption@@@make {#1}{#2}}
-                                                  \ifdim \wd \@tempboxa >\ca...
-<argument> ... 2022}\caption@singleline \relax }{}
-                                                  \caption@calcmargin \capti...
-
-\caption@box@none #1#2->#2
-                          
-\caption@@make@ ...\fi \hspace \caption@tempdima }
-                                                  \caption@endhook 
-\caption@@make ...ingroup \caption@@make@ {#1}{#2}
-                                                  \endgroup \caption@@make@e...
-
-\@makecaption ...ake@above \caption@@make {#1}{#2}
-                                                  \caption@make@below 
-\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
-                                                  \par \endgroup 
-l.420 ...or-A_fig2_224225141\\ acesso em fev 2022}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./chapters/chapter_1.tex:420: Missing $ inserted.
-<inserted text> 
-                $
-<to be read again> 
-                   \@@par 
-\par ->\@@par 
-              \caption@@par 
-<argument> ...ut \strutbox \fi }{}\captiontextend 
-                                                  }
-\caption@fmt #1#2#3->#1#2#3
-                           \par 
-\sbox  #1#2->\setbox #1\hbox {\color@setgroup #2
-                                                \color@endgroup }
-\caption@slc ...empboxa {\caption@@@make {#1}{#2}}
-                                                  \ifdim \wd \@tempboxa >\ca...
-<argument> ... 2022}\caption@singleline \relax }{}
-                                                  \caption@calcmargin \capti...
-
-\caption@box@none #1#2->#2
-                          
-\caption@@make@ ...\fi \hspace \caption@tempdima }
-                                                  \caption@endhook 
-\caption@@make ...ingroup \caption@@make@ {#1}{#2}
-                                                  \endgroup \caption@@make@e...
-
-\@makecaption ...ake@above \caption@@make {#1}{#2}
-                                                  \caption@make@below 
-\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
-                                                  \par \endgroup 
-l.420 ...or-A_fig2_224225141\\ acesso em fev 2022}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./chapters/chapter_1.tex:420: Missing $ inserted.
-<inserted text> 
-                $
-<to be read again> 
-                   _
-<argument> ...rcuit-with-the-paper-based-sensor-A_
-                                                  fig2_224225141\\ acesso em...
-
-\caption@tfmt@simple #1->#1
-                           
-<argument> ...fig2_224225141\\ acesso em fev 2022}
-                                                  \caption@ifstrut {\ifhmode...
-
-\@secondoftwo #1#2->#2
-                      
-<argument> ...fig2_224225141\\ acesso em fev 2022}
-                                                  \@@par 
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-<argument> ...ig2_224225141\\ acesso em fev 2022}}
-                                                  \caption@tempdima \caption...
-
-\caption@box@none #1#2->#2
-                          
-\caption@@make@ ...\fi \hspace \caption@tempdima }
-                                                  \caption@endhook 
-\caption@@make ...ingroup \caption@@make@ {#1}{#2}
-                                                  \endgroup \caption@@make@e...
-
-\@makecaption ...ake@above \caption@@make {#1}{#2}
-                                                  \caption@make@below 
-\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
-                                                  \par \endgroup 
-l.420 ...or-A_fig2_224225141\\ acesso em fev 2022}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./chapters/chapter_1.tex:420: Missing $ inserted.
-<inserted text> 
-                $
-<to be read again> 
-                   \@@par 
-\par ->\@@par 
-              \caption@@par 
-<argument> ...ut \strutbox \fi }{}\captiontextend 
-                                                  }\par 
-\@secondoftwo #1#2->#2
-                      
-<argument> ...fig2_224225141\\ acesso em fev 2022}
-                                                  \@@par 
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-<argument> ...ig2_224225141\\ acesso em fev 2022}}
-                                                  \caption@tempdima \caption...
-
-\caption@box@none #1#2->#2
-                          
-\caption@@make@ ...\fi \hspace \caption@tempdima }
-                                                  \caption@endhook 
-\caption@@make ...ingroup \caption@@make@ {#1}{#2}
-                                                  \endgroup \caption@@make@e...
-
-\@makecaption ...ake@above \caption@@make {#1}{#2}
-                                                  \caption@make@below 
-\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
-                                                  \par \endgroup 
-l.420 ...or-A_fig2_224225141\\ acesso em fev 2022}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
-[][]|\T1/phv/m/n/10 (+10) https://www.researchgate.net/figure/Monolithic-integr
-ation-of-a-Wheatstone-bridge-circuit-with-
- []
+[26] (latexcache/main.mw)
+\openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[26 <./pictures/1090.png (PNG copy)>] (latexcache/main.mw)
+[27 <./pictures/1090.png (PNG copy)>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1100.png, id=627, 714.67pt x 239.89626pt>
+<pictures/1100.png, id=666, 819.06pt x 285.065pt>
 File: pictures/1100.png Graphic file (type png)
 <use pictures/1100.png>
-Package pdftex.def Info: pictures/1100.png  used on input line 481.
-(pdftex.def)             Requested size: 455.0pt x 152.73141pt.
-./chapters/chapter_1.tex:483: Missing $ inserted.
-<inserted text> 
-                $
-<to be read again> 
-                   _
-<argument> ...ctronics-tutorials.ws/amplifier/amp_
-                                                  1.html\\ acesso em fev 2022
-\caption@tfmt@simple #1->#1
-                           
-<argument> ...ier/amp_1.html\\ acesso em fev 2022}
-                                                  \caption@ifstrut {\ifhmode...
-
-\caption@fmt #1#2#3->#1#2#3
-                           \par 
-\sbox  #1#2->\setbox #1\hbox {\color@setgroup #2
-                                                \color@endgroup }
-\caption@slc ...empboxa {\caption@@@make {#1}{#2}}
-                                                  \ifdim \wd \@tempboxa >\ca...
-<argument> ... 2022}\caption@singleline \relax }{}
-                                                  \caption@calcmargin \capti...
-
-\caption@box@none #1#2->#2
-                          
-\caption@@make@ ...\fi \hspace \caption@tempdima }
-                                                  \caption@endhook 
-\caption@@make ...ingroup \caption@@make@ {#1}{#2}
-                                                  \endgroup \caption@@make@e...
-
-\@makecaption ...ake@above \caption@@make {#1}{#2}
-                                                  \caption@make@below 
-\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
-                                                  \par \endgroup 
-l.483 ...mplifier/amp_1.html\\ acesso em fev 2022}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./chapters/chapter_1.tex:483: Missing $ inserted.
-<inserted text> 
-                $
-<to be read again> 
-                   \@@par 
-\par ->\@@par 
-              \caption@@par 
-<argument> ...ut \strutbox \fi }{}\captiontextend 
-                                                  }
-\caption@fmt #1#2#3->#1#2#3
-                           \par 
-\sbox  #1#2->\setbox #1\hbox {\color@setgroup #2
-                                                \color@endgroup }
-\caption@slc ...empboxa {\caption@@@make {#1}{#2}}
-                                                  \ifdim \wd \@tempboxa >\ca...
-<argument> ... 2022}\caption@singleline \relax }{}
-                                                  \caption@calcmargin \capti...
-
-\caption@box@none #1#2->#2
-                          
-\caption@@make@ ...\fi \hspace \caption@tempdima }
-                                                  \caption@endhook 
-\caption@@make ...ingroup \caption@@make@ {#1}{#2}
-                                                  \endgroup \caption@@make@e...
-
-\@makecaption ...ake@above \caption@@make {#1}{#2}
-                                                  \caption@make@below 
-\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
-                                                  \par \endgroup 
-l.483 ...mplifier/amp_1.html\\ acesso em fev 2022}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./chapters/chapter_1.tex:483: Missing $ inserted.
-<inserted text> 
-                $
-<to be read again> 
-                   _
-<argument> ...ctronics-tutorials.ws/amplifier/amp_
-                                                  1.html\\ acesso em fev 2022
-\caption@tfmt@simple #1->#1
-                           
-<argument> ...ier/amp_1.html\\ acesso em fev 2022}
-                                                  \caption@ifstrut {\ifhmode...
-
-\caption@fmt #1#2#3->#1#2#3
-                           \par 
-<argument> ...ier/amp_1.html\\ acesso em fev 2022}
-                                                  \@@par 
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-<argument> ...er/amp_1.html\\ acesso em fev 2022}}
-                                                  \caption@tempdima \caption...
-
-\caption@box@none #1#2->#2
-                          
-\caption@@make@ ...\fi \hspace \caption@tempdima }
-                                                  \caption@endhook 
-\caption@@make ...ingroup \caption@@make@ {#1}{#2}
-                                                  \endgroup \caption@@make@e...
-
-\@makecaption ...ake@above \caption@@make {#1}{#2}
-                                                  \caption@make@below 
-\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
-                                                  \par \endgroup 
-l.483 ...mplifier/amp_1.html\\ acesso em fev 2022}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-./chapters/chapter_1.tex:483: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\sl@GenericError ...                              
-                                                  \endgroup 
-\GenericError  ...sl@GenericError {#1}{#2}{#3}{#4}
-                                                  \fi \ifcase \sl@Save \or \...
-
-\\->\ifhmode \unskip \else \@nolnerr 
-                                     \fi \par \@ifstar {\nobreak \@xcentercr...
-<argument> ...-tutorials.ws/amplifier/amp_1.html\\
-                                                   acesso em fev 2022
-\caption@tfmt@simple #1->#1
-                           
-<argument> ...ier/amp_1.html\\ acesso em fev 2022}
-                                                  \caption@ifstrut {\ifhmode...
-
-\caption@fmt #1#2#3->#1#2#3
-                           \par 
-<argument> ...ier/amp_1.html\\ acesso em fev 2022}
-                                                  \@@par 
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-<argument> ...er/amp_1.html\\ acesso em fev 2022}}
-                                                  \caption@tempdima \caption...
-
-\caption@box@none #1#2->#2
-                          
-\caption@@make@ ...\fi \hspace \caption@tempdima }
-                                                  \caption@endhook 
-\caption@@make ...ingroup \caption@@make@ {#1}{#2}
-                                                  \endgroup \caption@@make@e...
-
-\@makecaption ...ake@above \caption@@make {#1}{#2}
-                                                  \caption@make@below 
-\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
-                                                  \par \endgroup 
-l.483 ...mplifier/amp_1.html\\ acesso em fev 2022}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./chapters/chapter_1.tex:483: Missing $ inserted.
-<inserted text> 
-                $
-<to be read again> 
-                   \@@par 
-\par ->\@@par 
-              \caption@@par 
-\\->\ifhmode \unskip \else \@nolnerr \fi \par 
-                                              \@ifstar {\nobreak \@xcentercr...
-<argument> ...-tutorials.ws/amplifier/amp_1.html\\
-                                                   acesso em fev 2022
-\caption@tfmt@simple #1->#1
-                           
-<argument> ...ier/amp_1.html\\ acesso em fev 2022}
-                                                  \caption@ifstrut {\ifhmode...
-
-\caption@fmt #1#2#3->#1#2#3
-                           \par 
-<argument> ...ier/amp_1.html\\ acesso em fev 2022}
-                                                  \@@par 
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-<argument> ...er/amp_1.html\\ acesso em fev 2022}}
-                                                  \caption@tempdima \caption...
-
-\caption@box@none #1#2->#2
-                          
-\caption@@make@ ...\fi \hspace \caption@tempdima }
-                                                  \caption@endhook 
-\caption@@make ...ingroup \caption@@make@ {#1}{#2}
-                                                  \endgroup \caption@@make@e...
-
-\@makecaption ...ake@above \caption@@make {#1}{#2}
-                                                  \caption@make@below 
-\\fonte ...{\ignorespaces \ABNTEXfontereduzida #2}
-                                                  \par \endgroup 
-l.483 ...mplifier/amp_1.html\\ acesso em fev 2022}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+Package pdftex.def Info: pictures/1100.png  used on input line 494.
+(pdftex.def)             Requested size: 455.0pt x 158.36082pt.
 \openout5 = `main.mw'.
 
-[27] (latexcache/main.mw)
+[28 <./pictures/1100.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1110.png, id=639, 997.7275pt x 412.54124pt>
+<pictures/1110.png, id=683, 668.4975pt x 314.17375pt>
 File: pictures/1110.png Graphic file (type png)
 <use pictures/1110.png>
-Package pdftex.def Info: pictures/1110.png  used on input line 513.
-(pdftex.def)             Requested size: 455.0pt x 188.13461pt.
-\openout5 = `main.mw'.
-
-[28 <./pictures/1100.png> <./pictures/1110.png>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<pictures/1120.png, id=647, 1022.82124pt x 379.4175pt>
+Package pdftex.def Info: pictures/1110.png  used on input line 526.
+(pdftex.def)             Requested size: 455.0pt x 213.84145pt.
+<pictures/1120.png, id=689, 955.57pt x 378.41376pt>
 File: pictures/1120.png Graphic file (type png)
 <use pictures/1120.png>
-Package pdftex.def Info: pictures/1120.png  used on input line 527.
-(pdftex.def)             Requested size: 455.0pt x 168.77946pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
-[][]|\T1/phv/m/n/10 (+10) www.arrow.com/en/research-and-events/articles/enginee
-ring-resource-basics-of-analog-to-
- []
-
+Package pdftex.def Info: pictures/1120.png  used on input line 540.
+(pdftex.def)             Requested size: 455.0pt x 180.18146pt.
 \openout5 = `main.mw'.
 
-[29 <./pictures/1120.png>] (latexcache/main.mw)
+[29 <./pictures/1110.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1130.png, id=663, 1228.59pt x 710.655pt>
+<pictures/1130.png, id=710, 1200.485pt x 590.205pt>
 File: pictures/1130.png Graphic file (type png)
 <use pictures/1130.png>
-Package pdftex.def Info: pictures/1130.png  used on input line 553.
-(pdftex.def)             Requested size: 455.0pt x 263.18764pt.
-<pictures/1140.jpg, id=669, 526.96875pt x 387.69844pt>
+Package pdftex.def Info: pictures/1130.png  used on input line 566.
+(pdftex.def)             Requested size: 455.0pt x 223.69485pt.
+\openout5 = `main.mw'.
+
+[30 <./pictures/1120.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/1140.jpg, id=722, 526.96875pt x 387.69844pt>
 File: pictures/1140.jpg Graphic file (type jpg)
 <use pictures/1140.jpg>
-Package pdftex.def Info: pictures/1140.jpg  used on input line 569.
+Package pdftex.def Info: pictures/1140.jpg  used on input line 582.
 (pdftex.def)             Requested size: 455.0pt x 334.76886pt.
 \openout5 = `main.mw'.
 
-[30 <./pictures/1130.png>] (latexcache/main.mw)
+[31 <./pictures/1130.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-./chapters/chapter_1.tex:579: Undefined control sequence.
-\V ->\ERROR 
-            
-l.579 ...ais na faixa de tensão de ${\pm 256}{m\V
-                                                  }$,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<pictures/1150.png, id=679, 874.26625pt x 500.87125pt>
+<pictures/1150.png, id=732, 874.26625pt x 500.87125pt>
 File: pictures/1150.png Graphic file (type png)
 <use pictures/1150.png>
-Package pdftex.def Info: pictures/1150.png  used on input line 585.
+Package pdftex.def Info: pictures/1150.png  used on input line 598.
 (pdftex.def)             Requested size: 455.0pt x 260.66853pt.
 \openout5 = `main.mw'.
 
-[31 <./pictures/1140.jpg>] (latexcache/main.mw)
+[32 <./pictures/1140.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[32 <./pictures/1150.png>] (latexcache/main.mw)
+[33 <./pictures/1150.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-
-LaTeX Warning: Reference `DocsRequests' on page 33 undefined on input line 674.
-
-
-\openout5 = `main.mw'.
-
-[33] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-
-LaTeX Warning: Citation 'DocsPandas' on page 34 undefined on input line 704.
-
-<pictures/1170.png, id=718, 1082.0425pt x 294.09875pt>
+<pictures/1170.png, id=759, 1082.0425pt x 294.09875pt>
 File: pictures/1170.png Graphic file (type png)
 <use pictures/1170.png>
-Package pdftex.def Info: pictures/1170.png  used on input line 744.
+Package pdftex.def Info: pictures/1170.png  used on input line 757.
 (pdftex.def)             Requested size: 455.0pt x 123.66872pt.
 \openout5 = `main.mw'.
 
 [34 <./pictures/1170.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1180.jpg, id=738, 534.49687pt x 384.6872pt>
+<pictures/1180.jpg, id=780, 534.49687pt x 384.6872pt>
 File: pictures/1180.jpg Graphic file (type jpg)
 <use pictures/1180.jpg>
-Package pdftex.def Info: pictures/1180.jpg  used on input line 779.
+Package pdftex.def Info: pictures/1180.jpg  used on input line 792.
 (pdftex.def)             Requested size: 455.0pt x 327.48459pt.
+<pictures/1190.png, id=788, 553.06625pt x 400.49625pt>
+File: pictures/1190.png Graphic file (type png)
+<use pictures/1190.png>
+Package pdftex.def Info: pictures/1190.png  used on input line 811.
+(pdftex.def)             Requested size: 455.0pt x 329.47849pt.
 \openout5 = `main.mw'.
 
 [35] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1190.png, id=752, 553.06625pt x 400.49625pt>
-File: pictures/1190.png Graphic file (type png)
-<use pictures/1190.png>
-Package pdftex.def Info: pictures/1190.png  used on input line 798.
-(pdftex.def)             Requested size: 455.0pt x 329.47849pt.
+)
 \openout5 = `main.mw'.
 
 [36 <./pictures/1180.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-)
 \openout5 = `main.mw'.
 
 [37 <./pictures/1190.png>] (latexcache/main.mw)
@@ -3993,10 +3670,10 @@ Package pdftex.def Info: pictures/1190.png  used on input line 798.
 \openout2 = `chapters/chapter_2.aux'.
 
 (./chapters/chapter_2.tex
-<pictures/2001.png, id=773, 1378.14874pt x 493.845pt>
+<pictures/2001.png, id=814, 1378.14874pt x 493.845pt>
 File: pictures/2001.png Graphic file (type png)
 <use pictures/2001.png>
-Package pdftex.def Info: pictures/2001.png  used on input line 20.
+Package pdftex.def Info: pictures/2001.png  used on input line 21.
 (pdftex.def)             Requested size: 455.0pt x 163.0447pt.
 \openout5 = `main.mw'.
 
@@ -4007,20 +3684,20 @@ Package pdftex.def Info: pictures/2001.png  used on input line 20.
  <./pictures/2001.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2010.jpg, id=787, 1003.75pt x 699.61375pt>
+<pictures/2010.jpg, id=828, 1003.75pt x 699.61375pt>
 File: pictures/2010.jpg Graphic file (type jpg)
 <use pictures/2010.jpg>
-Package pdftex.def Info: pictures/2010.jpg  used on input line 48.
+Package pdftex.def Info: pictures/2010.jpg  used on input line 49.
 (pdftex.def)             Requested size: 455.0pt x 317.1398pt.
 \openout5 = `main.mw'.
 
 [39 <./pictures/2010.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2030.jpg, id=800, 1003.75pt x 1003.75pt>
+<pictures/2030.jpg, id=841, 1003.75pt x 1003.75pt>
 File: pictures/2030.jpg Graphic file (type jpg)
 <use pictures/2030.jpg>
-Package pdftex.def Info: pictures/2030.jpg  used on input line 60.
+Package pdftex.def Info: pictures/2030.jpg  used on input line 61.
 (pdftex.def)             Requested size: 455.0pt x 455.0069pt.
 \openout5 = `main.mw'.
 
@@ -4032,8 +3709,8 @@ Package pdftex.def Info: pictures/2030.jpg  used on input line 60.
 [41] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2029.png, id=827, 462.72874pt x 403.5075pt>
-./chapters/chapter_2.tex:128: Illegal unit of measure (pt inserted).
+<pictures/2029.png, id=869, 462.72874pt x 403.5075pt>
+./chapters/chapter_2.tex:131: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4055,7 +3732,7 @@ Package pdftex.def Info: pictures/2030.jpg  used on input line 60.
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.128 ...udegraphics[width=200]{pictures/2029.png}
+l.131 ...udegraphics[width=200]{pictures/2029.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4064,7 +3741,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/chapter_2.tex:128: Illegal unit of measure (pt inserted).
+./chapters/chapter_2.tex:131: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4083,7 +3760,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.128 ...udegraphics[width=200]{pictures/2029.png}
+l.131 ...udegraphics[width=200]{pictures/2029.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4094,20 +3771,20 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pictures/2029.png Graphic file (type png)
 <use pictures/2029.png>
-Package pdftex.def Info: pictures/2029.png  used on input line 128.
+Package pdftex.def Info: pictures/2029.png  used on input line 131.
 (pdftex.def)             Requested size: 200.0pt x 174.40376pt.
 \openout5 = `main.mw'.
 
-[42 <./pictures/2029.png>] (latexcache/main.mw)
+[42] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[43] (latexcache/main.mw)
+[43 <./pictures/2029.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2031.png, id=850, 667.49374pt x 829.0975pt>
-./chapters/chapter_2.tex:207: Illegal unit of measure (pt inserted).
+<pictures/2031.png, id=894, 939.51pt x 1276.77pt>
+./chapters/chapter_2.tex:208: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4129,7 +3806,7 @@ Package pdftex.def Info: pictures/2029.png  used on input line 128.
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.207 ...udegraphics[width=350]{pictures/2031.png}
+l.208 ...udegraphics[width=350]{pictures/2031.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4138,7 +3815,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/chapter_2.tex:207: Illegal unit of measure (pt inserted).
+./chapters/chapter_2.tex:208: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4157,7 +3834,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.207 ...udegraphics[width=350]{pictures/2031.png}
+l.208 ...udegraphics[width=350]{pictures/2031.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4168,8 +3845,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pictures/2031.png Graphic file (type png)
 <use pictures/2031.png>
-Package pdftex.def Info: pictures/2031.png  used on input line 207.
-(pdftex.def)             Requested size: 350.0pt x 434.75137pt.
+Package pdftex.def Info: pictures/2031.png  used on input line 208.
+(pdftex.def)             Requested size: 350.0pt x 475.6315pt.
 \openout5 = `main.mw'.
 
 [44] (latexcache/main.mw)
@@ -4180,93 +3857,241 @@ Package pdftex.def Info: pictures/2031.png  used on input line 207.
 [45 <./pictures/2031.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2032.png, id=873, 1059.96pt x 867.24pt>
+<pictures/2032.png, id=912, 1059.96pt x 867.24pt>
 File: pictures/2032.png Graphic file (type png)
 <use pictures/2032.png>
-Package pdftex.def Info: pictures/2032.png  used on input line 238.
+Package pdftex.def Info: pictures/2032.png  used on input line 239.
 (pdftex.def)             Requested size: 455.0pt x 372.27075pt.
 \openout5 = `main.mw'.
 
-[46 <./pictures/2032.png>] (latexcache/main.mw)
+[46] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2035.png, id=887, 1126.2075pt x 666.49pt>
+\openout5 = `main.mw'.
+
+[47 <./pictures/2032.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/2035.png, id=933, 1126.2075pt x 666.49pt>
 File: pictures/2035.png Graphic file (type png)
 <use pictures/2035.png>
-Package pdftex.def Info: pictures/2035.png  used on input line 284.
+Package pdftex.def Info: pictures/2035.png  used on input line 285.
 (pdftex.def)             Requested size: 455.0pt x 269.26593pt.
 \openout5 = `main.mw'.
 
-[47] (latexcache/main.mw)
+[48] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[48 <./pictures/2035.png>] (latexcache/main.mw)
+[49 <./pictures/2035.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2036.png, id=900, 1062.97125pt x 549.05125pt>
+<pictures/2036.png, id=945, 1062.97125pt x 549.05125pt>
+./chapters/chapter_2.tex:347: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+\calc@assign@generic ... \calc@B #2\calc@open (#4!
+                                                  \global \calc@A \calc@B \e...
+
+\Gscale@div ...he \dimen@ }\setlength \dimen@ {#2}
+                                                  \count@ 65536\relax \ifdim...
+
+\Gin@req@sizes ...lex \Gin@@ewidth \Gin@nat@width 
+                                                  \let \Gin@scaley \Gin@excl...
+
+\ETE@OrgGin@setfile ...-\Gin@llx bp\Gin@req@sizes 
+                                                  \expandafter \ifx \csname ...
+
+\Gin@setfile ...y \ETE@OrgGin@setfile {#1}{#2}{#3}
+                                                  \else \begingroup \ETE@Ins...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@erotate ...etangle {#1}\setbox \z@ \hbox {{#2
+                                                  }}\Grot@x \z@ \Grot@y \z@ ...
+
+\mbox  #1->\leavevmode \hbox {#1
+                                }
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+l.347 ...s[width=600, angle=90]{pictures/2036.png}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/chapter_2.tex:347: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+\calc@assign@generic ... \calc@B #2\calc@open (#4!
+                                                  \global \calc@A \calc@B \e...
+
+\Gin@req@sizes ...gth \Gin@req@width \Gin@@ewidth 
+                                                  \Gin@req@height \Gin@scale...
+
+\ETE@OrgGin@setfile ...-\Gin@llx bp\Gin@req@sizes 
+                                                  \expandafter \ifx \csname ...
+
+\Gin@setfile ...y \ETE@OrgGin@setfile {#1}{#2}{#3}
+                                                  \else \begingroup \ETE@Ins...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@erotate ...etangle {#1}\setbox \z@ \hbox {{#2
+                                                  }}\Grot@x \z@ \Grot@y \z@ ...
+
+\mbox  #1->\leavevmode \hbox {#1
+                                }
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+l.347 ...s[width=600, angle=90]{pictures/2036.png}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
 File: pictures/2036.png Graphic file (type png)
 <use pictures/2036.png>
-Package pdftex.def Info: pictures/2036.png  used on input line 346.
-(pdftex.def)             Requested size: 455.0pt x 235.02345pt.
+Package pdftex.def Info: pictures/2036.png  used on input line 347.
+(pdftex.def)             Requested size: 600.0pt x 309.92131pt.
 \openout5 = `main.mw'.
 
-[49] (latexcache/main.mw)
+[50] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2037.png, id=906, 931.48pt x 630.355pt>
+\openout5 = `main.mw'.
+
+[51 <./pictures/2036.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/2037.png, id=956, 933.4875pt x 631.35875pt>
+./chapters/chapter_2.tex:363: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+\calc@assign@generic ... \calc@B #2\calc@open (#4!
+                                                  \global \calc@A \calc@B \e...
+
+\Gscale@div ...he \dimen@ }\setlength \dimen@ {#2}
+                                                  \count@ 65536\relax \ifdim...
+
+\Gin@req@sizes ...lex \Gin@@ewidth \Gin@nat@width 
+                                                  \let \Gin@scaley \Gin@excl...
+
+\ETE@OrgGin@setfile ...-\Gin@llx bp\Gin@req@sizes 
+                                                  \expandafter \ifx \csname ...
+
+\Gin@setfile ...y \ETE@OrgGin@setfile {#1}{#2}{#3}
+                                                  \else \begingroup \ETE@Ins...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@erotate ...etangle {#1}\setbox \z@ \hbox {{#2
+                                                  }}\Grot@x \z@ \Grot@y \z@ ...
+
+\mbox  #1->\leavevmode \hbox {#1
+                                }
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+l.363 ...s[width=600, angle=90]{pictures/2037.png}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/chapter_2.tex:363: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+\calc@assign@generic ... \calc@B #2\calc@open (#4!
+                                                  \global \calc@A \calc@B \e...
+
+\Gin@req@sizes ...gth \Gin@req@width \Gin@@ewidth 
+                                                  \Gin@req@height \Gin@scale...
+
+\ETE@OrgGin@setfile ...-\Gin@llx bp\Gin@req@sizes 
+                                                  \expandafter \ifx \csname ...
+
+\Gin@setfile ...y \ETE@OrgGin@setfile {#1}{#2}{#3}
+                                                  \else \begingroup \ETE@Ins...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@erotate ...etangle {#1}\setbox \z@ \hbox {{#2
+                                                  }}\Grot@x \z@ \Grot@y \z@ ...
+
+\mbox  #1->\leavevmode \hbox {#1
+                                }
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+l.363 ...s[width=600, angle=90]{pictures/2037.png}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
 File: pictures/2037.png Graphic file (type png)
 <use pictures/2037.png>
-Package pdftex.def Info: pictures/2037.png  used on input line 360.
-(pdftex.def)             Requested size: 455.0pt x 307.90518pt.
+Package pdftex.def Info: pictures/2037.png  used on input line 363.
+(pdftex.def)             Requested size: 600.0pt x 405.82156pt.
 \openout5 = `main.mw'.
 
-[50 <./pictures/2036.png>] (latexcache/main.mw)
+[52] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2038.png, id=913, 758.835pt x 332.24126pt>
+\openout5 = `main.mw'.
+
+[53 <./pictures/2037.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/2038.png, id=968, 758.835pt x 332.24126pt>
 File: pictures/2038.png Graphic file (type png)
 <use pictures/2038.png>
-Package pdftex.def Info: pictures/2038.png  used on input line 371.
+Package pdftex.def Info: pictures/2038.png  used on input line 374.
 (pdftex.def)             Requested size: 455.0pt x 199.21448pt.
-\openout5 = `main.mw'.
-
-[51 <./pictures/2037.png>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<pictures/2045.png, id=920, 1312.905pt x 1168.365pt>
+<pictures/2045.png, id=970, 1312.905pt x 1168.365pt>
 File: pictures/2045.png Graphic file (type png)
 <use pictures/2045.png>
-Package pdftex.def Info: pictures/2045.png  used on input line 392.
+Package pdftex.def Info: pictures/2045.png  used on input line 395.
 (pdftex.def)             Requested size: 455.0pt x 404.9048pt.
 \openout5 = `main.mw'.
 
-[52 <./pictures/2038.png>] (latexcache/main.mw)
+[54 <./pictures/2038.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2046.png, id=927, 1312.905pt x 1168.365pt>
+\openout5 = `main.mw'.
+
+[55 <./pictures/2045.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/2046.png, id=982, 1312.905pt x 1168.365pt>
 File: pictures/2046.png Graphic file (type png)
 <use pictures/2046.png>
-Package pdftex.def Info: pictures/2046.png  used on input line 410.
+Package pdftex.def Info: pictures/2046.png  used on input line 413.
 (pdftex.def)             Requested size: 455.0pt x 404.9048pt.
 \openout5 = `main.mw'.
 
-[53 <./pictures/2045.png>] (latexcache/main.mw)
+[56 <./pictures/2046.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-[54 <./pictures/2046.png>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<pictures/2049.png, id=942, 500.87125pt x 409.53pt>
+<pictures/2049.png, id=991, 500.87125pt x 409.53pt>
 File: pictures/2049.png Graphic file (type png)
 <use pictures/2049.png>
-Package pdftex.def Info: pictures/2049.png  used on input line 428.
+Package pdftex.def Info: pictures/2049.png  used on input line 431.
 (pdftex.def)             Requested size: 455.0pt x 372.04173pt.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 4
-50.
+53.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
@@ -4274,7 +4099,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-./chapters/chapter_2.tex:450: Undefined control sequence.
+./chapters/chapter_2.tex:453: Undefined control sequence.
 \mm ->\ERROR 
              
 <argument> ...5 \%}$ \\ Comprimento & ${6.35} \mm 
@@ -4285,7 +4110,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 \Gscale@box@dd #1#2#3->\@begin@tempboxa \hbox {#3}
                                                   \setlength \@tempdima {#1}...
-l.450 }
+l.453 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4293,65 +4118,60 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\openout5 = `main.mw'.
-
-[55 <./pictures/2049.png>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-<pictures/2050.png, id=965, 653.44125pt x 322.20375pt>
+<pictures/2050.png, id=1006, 653.44125pt x 322.20375pt>
 File: pictures/2050.png Graphic file (type png)
 <use pictures/2050.png>
-Package pdftex.def Info: pictures/2050.png  used on input line 465.
+Package pdftex.def Info: pictures/2050.png  used on input line 468.
 (pdftex.def)             Requested size: 455.0pt x 224.3513pt.
-<pictures/2060.png, id=971, 635.37375pt x 246.9225pt>
+\openout5 = `main.mw'.
+
+[57 <./pictures/2049.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<pictures/2060.png, id=1017, 635.37375pt x 246.9225pt>
 File: pictures/2060.png Graphic file (type png)
 <use pictures/2060.png>
-Package pdftex.def Info: pictures/2060.png  used on input line 479.
+Package pdftex.def Info: pictures/2060.png  used on input line 482.
 (pdftex.def)             Requested size: 455.0pt x 176.83081pt.
 \openout5 = `main.mw'.
 
-[56 <./pictures/2050.png>] (latexcache/main.mw)
+[58 <./pictures/2050.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-
-./chapters/chapter_2.tex:495: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\sl@GenericError ...                              
-                                                  \endgroup 
-\GenericError  ...sl@GenericError {#1}{#2}{#3}{#4}
-                                                  \fi \ifcase \sl@Save \or \...
-
-\@gnewline #1->\ifvmode \@nolnerr 
-                                  \else \unskip \reserved@e {\reserved@f #1}...
-<to be read again> 
-                   \relax 
-l.495 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<pictures/2070.png, id=983, 679.53876pt x 365.365pt>
+<pictures/2070.png, id=1032, 679.53876pt x 365.365pt>
 File: pictures/2070.png Graphic file (type png)
 <use pictures/2070.png>
-Package pdftex.def Info: pictures/2070.png  used on input line 505.
+Package pdftex.def Info: pictures/2070.png  used on input line 518.
 (pdftex.def)             Requested size: 455.0pt x 244.63718pt.
 \openout5 = `main.mw'.
 
-[57 <./pictures/2060.png>] (latexcache/main.mw)
+[59 <./pictures/2060.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[58 <./pictures/2070.png>] (latexcache/main.mw)
+[60 <./pictures/2070.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2080.png, id=1007, 380.42125pt x 369.38pt>
-./chapters/chapter_2.tex:592: Illegal unit of measure (pt inserted).
+./chapters/chapter_2.tex:605: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+\calc@assign@generic ... \calc@B #2\calc@open (#4!
+                                                  \global \calc@A \calc@B \e...
+
+\Gscale@box@dd ...x {#3}\setlength \@tempdima {#1}
+                                                  \setlength \@tempdimb {#2}...
+l.605         \end{tabular}}
+                            
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<pictures/2080.png, id=1056, 380.42125pt x 369.38pt>
+./chapters/chapter_2.tex:618: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4373,7 +4193,7 @@ Package pdftex.def Info: pictures/2070.png  used on input line 505.
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.592 ...udegraphics[width=300]{pictures/2080.png}
+l.618 ...udegraphics[width=300]{pictures/2080.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4382,7 +4202,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/chapter_2.tex:592: Illegal unit of measure (pt inserted).
+./chapters/chapter_2.tex:618: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4401,7 +4221,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.592 ...udegraphics[width=300]{pictures/2080.png}
+l.618 ...udegraphics[width=300]{pictures/2080.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4412,51 +4232,51 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pictures/2080.png Graphic file (type png)
 <use pictures/2080.png>
-Package pdftex.def Info: pictures/2080.png  used on input line 592.
+Package pdftex.def Info: pictures/2080.png  used on input line 618.
 (pdftex.def)             Requested size: 300.0pt x 291.29973pt.
 \openout5 = `main.mw'.
 
-[59] (latexcache/main.mw)
+[61] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2039.png, id=1015, 1505.625pt x 1228.59pt>
+<pictures/2039.png, id=1063, 1505.625pt x 1228.59pt>
 File: pictures/2039.png Graphic file (type png)
 <use pictures/2039.png>
-Package pdftex.def Info: pictures/2039.png  used on input line 615.
+Package pdftex.def Info: pictures/2039.png  used on input line 641.
 (pdftex.def)             Requested size: 455.0pt x 371.27937pt.
 \openout5 = `main.mw'.
 
-[60 <./pictures/2080.png>] (latexcache/main.mw)
+[62 <./pictures/2080.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2040.png, id=1022, 3842.355pt x 3488.03125pt>
+<pictures/2040.png, id=1070, 3842.355pt x 3488.03125pt>
 File: pictures/2040.png Graphic file (type png)
 <use pictures/2040.png>
-Package pdftex.def Info: pictures/2040.png  used on input line 625.
+Package pdftex.def Info: pictures/2040.png  used on input line 651.
 (pdftex.def)             Requested size: 455.0pt x 413.0105pt.
 \openout5 = `main.mw'.
 
-[61 <./pictures/2039.png>] (latexcache/main.mw)
+[63 <./pictures/2039.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2041.png, id=1030, 1255.69125pt x 749.80125pt>
+<pictures/2041.png, id=1078, 1255.69125pt x 749.80125pt>
 File: pictures/2041.png Graphic file (type png)
 <use pictures/2041.png>
-Package pdftex.def Info: pictures/2041.png  used on input line 635.
+Package pdftex.def Info: pictures/2041.png  used on input line 661.
 (pdftex.def)             Requested size: 455.0pt x 271.69016pt.
 \openout5 = `main.mw'.
 
-[62 <./pictures/2040.png>] (latexcache/main.mw)
+[64 <./pictures/2040.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2042.png, id=1037, 819.06pt x 686.565pt>
+<pictures/2042.png, id=1085, 819.06pt x 686.565pt>
 File: pictures/2042.png Graphic file (type png)
 <use pictures/2042.png>
-Package pdftex.def Info: pictures/2042.png  used on input line 647.
+Package pdftex.def Info: pictures/2042.png  used on input line 673.
 (pdftex.def)             Requested size: 455.0pt x 381.40427pt.
 \openout5 = `main.mw'.
 
-[63 <./pictures/2041.png>] (latexcache/main.mw)
+[65 <./pictures/2041.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -4467,64 +4287,133 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 659.
+(Font)              scaled to size 10.95pt on input line 685.
 \openout5 = `main.mw'.
 
-[64 <./pictures/2042.png>] (latexcache/main.mw)
+[66 <./pictures/2042.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2043.png, id=1057, 1625.07124pt x 1240.635pt>
+<pictures/2043.png, id=1106, 2445.135pt x 1650.165pt>
+./chapters/chapter_2.tex:704: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+\calc@assign@generic ... \calc@B #2\calc@open (#4!
+                                                  \global \calc@A \calc@B \e...
+
+\Gscale@div ...he \dimen@ }\setlength \dimen@ {#2}
+                                                  \count@ 65536\relax \ifdim...
+
+\Gin@req@sizes ...lex \Gin@@ewidth \Gin@nat@width 
+                                                  \let \Gin@scaley \Gin@excl...
+
+\ETE@OrgGin@setfile ...-\Gin@llx bp\Gin@req@sizes 
+                                                  \expandafter \ifx \csname ...
+
+\Gin@setfile ...y \ETE@OrgGin@setfile {#1}{#2}{#3}
+                                                  \else \begingroup \ETE@Ins...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@erotate ...etangle {#1}\setbox \z@ \hbox {{#2
+                                                  }}\Grot@x \z@ \Grot@y \z@ ...
+
+\mbox  #1->\leavevmode \hbox {#1
+                                }
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+l.704 ...s[width=600, angle=90]{pictures/2043.png}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/chapter_2.tex:704: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+\calc@assign@generic ... \calc@B #2\calc@open (#4!
+                                                  \global \calc@A \calc@B \e...
+
+\Gin@req@sizes ...gth \Gin@req@width \Gin@@ewidth 
+                                                  \Gin@req@height \Gin@scale...
+
+\ETE@OrgGin@setfile ...-\Gin@llx bp\Gin@req@sizes 
+                                                  \expandafter \ifx \csname ...
+
+\Gin@setfile ...y \ETE@OrgGin@setfile {#1}{#2}{#3}
+                                                  \else \begingroup \ETE@Ins...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@erotate ...etangle {#1}\setbox \z@ \hbox {{#2
+                                                  }}\Grot@x \z@ \Grot@y \z@ ...
+
+\mbox  #1->\leavevmode \hbox {#1
+                                }
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+l.704 ...s[width=600, angle=90]{pictures/2043.png}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
 File: pictures/2043.png Graphic file (type png)
 <use pictures/2043.png>
-Package pdftex.def Info: pictures/2043.png  used on input line 678.
-(pdftex.def)             Requested size: 455.0pt x 347.3565pt.
-\openout5 = `main.mw'.
-
-[65 <./pictures/2043.png>] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 6
-95.
+Package pdftex.def Info: pictures/2043.png  used on input line 704.
+(pdftex.def)             Requested size: 600.0pt x 404.91086pt.
+LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 7
+21.
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 695.
+(Font)              scaled to size 10.95pt on input line 721.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \openout5 = `main.mw'.
 
-[66] (latexcache/main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 [67] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2044.png, id=1141, 1188.44pt x 1096.095pt>
-File: pictures/2044.png Graphic file (type png)
-<use pictures/2044.png>
-Package pdftex.def Info: pictures/2044.png  used on input line 791.
-(pdftex.def)             Requested size: 455.0pt x 419.64801pt.
 \openout5 = `main.mw'.
 
 [68] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+<pictures/2044.png, id=1183, 1188.44pt x 1096.095pt>
+File: pictures/2044.png Graphic file (type png)
+<use pictures/2044.png>
+Package pdftex.def Info: pictures/2044.png  used on input line 819.
+(pdftex.def)             Requested size: 455.0pt x 419.64801pt.
+\openout5 = `main.mw'.
+
+[69] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
 )
 \openout5 = `main.mw'.
 
-[69 <./pictures/2044.png>] (latexcache/main.mw)
+[70 <./pictures/2044.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+[71 <./pictures/2043.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/chapter_3.aux'.
 
 (./chapters/chapter_3.tex
-<pictures/signals/cal_signal_1.png, id=1168, 462.528pt x 346.896pt>
-./chapters/chapter_3.tex:28: Illegal unit of measure (pt inserted).
+<pictures/signals/cal_signal_1.png, id=1220, 462.528pt x 346.896pt>
+./chapters/chapter_3.tex:29: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4546,7 +4435,7 @@ Package pdftex.def Info: pictures/2044.png  used on input line 791.
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.28 ...th=350]{pictures/signals/cal_signal_1.png}
+l.29 ...th=350]{pictures/signals/cal_signal_1.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4555,7 +4444,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/chapter_3.tex:28: Illegal unit of measure (pt inserted).
+./chapters/chapter_3.tex:29: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4574,7 +4463,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.28 ...th=350]{pictures/signals/cal_signal_1.png}
+l.29 ...th=350]{pictures/signals/cal_signal_1.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4586,19 +4475,19 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/signals/cal_signal_1.png Graphic file (type png)
 <use pictures/signals/cal_signal_1.png>
 Package pdftex.def Info: pictures/signals/cal_signal_1.png  used on input line 
-28.
+29.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
 \openout5 = `main.mw'.
 
-[70
+[72
 
 
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/cal_signal_2.png, id=1174, 462.528pt x 346.896pt>
-./chapters/chapter_3.tex:36: Illegal unit of measure (pt inserted).
+<pictures/signals/cal_signal_2.png, id=1226, 462.528pt x 346.896pt>
+./chapters/chapter_3.tex:37: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4620,7 +4509,7 @@ Package pdftex.def Info: pictures/signals/cal_signal_1.png  used on input line
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.36 ...th=350]{pictures/signals/cal_signal_2.png}
+l.37 ...th=350]{pictures/signals/cal_signal_2.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4629,7 +4518,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/chapter_3.tex:36: Illegal unit of measure (pt inserted).
+./chapters/chapter_3.tex:37: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4648,7 +4537,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.36 ...th=350]{pictures/signals/cal_signal_2.png}
+l.37 ...th=350]{pictures/signals/cal_signal_2.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4660,15 +4549,15 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/signals/cal_signal_2.png Graphic file (type png)
 <use pictures/signals/cal_signal_2.png>
 Package pdftex.def Info: pictures/signals/cal_signal_2.png  used on input line 
-36.
+37.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
 \openout5 = `main.mw'.
 
-[71 <./pictures/signals/cal_signal_1.png> <./pictures/signals/cal_signal_2.png>
+[73 <./pictures/signals/cal_signal_1.png> <./pictures/signals/cal_signal_2.png>
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-./chapters/chapter_3.tex:72: Illegal unit of measure (pt inserted).
+./chapters/chapter_3.tex:73: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4676,7 +4565,7 @@ Package pdftex.def Info: pictures/signals/cal_signal_2.png  used on input line
 
 \Gscale@box@dd ...x {#3}\setlength \@tempdima {#1}
                                                   \setlength \@tempdimb {#2}...
-l.72         \end{tabular}}
+l.73         \end{tabular}}
                            
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4685,8 +4574,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<pictures/signals/w1.png, id=1184, 462.528pt x 346.896pt>
-./chapters/chapter_3.tex:82: Illegal unit of measure (pt inserted).
+<pictures/signals/w1.png, id=1235, 462.528pt x 346.896pt>
+./chapters/chapter_3.tex:83: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4708,7 +4597,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.82 ...aphics[width=350]{pictures/signals/w1.png}
+l.83 ...aphics[width=350]{pictures/signals/w1.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4717,7 +4606,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/chapter_3.tex:82: Illegal unit of measure (pt inserted).
+./chapters/chapter_3.tex:83: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4736,7 +4625,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.82 ...aphics[width=350]{pictures/signals/w1.png}
+l.83 ...aphics[width=350]{pictures/signals/w1.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4747,15 +4636,15 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pictures/signals/w1.png Graphic file (type png)
 <use pictures/signals/w1.png>
-Package pdftex.def Info: pictures/signals/w1.png  used on input line 82.
+Package pdftex.def Info: pictures/signals/w1.png  used on input line 83.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
 \openout5 = `main.mw'.
 
-[72] (latexcache/main.mw)
+[74] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/wp1.png, id=1190, 1058.95625pt x 501.875pt>
-./chapters/chapter_3.tex:92: Illegal unit of measure (pt inserted).
+<pictures/signals/wp1.png, id=1241, 1058.95625pt x 501.875pt>
+./chapters/chapter_3.tex:93: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4777,7 +4666,7 @@ Package pdftex.def Info: pictures/signals/w1.png  used on input line 82.
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.92 ...phics[width=350]{pictures/signals/wp1.png}
+l.93 ...phics[width=350]{pictures/signals/wp1.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4786,7 +4675,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/chapter_3.tex:92: Illegal unit of measure (pt inserted).
+./chapters/chapter_3.tex:93: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4805,7 +4694,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.92 ...phics[width=350]{pictures/signals/wp1.png}
+l.93 ...phics[width=350]{pictures/signals/wp1.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4816,16 +4705,16 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pictures/signals/wp1.png Graphic file (type png)
 <use pictures/signals/wp1.png>
-Package pdftex.def Info: pictures/signals/wp1.png  used on input line 92.
+Package pdftex.def Info: pictures/signals/wp1.png  used on input line 93.
 (pdftex.def)             Requested size: 350.0pt x 165.87196pt.
 \openout5 = `main.mw'.
 
-[73 <./pictures/signals/w1.png> <./pictures/signals/wp1.png>] (latexcache/main.
+[75 <./pictures/signals/w1.png> <./pictures/signals/wp1.png>] (latexcache/main.
 mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w8.png, id=1202, 462.528pt x 346.896pt>
-./chapters/chapter_3.tex:107: Illegal unit of measure (pt inserted).
+<pictures/signals/w8.png, id=1254, 462.528pt x 346.896pt>
+./chapters/chapter_3.tex:109: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4847,7 +4736,7 @@ mw)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.107 ...phics[width=350]{pictures/signals/w8.png}
+l.109 ...phics[width=350]{pictures/signals/w8.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4856,7 +4745,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/chapter_3.tex:107: Illegal unit of measure (pt inserted).
+./chapters/chapter_3.tex:109: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4875,7 +4764,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.107 ...phics[width=350]{pictures/signals/w8.png}
+l.109 ...phics[width=350]{pictures/signals/w8.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4886,10 +4775,10 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pictures/signals/w8.png Graphic file (type png)
 <use pictures/signals/w8.png>
-Package pdftex.def Info: pictures/signals/w8.png  used on input line 107.
+Package pdftex.def Info: pictures/signals/w8.png  used on input line 109.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
-<pictures/signals/wp3.png, id=1204, 1044.90375pt x 551.05875pt>
-./chapters/chapter_3.tex:117: Illegal unit of measure (pt inserted).
+<pictures/signals/wp3.png, id=1256, 1044.90375pt x 551.05875pt>
+./chapters/chapter_3.tex:119: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4911,7 +4800,7 @@ Package pdftex.def Info: pictures/signals/w8.png  used on input line 107.
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.117 ...hics[width=350]{pictures/signals/wp3.png}
+l.119 ...hics[width=350]{pictures/signals/wp3.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4920,7 +4809,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapters/chapter_3.tex:117: Illegal unit of measure (pt inserted).
+./chapters/chapter_3.tex:119: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4939,7 +4828,7 @@ two letters. (See Chapter 27 of The TeXbook.)
                                                   \fi \endgroup 
 \Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
                                                   \endgroup \fi 
-l.117 ...hics[width=350]{pictures/signals/wp3.png}
+l.119 ...hics[width=350]{pictures/signals/wp3.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4950,14 +4839,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pictures/signals/wp3.png Graphic file (type png)
 <use pictures/signals/wp3.png>
-Package pdftex.def Info: pictures/signals/wp3.png  used on input line 117.
+Package pdftex.def Info: pictures/signals/wp3.png  used on input line 119.
 (pdftex.def)             Requested size: 350.0pt x 184.58269pt.
 \openout5 = `main.mw'.
 
-[74 <./pictures/signals/w8.png>] (latexcache/main.mw)
+[76 <./pictures/signals/w8.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-./chapters/chapter_3.tex:141: Illegal unit of measure (pt inserted).
+./chapters/chapter_3.tex:156: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
 \calc@assign@generic ... \calc@B #2\calc@open (#4!
@@ -4965,7 +4854,7 @@ Package pdftex.def Info: pictures/signals/wp3.png  used on input line 117.
 
 \Gscale@box@dd ...x {#3}\setlength \@tempdima {#1}
                                                   \setlength \@tempdimb {#2}...
-l.141         \end{tabular}}
+l.156         \end{tabular}}
                             
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4974,33 +4863,25 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+\openout5 = `main.mw'.
 
-./chapters/chapter_3.tex:141: Package graphics Error: Division by 0.
+[77 <./pictures/signals/wp3.png>] (latexcache/main.mw)
+\openout5 = `main.mw'.
 
-See the graphics package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\sl@GenericError ...                              
-                                                  \endgroup 
-\GenericError  ...sl@GenericError {#1}{#2}{#3}{#4}
-                                                  \fi \ifcase \sl@Save \or \...
+<pictures/final_chart.png, id=1278, 918.43124pt x 567.11874pt>
+File: pictures/final_chart.png Graphic file (type png)
+<use pictures/final_chart.png>
+Package pdftex.def Info: pictures/final_chart.png  used on input line 193.
+(pdftex.def)             Requested size: 455.0pt x 280.96262pt.
+\openout5 = `main.mw'.
 
-\Gscale@div ...ror {graphics}{Division by 0}\@eha 
-                                                  \dimen@ #2\fi \edef \@temp...
-
-\Gscale@box@dd ...v \@tempa \@tempdima \@tempdimb 
-                                                  \Gscale@box \@tempa [\@tem...
-l.141         \end{tabular}}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[78] (latexcache/main.mw)
+\openout5 = `main.mw'.
 
 )
 \openout5 = `main.mw'.
 
-[75 <./pictures/signals/wp3.png>] (latexcache/main.mw)
+[79 <./pictures/final_chart.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `chapters/conclusion.aux'.
@@ -5008,7 +4889,7 @@ or  <return>  to continue without it.
 (./chapters/conclusion.tex
 \openout5 = `main.mw'.
 
-[76
+[80
 
 
 
@@ -5018,106 +4899,155 @@ or  <return>  to continue without it.
 )
 \openout5 = `main.mw'.
 
-[77] (latexcache/main.mw)
+[81] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 291.
 \openout5 = `main.mw'.
 
-[78
+[82
 
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
 
-./main.tex:291: Package inputenc Error: Unicode character ́ (U+0301)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\sl@GenericError ...                              
-                                                  \endgroup 
-\GenericError  ...sl@GenericError {#1}{#2}{#3}{#4}
-                                                  \fi \ifcase \sl@Save \or \...
-
-\UTFviii@defined ...ax \UTFviii@undefined@err {#1}
-                                                  \else \PackageError {input...
-<argument> Revista Brasileira de Ensino de F{ı́
-                                                 }sica
-\blx@theformat #1->#1
-                     
-<argument> ...e abx@field@journaltitle\endcsname }
-                                                  \blx@endunit 
-\@secondoftwo #1#2->#2
-                      
-<argument> \printfield [titlecase]{journaltitle}
-                                                \iffieldendswithpunct {journ...
-
-\textbf  ...xt@command {#1}\bfseries \check@icl #1
-                                                  \check@icr \expandafter \e...
-
-\mkbibbold #1->\textbf {#1}
-                           \blx@imc@setpunctfont \textbf 
-<argument> ...field [normalfont]{journalsubtitle}}
-                                                  \isdot 
-\etb@tgl@ittitles #1#2->#2
-                          
-<argument> ...field [normalfont]{journalsubtitle}}
-                                                  \blx@endunit 
-\@secondoftwo #1#2->#2
-                      
-\abx@macro@journal+section ...sebibmacro {journal}
-                                                  \iffieldundef {section}{}{...
-
-\blx@bbx@article ...\usebibmacro {journal+section}
-                                                  \setunit *{\addcomma \adds...
-<argument> ...er \blx@driver \abx@field@entrytype 
-                                                  \blx@postpunct \blx@endlan...
-
-\etb@tgl@blx@skipentry #1#2->#2
-                               
-<argument> ...ype \blx@postpunct \blx@endlangbib }
-                                                  \endgroup 
-\@firstoftwo #1#2->#1
-                     
-<argument> \blx@do {Silva2018}
-                              \blx@listloop@i 
-\@secondoftwo #1#2->#2
-                      
-\blx@tempa ...18|DocsRequests|Silva2017|Silva2018|
-                                                  TimHall2010|
-\blx@listloop #1->\expandafter \blx@listloop@i #1
-                                                 |&
-l.291 ...hy[title=\lang{REFERENCES}{REFERÊNCIAS}]
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
+[83] (latexcache/main.mw)
+\openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[79] (latexcache/main.mw)
+[84] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 300.
 \openout5 = `main.mw'.
 
-[80
+[85
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+\openout2 = `aftertext/apendice_a0.aux'.
+
+(./aftertext/apendice_a0.tex
+<aftertext/RB1_rotated.pdf, id=1401, 597.23125pt x 845.1575pt>
+File: aftertext/RB1_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB1_rotated.pdf>
+Package pdftex.def Info: aftertext/RB1_rotated.pdf  used on input line 3.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: aftertext/RB1_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB1_rotated.pdf>
+Package pdftex.def Info: aftertext/RB1_rotated.pdf  used on input line 3.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<aftertext/RB1_rotated.pdf, id=1404, page=1, 597.23125pt x 845.1575pt>
+File: aftertext/RB1_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB1_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/RB1_rotated.pdf , page1 used on input line 3
+.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: aftertext/RB1_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB1_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/RB1_rotated.pdf , page1 used on input line 3
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+\openout5 = `main.mw'.
+
+[86
+
+
+] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+File: aftertext/RB1_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB1_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/RB1_rotated.pdf , page1 used on input line 3
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: aftertext/RB1_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB1_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/RB1_rotated.pdf , page1 used on input line 3
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: aftertext/RB1_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB1_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/RB1_rotated.pdf , page1 used on input line 3
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+\openout5 = `main.mw'.
+
+[87 <./aftertext/RB1_rotated.pdf, page is rotated 270 degrees>] (latexcache/mai
+n.mw)
+\openout5 = `main.mw'.
+
+
+
+pdfTeX warning: pdflatex (file ./aftertext/RB2_rotated.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<aftertext/RB2_rotated.pdf, id=1426, 597.23125pt x 845.1575pt>
+File: aftertext/RB2_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB2_rotated.pdf>
+Package pdftex.def Info: aftertext/RB2_rotated.pdf  used on input line 5.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex (file ./aftertext/RB2_rotated.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+File: aftertext/RB2_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB2_rotated.pdf>
+Package pdftex.def Info: aftertext/RB2_rotated.pdf  used on input line 5.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex (file ./aftertext/RB2_rotated.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./aftertext/RB2_rotated.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<aftertext/RB2_rotated.pdf, id=1429, page=1, 597.23125pt x 845.1575pt>
+File: aftertext/RB2_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB2_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/RB2_rotated.pdf , page1 used on input line 5
+.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: aftertext/RB2_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB2_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/RB2_rotated.pdf , page1 used on input line 5
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: aftertext/RB2_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB2_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/RB2_rotated.pdf , page1 used on input line 5
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: aftertext/RB2_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB2_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/RB2_rotated.pdf , page1 used on input line 5
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: aftertext/RB2_rotated.pdf Graphic file (type pdf)
+<use aftertext/RB2_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/RB2_rotated.pdf , page1 used on input line 5
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+\openout5 = `main.mw'.
+
+[88 <./aftertext/RB2_rotated.pdf, page is rotated 270 degrees>] (latexcache/mai
+n.mw)
+\openout5 = `main.mw'.
+
+)
 \openout2 = `aftertext/apendice_a.aux'.
 
 (./aftertext/apendice_a.tex
 
 pdfTeX warning: pdflatex (file ./aftertext/MatrizQFD_rotated.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<aftertext/MatrizQFD_rotated.pdf, id=1313, 614.295pt x 794.97pt>
+<aftertext/MatrizQFD_rotated.pdf, id=1447, 614.295pt x 794.97pt>
 File: aftertext/MatrizQFD_rotated.pdf Graphic file (type pdf)
 <use aftertext/MatrizQFD_rotated.pdf>
 Package pdftex.def Info: aftertext/MatrizQFD_rotated.pdf  used on input line 3.
@@ -5140,7 +5070,7 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./aftertext/MatrizQFD_rotated.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<aftertext/MatrizQFD_rotated.pdf, id=1316, page=1, 614.295pt x 794.97pt>
+<aftertext/MatrizQFD_rotated.pdf, id=1450, page=1, 614.295pt x 794.97pt>
 File: aftertext/MatrizQFD_rotated.pdf Graphic file (type pdf)
 <use aftertext/MatrizQFD_rotated.pdf, page 1>
 Package pdftex.def Info: aftertext/MatrizQFD_rotated.pdf , page1 used on input 
@@ -5153,7 +5083,8 @@ line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 \openout5 = `main.mw'.
 
-[81
+[89
+
 
 
 ] (latexcache/main.mw)
@@ -5176,7 +5107,7 @@ line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 \openout5 = `main.mw'.
 
-[82 <./aftertext/MatrizQFD_rotated.pdf, page is rotated 270 degrees>] (latexcac
+[90 <./aftertext/MatrizQFD_rotated.pdf, page is rotated 270 degrees>] (latexcac
 he/main.mw)
 \openout5 = `main.mw'.
 
@@ -5184,56 +5115,101 @@ he/main.mw)
 \openout2 = `aftertext/apendice_b.aux'.
 
 (./aftertext/apendice_b.tex
-<aftertext/Projeto_eletrico_rotated.pdf, id=1359, 830.10126pt x 1173.38374pt>
-File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
-<use aftertext/Projeto_eletrico_rotated.pdf>
-Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf  used on input 
-line 5.
-(pdftex.def)             Requested size: 830.09924pt x 1173.38087pt.
-File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
-<use aftertext/Projeto_eletrico_rotated.pdf>
-Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf  used on input 
-line 5.
-(pdftex.def)             Requested size: 830.09924pt x 1173.38087pt.
-<aftertext/Projeto_eletrico_rotated.pdf, id=1362, page=1, 830.10126pt x 1173.38
-374pt>
-File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
-<use aftertext/Projeto_eletrico_rotated.pdf, page 1>
-Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf , page1 used on
- input line 5.
-(pdftex.def)             Requested size: 830.09924pt x 1173.38087pt.
-File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
-<use aftertext/Projeto_eletrico_rotated.pdf, page 1>
-Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf , page1 used on
- input line 5.
-(pdftex.def)             Requested size: 597.57114pt x 844.69241pt.
+<aftertext/Projeto_mecanico.pdf, id=1495, 597.50829pt x 845.0471pt>
+File: aftertext/Projeto_mecanico.pdf Graphic file (type pdf)
+<use aftertext/Projeto_mecanico.pdf>
+Package pdftex.def Info: aftertext/Projeto_mecanico.pdf  used on input line 5.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: aftertext/Projeto_mecanico.pdf Graphic file (type pdf)
+<use aftertext/Projeto_mecanico.pdf>
+Package pdftex.def Info: aftertext/Projeto_mecanico.pdf  used on input line 5.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<aftertext/Projeto_mecanico.pdf, id=1498, page=1, 597.50829pt x 845.0471pt>
+File: aftertext/Projeto_mecanico.pdf Graphic file (type pdf)
+<use aftertext/Projeto_mecanico.pdf, page 1>
+Package pdftex.def Info: aftertext/Projeto_mecanico.pdf , page1 used on input l
+ine 5.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: aftertext/Projeto_mecanico.pdf Graphic file (type pdf)
+<use aftertext/Projeto_mecanico.pdf, page 1>
+Package pdftex.def Info: aftertext/Projeto_mecanico.pdf , page1 used on input l
+ine 5.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout5 = `main.mw'.
 
-[83
+[91
 
 
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
+File: aftertext/Projeto_mecanico.pdf Graphic file (type pdf)
+<use aftertext/Projeto_mecanico.pdf, page 1>
+Package pdftex.def Info: aftertext/Projeto_mecanico.pdf , page1 used on input l
+ine 5.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: aftertext/Projeto_mecanico.pdf Graphic file (type pdf)
+<use aftertext/Projeto_mecanico.pdf, page 1>
+Package pdftex.def Info: aftertext/Projeto_mecanico.pdf , page1 used on input l
+ine 5.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: aftertext/Projeto_mecanico.pdf Graphic file (type pdf)
+<use aftertext/Projeto_mecanico.pdf, page 1>
+Package pdftex.def Info: aftertext/Projeto_mecanico.pdf , page1 used on input l
+ine 5.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+\openout5 = `main.mw'.
+
+[92 <./aftertext/Projeto_mecanico.PDF>] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+<aftertext/Projeto_eletrico_rotated.pdf, id=1519, 830.10126pt x 1173.38374pt>
+File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
+<use aftertext/Projeto_eletrico_rotated.pdf>
+Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf  used on input 
+line 9.
+(pdftex.def)             Requested size: 830.09924pt x 1173.38087pt.
+File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
+<use aftertext/Projeto_eletrico_rotated.pdf>
+Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf  used on input 
+line 9.
+(pdftex.def)             Requested size: 830.09924pt x 1173.38087pt.
+<aftertext/Projeto_eletrico_rotated.pdf, id=1522, page=1, 830.10126pt x 1173.38
+374pt>
 File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
 <use aftertext/Projeto_eletrico_rotated.pdf, page 1>
 Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf , page1 used on
- input line 5.
-(pdftex.def)             Requested size: 597.57114pt x 844.69241pt.
+ input line 9.
+(pdftex.def)             Requested size: 830.09924pt x 1173.38087pt.
 File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
 <use aftertext/Projeto_eletrico_rotated.pdf, page 1>
 Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf , page1 used on
- input line 5.
-(pdftex.def)             Requested size: 597.57114pt x 844.69241pt.
-File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
-<use aftertext/Projeto_eletrico_rotated.pdf, page 1>
-Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf , page1 used on
- input line 5.
+ input line 9.
 (pdftex.def)             Requested size: 597.57114pt x 844.69241pt.
 \openout5 = `main.mw'.
 
-[84 <./aftertext/Projeto_eletrico_rotated.pdf, page is rotated 270 degrees>] (l
+[93] (latexcache/main.mw)
+\openout5 = `main.mw'.
+
+File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
+<use aftertext/Projeto_eletrico_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf , page1 used on
+ input line 9.
+(pdftex.def)             Requested size: 597.57114pt x 844.69241pt.
+File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
+<use aftertext/Projeto_eletrico_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf , page1 used on
+ input line 9.
+(pdftex.def)             Requested size: 597.57114pt x 844.69241pt.
+File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
+<use aftertext/Projeto_eletrico_rotated.pdf, page 1>
+Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf , page1 used on
+ input line 9.
+(pdftex.def)             Requested size: 597.57114pt x 844.69241pt.
+\openout5 = `main.mw'.
+
+[94 <./aftertext/Projeto_eletrico_rotated.pdf, page is rotated 270 degrees>] (l
 atexcache/main.mw)
 \openout5 = `main.mw'.
 
@@ -5243,7 +5219,7 @@ atexcache/main.mw)
 (./aftertext/apendice_c.tex
 \openout5 = `main.mw'.
 
-[85
+[95
 
 
 
@@ -5252,13 +5228,13 @@ atexcache/main.mw)
 
 \openout5 = `main.mw'.
 
-[86] (latexcache/main.mw)
+[96] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 )
 \openout5 = `main.mw'.
 
-[87] (latexcache/main.mw)
+[97] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `aftertext/apendice_d.aux'.
@@ -5266,7 +5242,7 @@ atexcache/main.mw)
 (./aftertext/apendice_d.tex
 \openout5 = `main.mw'.
 
-[88
+[98
 
 
 
@@ -5275,43 +5251,43 @@ atexcache/main.mw)
 
 \openout5 = `main.mw'.
 
-[89] (latexcache/main.mw)
+[99] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[90] (latexcache/main.mw)
+[100] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[91] (latexcache/main.mw)
+[101] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[92] (latexcache/main.mw)
+[102] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[93] (latexcache/main.mw)
+[103] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[94] (latexcache/main.mw)
+[104] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
-[95] (latexcache/main.mw)
+[105] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 )
 \openout5 = `main.mw'.
 
-[96] (latexcache/main.mw)
+[106] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `aftertext/apendice_e.aux'.
@@ -5380,7 +5356,7 @@ File: pictures/signals/w1.png Graphic file (type png)
 <use pictures/signals/w1.png>
 Package pdftex.def Info: pictures/signals/w1.png  used on input line 6.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
-<pictures/signals/w2.png, id=1830, 462.528pt x 346.896pt>
+<pictures/signals/w2.png, id=1989, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:14: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5446,14 +5422,14 @@ Package pdftex.def Info: pictures/signals/w2.png  used on input line 14.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
 \openout5 = `main.mw'.
 
-[97
+[107
 
 
 
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w3.png, id=1835, 462.528pt x 346.896pt>
+<pictures/signals/w3.png, id=1996, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:22: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5517,7 +5493,7 @@ File: pictures/signals/w3.png Graphic file (type png)
 <use pictures/signals/w3.png>
 Package pdftex.def Info: pictures/signals/w3.png  used on input line 22.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
-<pictures/signals/w4.png, id=1836, 462.528pt x 346.896pt>
+<pictures/signals/w4.png, id=1997, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:30: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5583,11 +5559,11 @@ Package pdftex.def Info: pictures/signals/w4.png  used on input line 30.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
 \openout5 = `main.mw'.
 
-[98 <./pictures/signals/w2.png> <./pictures/signals/w3.png>] (latexcache/main.m
-w)
+[108 <./pictures/signals/w2.png> <./pictures/signals/w3.png>] (latexcache/main.
+mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w5.png, id=1844, 462.528pt x 346.896pt>
+<pictures/signals/w5.png, id=2004, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:38: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5651,7 +5627,7 @@ File: pictures/signals/w5.png Graphic file (type png)
 <use pictures/signals/w5.png>
 Package pdftex.def Info: pictures/signals/w5.png  used on input line 38.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
-<pictures/signals/w6.png, id=1845, 462.528pt x 346.896pt>
+<pictures/signals/w6.png, id=2005, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:46: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5717,11 +5693,11 @@ Package pdftex.def Info: pictures/signals/w6.png  used on input line 46.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
 \openout5 = `main.mw'.
 
-[99 <./pictures/signals/w4.png> <./pictures/signals/w5.png>] (latexcache/main.m
-w)
+[109 <./pictures/signals/w4.png> <./pictures/signals/w5.png>] (latexcache/main.
+mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w7.png, id=1852, 462.528pt x 346.896pt>
+<pictures/signals/w7.png, id=2012, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:54: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5850,11 +5826,11 @@ Package pdftex.def Info: pictures/signals/w8.png  used on input line 62.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
 \openout5 = `main.mw'.
 
-[100 <./pictures/signals/w6.png> <./pictures/signals/w7.png>] (latexcache/main.
+[110 <./pictures/signals/w6.png> <./pictures/signals/w7.png>] (latexcache/main.
 mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w9.png, id=1859, 462.528pt x 346.896pt>
+<pictures/signals/w9.png, id=2019, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:70: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5918,7 +5894,7 @@ File: pictures/signals/w9.png Graphic file (type png)
 <use pictures/signals/w9.png>
 Package pdftex.def Info: pictures/signals/w9.png  used on input line 70.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
-<pictures/signals/w10.png, id=1860, 462.528pt x 346.896pt>
+<pictures/signals/w10.png, id=2020, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:78: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5984,10 +5960,10 @@ Package pdftex.def Info: pictures/signals/w10.png  used on input line 78.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
 \openout5 = `main.mw'.
 
-[101 <./pictures/signals/w9.png>] (latexcache/main.mw)
+[111 <./pictures/signals/w9.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w11.png, id=1867, 462.528pt x 346.896pt>
+<pictures/signals/w11.png, id=2026, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:86: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -6054,7 +6030,7 @@ Package pdftex.def Info: pictures/signals/w11.png  used on input line 86.
 )
 \openout5 = `main.mw'.
 
-[102 <./pictures/signals/w10.png> <./pictures/signals/w11.png>] (latexcache/mai
+[112 <./pictures/signals/w10.png> <./pictures/signals/w11.png>] (latexcache/mai
 n.mw)
 \openout5 = `main.mw'.
 
@@ -6198,10 +6174,6 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 \openout5 = `main.mw'.
 
 ) (latexcache/chapters/chapter_1.aux
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -6551,7 +6523,27 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 ) (latexcache/chapters/chapter_3.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -6678,7 +6670,40 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 
 \openout5 = `main.mw'.
 
-(latexcache/aftertext/apendice_a.aux
+(latexcache/aftertext/apendice_a0.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+) (latexcache/aftertext/apendice_a.aux
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -6712,6 +6737,10 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 \openout5 = `main.mw'.
 
 ) (latexcache/aftertext/apendice_b.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -6911,15 +6940,7 @@ rovacao.aux) (latexcache/beforetext/agradecimentos.aux
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 331.
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
@@ -6938,13 +6959,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 67210 strings out of 481239
- 1276565 string characters out of 5920377
- 2434924 words of memory out of 5000000
- 79853 multiletter control sequences out of 15000+600000
- 630909 words of font info for 203 fonts, out of 8000000 for 9000
+ 67304 strings out of 481239
+ 1279362 string characters out of 5920377
+ 2456662 words of memory out of 5000000
+ 79908 multiletter control sequences out of 15000+600000
+ 626238 words of font info for 194 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 78i,18n,117p,1453b,4857s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,18n,117p,1453b,4809s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
@@ -6954,20 +6975,19 @@ r/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}</usr/share/
 texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-mi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on latexcache/main.pdf (104 pages, 16350543 bytes).
+exmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
+etic/uhvro8a.pfb>
+Output written on latexcache/main.pdf (114 pages, 16683373 bytes).
 PDF statistics:
- 2299 PDF objects out of 2487 (max. 8388607)
- 1967 compressed objects within 20 object streams
- 831 named destinations out of 1000 (max. 500000)
- 45012 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 2465 PDF objects out of 2487 (max. 8388607)
+ 2080 compressed objects within 21 object streams
+ 847 named destinations out of 1000 (max. 500000)
+ 44589 words of extra memory for PDF output out of 51595 (max. 10000000)
 

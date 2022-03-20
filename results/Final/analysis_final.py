@@ -245,7 +245,7 @@ def plot_strain(plot_item, adjust=True, savefig=False, savefig_dir='', time_x2=T
         load_axis = plot_item['strain_read']
         load_hline = round(transform_to_strain(plot_item['read_load']), 4)
         load_unit = ''
-        plt.ylabel('Deformação [$\mu$m]')
+        plt.ylabel('Deformação [$\mu$m/m]')
         filecomp = ''
     else:
         load_axis = plot_item['read_full']
@@ -329,15 +329,15 @@ def plot_regression(regression_list, x_points, y_points, color_int=1):
 
 # calibration signals
 
-plt.figure(dpi=800)
+plt.figure(dpi=600)
 cal_signal_1 = read_csv('calibration/calibration_weight1.csv')
-plt.ylabel('Valor obtido [bits]')
+plt.ylabel('Valor obtido')
 plt.plot(cal_signal_1, color='black')
 plt.savefig('cal_signal_1.png')
 
-plt.figure(dpi=800)
+plt.figure(dpi=600)
 cal_signal_2 = read_csv('calibration/calibration_weight4.csv')
-plt.ylabel('Valor obtido [bits]')
+plt.ylabel('Valor obtido')
 plt.plot(cal_signal_2, color='black')
 plt.savefig('cal_signal_2.png')
 

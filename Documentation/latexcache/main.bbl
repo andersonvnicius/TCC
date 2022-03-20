@@ -19,6 +19,62 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{imsg}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f4a1c72086b31df9c2714aaf418505cc}{%
+           family={Althensensors},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4a1c72086b31df9c2714aaf418505cc}
+      \strng{fullhash}{f4a1c72086b31df9c2714aaf418505cc}
+      \strng{bibnamehash}{f4a1c72086b31df9c2714aaf418505cc}
+      \strng{authorbibnamehash}{f4a1c72086b31df9c2714aaf418505cc}
+      \strng{authornamehash}{f4a1c72086b31df9c2714aaf418505cc}
+      \strng{authorfullhash}{f4a1c72086b31df9c2714aaf418505cc}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Strain gauges}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.althensensors.com/sensors/strain-sensors-strain-gauges/high-strain-repeated-straingauges/4468/yfla-series-strain-gauges-for-very-high-strain/
+      \endverb
+      \verb{url}
+      \verb https://www.althensensors.com/sensors/strain-sensors-strain-gauges/high-strain-repeated-straingauges/4468/yfla-series-strain-gauges-for-very-high-strain/
+      \endverb
+    \endentry
+    \entry{imadc}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0f4e1aaabd074689b7d3ead824d1ee8e}{%
+           family={Arrow},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f4e1aaabd074689b7d3ead824d1ee8e}
+      \strng{fullhash}{0f4e1aaabd074689b7d3ead824d1ee8e}
+      \strng{bibnamehash}{0f4e1aaabd074689b7d3ead824d1ee8e}
+      \strng{authorbibnamehash}{0f4e1aaabd074689b7d3ead824d1ee8e}
+      \strng{authornamehash}{0f4e1aaabd074689b7d3ead824d1ee8e}
+      \strng{authorfullhash}{0f4e1aaabd074689b7d3ead824d1ee8e}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Analog to digital converters}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb http://www.arrow.com/en/research-and-events/articles/engineering-resource-basics-of-analog-to-digital-converters
+      \endverb
+      \verb{url}
+      \verb http://www.arrow.com/en/research-and-events/articles/engineering-resource-basics-of-analog-to-digital-converters
+      \endverb
+    \endentry
     \entry{Back2008}{book}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=d85e59688da79aeca740dc8de9fb5798}{%
@@ -64,37 +120,33 @@
       \field{title}{Projeto integrado de produtos: planejamento, concep{ç}{ã}o e modelagem}
       \field{year}{2008}
     \endentry
-    \entry{Doebelin1983}{book}{}
+    \entry{imsgshaft}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=07c58cd6bc9287b12510302bd561870f}{%
-           family={Doebelin},
-           familyi={D\bibinitperiod},
-           given={Ernest\bibnamedelima O.},
-           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod},
-           givenun=0}}%
+        {{un=0,uniquepart=base,hash=837746dc90d813078b911f5ff2d6033e}{%
+           family={Binsfeld},
+           familyi={B\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Ohio}%
-      }
-      \list{publisher}{1}{%
-        {McGraw- Hill}%
-      }
-      \strng{namehash}{07c58cd6bc9287b12510302bd561870f}
-      \strng{fullhash}{07c58cd6bc9287b12510302bd561870f}
-      \strng{bibnamehash}{07c58cd6bc9287b12510302bd561870f}
-      \strng{authorbibnamehash}{07c58cd6bc9287b12510302bd561870f}
-      \strng{authornamehash}{07c58cd6bc9287b12510302bd561870f}
-      \strng{authorfullhash}{07c58cd6bc9287b12510302bd561870f}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \strng{namehash}{837746dc90d813078b911f5ff2d6033e}
+      \strng{fullhash}{837746dc90d813078b911f5ff2d6033e}
+      \strng{bibnamehash}{837746dc90d813078b911f5ff2d6033e}
+      \strng{authorbibnamehash}{837746dc90d813078b911f5ff2d6033e}
+      \strng{authornamehash}{837746dc90d813078b911f5ff2d6033e}
+      \strng{authorfullhash}{837746dc90d813078b911f5ff2d6033e}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{3}
-      \field{title}{Measurement system: Application and design.}
-      \field{year}{1983}
-      \true{nocite}
+      \field{month}{2}
+      \field{title}{Strain gauges in shafts}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://binsfeld.com/category/strain-gage/
+      \endverb
+      \verb{url}
+      \verb https://binsfeld.com/category/strain-gage/
+      \endverb
     \endentry
     \entry{DocsESP32}{online}{}
       \name{author}{1}{}{%
@@ -125,6 +177,37 @@
       \endverb
       \verb{url}
       \verb https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+      \endverb
+    \endentry
+    \entry{wbridge}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a12ce105c58e08e786e16c3b1ee54f95}{%
+           family={Gate},
+           familyi={G\bibinitperiod},
+           given={Research},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a12ce105c58e08e786e16c3b1ee54f95}
+      \strng{fullhash}{a12ce105c58e08e786e16c3b1ee54f95}
+      \strng{bibnamehash}{a12ce105c58e08e786e16c3b1ee54f95}
+      \strng{authorbibnamehash}{a12ce105c58e08e786e16c3b1ee54f95}
+      \strng{authornamehash}{a12ce105c58e08e786e16c3b1ee54f95}
+      \strng{authorfullhash}{a12ce105c58e08e786e16c3b1ee54f95}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Wheatstone bridge}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/figure/Monolithic-integration-of-a-Wheatstone-bridge-circuit-with-the-paper-based-sensor-A\_fig2\_224225141
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/figure/Monolithic-integration-of-a-Wheatstone-bridge-circuit-with-the-paper-based-sensor-A%5C_fig2%5C_224225141
       \endverb
     \endentry
     \entry{Gharghan2017}{article}{}
@@ -297,6 +380,37 @@
       \endverb
       \verb{url}
       \verb https://isso.digital/produtos/48/dmi_tcr_44es
+      \endverb
+    \endentry
+    \entry{BarretoJunior}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0a16c3015acd378b158be07baa370ae7}{%
+           family={Junior},
+           familyi={J\bibinitperiod},
+           given={Barreto},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0a16c3015acd378b158be07baa370ae7}
+      \strng{fullhash}{0a16c3015acd378b158be07baa370ae7}
+      \strng{bibnamehash}{0a16c3015acd378b158be07baa370ae7}
+      \strng{authorbibnamehash}{0a16c3015acd378b158be07baa370ae7}
+      \strng{authornamehash}{0a16c3015acd378b158be07baa370ae7}
+      \strng{authorfullhash}{0a16c3015acd378b158be07baa370ae7}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Extensometria - Manual Prático}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.docsity.com/pt/extensometria-manual-pratico/4709263/
+      \endverb
+      \verb{url}
+      \verb https://www.docsity.com/pt/extensometria-manual-pratico/4709263/
       \endverb
     \endentry
     \entry{Kyowa}{online}{}
@@ -571,7 +685,7 @@
       \verb 10.1109/icevt.2018.8628346
       \endverb
     \endentry
-    \entry{DocsRequests}{online}{}
+    \entry{DocsPandas_}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=251d2bbfe9a3b95e5691ceb30dc6784a}{%
            family={Pandas},
@@ -595,12 +709,98 @@
       \field{month}{1}
       \field{title}{Documentação Pandas}
       \field{year}{2022}
-      \true{nocite}
       \verb{urlraw}
       \verb https://pandas.pydata.org/docs/
       \endverb
       \verb{url}
       \verb https://pandas.pydata.org/docs/
+      \endverb
+    \endentry
+    \entry{imforext}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=54c652b4dd41177cfad183fd8860a559}{%
+           family={Pressbooks},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{54c652b4dd41177cfad183fd8860a559}
+      \strng{fullhash}{54c652b4dd41177cfad183fd8860a559}
+      \strng{bibnamehash}{54c652b4dd41177cfad183fd8860a559}
+      \strng{authorbibnamehash}{54c652b4dd41177cfad183fd8860a559}
+      \strng{authornamehash}{54c652b4dd41177cfad183fd8860a559}
+      \strng{authorfullhash}{54c652b4dd41177cfad183fd8860a559}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Internal forces}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://pressbooks.library.upei.ca/statics/chapter/3-types-of-internal-forces/
+      \endverb
+      \verb{url}
+      \verb https://pressbooks.library.upei.ca/statics/chapter/3-types-of-internal-forces/
+      \endverb
+    \endentry
+    \entry{imnoise}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b586fab9e7f81dc5f5cdb2dadaf1890b}{%
+           family={Quora},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{b586fab9e7f81dc5f5cdb2dadaf1890b}
+      \strng{fullhash}{b586fab9e7f81dc5f5cdb2dadaf1890b}
+      \strng{bibnamehash}{b586fab9e7f81dc5f5cdb2dadaf1890b}
+      \strng{authorbibnamehash}{b586fab9e7f81dc5f5cdb2dadaf1890b}
+      \strng{authornamehash}{b586fab9e7f81dc5f5cdb2dadaf1890b}
+      \strng{authorfullhash}{b586fab9e7f81dc5f5cdb2dadaf1890b}
+      \field{sortinit}{Q}
+      \field{sortinithash}{c54e16deb53fc904a621fa8fd8703b5a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Digital signal noise immunity}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb http://www.quora.com/How-can-digital-signals-posses-noise-immunity
+      \endverb
+      \verb{url}
+      \verb http://www.quora.com/How-can-digital-signals-posses-noise-immunity
+      \endverb
+    \endentry
+    \entry{DocsRequests}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b134a801a1a3888498968fc4ea760cf7}{%
+           family={Requests},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{b134a801a1a3888498968fc4ea760cf7}
+      \strng{fullhash}{b134a801a1a3888498968fc4ea760cf7}
+      \strng{bibnamehash}{b134a801a1a3888498968fc4ea760cf7}
+      \strng{authorbibnamehash}{b134a801a1a3888498968fc4ea760cf7}
+      \strng{authornamehash}{b134a801a1a3888498968fc4ea760cf7}
+      \strng{authorfullhash}{b134a801a1a3888498968fc4ea760cf7}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Documentação Requests}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://docs.python-requests.org/en/latest/
+      \endverb
+      \verb{url}
+      \verb https://docs.python-requests.org/en/latest/
       \endverb
     \endentry
     \entry{Silva2017}{inproceedings}{}
@@ -646,65 +846,6 @@
       \verb 10.20906/cps/cilamce2017-0718
       \endverb
     \endentry
-    \entry{Silva2018}{article}{}
-      \name{author}{5}{ul=3}{%
-        {{un=0,uniquepart=base,hash=205d1178ff2b462cae5f5694f91f3d4f}{%
-           family={Silva},
-           familyi={S\bibinitperiod},
-           given={Anderson\bibnamedelima Langone},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5c7030a7e01296f7c2144eba847402fa}{%
-           family={Varanis},
-           familyi={V\bibinitperiod},
-           given={Marcus},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=77ee6a6732a0a8899a4c4028761e7d80}{%
-           family={Mereles},
-           familyi={M\bibinitperiod},
-           given={Arthur\bibnamedelima Guilherme},
-           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f4a922d40002c0f15218cf19149c054a}{%
-           family={Oliveira},
-           familyi={O\bibinitperiod},
-           given={Clivaldo},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=75491dec46b56b4a9a2f57efa2313b98}{%
-           family={Balthazar},
-           familyi={B\bibinitperiod},
-           given={Jos{é}\bibnamedelima Manoel},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {{FapUNIFESP} ({SciELO})}%
-      }
-      \strng{namehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
-      \strng{fullhash}{cb24ca23c47b17449b43dcd12d7b5d1f}
-      \strng{bibnamehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
-      \strng{authorbibnamehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
-      \strng{authornamehash}{39dc96d81c3238ae3e5d9980e6cf74e9}
-      \strng{authorfullhash}{cb24ca23c47b17449b43dcd12d7b5d1f}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Revista Brasileira de Ensino de F{ı́}sica}
-      \field{month}{12}
-      \field{number}{3}
-      \field{title}{A study of strain and deformation measurement using the Arduino microcontroller and strain gauges devices}
-      \field{volume}{41}
-      \field{year}{2018}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1590/1806-9126-rbef-2018-0206
-      \endverb
-    \endentry
     \entry{TimHall2010}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=26653e45333f806ffc7849071bbec1ee}{%
@@ -738,6 +879,37 @@
       \endverb
       \verb{url}
       \verb https://www.ebook.de/de/product/12469709/tim_hall_j_p_stacey_python_3_for_absolute_beginners.html
+      \endverb
+    \endentry
+    \entry{amplifier}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=63b9b7923e1ed014085f391bd17f859b}{%
+           family={Tutorials},
+           familyi={T\bibinitperiod},
+           given={Electronics},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{63b9b7923e1ed014085f391bd17f859b}
+      \strng{fullhash}{63b9b7923e1ed014085f391bd17f859b}
+      \strng{bibnamehash}{63b9b7923e1ed014085f391bd17f859b}
+      \strng{authorbibnamehash}{63b9b7923e1ed014085f391bd17f859b}
+      \strng{authornamehash}{63b9b7923e1ed014085f391bd17f859b}
+      \strng{authorfullhash}{63b9b7923e1ed014085f391bd17f859b}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Signal amplifiers}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.electronics-tutorials.ws/amplifier/amp_1.html
+      \endverb
+      \verb{url}
+      \verb https://www.electronics-tutorials.ws/amplifier/amp_1.html
       \endverb
     \endentry
   \enddatalist

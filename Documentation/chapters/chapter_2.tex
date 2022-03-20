@@ -1,8 +1,9 @@
+
 \phantomsection
 
 \chapter{Desenvolvimento}
 
-O presente capítulo é dividido em duas fases, a primeira apresenta o desenvolvimento e os resultados das etapas da metodologia de desenvolvimento do protótipo do dispositivo.
+O presente capítulo é dividido em duas partes, a primeira apresenta o desenvolvimento e os resultados das etapas da metodologia de desenvolvimento do protótipo do dispositivo.
 E a segunda seção apresenta a metodologia do experimento utilizado como prova de conceito do dispositivo desenvolvido.
 
 Como visto na seção de introdução é observado que existem diversas limitações e dificuldades no sensoriamento de cargas de torque em eixos, este trabalho é tem como objetivo
@@ -24,7 +25,7 @@ A utilização de um transdutor de torque em uma aplicação industrial é mostr
 
 Será desenvolvido um dispositivo baseado no funcionamento do transdutor de torque apresentado, porém, ao invés da transmissão de dados via contato elétrico rotativo será
 desenvolvido um conceito em que os dados são transmitidos via conexão sem fio, com o objetivo de se criar um produto que funcione de maneira totalmente remota sem a necessidade
-de utilização de nenhum chicote para a transmissão dos dados.
+de utilização de nenhum chicote ou elemento de contato elétrico com fricção para a transmissão dos dados.
 
 \section{Planejamento do projeto}
 
@@ -76,8 +77,8 @@ A \autoref{tab:Banchmarking} mostra uma comparação entre os dados de utilizaç
 			Comunicação com PC & Conexão Ethernet & Conexão Ethernet & Conexão USB \\
 %			Interface com o usuário & Software próprio & Software próprio & Software próprio \\
 %			Programação & Software próprio & Software próprio & Software próprio \\
-			Taxa de leitura & Não disponiblizado & Não disponiblizado & $\SI{4}hz$ \\
-			Faixa de tensão de leitura & Não disponiblizado & Não disponiblizado & $\SI{\pm 30}{\mV}$ \\
+			Taxa de transferência de dados & Não disponiblizado & Não disponiblizado & $\SI{4}hz$ \\
+			Faixa de tensão de leitura & Não disponiblizado & Não disponiblizado & $\SI{\pm 30}{mV}$ \\
 			Faixa de preço & R\$1100,00 & R\$1300,00 & R\$2800,00 \\
             \bottomrule
         \end{tabular}}
@@ -85,11 +86,11 @@ A \autoref{tab:Banchmarking} mostra uma comparação entre os dados de utilizaç
 \end{table}
 
 Dentre os valores apresentados na tabela fica claro os altos preços envolvidos em qualquer aplicação que necessite a utilização desse tipo de dispositivo.
-Muitos deles adicionalmente necessitam de softwares proprietários pagos para sua programação e utilização.
+Muitos deles adicionalmente necessitam de licensas pagas de programas de computador proprietários para sua programação e utilização.
 O dispositivo desenvolvido neste trabalho tem como objetivo um preço consideravelmente menor que os analisados e programável e utilizável utilizando tecnologias
 de código aberto.
 
-\subsection{Pesquisa científica}
+\subsection{Pesquisa bibliográfica}
 
 Com o intuito de facilitar o desenvolvimento do dispositivo, foi realizada uma revisão sistemática de trabalhos científicos e acadêmicos disponíveis nas bases de dados Web of Science, Springer,
 Sciencedirect e Google Scholar, utilizando como palavras-chave “Dynamic, Torque, Shaft, Sensor, Strain, Gauge”, os principais obtidos são apresentados nessa subseção.
@@ -115,11 +116,13 @@ Silva compara os dados de um sistema semelhante aos anteriores com resultados de
 na ponta e de torque aplicado em um eixo com um dos lados travados, diferente dos trabalhos anteriores, este possui uma seção com o desenvolvimento das equações dos modelos utilizados, e assim como os artigos
 anteriores foram encontrados resultados satisfatórios \autocite{Silva2017}.
 
+Os resultados completos dos artigos encontrados e avaliados pela revisão bibliográfica podem ser encontrados no \autoref{ch:RB}
+
 A ideia inicial da concepção do produto seria o do desenvolvimento de um dispositivo que obtivesse os valores de torque em um eixo em tempo real.
 Para que fosse possível solucionar tal problema, o dispositivo teria que obter os dados de tensão dos polos de uma ponte de wheatstone, com um extensômetro montado a um eixo sob torque e transmitir os dados obtidos
 via conexão sem fio em tempo real a um computador.
 
-A modelagem de um produto conceito inicial baseado nos resultados da pesquisa de mercado e nos trabalhos científicos foi elaborado pelo autor utilizando o software Solidworks 2017,
+A modelagem de um produto conceito inicial baseado nos resultados da pesquisa de mercado e nos trabalhos científicos foi elaborado pelo autor utilizando o programa Solidworks 2017,
 esta modelagem é mostrada na \autoref{fig:2029}.
 
 \begin{figure}[htb]
@@ -130,9 +133,9 @@ esta modelagem é mostrada na \autoref{fig:2029}.
 	\fonte{O autor 2022}
 \end{figure}
 
-O conceito é composto por uma placa de desenvolvimento Arduino nano, que controla um amplificador de sinal que por si obtém os dados de tensão de uma ponte de wheatstone.
+O conceito é composto por uma placa de desenvolvimento Arduino nano, que controla um módulo de conversão de sinal HX711 que por si obtém os dados de tensão de uma ponte de wheatstone.
 Os dados obtidos pela ponte de wheatstone então são transmitidos utilizando um módulo bluetooth HC-05.
-O custo total desses dois componentes é baixo, e um protótipo de dispositivo pode ser montado por aproximadamente $R\$150,00$, desconsiderando os componentes de encapsulamento.
+O custo desses componentes pode ser encontrado na \autoref{tab:levantamentocomponentes}, e um protótipo de dispositivo pode ser montado por aproximadamente $R\$150,00$, desconsiderando os componentes de encapsulamento.
 O projeto informacional é iniciado considerando este conceito como a ideia inicial do produto.
 
 \section{Projeto informacional}
@@ -150,8 +153,6 @@ iniciais, são apresentados os seguintes tópicos sobre a necessidade do produto
 
 \begin{alineas}
 
-	\item Qual sua opinião sobre a importância da obtenção de dados de torque, potência e rotação do sistema de propulsão durante a utilização?;
-	\item Qual sua opinião sobre o recebimento a distância e ilustração desses dados em tempo real?;
 	\item Capacidade de gravação/armazenamento de dados;
 	\item Ser de baixo preço;
 	\item Ser compacto;
@@ -270,7 +271,7 @@ Os resultados de priorização obtidos pela matriz QFD são apresentados na \aut
 \fonte{O autor 2022}\
 \end{table}
 
-A Matriz QFD desenvolvida para o projeto informacional do dispositivo desenvolvida pode ser encontrada no \autoref{ch:QFD}
+A Matriz QFD desenvolvida para o projeto informacional do dispositivo desenvolvida pode ser encontrada no \autoref{ch:QFD}.
 A priorização dos requisitos é utilizado para guiar a tomada de decisões de projeto e escolha de componentes nos estágios do projeto conceitual.
 
 \section{Projeto conceitual}
@@ -294,8 +295,8 @@ aproximado de 50 reais e o módulo wifi ESP8266, que tem o custo aproximado de 2
 A comunicação bluetooth funciona com a transferência de dados diretamente entre o módulo e o receptor.
 E a comunicação wifi pode ser feita tanto pela conexão do dispositivo receptor diretamente ao módulo bluetooth quanto pela comunicação entre servidor e cliente.
 
-As opções de módulo de amplificação de sinal avaliadas foram o HX711, que se apresenta como um módulo altamente utilizado em aplicações de células de carga porém apresenta
-uma taxa de leitura baixa, de até 80 amostras por segundo, e o ADS1115, que possui diversas opções de fator de amplificação que podem ser programadas e uma taxa de amostragem de 860 amostras
+As opções de módulo de conversão e amplificação de sinal avaliadas foram o módulo HX711, que é altamente utilizado em aplicações de células de carga porém apresenta
+taxa de transferência de dados baixa, de 80 amostras por segundo, e o ADS1115, que possui diversas opções de fator de amplificação que podem ser programadas e uma taxa de transferência de 860 amostras
 por segundo.
 Ambos os módulos de amplificação já possuem conversores ADC integrados.
 
@@ -314,9 +315,9 @@ Uma breve apresentação do levantamento de componentes é mostrado na \autoref{
 		\multicolumn{1}{l}{\textbf{Controladores}} & \\
 			Arduino nano & compacto e fácil de programar & $R\${60.00}$ \\
 			ESP 32 & comunicação sem fio integrada & $R\${40.00}$ \\
-		\multicolumn{1}{l}{\textbf{Amplificadores de sinal}} & \\
+		\multicolumn{1}{l}{\textbf{Módulos de conversão de sinal}} & \\
 			HX711 & Desenvolvido para aplicações de célula de carga & $R\${20.00}$ \\
-			ADS1115 & Alta taxa de leitura & $R\${70.00}$ \\
+			ADS1115 & Alta taxa de obtenção de dados & $R\${70.00}$ \\
 			LM358 & Alta taxa de ganho & $R\${10.00}$ \\
 		\multicolumn{1}{l}{\textbf{Comunicação sem fio}} & \\
 			Bluetooth HC-05 & Difícil programação, emite e recebe dados  & $R\${50.00}$ \\
@@ -343,21 +344,23 @@ A matriz morfológica é mostrada na \autoref{fig:2036}.
 \begin{figure}[H]
 	\caption{\label{fig:2036} Matriz morfológica}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/2036.png}
+		\includegraphics[width=600, angle=90]{pictures/2036.png}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
 
 Na matriz morfológica também foi adicionado uma coluna para listar os principais requisitos de avaliação de cada produto, esses requisitos mostrados estão diretamente
 relacionados com os requisitos de cliente e produto obtidos da análise da matriz da casa da qualidade.
-Para a avaliação e comparação das soluções em relação aos requisitos levantados é utilizado a matriz de avaliação, mostrada na \autoref{fig:2037} a matriz de avaliação
-lista as possíveis tecnologias utilizadas para a solução e os requisitos, e para cada relação uma nota de comparação é definida entre -3, que significa que a tecnologia
-é a mais adequada ao requisito relacionado, até 3, que significa que a tecnologia é a menos adequada ao requisito relacionado.
+Para a avaliação e comparação das soluções levantadas na matriz morfológica em relação aos requisitos levantados é utilizada a matriz de avaliação,
+mostrada na \autoref{fig:2037}.
+A matriz de avaliação lista as tecnologias e os requisitos de avaliação presentes na matriz morfológica,
+e para cada relação uma nota de comparação é definida entre 3, que significa que a tecnologia é a mais adequada ao requisito relacionado,
+até -3, que significa que a tecnologia é a menos adequada ao requisito relacionado.
 
 \begin{figure}[H]
-	\caption{\label{fig:2037} Matriz de avaliação}
+	\caption{\label{fig:2037} Comparativo de desempenho entre os atributos dos componentes}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/2037.png}
+		\includegraphics[width=600, angle=90]{pictures/2037.png}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
@@ -377,13 +380,13 @@ Após definido as tecnologias que serão utilizadas no desenvolvimento do produt
 
 \section{Projeto Preliminar}
 
-O projeto preliminar é realizado com o objetivo de testar e obter a validação das soluções tecnologias disponíveis escolhidas no projeto conceitual.
+O projeto preliminar é realizado com o objetivo de dimensionar, testar e obter a validação das soluções tecnologias disponíveis escolhidas no projeto conceitual.
 Nas próximas sub seções são apresentados os protótipos montados e a metodologia dos ensaios experimentais.
 
 \subsection{Protótipos avaliados}
 
-Foram montados e avaliados o funcionamento de dois protótipos do dispositivo, um deles utilizando um controlador ESP8266 e um amplificador de sinal HX711,
-com a utilização de uma célula de carga de 1kg para serem executados testes na placa controladora e no amplificador de sinal.
+Foram montados e avaliados o funcionamento de dois protótipos do dispositivo, um deles utilizando um controlador ESP8266 e um módulo de conversão de sinal HX711,
+com a utilização de uma célula de carga de 1kg para serem executados testes na placa controladora e no módulo de conversão de sinal.
 O primeiro protótipo é mostrado na \autoref{fig:2045}.
 
 \begin{figure}[H]
@@ -395,13 +398,13 @@ O primeiro protótipo é mostrado na \autoref{fig:2045}.
 \end{figure}
 
 Esta versão foi desenvolvida seguindo os resultados de componentes do projeto conceitual, porém, com sua utilização não foi possível realizar os testes experimentais com sucesso,
-pois o amplificador de sinal não se mostrou capaz de obter os dados de tensão da ponte de wheatstone no experimento de flexão.
+pois o módulo de conversão de sinal não se mostrou capaz de obter os dados de tensão da ponte de wheatstone no experimento de flexão.
 O motivo identificado do problema era o de que a tensão da ponte estava maior do que a tensão que pode ser medida pelo módulo HX711.
 A tensão da ponte obtida por um multímetro digital foi de $ 59mV $ e o módulo de conversão de sinal consegue ler tensões de no máximo $ 40mV $.
 
-Com o objetivo de poder se obter os resultados experimentais foi utilizado uma versão prévia do protótipo, que utiliza o controlador ESP32 e um amplificador
+Com o objetivo de poder se obter os resultados experimentais foi utilizado uma versão prévia do protótipo, que utiliza o controlador ESP32 e um módulo de conversão
 de sinal ADS1115, o experimento utilizando esse protótipo foi considerado válido uma vez que os princípios de funcionamento dos controladores ESP8266 e ESP32,
-e dos amplificadores de sinal HX711 e ADS1115 são semelhantes.
+e dos módulos de conversão de sinal HX711 e ADS1115 são semelhantes.
 O segundo protótipo desenvolvido é mostrado na \autoref{fig:2046}.
 
 \begin{figure}[H]
@@ -413,14 +416,14 @@ O segundo protótipo desenvolvido é mostrado na \autoref{fig:2046}.
 \end{figure}
 
 A metodologia de execução do experimento para validar o funcionamento do protótipo desenvolvido segue a mesma metodologia do experimento realizado no trabalho de conclusão
-de curso de Minela, uma introdução aos principais tópicos dessa metodologia e eventuais diferenças entre os dispositivos utilizados nos dois trabalhos para cada tópico é feita
+de curso de Minela (2017), uma introdução aos principais tópicos dessa metodologia e eventuais diferenças entre os dispositivos utilizados nos dois trabalhos para cada tópico é feita
 nas próximas sub seções.
 
 \subsection{Dispositivo para ensaio de flexão}
 
 O dispositivo para realizar o ensaio de flexão é composto por uma viga de seção retangular de $20mm$ de largura por $2mm$ de espessura, que mede $200mm$
 de comprimento e é de uma liga desconhecida de alumínio, e uma base projetada e fabricada em aço 1020 para fixar a viga em uma situação de engaste na viga \autocite{Minela2017}.
-A figura \autoref{fig:2049} mostra o projeto do dispositivo desenvolvido por Minela.
+A figura \autoref{fig:2049} mostra o projeto do dispositivo desenvolvido por Minela (2017).
 
 \begin{figure}[htb]
 	\caption{\label{fig:2049} Dispositivo de ensaio de flexão}
@@ -434,7 +437,7 @@ Na viga é colado um extensômetro unidimensional para obter os dados de deforma
 \autoref{tab:PropriedadesExtensometro}.
 
 \begin{table}[htb]
-\caption[]{Propriedades do extensômetro colado ao dispositivo de flexão}
+\caption{Propriedades do extensômetro colado ao dispositivo de flexão}
 \label{tab:PropriedadesExtensometro}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{p{6.5cm}p{8cm}}
@@ -470,7 +473,7 @@ Tanto o sistema de medição utilizado por Minela (2017), mostrado na \autoref{f
 O sistema de medição utilizado por Minela (2017) é composto por um dispositivo de obtenção de dados ADS2002, que é mostrado na \autoref{fig:2060},
 desenvolvido e fabricado pela LYNX Tecnologia, que é conectado a um computador.
 O dispositivo ADS2002 obtém os dados gerados pelo sensor e os envia ao computador via conexão ethernet.
-O computador utiliza o software AQDados para conexão com o ADS2002, calibração e aferição dos extensômetros, e o software AqAnalysis para fazer o processamento dos sinais
+O computador utiliza o programa de computador AQDados para conexão com o ADS2002, calibração e aferição dos extensômetros, e o programa AqAnalysis para fazer o processamento dos sinais
 e gerar relatórios de análise, ambos os programas são desenvolvidos pela fabricante do dispositivo de obtenção de dados.
 
 \begin{figure}[htb]
@@ -483,31 +486,41 @@ e gerar relatórios de análise, ambos os programas são desenvolvidos pela fabr
 
 A conexão entre o dispositivo de obtenção de dados e o extensômetro ocorre utilizando os terminais elétricos do canal específico de análise, o ADS2002 já possui,
 integrado em si, os componentes elétricos do circuito da ponte de wheatstone para a instrumentação do sinal.
-A calibração do extensômetro afim dos resultados serem mostrados como valores deformação, ao invés de tensões, é feita utilizando a \autoref{eq:Eq_270} que define um valor de
+A calibração do extensômetro com a finalidade de os resultados serem mostrados como valores deformação ao invés de tensões, é feita utilizando a \autoref{eq:Eq_270}, que define um valor de
 fator de engenharia em função do fator de sensibilidade do extensômetro $k$, da resistência média do extensômetro $RM$ e da resistência de calibração $RC$ que é disponibilizada pelo fabricante.
 
 \begin{equation}\label{eq:Eq_270}%
 \mbox{\fontsize{17.28}{21.6}\selectfont\( %
-VE = \left ( \frac{1}{k}\left ( \frac{RM}{RM + RC} \right ) \right )
+V_{E} = \left ( \frac{1}{k}\left ( \frac{R_{M}}{R_{M} + R_{C}} \right ) \right )
 \)} %
 \end{equation}
 
-\newline
+onde
+
+$V_{E}$: Valor de engenharia
+
+$k$: Fator de sensiblidade do extensômetro
+
+$R_{M}$: Resistência média do extensômetro
+
+$R_{C}$: Resistência de calibração
+
+\hfill
 
 O sistema de medição utilizando o protótipo desenvolvido pelo autor é feito pela conexão entre o controlador ESP32 e o computador.
-Para isso é utilizado um software desenvolvido pelo autor utilizando a linguagem de programação Python para realizar a transferência
+Para isso é utilizado um programa de computador desenvolvido pelo autor utilizando a linguagem de programação Python para realizar a transferência
 dos dados obtidos pelo controlador em tempo real.
 A \autoref{fig:2070} mostra o protótipo desenvolvido sendo utilizado com o dispositivo de flexão.
 
 \begin{figure}[htb]
-	\caption{\label{fig:2070} Protótipo do dispositivo desenvolvido conectado com o extensometro no dispositivo de flexão}
+	\caption{\label{fig:2070} Protótipo do dispositivo desenvolvido conectado com o extensômetro no dispositivo de flexão}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/2070.png}
 	\end{center}
 	\fonte{O autor 2021}
 \end{figure}
 
-A calibração do dispositivo é feita utilizando uma equação de interpolação linear, com o objetivo de converter os  valores discretos obtidos em bits pelo amplificador
+A calibração do dispositivo é feita utilizando uma equação de interpolação linear, com o objetivo de converter os valores discretos obtidos pelo módulo de conversão
 de sinal para um valor de gradeza física desejado.
 Uma equação linear genérica é mostrada na \autoref{eq:Eq_280}.
 
@@ -517,7 +530,20 @@ f(D) = fa * D + fb
 \)} %
 \end{equation}
 
-Os fatores de calibração a e b, mostrados nas \autoref{eq:Eq_281} e \autoref{eq:Eq_282}, da equação linear são encontrados utilizando os valores nominais, e os valores obtidos
+onde
+
+$f{D}$: Função de calibração
+
+$D$: Valor obtido do sinal em unidades discretas
+
+$fa$: Fator de calibração a
+
+$fb$: Fator de calibração b
+
+\hfill
+
+
+Os fatores de calibração $ fa $ e $ fb $, mostrados nas \autoref{eq:Eq_281} e \autoref{eq:Eq_282}, da equação linear são encontrados utilizando os valores nominais, e os valores obtidos
 dos sinais pela utilização de duas cargas distintas conhecidas.
 
 \begin{equation}\label{eq:Eq_281}%
@@ -528,33 +554,33 @@ fa = \frac{NV_{high} - NV_{low}}{D_{high} - D_{low}}
 
 \begin{equation}\label{eq:Eq_282}%
 \mbox{\fontsize{17.28}{21.6}\selectfont\( %
-fb = NV_{low} + D_{low} \frac{NV_{high} - NV_{low}}{D_{high} - D_{low}}
+fb = N_{low} + D_{low} \frac{N_{high} - N_{low}}{D_{high} - D_{low}}
 \)} %
 \end{equation}
 
-%onde
-%
-%$F(W)$: Função de calibração
-%
-%$W$: Valor nominal do sinal
-%
-%$W_{high}$: Carga de calibração de massa alta
-%
-%$W_{low}$: Carga de calibração de massa baixa
-%
-%$output_{high}$: Valor nominal do sinal obtido pela aplicação da carga alta
-%
-%$output_{high}$: Valor nominal do sinal obtido pela aplicação da carga baixa
+onde
+
+$fa$: Fator de calibração a
+
+$fb$: Fator de calibração b
+
+$N_{high}$: Valor nominal da carga maior
+
+$N_{low}$: Valor nominal da carga menor
+
+$D_{high}$: Valor obtido do sinal pela aplicação da carga maior
+
+$D_{low}$: Valor obtido do sinal pela aplicação da carga menor
 
 \hfill
 
-A calibração ocorre por um método automatizado implementado no software de comunicação entre o controlador e o computador.
+A calibração ocorre por um método automatizado implementado no programa de comunicação entre o controlador e o computador.
 Após calibrado, o dados são mostrados como os valores de grandeza física calibrada.
 
 \subsection{Cargas aplicadas}
 
-Minela utiliza pesos com massas pré definidas apoiadas utilizando um fuso de fixação para aplicação das cargas no ponto “F” no dispositivo, mostrado na \autoref{fig:2049}.
-Dentre as massas utilizadas por Minela duas não foram localizadas pelo autor deste trabalho.
+Minela (2017) utiliza pesos com massas pré definidas apoiadas utilizando um fuso de fixação para aplicação das cargas no ponto “F” no dispositivo, mostrado na \autoref{fig:2049}.
+Dentre as massas utilizadas por Minela (2017) duas não foram localizadas pelo autor deste trabalho.
 Com a finalidade de poder se obter resultados que se possam fazer comparações diretas entre os trabalhos as massas não encontradas foram substituídas por massas semelhantes.
 
 Todos os valores de massa dos pesos utilizados foram obtidos novamente pelo autor utilizando o valor médio de três leituras obtidas por uma balança de precisão disponibilizada
@@ -565,7 +591,7 @@ Os valores obtidos são apresentados na \autoref{tab:MassasUtilizadas}.
     \caption{Valores de massas utilizadas para aplicação das cargas nos dispositivos de flexão e torção}
     \label{tab:MassasUtilizadas}
     \centering
-    \resizebox{\linewidth}{!}{%
+    \resizebox{350}{!}{%
         \begin{tabular}{ l | c c r } \toprule
             Item & Massa obtida & Massa \autocite{Minela2017} & Variação \\\hline
             Porca & $\SI{3.06}{\g}$ & $\SI{14.98}{\g}$ & $\SI{78.84}{\%}$ \\
@@ -573,14 +599,14 @@ Os valores obtidos são apresentados na \autoref{tab:MassasUtilizadas}.
             Peso 1 & $\SI{86.73}{\g}$ & $\SI{99.68}{\g}$ & $\SI{12.99}{\%}$ \\
             Peso 2 & $\SI{198.38}{\g}$ & $\SI{198.36}{\g}$ & $\SI{0.01}{\%}$ \\
             Peso 3 & $\SI{997.13}{\g}$ & $\SI{997.3}{\g}$ & $\SI{0.02}{\%}$ \\
-            Peso 4 & $\SI{497.66}{\g}$ &$\SI{497.69}{\g}$ & $\SI{0.02}{\%}$ \\
+            Peso a & $\SI{497.66}{\g}$ &$\SI{497.69}{\g}$ & $\SI{0.02}{\%}$ \\
 %            Peso 5 & $\SI{495.25}{\g}$ & $\SI{496.22}{\g}$ & $\SI{0.20}{\%}$ \\
             \bottomrule
         \end{tabular}}
 \fonte{O autor 2022}
 \end{table}
 
-As massas da porca e do “peso 1” utilizados por Minela variam de forma considerável em relação aos pesos utilizados neste trabalho, então para todas as comparações diretas de
+As massas da porca e do “peso 1” utilizados por Minela (2017) variam de forma considerável em relação aos pesos utilizados neste trabalho, então para todas as comparações diretas de
 resultados experimentais obtidos entre os dois trabalhos deve ser aplicados fatores de correção de 11.42g para a porca e 12.95g para o “peso 1”.
 
 O método de aplicação de cargas é caracterizado pela aplicação na extremidade livre da viga das massas utilizando o fuso como suporte, a \autoref{fig:2080} mostra a viga de alumínio defletida
@@ -596,15 +622,15 @@ pela aplicação da carga do "peso 3".
 
 Na extremidade da viga encontra-se uma demarcação para auxiliar o posicionamento do apoio do fuso e as cargas são aplicadas de maneira cuidadosa de modo que não sejam geradas forças de
 impulso na viga.
-O sistema de medição obtêm valores em bits proporcionais a carga aplicada no experimento.
+O sistema de medição obtêm valores em unidades discretas proporcionais a carga aplicada no experimento.
 
 A etapa de análise dos resultados obtidos pelo experimento com o protótipo são apresentados no \autoref{ch:capitulo_resultados}.
 
 \section{Projeto detalhado}
 
-A documentação do projeto detalhado do produto é composta pelos projetos mecânico, elétrico/eletrônico e pelo desenvolvimento do software de comunicação.
+A documentação do projeto detalhado do produto é composta pelos projetos mecânico, elétrico/eletrônico e pelo desenvolvimento do programa computacional para comunicação.
 
-O projeto mecânico do dispositivo foi desenvolvido utilizando o software Solidworks 2017, os modelos da placa de controle ESP8266 e do amplificador de sinal HX711
+O projeto mecânico do dispositivo foi desenvolvido utilizando o programa Solidworks 2017, os modelos da placa de controle ESP8266 e do módulo de conversão de sinal HX711
 foram obtidos na plataforma de compartilhamento de modelos GrabCAD. Após ser definido um arranjo inicial da posição dos componentes no dispositivo foi modelado um
 componente de encapsulamento para o dispositivo.
 O modelo da montagem do dispositivo é ilustrado na \autoref{fig:2039}.
@@ -627,7 +653,7 @@ A ilustração do projeto do dispositivo nas três vistas padrão e vista isomé
 	\fonte{O autor 2022}
 \end{figure}
 
-O projeto elétrico do dispositivo foi desenvolvido utilizando o software para desenvolvimento de placas eletrônicas EasyEDA e é mostrado na \autoref{fig:2041} e no \autoref{ch:projeto-elétrico}.
+O projeto elétrico do dispositivo foi desenvolvido utilizando o programa EasyEDA e é mostrado na \autoref{fig:2041} e no \autoref{ch:projeto-elétrico}.
 
 \begin{figure}[H]
 	\caption{\label{fig:2041} Projeto elétrico do dispositivo}
@@ -637,7 +663,7 @@ O projeto elétrico do dispositivo foi desenvolvido utilizando o software para d
 	\fonte{O autor 2022}
 \end{figure}
 
-A fase de desenvolvimento do software engloba duas etapas principais, a primeira é o desenvolvimento da programação da placa de controle,
+A fase de desenvolvimento do programa computacional engloba duas etapas principais, a primeira é o desenvolvimento da programação da placa de controle,
 que é feita utilizando o programa Arduino IDE para conectar e programar o controlador da plataforma.
 Uma introdução a estrutura do programa de controle e das suas funções é mostrada na \autoref{fig:2042}
 
@@ -656,7 +682,7 @@ A função handleRead utiliza o método hx711.read(), conforme o \autoref{lst:ha
 enviar ao computador via rede local.
 O programa completo do controlador é apresentado no \autoref{ch:algoritmo-de-programação-do-controlador-do-dispositivo}.
 
-\begin{lstlisting}[label={lst:handle_read},language=C++,caption={[Controller Program]{Função de obtenção de sinal pelo amplificador HX711}}]
+\begin{lstlisting}[label={lst:handle_read},language=C++,caption={{Função de obtenção de sinal pelo módulo de conversão HX711}}]
 
 void handleRead() {
   if (server.method() != HTTP_POST) {
@@ -675,7 +701,7 @@ O objeto e suas funções é ilustrado pela \autoref{fig:2043}.
 \begin{figure}[htb]
 	\caption{\label{fig:2043} Objeto NetworkDevice}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/2043.png}
+		\includegraphics[width=600, angle=90]{pictures/2043.png}
 	\end{center}
 	\fonte{O autor 2022}
 \end{figure}
@@ -685,7 +711,7 @@ O método \_\_init\_\_ recebe e salva como parâmetros do objeto os dados de end
 e o método read\_line utiliza a função post do pacote requests para enviar uma requisição ao endereço de ip do objeto e retorna o valor obtido em forma de
 texto de maneira calibrada, caso o argumento calibrated seja igual a verdadeiro, ou não calibrado, caso contrário.
 
-\begin{lstlisting}[label={lst:essentialobjectfuncions},language=Python,caption={[NetworkDevice]{Métodos base do objeto NetworkDevice}}]
+\begin{lstlisting}[label={lst:essentialobjectfuncions},language=Python,caption={{Métodos base do objeto NetworkDevice}}]
 
 """
 Creates a local network connection device object
@@ -712,7 +738,7 @@ Caso seja necessária a obtenção de dados em sequência ao longo do tempo fora
 o número de amostras é passado para a obtenção repetida dos dados, utilizando o parâmetro de intervalo de leitura para determinar o intervalo de execução da chamada do
 método read\_line, e é retornado um objeto de lista do Numpy com os dados obtidos.
 
-\begin{lstlisting}[language=Python,label={lst:sample_reading},caption={[Network Device calibrate offset]{Métodos para executar experimentos do objeto NetworkDevice}}]
+\begin{lstlisting}[language=Python,label={lst:sample_reading},caption={{Métodos para executar experimentos do objeto NetworkDevice}}]
 
 def read_samples(self, n_of_samples: int, plot: bool = False, calibrated: bool = False):
 	"""returns a number of data lines given a sample size"""
@@ -760,10 +786,10 @@ def plot_data(self, n_of_samples: int, calibrated: bool = False):
 As funções de calibração do objeto de conexão com o dispositivo são mostradas no \autoref{lst:objectcalibration}. O método calibrate\_offset serve para definir o ponto de leitura quando
 nenhuma carga está presente, e funciona obtendo 40 amostras utilizando o método read\_samples, arredondando o valor médio dessas amostras a um número inteiro e definindo o parâmetro
 offset do objeto ao valor obtido. A função calibrate readings utiliza recebe duas cargas nominais conhecidas e seus sinais obtidos em forma de dicionário e utiliza estes valores para
-definir os parâmetros a e b da função linear de calibração, com a finalidade de ser utilizada no método read\_line para converter os valores em forma de bits para um formato de valor
+definir os parâmetros $ fa $ e $ fb $ da \autoref{eq:Eq_280}, com a finalidade de ser utilizada no método read\_line para converter os valores em formato discreto para um formato de valor
 nominal da grandeza física calibrada.
 
-\begin{lstlisting}[label={lst:objectcalibration},language=Python,caption={[Network Device calibrate offset]{Métodos de calibração do objeto NetworkDevice}}]
+\begin{lstlisting}[label={lst:objectcalibration},language=Python,caption={{Métodos de calibração do objeto NetworkDevice}}]
 
 def calibrate_offset(self):
 	"""sets the offset value for the device data gathering"""
@@ -782,6 +808,8 @@ def calibrate_readings(self, calibration_dict_1: dict, calibration_dict_2: dict)
 
 \end{lstlisting}
 
+O código completo do objeto NetworkDevice é encontrado no \autoref{ch:algoritmos-desenvolvidos-para-o-software-de-conexão}.
+
 Com o intuito de facilitar a utilização do método pelo usuário é desenvolvido uma interface gráfica simples, uma breve apresentação da interface desenvolvida utilizando o pacote tkinter é
 mostrada na \autoref{fig:2044}.
 
@@ -793,4 +821,4 @@ mostrada na \autoref{fig:2044}.
 	\fonte{O autor 2022}
 \end{figure}
 
-Os códigos completos para o objeto NetworkDevice e para a geração da interface gráfica são apresentados no \autoref{ch:algoritmos-desenvolvidos-para-o-software-de-conexão}.
+Os códigos completos a geração da interface gráfica são apresentados no \autoref{ch:algoritmos-desenvolvidos-para-o-software-de-conexão}.

@@ -1,3 +1,4 @@
+
 \phantomsection
 
 \chapter{Referencial Teórico}
@@ -27,11 +28,11 @@ descrevem o balanço estático conforme a segunda lei de Newton.
 \)} %
 \end{equation}
 
-%onde
-%
-%$F_{i}$: Forças axiais aplicadas no corpo no eixo "i"
-%
-%$M_{i}$: Momentos aplicados no corpo no eixo "i"
+onde
+
+$F_{i}$: Forças resultantes aplicadas no corpo no eixo i
+
+$M_{i}$: Momentos aplicados no corpo no eixo i
 
 \hfill
 
@@ -46,7 +47,7 @@ A \autoref{fig:1010} apresenta uma representação gráfica da atuação de for�
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/1010.jpg}
 	\end{center}
-	\fonte{https://pressbooks.library.upei.ca/statics/chapter/3-types-of-internal-forces/ acesso em mar 2022}
+	\fonte{\autocite{imforext}}
 \end{figure}
 
 Uma vez que se tem a informação das forças internas atuantes em um ponto no corpo e na seção do material, então, pode-se partir para a análise das tensões
@@ -64,19 +65,20 @@ e é calculada pela \autoref{eq:Eq_130} \autocite{Norton2011}.
 \)} %
 \end{equation}
 
-%onde
-%
-%$\varepsilon$: Deformação presente no material
-%
-%$l$: Comprimento da barra após deformação
-%
-%$l_0$: Comprimento da barra sem deformação
+onde
+
+$\varepsilon$: Deformação presente no material
+
+$l$: Comprimento do corpo após deformação
+
+$l_0$: Comprimento do corpo sem deformação
 
 \hfill
 
 O método mais comum de definição das propriedades mecânicas de um material é realizando um teste de tração.
 O teste de tração consiste no lento e gradativo aumento da aplicação de uma carga de tração em um corpo de prova de material e dimensões conhecidas,
 até o momento em que o corpo de prova se rompe.
+Um exemplo de corpo de prova é mostrado na \autoref{fig:1011}.
 Para realizar o teste é utilizado uma máquina que aplica as cargas e obtém com precisão os dados de forças aplicadas e de deslocamento apresentado
 no corpo do material \autocite{Norton2011}.
 
@@ -118,22 +120,23 @@ A lei de Hooke é apresentada na \autoref{eq:Eq_140}.
 \)} %
 \end{equation}
 
-%onde
-%
-%$\sigma$: Tensão interna do material
-%
-%$E$: Módulo de elasticidade do material
-%
-%$\varepsilon$: Deformação presente no material
+onde
+
+$\sigma$: Tensão interna do material
+
+$E$: Módulo de elasticidade do material
+
+$\varepsilon$: Deformação presente no material
 
 \hfill
 
 A variável $E$ da equação da Lei de Hooke é representa a inclinação da curva tensão-deformação e é chamada de Módulo de Young, ou módulo de elasticidade do
-material \autocite{Norton2011}. Norton também afirma que o Módulo de Young “é uma medida da rigidez do material em sua região elástica e tem as mesmas unidades da tensão.
+material \autocite{Norton2011}.
+Norton também afirma que o Módulo de Young “é uma medida da rigidez do material em sua região elástica e tem as mesmas unidades da tensão.
 A maioria dos metais exibe esse comportamento linear e também tem módulos de elasticidade que variam muito pouco com tratamentos térmicos ou com a adição de elementos de liga.”
 
 Para uma barra constituída de um material homogêneo e isotrópico e submetida a forças axiais que tem seu centro de atuação no centro da seção da barra essas cargas
-irão gerar uma tensão normal uniforme ao longo do seu comprimento sobre a seção transversal \autocite{Hibbeler2010}.
+irão gerar uma tensão normal uniforme ao longo do seu comprimento sobre a seção transversal, conforme a \autoref{fig:1030} \autocite{Hibbeler2010}.
 
 \begin{figure}[htb]
 	\caption{\label{fig:1030} Deformação de uma barra sob carga de tração}
@@ -151,15 +154,15 @@ O alongamento ou contração de um segmento de reta por unidade de comprimento �
 \)} %
 \end{equation}
 
-%onde
-%
-%$\delta$: Variação de comprimento na barra
-%
-%$P$: Carga aplicada
-%
-%$A$: Área da seção transversal
-%
-%$L$: Comprimento da barra
+onde
+
+$\delta$: Variação de comprimento de uma barra sob tração
+
+$P$: Carga aplicada no corpo
+
+$A$: Área da seção transversal
+
+$L$: Comprimento da barra
 
 \hfill
 
@@ -321,14 +324,13 @@ A \autoref{eq:Eq_200} caracteriza a distribuição de tensão ao longo da direç
 \)} %
 \end{equation}
 
-%onde
-%
-%$M$: Momento fletor
-%
-%$I$: Momento de inércia da seção transversal
-%
-%$y$: Distância entre limite da área e seu centroide
-%
+onde
+
+$M$: Momentos fletor na viga
+
+$I$: Momento de inércia da seção transversal
+
+$y$: Distância entre limite e o centróide da área da seção transversal
 
 \hfill
 
@@ -343,11 +345,11 @@ causados pelas cargas de flexão.
 Para uma situação como na mostrada na \autoref{fig:1071} a deformação em um ponto na superfície á distância $ L $ da força aplicada pode ser encontrada pela \autoref{eq:Eq_201}
 
 \begin{figure}[htb]
-	\caption{\label{fig:1071} Viga retângular sob flexão}
+	\caption{\label{fig:1071} Viga retangular sob flexão}
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/1071.png}
 	\end{center}
-	\fonte{\autocite{}}
+	\fonte{\autocite{BarretoJunior}}
 \end{figure}
 
 \begin{equation}\label{eq:Eq_201}%
@@ -355,6 +357,16 @@ Para uma situação como na mostrada na \autoref{fig:1071} a deformação em um 
 \varepsilon = \frac{6PL}{Eb{t^2}}
 \)} %
 \end{equation}
+
+onde
+
+$L$: Distância entre força aplicada e a força em uma viga em flexão
+
+$b$: Largura da seção transversal da viga em flexão
+
+$t$: Espessura da seção transversal da viga em flexão
+
+\hfill
 
 As deformações em um componente podem ser altamente visíveis ou praticamente imperceptíveis se não forem utilizados equipamentos que façam medições precisas
 \autocite{Hibbeler2010}.
@@ -370,12 +382,12 @@ Caso um extensômetro esteja fixado a um corpo de um material em uma direção e
 deformar igualmente o extensômetro, logo pode-se considerar o extensômetro como uma parte integrante do corpo de prova e qualquer deformação que aconteça no corpo de
 prova acontecerá igual no extensômetro \autocite{Hibbeler2010}.
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\caption{\label{fig:1080} Extensômetro fixado á um corpo de prova}
 	\begin{center}
-		\includegraphics[width=\textwidth]{pictures/1080.png}
+		\includegraphics[width=200]{pictures/1080.png}
 	\end{center}
-	\fonte{https://binsfeld.com/category/strain-gage/ acesso em fev 2022}
+	\fonte{\autocite{imsgshaft}}
 \end{figure}
 
 O fator de extensão ou gage factor, parâmetro que especifica a relação entre a variação da resistência nominal em um extensômetro para um valor unitário
@@ -389,17 +401,17 @@ k \varepsilon = \frac{\Delta R_s }{R_s}
 \)} %
 \end{equation}
 
-%onde
-%
-%$k$: Gage Factor
-%
-%$\varepsilon$: Deformação no extensômetro
-%
-%$\Delta R_s$: Variação de resistência causada pela deformação
-%
-%$R_s$: Resistência nominal do extensômetro
-%
-%\hfill
+onde
+
+$k$: Fator de sensiblidade do extensômetro
+
+$\varepsilon$: Deformação presente no material
+
+$\Delta R_s$: Variação de resistência no extensômetro causada pela deformação
+
+$R_s$: Resistência nominal do extensômetro
+
+\hfill
 
 Porém, deve-se notar que os valores de deformação esperados para um metal dentro de sua zona de deformação elástica são muito pequenos, o que acarreta em pequenas
 variações de resistência no extensômetro. Com o objetivo de facilitar a medição da deformação, devem ser utilizados artifícios de instrumentação como um circuito de ponte
@@ -417,7 +429,7 @@ mais utilizado para facilitar a leitura da variação de resistência de sensore
 	\begin{center}
 		\includegraphics[width=300]{pictures/1090.png}
 	\end{center}
-	\fonte{https://www.researchgate.net/figure/Monolithic-integration-of-a-Wheatstone-bridge-circuit-with-the-paper-based-sensor-A_fig2_224225141\\ acesso em fev 2022}
+	\fonte{\autocite{wbridge}}
 \end{figure}
 
 A ponte de Wheatstone é normalmente utilizada em comparações e medições de resistência elétrica que variam de 1 $\Omega$ até 1 $M\Omega$ \autocite{Hollman2011}.
@@ -429,13 +441,13 @@ V_{out} = V_{in} \frac{R_1 R_3 - R_2 R_4}{(R_1 + R_2)(R_3 + R_4)}
 \)} %
 \end{equation}
 
-%onde
-%
-%$V_{out}$: Tensão de saída da ponte
-%
-%$V_{in}$: Tensão de excitação da ponte
-%
-%$R_i$: Resistência nominal dos resistores da ponte
+onde
+
+$V_{out}$: Tensão de saída da ponte de wheatstone
+
+$V_{in}$: Tensão de excitação da ponte de wheatstone
+
+$R_i$: Resistência nominal dos resistores da ponte de wheatstone
 
 \hfill
 
@@ -449,15 +461,15 @@ e valor de extensão apresentado no sensor, logo a equação de transferência d
 \)} %
 \end{equation}
 
-%onde
-%
-%$V_{out}$: Tensão de saída da ponte
-%
-%$V_{in}$: Tensão de excitação da ponte
-%
-%$k$: Gage factor
-%
-%$\varepsilon_{i}$: Valor de deformação no extensômetro "i"
+onde
+
+$V_{out}$: Tensão de saída da ponte de wheatstone
+
+$V_{in}$: Tensão de excitação da ponte de wheatstone
+
+$k$: Fator de sensiblidade do extensômetro
+
+$\varepsilon_{i}$: Valor de deformação no extensômetro "i"
 
 \hfill
 
@@ -472,7 +484,8 @@ amplificação dessa tensão com o objetivo de facilitar a obtenção das leitur
 \section{OBTENÇÃO DE SINAIS}
 
 Medidas experimentais podem ocorrer de diversas formas e em vários casos os sinais são considerados fracos, logo eles devem ser amplificados com o objetivo de facilitar sua
-utilização por um dispositivo de saída. A maior parte dos amplificadores de sinal atuais utilizam circuitos integrados ou dispositivos de estado sólido para amplificar um
+utilização por um dispositivo de saída.
+A maior parte dos amplificadores de sinal atuais utilizam circuitos integrados ou dispositivos de estado sólido para amplificar um
 sinal fraco analógico \autocite{Hollman2011}.
 
 \begin{figure}[htb]
@@ -480,7 +493,7 @@ sinal fraco analógico \autocite{Hollman2011}.
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/1100.png}
 	\end{center}
-	\fonte{https://www.electronics-tutorials.ws/amplifier/amp_1.html\\ acesso em fev 2022}
+	\fonte{adaptado de \autocite{amplifier}}
 \end{figure}
 
 O principio de funcionamento de um amplificador de sinal é mostrado na \autoref{fig:1100}.
@@ -492,17 +505,17 @@ Gain(A) = \frac{input}{output}
 \)} %
 \end{equation}
 
-%onde
-%
-%$Gain (A)$: Grau de amplificação do amplificador de sinal
-%
-%$input$: Sinal de entrada
-%
-%$output$: Sinal amplificado
+onde
+
+$Gain (A)$: Grau de amplificação do amplificador de sinal
+
+$input$: Sinal de entrada
+
+$output$: Sinal amplificado
 
 \hfill
 
-Ruídos característicos sempre estarão presentes em situações de tomada de medidas, como ilustrado na \autoref{fig:1110}.
+Ruídos característicos sempre estarão presentes nas medidas, como ilustrado na \autoref{fig:1110}.
 Os ruídos acontecem devido a efeitos aleatórios ou conhecidos e podem ser filtrados utilizando circuitos que apenas permitem que uma certa parte das frequências que compõem o sinal obtido passem
 adiante no circuito a fim de modificar o sinal de saída do amplificador.
 Essa filtragem dos ruídos não resolvem todos os problemas que podem ser encontrados, porém melhora significativamente o resultado de um experimento \autocite{Hollman2011}.
@@ -512,7 +525,7 @@ Essa filtragem dos ruídos não resolvem todos os problemas que podem ser encont
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/1110.png}
 	\end{center}
-	\fonte{www.quora.com/How-can-digital-signals-posses-noise-immunity acesso em fev 2022}
+	\fonte{adaptado de \autocite{imnoise}}
 \end{figure}
 
 Uma vez que os sinais encontrados até aqui no sistema são de característica analógica e espera-se que a utilização e tratamento deles ocorra em um computador ou placa
@@ -526,16 +539,16 @@ discreta, como ilustrado na \autoref{fig:1120}.
 	\begin{center}
 		\includegraphics[width=\textwidth]{pictures/1120.png}
 	\end{center}
-	\fonte{{www.arrow.com/en/research-and-events/articles/engineering-resource-basics-of-analog-to-digital-converters} acesso em fev 2022}
+	\fonte{adaptado de \autocite{imadc}}
 \end{figure}
 
-Uma daz razões para o tratamento de sinais de maneira digital é amenizar o efeito de ruídos durante a transmissão do sinal devido ao fato de que valores no meio discreto
+Uma das razões para o tratamento de sinais de maneira digital é amenizar o efeito de ruídos durante a transmissão do sinal devido ao fato de que valores no meio discreto
 são menos sensíveis a ruídos por possuírem apenas dois valores de estados possíveis, 0 ou 1.
 Em contrapartida os sinais analógicos são muito mais sensíveis a ruídos pois podem apresentar uma infinidade de valores possíveis dentro de um meio contínuo,
 logo, qualquer ruído pode alterar os valores transmitidos dos sinais \autocite{Hollman2011}.
 
-Com a finalidade de não ser perdidas informações no momento de conversão de um sinal do meio analógico para a forma digital, deve ser seguido o teorema sampling que estipula
-que a taxa de leitura de um sinal de maneira digital necessita ser pelo menos duas vezes o valor da frequência desse sinal no meio analógico \autocite{Hollman2011}.
+Com a finalidade de não ser perdidas informações no momento de conversão de um sinal do meio analógico para a forma digital, deve ser seguido o teorema de amostragem que estipula
+que a taxa de leitura de um sinal de maneira digital necessita ser pelo menos duas vezes o valor da frequência máxima desse sinal no meio analógico \autocite{Hollman2011}.
 
 A aquisição e processamento subsequente dos sinais obtidos pode ser feito de diversas formas, desde simples cálculos e obtenção manuais de dados até utilizando
 rotinas computacionais complexas. O objetivo do sistema de aquisição de dados é o de coletar, processar e/ou armazenar os dados obtidos em um experimento ou medição
@@ -572,12 +585,12 @@ e wireless integrados, o que eventualmente reduz complexidade e preço do dispos
 \end{figure}
 
 A programação do controlador é feita utilizando uma linguagem de programação baseada na linguagem C + + adaptada para a utilização em placas de controle utilizando o ambiente
-de desenvolvimento Arduino IDE, que permite a utilização de extensões para programação e utilização de módulos externos, como o amplificador de sinal.
+de desenvolvimento Arduino IDE, que permite a utilização de extensões para programação e utilização de módulos externos, como o módulo de conversão de sinal.
 
-O ADS1115 é um conversor analógico digital, mostrado na \autoref{fig:1150}.
+O ADS1115 é um módulo de conversão de sinais analógicos para digitais, mostrado na \autoref{fig:1150}.
 É um módulo de precisão com amplificador de ganho programável, e que tem resolução de 16 bits.
-O módulo é capaz de obter sinais na frequência de até 860 amostras por segundo e consegue sensoriar sinais na faixa de tensão de ${\pm 256}{m\V}$,
-isso permite o sensoriamento de sinais de baixa energia com alta resolução \autocite{DocsADS115}.
+O módulo é capaz de obter sinais com tensões máximas e mínimas de ${\pm 256}{mV}$ a uma taxa máxima de 860 amostras por segundo,
+isso permite o sensoriamento de sinais de baixa tensão com alta resolução \autocite{DocsADS115}.
 
 \begin{figure}[htb]
 	\caption{\label{fig:1150} Conversor analógico digital ADS1115}
@@ -590,77 +603,77 @@ isso permite o sensoriamento de sinais de baixa energia com alta resolução \au
 Os dados obtidos pelo sistema de medição são todos em formato digital em forma de vetores unidimensionais compostos pelos valores das amostras obtidas durante o tempo do
 experimento, esses valores são transmitidos em tempo real para um computador que executa um programa de obtenção de dados para realizar transformações mais complexas e
 análises dos sinais obtidos em tempo real.
-
-\section{ANÁLISE DOS SINAIS OBTIDOS}
-
-Algum tipo de análise deve sempre ser feita em todo tipo de conjuntos de dados experimentais. Várias considerações entram na determinação final da validade dos resultados
-experimentais, erros podem acarretar na invalidade dos dados mesmo quando estes foram obtidos com cautela. Alguns erros são de natureza aleatória, e outros podem ser por
-natureza física ou por descuido do experimentador, como flutuações eletrônicas, fricção ou desgaste dos componentes, esses tipos de erros devem ser descartados imediatamente
-\autocite{Hollman2011}.
-
-Leituras individuais em um instrumento podem variar devido a erros de natureza aleatória, que seguem uma distribuição estatística normal, e o experimentador pode estar
-desejando obter o valor médio de diversas leituras realizadas \autocite{Hollman2011}. A \autoref{eq:Eq_240} obtém o valor médio para uma medição experimental consistente
-de diversas leituras.
-
-\begin{equation}\label{eq:Eq_240}%
-\mbox{\fontsize{17.28}{21.6}\selectfont\( %
-\overline{x} = {\frac {1}{n}}\sum _{i=1}^{n}x_{i}
-\)} %
-\end{equation}
-
-%onde:
 %
-%$\overline{x}$: Valor médio das amostras
+%\section{ANÁLISE DOS SINAIS OBTIDOS}
 %
-%$x_i$: valor nominal da amostra i
+%Algum tipo de análise deve sempre ser feita em todo tipo de conjuntos de dados experimentais. Várias considerações entram na determinação final da validade dos resultados
+%experimentais, erros podem acarretar na invalidade dos dados mesmo quando estes foram obtidos com cautela. Alguns erros são de natureza aleatória, e outros podem ser por
+%natureza física ou por descuido do experimentador, como flutuações eletrônicas, fricção ou desgaste dos componentes, esses tipos de erros devem ser descartados imediatamente
+%\autocite{Hollman2011}.
 %
-%$n$: Quantidade de amostras
-
-\hfill
-
-Para cada leitura é esperado um valor de desvio lido, deve se notar que quanto melhor for o sistema de medição menor serão os valores de desvio obtidos no conjunto de
-leituras, o desvio padrão, representado pela \autoref{eq:Eq_250}, se mostra como um bom indicador da situação dos desvios, e consequentemente da exatidão de um sistema de
-medição.
-
-\begin{equation}\label{eq:Eq_250}%
-\mbox{\fontsize{17.28}{21.6}\selectfont\( %
-Dp = \sqrt{\frac{\Sigma(x_i-\overline{x})^{2}}{n}}
-\)} %
-\end{equation}
-
-%onde:
+%Leituras individuais em um instrumento podem variar devido a erros de natureza aleatória, que seguem uma distribuição estatística normal, e o experimentador pode estar
+%desejando obter o valor médio de diversas leituras realizadas \autocite{Hollman2011}. A \autoref{eq:Eq_240} obtém o valor médio para uma medição experimental consistente
+%de diversas leituras.
 %
-%$Dp$: desvio padrão
+%\begin{equation}\label{eq:Eq_240}%
+%\mbox{\fontsize{17.28}{21.6}\selectfont\( %
+%\overline{x} = {\frac {1}{n}}\sum _{i=1}^{n}x_{i}
+%\)} %
+%\end{equation}
 %
-%$x_i$: valor nominal da amostra "i"
+%%onde:
+%%
+%%$\overline{x}$: Valor médio das amostras
+%%
+%%$x_i$: valor nominal da amostra i
+%%
+%%$n$: Quantidade de amostras
 %
-%$\overline{x}$: valor médio das amostras
+%\hfill
 %
-%$n$: Quantidade de amostras
-
-\hfill
-
-Essa equação de desvio padrão deve ser utilizada para grandes populações de amostras ou para quando os dados obtidos podem ser comparados com grandezas conhecidas \autocite{Hollman2011}.
-Para se obter a informação de se os valores experimentais estão de acordo com os desejados pode-se utilizar o teste do chi quadrado, representado na \autoref{eq:Eq_260}.
-
-\begin{equation}\label{eq:Eq_260}%
-\mbox{\fontsize{17.28}{21.6}\selectfont\( %
-\chi^{2} = \sum{\frac{(observed_i - expected_i)^{2}}{expected_i}}
-\)} %
-\end{equation}
-
-%onde:
+%Para cada leitura é esperado um valor de desvio lido, deve se notar que quanto melhor for o sistema de medição menor serão os valores de desvio obtidos no conjunto de
+%leituras, o desvio padrão, representado pela \autoref{eq:Eq_250}, se mostra como um bom indicador da situação dos desvios, e consequentemente da exatidão de um sistema de
+%medição.
 %
-%$\chi^{2}$: valor de chi quadrado
+%\begin{equation}\label{eq:Eq_250}%
+%\mbox{\fontsize{17.28}{21.6}\selectfont\( %
+%Dp = \sqrt{\frac{\Sigma(x_i-\overline{x})^{2}}{n}}
+%\)} %
+%\end{equation}
 %
-%$observed$: valor experimental observado da amostra "i"
+%%onde:
+%%
+%%$Dp$: desvio padrão
+%%
+%%$x_i$: valor nominal da amostra "i"
+%%
+%%$\overline{x}$: valor médio das amostras
+%%
+%%$n$: Quantidade de amostras
 %
-%$expected$: valor experimental esperado da amostra "i"
-
-\hfill
-
-Esse teste é uma importante ferramenta de teste de qualquer resultado de distribuição experimental esperada. Se o valor de chi quadrado é igual a zero
-então a distribuição assumida é exatamente a distribuição real, quanto maior o valor de chi quadrado, menor é a correlação entre os dados medidos e os reais. \autocite{Hollman2011}
+%\hfill
+%
+%Essa equação de desvio padrão deve ser utilizada para grandes populações de amostras ou para quando os dados obtidos podem ser comparados com grandezas conhecidas \autocite{Hollman2011}.
+%Para se obter a informação de se os valores experimentais estão de acordo com os desejados pode-se utilizar o teste do chi quadrado, representado na \autoref{eq:Eq_260}.
+%
+%\begin{equation}\label{eq:Eq_260}%
+%\mbox{\fontsize{17.28}{21.6}\selectfont\( %
+%\chi^{2} = \sum{\frac{(observed_i - expected_i)^{2}}{expected_i}}
+%\)} %
+%\end{equation}
+%
+%%onde:
+%%
+%%$\chi^{2}$: valor de chi quadrado
+%%
+%%$observed$: valor experimental observado da amostra "i"
+%%
+%%$expected$: valor experimental esperado da amostra "i"
+%
+%\hfill
+%
+%Esse teste é uma importante ferramenta de teste de qualquer resultado de distribuição experimental esperada. Se o valor de chi quadrado é igual a zero
+%então a distribuição assumida é exatamente a distribuição real, quanto maior o valor de chi quadrado, menor é a correlação entre os dados medidos e os reais. \autocite{Hollman2011}
 
 \subsection{Ambiente de desenvolvimento computacional Python}
 
@@ -671,7 +684,7 @@ Python é uma linguagem de programação de alto nível com sintaxe simples de f
 É possível a utilização de extensões e pacotes com funções pré desenvolvidas para resolver diversos problemas computacionais encontrados pelos programadores \autocite{TimHall2010}.
 
 Uma das extensões principais que é utilizado neste trabalho é o Requests, que é um pacote com funções que tem como objetivo simplificar as operações de requisição e obtenção de dados entre dispositivos
-que se encontram conectados á uma mesma rede, seja ela uma rede local ou na rede mundial de computadores \autoref{DocsRequests}.
+que se encontram conectados á uma mesma rede, seja ela uma rede local ou na rede mundial de computadores \autocite{DocsRequests}.
 
 A extensão Numpy é um pacote fundamental para computação científica utilizando a linguagem de programação Python.
 O Numpy é uma ferramenta utilizada para o processamento de dados em forma vetorial, uni ou multidimensional, seu funcionamento é baseado na conversão dos dados numéricos do formato de lista para um
@@ -701,7 +714,7 @@ na minimização de processamento de um programa se comparado com a utilização
 %\end{table}
 
 Uma grande gama de outros pacotes em python usam como base a estrutura de dados e funções presentes, como o Pandas, que é utilizado para facilitar a manipulação e
-armazenamento de dados em formato de tabular, como planilhas e bancos de dados \autocite{DocsPandas}.
+armazenamento de dados em formato de tabular, como planilhas e bancos de dados \autocite{DocsPandas_}.
 Dados em formatos tabulares do Pandas podem facilmente ser processados, analisados e armazenados utilizando funções do Numpy e funções nativas do Pandas.
 
 Com o auxílio do processamento de dados tabulares e utilizando as funções estatísticas do pacote Numpy pode-se facilmente obter os valores nominais e de erro de cada medida

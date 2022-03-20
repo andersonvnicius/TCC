@@ -1,3 +1,4 @@
+
 \phantomsection
 
 \chapter{Resultados}\label{ch:capitulo_resultados}
@@ -6,8 +7,8 @@ Este capítulo apresenta os sinais e valores obtidos no experimento realizado no
 Os tópicos aqui analisados apresentam a comparação dos resultados obtidos pelo experimento realizado pelo autor com os valores obtidos pelo
 estudo de caso feito por Minela (2017).
 
-O objetivo primário da comparação dos resultados é o de se obter dados descritivos de performance do dispositivo desenvolvido em relação a um sistema de medição industrial
-homologado, no final do capítulo são indicados as situações de melhor performance do protótipo.
+O objetivo primário da comparação dos resultados é o de se obter dados descritivos de desempenho do dispositivo desenvolvido em relação a um sistema de medição industrial
+homologado, no final do capítulo são indicados as situações de melhor desempenho do protótipo.
 
 \section{Sinais obtidos}
 
@@ -16,14 +17,14 @@ sob a aplicação da carga, e a zona intermediária representa a total aplicaç�
 
 \subsection{Sinais de calibração}
 
-A primeira etapa da utilização do dispositivo é definir os sinais de calibração, para isso é obtido as respostas de leitura do amplificador de sinal para a aplicação das cargas
+A primeira etapa da utilização do dispositivo é definir os sinais de calibração, para isso é obtido as respostas de leitura do módulo de conversão de sinal para a aplicação das cargas
 de 0,138kg e 1,04kg, que representavam o menor e o maior peso disponível para o experimento, sem considerar as combinações.
 
-Foi obtido o valor médio de 190 bits na zona superior do sinal trapezoidal na aplicação da massa de 0,138kg, como mostradado na \autoref{fig:410}.
-Para a aplicação da massa de 1.04kg foi obtido o valor de 612 bits, mostrado na \autoref{fig:420}.
+Foi obtido o valor médio de 190 unidades discretas na zona superior do sinal trapezoidal na aplicação da massa de 0,138kg, como mostrado na \autoref{fig:4100}.
+Para a aplicação da massa de 1.04kg foi obtido o valor de 612 unidades discretas, mostrado na \autoref{fig:420}.
 
 \begin{figure}[H]
-	\caption{\label{fig:410} Sinal obtido pela aplicação da carga de 0,138kg no dispositivo}
+	\caption{\label{fig:4100} Sinal obtido pela aplicação da carga de 0,138kg no dispositivo}
 	\begin{center}
 		\includegraphics[width=350]{pictures/signals/cal_signal_1.png}
 	\end{center}
@@ -38,9 +39,9 @@ Para a aplicação da massa de 1.04kg foi obtido o valor de 612 bits, mostrado n
 	\fonte{O autor 2022}
 \end{figure}
 
-Uma vez obtidos os valores em bits para cada ponto de calibração e conhecidos os seus valores de deformação teóricos, é calculado os fatores $ a $ e $ b $ da função de interpolação
-linear que converte valores obtidos pelo amplificador de sinal em bits para valores equivalentes de deformação no extensômetro.
-O valor do fator a encontrado foi de $ 2.8881 {\mu}m/bit $ e o de b foi de $ -363.4311 {\mu}m $.
+Uma vez obtidos os valores discretos para cada ponto de calibração e conhecidos os seus valores de deformação teóricos, é calculado os fatores $ fa $ e $ fb $ da função de interpolação
+linear que converte valores obtidos pelo módulo de conversão de sinal em unidades discretas para valores equivalentes de deformação no extensômetro.
+O valor do fator a encontrado foi de $ 2.8881*10^{-6} $ e o de b foi de $ -363.4311*10^{-6} $.
 
 Uma vez definidos os parâmetros de calibração são feitos os experimentos aplicando a carga de cada peso no dispositivo de flexão.
 Alguns dos sinais obtidos e uma discussão geral sobre eles são discutidos nas seções a seguir.
@@ -57,27 +58,27 @@ os valores de cargas aplicadas para a realização dos experimentos são mostrad
     \resizebox{350}{!}{%
         \begin{tabular}{ l c r } \toprule
 			Pesos aplicados & {Massa aplicada (Considerando fuso e porca)} \\
-			Peso 1 & 138.42 \\
-			Peso 2 & 250.07 \\
-			Peso 3 & 1048.82 \\
-			Peso a & 549.35 \\
-			Pesos 1 e 2 & 336.8 \\
-			Pesos 1 e a & 636.08 \\
-			Pesos 2 e a & 747.73 \\
-			Pesos 1, 2 e a & 834.46 \\
-			Pesos 3 e 1 & 1135.55 \\
-			Pesos 3 e 2 & 1247.2 \\
-			Pesos 3, 2 e 1 & 1333.93 \\
+			Peso 1 & ${138.42} {g} $ \\
+			Peso 2 & ${250.07} {g} $ \\
+			Peso 3 & ${1048.82} {g} $ \\
+			Peso a & ${549.35} {g} $ \\
+			Pesos 1 e 2 & ${336.8} {g} $ \\
+			Pesos 1 e a & ${636.08} {g} $ \\
+			Pesos 2 e a & ${747.73} {g} $ \\
+			Pesos 1, 2 e a & ${834.46} {g} $ \\
+			Pesos 3 e 1 & ${1135.55} {g} $ \\
+			Pesos 3 e 2 & ${1247.2} {g} $ \\
+			Pesos 3, 2 e 1 & ${1333.93} {g} $ \\
             \bottomrule
         \end{tabular}}
 \fonte{O autor 2022}
 \end{table}
 
 O primeiro peso aplicado é o de menor massa disponível, que ja tinha sido previamente utilizada para utilização na calibração do dispositivo,
-o sinal obtido é mostrado na \autoref{fig:4102}, o valor de deformação obtido foi de $ 182.42 {\mu}m $.
+o sinal obtido é mostrado na \autoref{fig:41002}, o valor de deformação obtido foi de $ 182.42 {\mu}m/m $.
 
 \begin{figure}[H]
-	\caption{\label{fig:4102} Sinal obtido da aplicação de 0,138 kg de carga aplicada no dispositivo}
+	\caption{\label{fig:41002} Sinal obtido da aplicação de 0,138 kg de carga aplicada no dispositivo}
 	\begin{center}
 		\includegraphics[width=350]{pictures/signals/w1.png}
 	\end{center}
@@ -87,19 +88,20 @@ o sinal obtido é mostrado na \autoref{fig:4102}, o valor de deformação obtido
 O sinal equivalente obtido por Minela (2017) é mostrado na \autoref{fig:4102_m}.
 
 \begin{figure}[H]
-	\caption{\label{fig:4102_m} Sinal obtido da aplicação da massa ded 0,163 kg de carga aplicada no dispositivo}
+	\caption{\label{fig:4102_m} Sinal obtido da aplicação da massa de 0,163 kg de carga aplicada no dispositivo indústrial}
 	\begin{center}
 		\includegraphics[width=350]{pictures/signals/wp1.png}
 	\end{center}
 	\fonte{\autocite{Minela2017}}
 \end{figure}
 
-Uma comparação direta de valor não pode ser feita considerando os dois sinais, uma vez que as massas aplicadas não foram as mesmas, porém,
-pode-se notar que o efeito dos ruídos no dispositivo desenvolvido é consideravelmente menor do que os obtidos pelo dipositivo utilizado em Minela (2017).
-A atuação dos filtros de passa-altas do módulo de conversão de sinal utilizado no dispositivo desenvolvido pode ser o principal motivo pelos quais os ruídos em
-todos os resultados obtidos pela utilização do protótipo desenvolvido se mostraram de baixas amplitudes.
+Uma comparação direta de valor não pode ser feita considerando os dois sinais, uma vez que as massas aplicadas não foram as mesmas, porém, analisando os sinais
+pode-se notar que o efeito dos ruídos no dispositivo desenvolvido é consideravelmente menor do que os obtidos pelo dispositivo utilizado em Minela (2017).
+Foi constatado que os dados apresentados por Minela (2017) foram obtidos sem a ativação dos métodos de redução de ruídos disponíveis no dispositivo Lynx ADS2002,
+logo, pode-se concluir que a atuação dos filtros de passa-altas do módulo de conversão de sinal utilizado no dispositivo desenvolvido é o principal motivo pelos quais
+os ruídos em todos os resultados obtidos pela utilização do protótipo desenvolvido se mostraram de baixas amplitudes.
 
-O sinal obtido pela aplicação do de 1,04kg é mostrado na \autoref{fig:4109}, o valor de deformação obtido foi de $ 1421.41 {\mu}m $.
+O sinal obtido pela aplicação do de 1,04kg é mostrado na \autoref{fig:4109}, o valor de deformação obtido foi de $ 1421.41 {\mu}m/m $.
 
 \begin{figure}[H]
 	\caption{\label{fig:4109} Sinal obtido da aplicação de 1,040 kg de carga aplicada no dispositivo}
@@ -112,60 +114,85 @@ O sinal obtido pela aplicação do de 1,04kg é mostrado na \autoref{fig:4109}, 
 O sinal equivalente obtido por Minela (2017) é mostrado na \autoref{fig:4109_m}
 
 \begin{figure}[H]
-	\caption{\label{fig:4109_m} Sinal obtido da aplicação da massa ded 0,163 kg de carga aplicada no dispositivo}
+	\caption{\label{fig:4109_m} Sinal obtido da aplicação da massa de 0,163 kg de carga aplicada no dispositivo indústrial}
 	\begin{center}
 		\includegraphics[width=350]{pictures/signals/wp3.png}
 	\end{center}
 	\fonte{\autocite{Minela2017}}
 \end{figure}
 
-Assim como no primeiro sinal, nota-se que os sinais são semelhantes, com a excessão dos ruídos, que são mais impactantes com 
+Assim como no primeiro sinal, nota-se que os sinais são semelhantes, com a exceção dos ruídos, que são mais impactantes com 
 a utilização do dispositivo utilizado por Minela (2017) do que com a utilização do protótipo desenvolvido.
 
-Os sinais obtidos para carga utilizada no experimento podem ser encontrados no \autoref{ch:sinais-obtidos}.
+Os sinais obtidos para cada carga utilizada no experimento podem ser encontrados no \autoref{ch:sinais-obtidos}.
+
+\subsection{Comparação dos valores de deformação experimentais e analíticos}
 
 Utilizando a \autoref{eq:Eq_201} pode-se obter analiticamente valores de deformação esperados para cada situação de carga do experimento.
-O valor de módulo de elasticidade utilizado no modelo analítico foi de $ 85.19 GPa $, que é um valor obtido experimentalmente no trabalho de Minela (2017)
+O valor de módulo de elasticidade utilizado no modelo analítico foi de $ 85.19 GPa $, que foi obtido experimentalmente no trabalho de Minela (2017)
 para o mesmo dispositivo utilizado.
 A \autoref{tab:ResultadosDeformacao} mostra os resultados de valores de deformação obtidos para cada experimento, os valores de deformação esperados
 calculados e os valores de erro de cada resultado obtido em relação ao teórico.
 
 \begin{table}[H]
-    \caption{Cargas aplicadas para os experimentos}
+    \caption{Resultados de deformação obtidos}
     \label{tab:ResultadosDeformacao}
     \centering
     \resizebox{350}{!}{%
-        \begin{tabular}{ l c r } \toprule
+        \begin{tabular}{ l | c c r } \toprule
+			Carga aplicada & Deformação esperada (resultado analítico) & Deformação obtida (dispositivo desenvolvido) & Erro \\
+			$ {138.42} {g} $ & $ {185.31} {\mu}m/m $ & $ {182.42} {\mu}m/m $ & $ {1.56\%} $ \\
+			$ {250.07} {g} $ & $ {334.77} {\mu}m/m $ & $ {358.59} {\mu}m/m $ & $ {7.12\%} $ \\
+			$ {336.8} {g} $ & $ {450.88} {\mu}m/m $ & $ {474.12} {\mu}m/m $ & $ {5.15\%} $ \\
+			$ {549.35} {g} $ & $ {735.43} {\mu}m/m $ & $ {760.04} {\mu}m/m $ & $ {3.35\%} $ \\
+			$ {636.08} {g} $ & $ {851.53} {\mu}m/m $ & $ {884.22} {\mu}m/m $ & $ {3.84\%} $ \\
+			$ {747.73} {g} $ & $ {1001.00} {\mu}m/m $ & $ {1017.08} {\mu}m/m $ & $ {1.61\%} $ \\
+			$ {834.46} {g} $ & $ {1117.11} {\mu}m/m $ & $ {1144.15} {\mu}m/m $ & $ {2.42\%} $ \\
+			$ {1048.82} {g} $ & $ {1404.08} {\mu}m/m $ & $ {1421.41} {\mu}m/m $ & $ {1.23\%} $ \\
+			$ {1135.55} {g} $ & $ {1520.19} {\mu}m/m $ & $ {1542.71} {\mu}m/m $ & $ {1.48\%} $ \\
+			$ {1247.2} {g} $ & $ {1669.66} {\mu}m/m $ & $ {1701.55} {\mu}m/m $ & $ {1.91\%} $ \\
+			$ {1333.93} {g} $ & $ {1785.76} {\mu}m/m $ & $ {1811.3} {\mu}m/m $ & $ {1.43\%} $ \\
+			\bottomrule
+        \end{tabular}}
+\fonte{O autor 2022}
+\end{table}
 
+Analisando os resultados pode-se notar que os valores de erro são mais altos nas situações de menores cargas aplicadas, e diminuem conforme a carga aplicada aumenta.
+
+\subsection{Comparação dos valores de deformação obtidos pelo dispositivo e por Minela (2017)}
+
+Para poder se fazer uma comparação direta entre os resultados obtidos pelo autor com os do trabalho de Minela (2017), foi aplicado fatores de correção nos resultados de deformação
+obtidos, que equivalem a compensação da variação da massa dos componentes previamente apresentados na \autoref{tab:MassasUtilizadas}.
+A \autoref{tab:ResultadosComparacao} compara os principais resultados corrigidos obtidos pelo experimento desenvolvido pelo autor com os resultados obtidos pelo trabalho desenvolvido por Minela (2017).
+
+\begin{table}[H]
+    \caption{Comparação entre os resultados obtidos com os obtidos por Minela (2017)}
+    \label{tab:ResultadosComparacao}
+    \centering
+    \resizebox{\linewidth}{!}{%
+        \begin{tabular}{ l | c c r } \toprule
+			Carga aplicada & Deformação corrigida & Deformação obtida por Minela (2017) & Variação \\
+			$ {162.94} {g} $ & $ {213.42} {\mu}m/m $ & $ {231.79} {\mu}m/m $ & $ {8.61} {\%} $ \\
+			$ {261.62} {g} $ & $ {373.72} {\mu}m/m $ & $ {357.53} {\mu}m/m $ & $ {4.33} {\%} $ \\
+			$ {1060.56} {g} $ & $ {1520.59} {\mu}m/m $ & $ {1433.79} {\mu}m/m $ & $ {5.71} {\%} $ \\
+			$ {1160.24} {g} $ & $ {1574.89} {\mu}m/m $ & $ {1567.61} {\mu}m/m $ & $ {0.46} {\%} $ \\
+			$ {1258.92} {g} $ & $ {1716.18} {\mu}m/m $ & $ {1720.84} {\mu}m/m $ & $ {0.27} {\%} $ \\
+			$ {1358.6} {g} $ & $ {1843.45} {\mu}m/m $ & $ {1818.79} {\mu}m/m $ & $ {1.34} {\%} $ \\
             \bottomrule
         \end{tabular}}
 \fonte{O autor 2022}
 \end{table}
 
+Nota-se que assim como a comparação com os resultados analíticos, também foi observado as altas variações na aplicação de baixas cargas e erros que se diminuem com as maiores cargas
+aplicadas.
+A \autoref{fig:430} faz a comparação final entre os resultados obtidos pelo protótipo do dispotivo desenvolvido e pelo dispositivo utilizado por Minela (2017).
 
+\begin{figure}[H]
+	\caption{\label{fig:430} Comparação final dos resultados obtidos}
+	\begin{center}
+		\includegraphics[width=\linewidth]{pictures/final_chart.png}
+	\end{center}
+	\fonte{O autor 2022}
+\end{figure}
 
-
-
-%A \autoref{fig:4010} mostra os valores nominais de deformação para cada leitura da zona intermediária de cada sinal para cada combinação de cargas
-%realizadas na execução do experimento, assim como o valor médio das amostras para cada combinação e o desvio padrão dos dados na zona intermediária
-%de cada sinal como avaliação dos ruídos presentes.
-%
-%\begin{figure}[htb]
-%	\caption{\label{fig:4010} Amostras e valores médios obtidos}
-%	\begin{center}
-%		\includegraphics[width=\textwidth]{pictures/val_func_cal.png}
-%	\end{center}
-%	\fonte{O autor 2022}}
-%\end{figure}
-
-%Os Valores de carga compensados pelo problema da porca e do peso não encontrados conforme indicado na \autoref{}, junto com a comparação dos resultados obtidos por
-%\autocite{Minela2017} são mostrados na \autoref{}.
-
-%\section{Comparação final}
-%
-%A \autoref{} compara os principais resultados obtidos pelo experimento desenvolvido pelo autor com os resultados obtidos pelo trabalho de \autocite{Minela2017}.
-
-
-%% TODO IMAGENS DE CARGAS
-
-
+%%TODO falar que os resultados não foram obtidos de maneira sem fio e que não se pode garantir que de modo sem fio vão ser livres de efeitos de ruidos de transmissão

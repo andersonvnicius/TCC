@@ -21,66 +21,72 @@
 \contentsline {subsection}{\numberline {2.1.2}Deformação de uma viga em flexão}{22}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}EXTENSOMETRIA}{24}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Ponte de Wheatstone}{26}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}OBTENÇÃO DE SINAIS}{27}{section.2.3}%
+\contentsline {section}{\numberline {2.3}OBTENÇÃO DE SINAIS}{28}{section.2.3}%
 \contentsline {section}{\numberline {2.4}SISTEMAS DE MEDIÇÃO}{30}{section.2.4}%
-\contentsline {section}{\numberline {2.5}ANÁLISE DOS SINAIS OBTIDOS}{32}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Ambiente de desenvolvimento computacional Python}{33}{subsection.2.5.1}%
-\contentsline {section}{\numberline {2.6}METODOLOGIA DE DESENVOLVIMENTO DE PROJETO DE PRODUTO}{34}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Fase de planejamento}{35}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Projeto informacional}{35}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Projeto conceitual}{36}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Projeto preliminar}{36}{subsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.6.5}Projeto detalhado}{37}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.4.1}Ambiente de desenvolvimento computacional Python}{32}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}METODOLOGIA DE DESENVOLVIMENTO DE PROJETO DE PRODUTO}{34}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Fase de planejamento}{35}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Projeto informacional}{35}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Projeto conceitual}{35}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Projeto preliminar}{36}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Projeto detalhado}{36}{subsection.2.5.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Desenvolvimento}}{38}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Planejamento do projeto}{39}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Mapeamento tecnológico}{39}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Pesquisa científica}{41}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Projeto informacional}{43}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Projeto conceitual}{47}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Projeto Preliminar}{52}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Protótipos avaliados}{52}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Dispositivo para ensaio de flexão}{54}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Sistemas de medição}{56}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Cargas aplicadas}{58}{subsection.3.4.4}%
-\contentsline {section}{\numberline {3.5}Projeto detalhado}{60}{section.3.5}%
+\contentsline {subsection}{\numberline {3.1.2}Pesquisa bibliográfica}{41}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Projeto informacional}{42}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Projeto conceitual}{48}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Projeto Preliminar}{54}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Protótipos avaliados}{54}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Dispositivo para ensaio de flexão}{56}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Sistemas de medição}{57}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Cargas aplicadas}{61}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Projeto detalhado}{62}{section.3.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{70}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Sinais obtidos}{70}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Sinais de calibração}{70}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Sinais calibrados obtidos}{72}{subsection.4.1.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{72}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Sinais obtidos}{72}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Sinais de calibração}{72}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Sinais calibrados obtidos}{74}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Comparação dos valores de deformação experimentais e analíticos}{77}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Comparação dos valores de deformação obtidos pelo dispositivo e por Minela (2017)}{78}{subsection.4.1.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{76}{chapter.5}%
-\contentsline {subsection}{\numberline {5.0.1}Trabalhos futuros sugeridos}{77}{subsection.5.0.1}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{80}{chapter.5}%
+\contentsline {subsection}{\numberline {5.0.1}Trabalhos futuros sugeridos}{81}{subsection.5.0.1}%
 \vspace {0em}
 \vspace {0em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
-\contentsline {chapter}{REFERÊNCIAS}{78}{section*.87}%
+\contentsline {chapter}{REFERÊNCIAS}{82}{section*.88}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
 \cftinsert {A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Matriz QFD do Projeto}}{81}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Revisão bibliográfica}}{86}{appendix.A}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Desenhos do projeto detalhado do dispositivo}}{83}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Projeto elétrico}{83}{section.B.1}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Matriz QFD do Projeto}}{89}{appendix.B}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Algoritmos do controlador}}{85}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Algoritmo utilizando o controlador ESP8266 e o amplificador HX711}{85}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Algoritmo utilizando o controlador ESP32 e o amplificador ADS1115}{86}{section.C.2}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Desenhos do projeto detalhado do dispositivo}}{91}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Projeto mecânico}{91}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Projeto elétrico}{93}{section.C.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Algoritmos do software de obtenção de dados}}{88}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Objeto NetworkDevice}{88}{section.D.1}%
-\contentsline {section}{\numberline {D.2}Interface Gráfica}{90}{section.D.2}%
+\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Algoritmos do controlador}}{95}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Algoritmo utilizando o controlador ESP8266 e o amplificador HX711 (Arduino/C++)}{95}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Algoritmo utilizando o controlador ESP32 e o amplificador ADS1115 (Arduino/C++)}{97}{section.D.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {E}\MakeTextUppercase {Sinais obtidos pelo protótipo do dispositivo desenvolvido}}{97}{appendix.E}%
+\contentsline {appendix}{\chapternumberline {E}\MakeTextUppercase {Algoritmos do programa computacional de obtenção de dados}}{98}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Objeto NetworkDevice (Python)}{98}{section.E.1}%
+\contentsline {section}{\numberline {E.2}Interface Gráfica (Python)}{101}{section.E.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{\cftnumberboxnumberwidth }
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {F}\MakeTextUppercase {Sinais obtidos pelo protótipo do dispositivo desenvolvido}}{107}{appendix.F}%

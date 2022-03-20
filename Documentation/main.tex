@@ -150,14 +150,14 @@ section=TITLE, % Título de seções em caixa alta
 % https://tex.stackexchange.com/questions/340661/argument-of-languageactivearg-has-an-extra-i-use-includegraphics-and-r
 \useshorthands{~}\defineshorthand{~=}{\hyp{}}
 
-\palavraschaveufsc{palavraschaveingles}   {Keyword 1}
-\palavraschaveufsc{palavraschaveportugues}{Palavra~=Chave 1}
+\palavraschaveufsc{palavraschaveingles}   {Device}
+\palavraschaveufsc{palavraschaveportugues}{Dispositivo}
 
-\palavraschaveufsc{palavraschaveingles}   {Keyword 2}
-\palavraschaveufsc{palavraschaveportugues}{Palavra~=Chave 2}
+\palavraschaveufsc{palavraschaveingles}   {Sensoring}
+\palavraschaveufsc{palavraschaveportugues}{Sensoriamento}
 
-\palavraschaveufsc{palavraschaveingles}   {Keyword 3}
-\palavraschaveufsc{palavraschaveportugues}{Palavra~=Chave 3}
+\palavraschaveufsc{palavraschaveingles}   {Torque}
+\palavraschaveufsc{palavraschaveportugues}{Torque}
 
 
 \hypersetup
@@ -287,7 +287,7 @@ section=TITLE, % Título de seções em caixa alta
         \advisor{}{\linespread{1.18}\selectfont}
 
         % https://tex.stackexchange.com/questions/17128/using-bibtex-to-make-a-list-of-references-without-having-citations-in-the-body
-        \nocite{*}
+        % \nocite{*}
         \printbibliography[title=\lang{REFERENCES}{REFERÊNCIAS}]
     \endgroup
 
@@ -302,8 +302,8 @@ section=TITLE, % Título de seções em caixa alta
         \setlength\midchapskip{20pt}
         \setlength\afterchapskip{20pt}
 
+        \include{aftertext/apendice_a0}
         \include{aftertext/apendice_a}
-%        \include{aftertext/apendice_a1}
         \include{aftertext/apendice_b}
         \include{aftertext/apendice_c}
         \include{aftertext/apendice_d}
