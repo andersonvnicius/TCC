@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  19 MAR 2022 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.5)  19 MAR 2022 23:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -3616,7 +3616,7 @@ Package pdftex.def Info: pictures/1140.jpg  used on input line 582.
 [31 <./pictures/1130.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1150.png, id=732, 874.26625pt x 500.87125pt>
+<pictures/1150.png, id=736, 874.26625pt x 500.87125pt>
 File: pictures/1150.png Graphic file (type png)
 <use pictures/1150.png>
 Package pdftex.def Info: pictures/1150.png  used on input line 598.
@@ -3631,7 +3631,7 @@ Package pdftex.def Info: pictures/1150.png  used on input line 598.
 [33 <./pictures/1150.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1170.png, id=759, 1082.0425pt x 294.09875pt>
+<pictures/1170.png, id=769, 1082.0425pt x 294.09875pt>
 File: pictures/1170.png Graphic file (type png)
 <use pictures/1170.png>
 Package pdftex.def Info: pictures/1170.png  used on input line 757.
@@ -3641,12 +3641,12 @@ Package pdftex.def Info: pictures/1170.png  used on input line 757.
 [34 <./pictures/1170.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/1180.jpg, id=780, 534.49687pt x 384.6872pt>
+<pictures/1180.jpg, id=790, 534.49687pt x 384.6872pt>
 File: pictures/1180.jpg Graphic file (type jpg)
 <use pictures/1180.jpg>
 Package pdftex.def Info: pictures/1180.jpg  used on input line 792.
 (pdftex.def)             Requested size: 455.0pt x 327.48459pt.
-<pictures/1190.png, id=788, 553.06625pt x 400.49625pt>
+<pictures/1190.png, id=798, 553.06625pt x 400.49625pt>
 File: pictures/1190.png Graphic file (type png)
 <use pictures/1190.png>
 Package pdftex.def Info: pictures/1190.png  used on input line 811.
@@ -3670,7 +3670,7 @@ Package pdftex.def Info: pictures/1190.png  used on input line 811.
 \openout2 = `chapters/chapter_2.aux'.
 
 (./chapters/chapter_2.tex
-<pictures/2001.png, id=814, 1378.14874pt x 493.845pt>
+<pictures/2001.png, id=824, 1378.14874pt x 493.845pt>
 File: pictures/2001.png Graphic file (type png)
 <use pictures/2001.png>
 Package pdftex.def Info: pictures/2001.png  used on input line 21.
@@ -3684,7 +3684,7 @@ Package pdftex.def Info: pictures/2001.png  used on input line 21.
  <./pictures/2001.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2010.jpg, id=828, 1003.75pt x 699.61375pt>
+<pictures/2010.jpg, id=838, 1003.75pt x 699.61375pt>
 File: pictures/2010.jpg Graphic file (type jpg)
 <use pictures/2010.jpg>
 Package pdftex.def Info: pictures/2010.jpg  used on input line 49.
@@ -3694,7 +3694,7 @@ Package pdftex.def Info: pictures/2010.jpg  used on input line 49.
 [39 <./pictures/2010.jpg>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2030.jpg, id=841, 1003.75pt x 1003.75pt>
+<pictures/2030.jpg, id=851, 1003.75pt x 1003.75pt>
 File: pictures/2030.jpg Graphic file (type jpg)
 <use pictures/2030.jpg>
 Package pdftex.def Info: pictures/2030.jpg  used on input line 61.
@@ -3709,7 +3709,7 @@ Package pdftex.def Info: pictures/2030.jpg  used on input line 61.
 [41] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2029.png, id=869, 462.72874pt x 403.5075pt>
+<pictures/2029.png, id=879, 462.72874pt x 403.5075pt>
 ./chapters/chapter_2.tex:131: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -3783,7 +3783,7 @@ Package pdftex.def Info: pictures/2029.png  used on input line 131.
 [43 <./pictures/2029.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2031.png, id=894, 939.51pt x 1276.77pt>
+<pictures/2031.png, id=904, 939.51pt x 1276.77pt>
 ./chapters/chapter_2.tex:208: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -3857,7 +3857,7 @@ Package pdftex.def Info: pictures/2031.png  used on input line 208.
 [45 <./pictures/2031.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2032.png, id=912, 1059.96pt x 867.24pt>
+<pictures/2032.png, id=922, 1059.96pt x 867.24pt>
 File: pictures/2032.png Graphic file (type png)
 <use pictures/2032.png>
 Package pdftex.def Info: pictures/2032.png  used on input line 239.
@@ -3872,7 +3872,7 @@ Package pdftex.def Info: pictures/2032.png  used on input line 239.
 [47 <./pictures/2032.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2035.png, id=933, 1126.2075pt x 666.49pt>
+<pictures/2035.png, id=943, 1126.2075pt x 666.49pt>
 File: pictures/2035.png Graphic file (type png)
 <use pictures/2035.png>
 Package pdftex.def Info: pictures/2035.png  used on input line 285.
@@ -3887,7 +3887,7 @@ Package pdftex.def Info: pictures/2035.png  used on input line 285.
 [49 <./pictures/2035.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2036.png, id=945, 1062.97125pt x 549.05125pt>
+<pictures/2036.png, id=955, 1062.97125pt x 549.05125pt>
 ./chapters/chapter_2.tex:347: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -3971,7 +3971,7 @@ Package pdftex.def Info: pictures/2036.png  used on input line 347.
 [51 <./pictures/2036.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2037.png, id=956, 933.4875pt x 631.35875pt>
+<pictures/2037.png, id=966, 933.4875pt x 631.35875pt>
 ./chapters/chapter_2.tex:363: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -4055,12 +4055,12 @@ Package pdftex.def Info: pictures/2037.png  used on input line 363.
 [53 <./pictures/2037.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2038.png, id=968, 758.835pt x 332.24126pt>
+<pictures/2038.png, id=978, 758.835pt x 332.24126pt>
 File: pictures/2038.png Graphic file (type png)
 <use pictures/2038.png>
 Package pdftex.def Info: pictures/2038.png  used on input line 374.
 (pdftex.def)             Requested size: 455.0pt x 199.21448pt.
-<pictures/2045.png, id=970, 1312.905pt x 1168.365pt>
+<pictures/2045.png, id=980, 1312.905pt x 1168.365pt>
 File: pictures/2045.png Graphic file (type png)
 <use pictures/2045.png>
 Package pdftex.def Info: pictures/2045.png  used on input line 395.
@@ -4075,7 +4075,7 @@ Package pdftex.def Info: pictures/2045.png  used on input line 395.
 [55 <./pictures/2045.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2046.png, id=982, 1312.905pt x 1168.365pt>
+<pictures/2046.png, id=992, 1312.905pt x 1168.365pt>
 File: pictures/2046.png Graphic file (type png)
 <use pictures/2046.png>
 Package pdftex.def Info: pictures/2046.png  used on input line 413.
@@ -4085,7 +4085,7 @@ Package pdftex.def Info: pictures/2046.png  used on input line 413.
 [56 <./pictures/2046.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2049.png, id=991, 500.87125pt x 409.53pt>
+<pictures/2049.png, id=1001, 500.87125pt x 409.53pt>
 File: pictures/2049.png Graphic file (type png)
 <use pictures/2049.png>
 Package pdftex.def Info: pictures/2049.png  used on input line 431.
@@ -4118,7 +4118,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<pictures/2050.png, id=1006, 653.44125pt x 322.20375pt>
+<pictures/2050.png, id=1016, 653.44125pt x 322.20375pt>
 File: pictures/2050.png Graphic file (type png)
 <use pictures/2050.png>
 Package pdftex.def Info: pictures/2050.png  used on input line 468.
@@ -4128,7 +4128,7 @@ Package pdftex.def Info: pictures/2050.png  used on input line 468.
 [57 <./pictures/2049.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2060.png, id=1017, 635.37375pt x 246.9225pt>
+<pictures/2060.png, id=1027, 635.37375pt x 246.9225pt>
 File: pictures/2060.png Graphic file (type png)
 <use pictures/2060.png>
 Package pdftex.def Info: pictures/2060.png  used on input line 482.
@@ -4138,7 +4138,7 @@ Package pdftex.def Info: pictures/2060.png  used on input line 482.
 [58 <./pictures/2050.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2070.png, id=1032, 679.53876pt x 365.365pt>
+<pictures/2070.png, id=1042, 679.53876pt x 365.365pt>
 File: pictures/2070.png Graphic file (type png)
 <use pictures/2070.png>
 Package pdftex.def Info: pictures/2070.png  used on input line 518.
@@ -4170,7 +4170,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<pictures/2080.png, id=1056, 380.42125pt x 369.38pt>
+<pictures/2080.png, id=1066, 380.42125pt x 369.38pt>
 ./chapters/chapter_2.tex:618: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -4239,7 +4239,7 @@ Package pdftex.def Info: pictures/2080.png  used on input line 618.
 [61] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2039.png, id=1063, 1505.625pt x 1228.59pt>
+<pictures/2039.png, id=1073, 1505.625pt x 1228.59pt>
 File: pictures/2039.png Graphic file (type png)
 <use pictures/2039.png>
 Package pdftex.def Info: pictures/2039.png  used on input line 641.
@@ -4249,7 +4249,7 @@ Package pdftex.def Info: pictures/2039.png  used on input line 641.
 [62 <./pictures/2080.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2040.png, id=1070, 3842.355pt x 3488.03125pt>
+<pictures/2040.png, id=1080, 3842.355pt x 3488.03125pt>
 File: pictures/2040.png Graphic file (type png)
 <use pictures/2040.png>
 Package pdftex.def Info: pictures/2040.png  used on input line 651.
@@ -4259,7 +4259,7 @@ Package pdftex.def Info: pictures/2040.png  used on input line 651.
 [63 <./pictures/2039.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2041.png, id=1078, 1255.69125pt x 749.80125pt>
+<pictures/2041.png, id=1088, 1255.69125pt x 749.80125pt>
 File: pictures/2041.png Graphic file (type png)
 <use pictures/2041.png>
 Package pdftex.def Info: pictures/2041.png  used on input line 661.
@@ -4269,7 +4269,7 @@ Package pdftex.def Info: pictures/2041.png  used on input line 661.
 [64 <./pictures/2040.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2042.png, id=1085, 819.06pt x 686.565pt>
+<pictures/2042.png, id=1095, 819.06pt x 686.565pt>
 File: pictures/2042.png Graphic file (type png)
 <use pictures/2042.png>
 Package pdftex.def Info: pictures/2042.png  used on input line 673.
@@ -4293,7 +4293,7 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 [66 <./pictures/2042.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2043.png, id=1106, 2445.135pt x 1650.165pt>
+<pictures/2043.png, id=1116, 2445.135pt x 1650.165pt>
 ./chapters/chapter_2.tex:704: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -4388,7 +4388,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 [68] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/2044.png, id=1183, 1188.44pt x 1096.095pt>
+<pictures/2044.png, id=1193, 1188.44pt x 1096.095pt>
 File: pictures/2044.png Graphic file (type png)
 <use pictures/2044.png>
 Package pdftex.def Info: pictures/2044.png  used on input line 819.
@@ -4412,7 +4412,7 @@ Package pdftex.def Info: pictures/2044.png  used on input line 819.
 \openout2 = `chapters/chapter_3.aux'.
 
 (./chapters/chapter_3.tex
-<pictures/signals/cal_signal_1.png, id=1220, 462.528pt x 346.896pt>
+<pictures/signals/cal_signal_1.png, id=1230, 462.528pt x 346.896pt>
 ./chapters/chapter_3.tex:29: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -4486,7 +4486,7 @@ Package pdftex.def Info: pictures/signals/cal_signal_1.png  used on input line
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/cal_signal_2.png, id=1226, 462.528pt x 346.896pt>
+<pictures/signals/cal_signal_2.png, id=1236, 462.528pt x 346.896pt>
 ./chapters/chapter_3.tex:37: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -4574,7 +4574,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<pictures/signals/w1.png, id=1235, 462.528pt x 346.896pt>
+<pictures/signals/w1.png, id=1245, 462.528pt x 346.896pt>
 ./chapters/chapter_3.tex:83: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -4643,7 +4643,7 @@ Package pdftex.def Info: pictures/signals/w1.png  used on input line 83.
 [74] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/wp1.png, id=1241, 1058.95625pt x 501.875pt>
+<pictures/signals/wp1.png, id=1252, 1058.95625pt x 501.875pt>
 ./chapters/chapter_3.tex:93: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -4713,7 +4713,7 @@ Package pdftex.def Info: pictures/signals/wp1.png  used on input line 93.
 mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w8.png, id=1254, 462.528pt x 346.896pt>
+<pictures/signals/w8.png, id=1264, 462.528pt x 346.896pt>
 ./chapters/chapter_3.tex:109: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -4777,7 +4777,7 @@ File: pictures/signals/w8.png Graphic file (type png)
 <use pictures/signals/w8.png>
 Package pdftex.def Info: pictures/signals/w8.png  used on input line 109.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
-<pictures/signals/wp3.png, id=1256, 1044.90375pt x 551.05875pt>
+<pictures/signals/wp3.png, id=1266, 1044.90375pt x 551.05875pt>
 ./chapters/chapter_3.tex:119: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -4868,7 +4868,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 [77 <./pictures/signals/wp3.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/final_chart.png, id=1278, 918.43124pt x 567.11874pt>
+<pictures/final_chart.png, id=1288, 918.43124pt x 567.11874pt>
 File: pictures/final_chart.png Graphic file (type png)
 <use pictures/final_chart.png>
 Package pdftex.def Info: pictures/final_chart.png  used on input line 193.
@@ -4934,7 +4934,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 \openout2 = `aftertext/apendice_a0.aux'.
 
 (./aftertext/apendice_a0.tex
-<aftertext/RB1_rotated.pdf, id=1401, 597.23125pt x 845.1575pt>
+<aftertext/RB1_rotated.pdf, id=1416, 597.23125pt x 845.1575pt>
 File: aftertext/RB1_rotated.pdf Graphic file (type pdf)
 <use aftertext/RB1_rotated.pdf>
 Package pdftex.def Info: aftertext/RB1_rotated.pdf  used on input line 3.
@@ -4943,7 +4943,7 @@ File: aftertext/RB1_rotated.pdf Graphic file (type pdf)
 <use aftertext/RB1_rotated.pdf>
 Package pdftex.def Info: aftertext/RB1_rotated.pdf  used on input line 3.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<aftertext/RB1_rotated.pdf, id=1404, page=1, 597.23125pt x 845.1575pt>
+<aftertext/RB1_rotated.pdf, id=1419, page=1, 597.23125pt x 845.1575pt>
 File: aftertext/RB1_rotated.pdf Graphic file (type pdf)
 <use aftertext/RB1_rotated.pdf, page 1>
 Package pdftex.def Info: aftertext/RB1_rotated.pdf , page1 used on input line 3
@@ -4987,7 +4987,7 @@ n.mw)
 
 pdfTeX warning: pdflatex (file ./aftertext/RB2_rotated.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<aftertext/RB2_rotated.pdf, id=1426, 597.23125pt x 845.1575pt>
+<aftertext/RB2_rotated.pdf, id=1441, 597.23125pt x 845.1575pt>
 File: aftertext/RB2_rotated.pdf Graphic file (type pdf)
 <use aftertext/RB2_rotated.pdf>
 Package pdftex.def Info: aftertext/RB2_rotated.pdf  used on input line 5.
@@ -5008,7 +5008,7 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./aftertext/RB2_rotated.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<aftertext/RB2_rotated.pdf, id=1429, page=1, 597.23125pt x 845.1575pt>
+<aftertext/RB2_rotated.pdf, id=1444, page=1, 597.23125pt x 845.1575pt>
 File: aftertext/RB2_rotated.pdf Graphic file (type pdf)
 <use aftertext/RB2_rotated.pdf, page 1>
 Package pdftex.def Info: aftertext/RB2_rotated.pdf , page1 used on input line 5
@@ -5047,7 +5047,7 @@ n.mw)
 
 pdfTeX warning: pdflatex (file ./aftertext/MatrizQFD_rotated.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<aftertext/MatrizQFD_rotated.pdf, id=1447, 614.295pt x 794.97pt>
+<aftertext/MatrizQFD_rotated.pdf, id=1463, 614.295pt x 794.97pt>
 File: aftertext/MatrizQFD_rotated.pdf Graphic file (type pdf)
 <use aftertext/MatrizQFD_rotated.pdf>
 Package pdftex.def Info: aftertext/MatrizQFD_rotated.pdf  used on input line 3.
@@ -5070,7 +5070,7 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./aftertext/MatrizQFD_rotated.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<aftertext/MatrizQFD_rotated.pdf, id=1450, page=1, 614.295pt x 794.97pt>
+<aftertext/MatrizQFD_rotated.pdf, id=1466, page=1, 614.295pt x 794.97pt>
 File: aftertext/MatrizQFD_rotated.pdf Graphic file (type pdf)
 <use aftertext/MatrizQFD_rotated.pdf, page 1>
 Package pdftex.def Info: aftertext/MatrizQFD_rotated.pdf , page1 used on input 
@@ -5115,7 +5115,7 @@ he/main.mw)
 \openout2 = `aftertext/apendice_b.aux'.
 
 (./aftertext/apendice_b.tex
-<aftertext/Projeto_mecanico.pdf, id=1495, 597.50829pt x 845.0471pt>
+<aftertext/Projeto_mecanico.pdf, id=1510, 597.50829pt x 845.0471pt>
 File: aftertext/Projeto_mecanico.pdf Graphic file (type pdf)
 <use aftertext/Projeto_mecanico.pdf>
 Package pdftex.def Info: aftertext/Projeto_mecanico.pdf  used on input line 5.
@@ -5124,7 +5124,7 @@ File: aftertext/Projeto_mecanico.pdf Graphic file (type pdf)
 <use aftertext/Projeto_mecanico.pdf>
 Package pdftex.def Info: aftertext/Projeto_mecanico.pdf  used on input line 5.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<aftertext/Projeto_mecanico.pdf, id=1498, page=1, 597.50829pt x 845.0471pt>
+<aftertext/Projeto_mecanico.pdf, id=1513, page=1, 597.50829pt x 845.0471pt>
 File: aftertext/Projeto_mecanico.pdf Graphic file (type pdf)
 <use aftertext/Projeto_mecanico.pdf, page 1>
 Package pdftex.def Info: aftertext/Projeto_mecanico.pdf , page1 used on input l
@@ -5164,7 +5164,7 @@ ine 5.
 [92 <./aftertext/Projeto_mecanico.PDF>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<aftertext/Projeto_eletrico_rotated.pdf, id=1519, 830.10126pt x 1173.38374pt>
+<aftertext/Projeto_eletrico_rotated.pdf, id=1534, 830.10126pt x 1173.38374pt>
 File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
 <use aftertext/Projeto_eletrico_rotated.pdf>
 Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf  used on input 
@@ -5175,7 +5175,7 @@ File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
 Package pdftex.def Info: aftertext/Projeto_eletrico_rotated.pdf  used on input 
 line 9.
 (pdftex.def)             Requested size: 830.09924pt x 1173.38087pt.
-<aftertext/Projeto_eletrico_rotated.pdf, id=1522, page=1, 830.10126pt x 1173.38
+<aftertext/Projeto_eletrico_rotated.pdf, id=1537, page=1, 830.10126pt x 1173.38
 374pt>
 File: aftertext/Projeto_eletrico_rotated.pdf Graphic file (type pdf)
 <use aftertext/Projeto_eletrico_rotated.pdf, page 1>
@@ -5356,7 +5356,7 @@ File: pictures/signals/w1.png Graphic file (type png)
 <use pictures/signals/w1.png>
 Package pdftex.def Info: pictures/signals/w1.png  used on input line 6.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
-<pictures/signals/w2.png, id=1989, 462.528pt x 346.896pt>
+<pictures/signals/w2.png, id=2008, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:14: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5429,7 +5429,7 @@ Package pdftex.def Info: pictures/signals/w2.png  used on input line 14.
 ] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w3.png, id=1996, 462.528pt x 346.896pt>
+<pictures/signals/w3.png, id=2014, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:22: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5493,7 +5493,7 @@ File: pictures/signals/w3.png Graphic file (type png)
 <use pictures/signals/w3.png>
 Package pdftex.def Info: pictures/signals/w3.png  used on input line 22.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
-<pictures/signals/w4.png, id=1997, 462.528pt x 346.896pt>
+<pictures/signals/w4.png, id=2015, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:30: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5563,7 +5563,7 @@ Package pdftex.def Info: pictures/signals/w4.png  used on input line 30.
 mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w5.png, id=2004, 462.528pt x 346.896pt>
+<pictures/signals/w5.png, id=2022, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:38: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5627,7 +5627,7 @@ File: pictures/signals/w5.png Graphic file (type png)
 <use pictures/signals/w5.png>
 Package pdftex.def Info: pictures/signals/w5.png  used on input line 38.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
-<pictures/signals/w6.png, id=2005, 462.528pt x 346.896pt>
+<pictures/signals/w6.png, id=2023, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:46: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5697,7 +5697,7 @@ Package pdftex.def Info: pictures/signals/w6.png  used on input line 46.
 mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w7.png, id=2012, 462.528pt x 346.896pt>
+<pictures/signals/w7.png, id=2030, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:54: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5830,7 +5830,7 @@ Package pdftex.def Info: pictures/signals/w8.png  used on input line 62.
 mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w9.png, id=2019, 462.528pt x 346.896pt>
+<pictures/signals/w9.png, id=2037, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:70: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5894,7 +5894,7 @@ File: pictures/signals/w9.png Graphic file (type png)
 <use pictures/signals/w9.png>
 Package pdftex.def Info: pictures/signals/w9.png  used on input line 70.
 (pdftex.def)             Requested size: 350.0pt x 262.51094pt.
-<pictures/signals/w10.png, id=2020, 462.528pt x 346.896pt>
+<pictures/signals/w10.png, id=2038, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:78: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -5963,7 +5963,7 @@ Package pdftex.def Info: pictures/signals/w10.png  used on input line 78.
 [111 <./pictures/signals/w9.png>] (latexcache/main.mw)
 \openout5 = `main.mw'.
 
-<pictures/signals/w11.png, id=2026, 462.528pt x 346.896pt>
+<pictures/signals/w11.png, id=2044, 462.528pt x 346.896pt>
 ./aftertext/apendice_e.tex:86: Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
@@ -6959,13 +6959,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 67304 strings out of 481239
- 1279362 string characters out of 5920377
- 2456662 words of memory out of 5000000
- 79908 multiletter control sequences out of 15000+600000
+ 67319 strings out of 481239
+ 1279652 string characters out of 5920377
+ 2459697 words of memory out of 5000000
+ 79918 multiletter control sequences out of 15000+600000
  626238 words of font info for 194 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 78i,18n,117p,1453b,4809s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,18n,117p,1453b,4807s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
@@ -6984,10 +6984,10 @@ hare/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
 etic/uhvro8a.pfb>
-Output written on latexcache/main.pdf (114 pages, 16683373 bytes).
+Output written on latexcache/main.pdf (114 pages, 16700955 bytes).
 PDF statistics:
- 2465 PDF objects out of 2487 (max. 8388607)
- 2080 compressed objects within 21 object streams
- 847 named destinations out of 1000 (max. 500000)
+ 2483 PDF objects out of 2487 (max. 8388607)
+ 2094 compressed objects within 21 object streams
+ 852 named destinations out of 1000 (max. 500000)
  44589 words of extra memory for PDF output out of 51595 (max. 10000000)
 

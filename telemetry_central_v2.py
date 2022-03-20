@@ -111,9 +111,12 @@ def gui_start():
 
     def run_experiment():
         """plots stuff"""
+
+        n_of_samples = int(txt_n_samples.get()) * int(txt_read_delay.get())*1e-3
+
         DataFrame(
             wireless_device.read_samples(
-                n_of_samples=int(txt_n_samples.get()),
+                n_of_samples=n_of_samples,
                 plot=True,
                 calibrated=True
             )
@@ -208,10 +211,10 @@ def gui_start():
     txt_report_name.insert(END, '')
     txt_report_name.grid(row=21, column=0, columnspan=2)
 
-    lbl_n_samples = Label(frame_monitor, text="Number of samples to get: ", font=('Arial', 11))
+    lbl_n_samples = Label(frame_monitor, text="Experiment duration [s]: ", font=('Arial', 11))
     lbl_n_samples.grid(row=30, column=0, padx=0)
     txt_n_samples = Entry(frame_monitor)
-    txt_n_samples.insert(END, 250)
+    txt_n_samples.insert(END, 30)
     txt_n_samples.grid(row=31, column=0, columnspan=2)
 
     btn_run = Button(frame_monitor, text='run', command=run_experiment, state='disabled')

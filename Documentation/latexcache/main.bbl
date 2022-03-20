@@ -148,6 +148,40 @@
       \verb https://binsfeld.com/category/strain-gage/
       \endverb
     \endentry
+    \entry{imesp}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=653d523a30e8e00c6ee13a1a3c5f034b}{%
+           family={Eletrônica},
+           familyi={E\bibinitperiod},
+           given={Diverso},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{653d523a30e8e00c6ee13a1a3c5f034b}
+      \strng{fullhash}{653d523a30e8e00c6ee13a1a3c5f034b}
+      \strng{bibnamehash}{653d523a30e8e00c6ee13a1a3c5f034b}
+      \strng{authorbibnamehash}{653d523a30e8e00c6ee13a1a3c5f034b}
+      \strng{authornamehash}{653d523a30e8e00c6ee13a1a3c5f034b}
+      \strng{authorfullhash}{653d523a30e8e00c6ee13a1a3c5f034b}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{ESP32 produto}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.diversoeletronica.com.br/loja/produto/nodemcu-esp32-wifi-e-bluetooth-cp2102-wroom
+      \endverb
+      \verb{url}
+      \verb https://www.diversoeletronica.com.br/loja/produto/nodemcu-esp32-wifi-e-bluetooth-cp2102-wroom
+      \endverb
+    \endentry
     \entry{DocsESP32}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5dbf4b4cef955ac1a7b0da67dd48c59e}{%
@@ -177,6 +211,40 @@
       \endverb
       \verb{url}
       \verb https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+      \endverb
+    \endentry
+    \entry{imads}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=219eaedba1bd42548d3aae16382ab2fc}{%
+           family={Flop},
+           familyi={F\bibinitperiod},
+           given={Filipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{219eaedba1bd42548d3aae16382ab2fc}
+      \strng{fullhash}{219eaedba1bd42548d3aae16382ab2fc}
+      \strng{bibnamehash}{219eaedba1bd42548d3aae16382ab2fc}
+      \strng{authorbibnamehash}{219eaedba1bd42548d3aae16382ab2fc}
+      \strng{authornamehash}{219eaedba1bd42548d3aae16382ab2fc}
+      \strng{authorfullhash}{219eaedba1bd42548d3aae16382ab2fc}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{ADS1115 produto}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://pdf1.alldatasheet.com/datasheet-pdf/view/292735/TI/ADS1115.html
+      \endverb
+      \verb{url}
+      \verb https://pdf1.alldatasheet.com/datasheet-pdf/view/292735/TI/ADS1115.html
       \endverb
     \endentry
     \entry{wbridge}{online}{}
